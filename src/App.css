@@ -1,0 +1,24 @@
+/* Define the grid container */
+.grid-container {
+    display: grid;
+    grid-template-columns: 70px 1fr; /* Adjust width as needed */
+    height: 100vh; /* Full viewport height */
+    gap: 0; /* No gap between columns */
+  }
+  
+  /* Style for the navbar */
+  .navbar {
+    grid-column: 1; /* Place navbar in the first column */
+    background-color: #fff; /* Background color for the navbar */
+    border-right: 1px solid #ddd; /* Optional border */
+    height: 100%; /* Full height */
+    overflow: hidden; /* Prevent overflow */
+  }
+  
+  /* Style for the main content */
+  .main-content {
+    grid-column: 2; /* Place main content in the second column */
+    padding: 20px; /* Padding around the content */
+    overflow-y: auto; /* Scroll if content overflows */
+  }
+  

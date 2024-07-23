@@ -5,14 +5,14 @@ export function Welcome() {
   return (
     <>
       <Title className={classes.title} ta="center" mt={100}>
-        Welcome to{" "}
+        Sustainability{" "}
         <Text
           inherit
           variant="gradient"
           component="span"
-          gradient={{ from: "pink", to: "yellow" }}
+          gradient={{ from: "green", to: "blue" }}
         >
-          Mantine
+          Resources
         </Text>
       </Title>
       <Text color="dimmed" ta="center" size="lg" maw={580} mx="auto" mt="xl">

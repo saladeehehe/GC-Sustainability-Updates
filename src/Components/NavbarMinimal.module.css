@@ -1,0 +1,45 @@
+.navbar {
+    /* Add styles to fit navbar to the left of the content */
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 70px; /* Adjust width as needed */
+    align-items: center;
+    height: 100vh;
+    border-right: 1px solid #ddd; /* Optional: Add border */
+    z-index: 1000; /* Ensure it sits on top */
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;  
+    position: relative; 
+  }
+  
+  .navbarMain {
+    flex: 1;
+    margin-top: rem(50px);
+    flex-direction: column;
+  }
+  
+  .link {
+    width: rem(50px);
+    height: rem(50px);
+    border-radius: var(--mantine-radius-md);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: light-dark(var(--mantine-color-gray-7), var(--mantine-color-dark-0));
+  
+    &:hover {
+      background-color: light-dark(var(--mantine-color-gray-0), var(--mantine-color-dark-5));
+    }
+  
+    &[data-active] {
+      &,
+      &:hover {
+        background-color: var(--mantine-color-blue-light);
+        color: var(--mantine-color-blue-light-color);
+      }
+    }
+  }
+
+
