@@ -55,7 +55,9 @@ def get_press_release_details(link):
         # Extract the date
         date_tag = soup.select_one('#main-content > section:nth-child(1) > div:nth-child(3) > div > div > small')
         date = date_tag.text if date_tag else "N/A"
-
+        # Convert the month to title case
+        date = ' '.join([word.title() if word.isupper() else word for word in date.split()])
+        
         source = "Ministry of Sustainability and the Environment"
 
         articles.append({
