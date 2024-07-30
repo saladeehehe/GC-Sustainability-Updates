@@ -106,7 +106,7 @@ def getNewsData():
             "link": link
         })
     
-    with open('vite-vanilla-extract-template/public/news_data.json', 'w') as json_file:
-        json.dump(articles, json_file, indent=4)
-
 getNewsData()
+
+with open('results.json', 'w') as json_file:
+    json.dump(articles, json_file, indent=4)
