@@ -4,6 +4,7 @@ import { Popover, UnstyledButton } from '@mantine/core';
 import { IconRadar } from '@tabler/icons-react';
 import { SearchableMultiSelect } from './SearchableMultiSelect';
 
+
 interface FilterSourceButtonProps {
   sources: string[];
   onFilterChange: (selectedSources: string[]) => void; // Callback for filter changes
@@ -15,13 +16,13 @@ const FilterSourceButton: React.FC<FilterSourceButtonProps> = ({ sources, onFilt
   };
 
   return (
-    <Popover width={300} position="bottom" withArrow shadow="md">
+    <Popover width={200} position="right" withArrow shadow="md">
       <Popover.Target>
         <UnstyledButton style={{ display: 'flex', alignItems: 'center' }}>
           <IconRadar size={20} stroke={1.5} />
         </UnstyledButton>
       </Popover.Target>
-      <Popover.Dropdown>
+      <Popover.Dropdown >
         <SearchableMultiSelect sources={sources} onChange={handleFilterChange} />
       </Popover.Dropdown>
     </Popover>
