@@ -75,5 +75,6 @@ for link in press_release_links:
 
 #len(articles)
 
-with open('vite-vanilla-extract-template/public/news_data.json', 'w') as json_file:
+with open('results.json', 'w') as json_file:
     json.dump(articles, json_file, indent=4)
+
