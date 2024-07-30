@@ -7,7 +7,9 @@
     "dev": "vite dev",
     "build": "tsc && vite build",
     "lint": "eslint src --ext ts,tsx --report-unused-disable-directives --max-warnings 0",
-    "preview": "vite preview"
+    "preview": "vite preview",
+    "predeploy": "vite build",
+    "deploy": "gh-pages -d dist"
   },
   "dependencies": {
     "@mantine/core": "7.11.2",
@@ -28,11 +30,13 @@
     "eslint": "^8.57.0",
     "eslint-plugin-react-hooks": "^4.6.2",
     "eslint-plugin-react-refresh": "^0.4.7",
+    "gh-pages": "^5.0.0",
     "postcss": "^8.4.38",
     "postcss-preset-mantine": "1.17.0",
     "postcss-simple-vars": "^7.0.1",
     "typescript": "^5.5.2",
     "vite": "^5.3.1"
   },
+  "homepage": "https://saladeehehe.github.io/GC-Sustainability-Updates",
   "packageManager": "yarn@4.3.1"
 }
