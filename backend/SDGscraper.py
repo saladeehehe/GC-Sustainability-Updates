@@ -83,10 +83,6 @@ for page_number in range(num_pages):
     new_data = scrape_page(url)
     all_data.extend(new_data)
 
-# Load existing data
-with open('vite-vanilla-extract-template/public/news_data.json', 'r') as file:
-    existing_data = json.load(file)
-
 # Function to format new data to match the existing format
 def format_new_data(new_item):
     formatted_item = {
@@ -105,11 +101,8 @@ def format_new_data(new_item):
 # Convert new data to match existing format
 formatted_new_data = [format_new_data(item) for item in all_data]
 
-# Append formatted new data to existing data
-existing_data.extend(formatted_new_data)
-
 # Save the updated data back to the file
 with open('results.json', 'w') as json_file:
-    json.dump(articles, json_file, indent=4)
+    json.dump(formatted_new_data, json_file, indent=4)
 
 print("Data updated successfully.")
