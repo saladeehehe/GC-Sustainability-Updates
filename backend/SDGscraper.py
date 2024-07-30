@@ -109,7 +109,7 @@ formatted_new_data = [format_new_data(item) for item in all_data]
 existing_data.extend(formatted_new_data)
 
 # Save the updated data back to the file
-with open('vite-vanilla-extract-template/public/news_data.json', 'w') as file:
-    json.dump(existing_data, file, indent=4)
+with open('results.json', 'w') as json_file:
+    json.dump(articles, json_file, indent=4)
 
 print("Data updated successfully.")
