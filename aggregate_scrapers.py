@@ -11,5 +11,5 @@ for script in os.listdir('backend'):
             articles = json.load(f)
             all_articles.extend(articles)
 
-with open('vite-vanilla-extract-template/public/news_data.json', 'w') as json_file:
+with open('public/news_data2.json', 'w') as json_file:
     json.dump(all_articles, json_file, indent=4)
