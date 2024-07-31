@@ -30,7 +30,7 @@ jobs:
       run: |
         git config --global user.name 'github-actions'
         git config --global user.email 'github-actions@github.com'
-        git add vite-vanilla-extract-template/public/news_data.json
+        git add public/news_data2.json
         git commit -m "Update scraped data"
         git push
       env:
