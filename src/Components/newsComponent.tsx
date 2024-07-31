@@ -19,7 +19,7 @@ const NewsComponent: React.FC<NewsComponentProps> = ({ newsData }) => {
         }
 
         return (
-          <Grid.Col span={3} key={article.title} style={{ display: 'flex'}}>
+          <Grid.Col span={4} key={article.title} style={{ display: 'flex'}}>
             <Paper shadow="lg" radius="md" style={{ flex: 1, flexDirection: 'column' , padding: '10px'}}>
               <Anchor href={article.link} target="_blank" rel="noopener noreferrer" size="lg" mt="sm" fw={600}>
                 {article.title}
@@ -27,7 +27,7 @@ const NewsComponent: React.FC<NewsComponentProps> = ({ newsData }) => {
               <Text size="md" color="dimmed" mt='sm'>
                 {article.summary}
               </Text>
-              <Text size="md" mt="xs">
+              <Text size="sm" mt="xs">
                 Date: {formattedDate}
               </Text>
               <Text size="sm" >
