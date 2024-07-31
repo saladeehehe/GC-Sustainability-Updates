@@ -70,13 +70,6 @@
         "link": "https://fintech.global/2024/03/19/singapore-leads-with-new-funding-initiative-for-sustainability-reporting/"
     },
     {
-        "title": "In Brief: Europe expands register of environmental crimes; Singapore to \nimplement mandatory ISSB standards",
-        "summary": "The latest ESG policy and regulatory news The Belgian presidency of the \nEuropean Council has failed to negotiate an agreement between member...",
-        "date": "1 Mar 2024",
-        "source": "Sustainable Views",
-        "link": "https://www.sustainableviews.com/in-brief-europe-expands-register-of-environmental-crimes-singapore-to-implement-mandatory-issb-standards-598ec0aa/"
-    },
-    {
         "title": "SGX RegCo launches consultation on incorporating ISSB standards into \nsustainability reporting rules",
         "summary": "Singapore Exchange Regulation (SGX RegCo) is consulting the market on \ndetails of how the International Sustainability Standards Board (ISSB)...",
         "date": "7 Mar 2024",
@@ -96,6 +89,13 @@
         "date": "6 Mar 2024",
         "source": "ESG Today",
         "link": "https://www.esgtoday.com/singapore-to-provide-funding-for-companies-to-meet-new-climate-reporting-requirements/"
+    },
+    {
+        "title": "Accounting and law bodies team up to build sustainability capabilities in \nprofessional services firms",
+        "summary": "SINGAPORE's key accountancy and legal professional bodies will join hands \nover the next three years to build a community of professional...",
+        "date": "5 Jan 2024",
+        "source": "The Business Times",
+        "link": "https://www.businesstimes.com.sg/esg/accounting-and-law-bodies-team-build-sustainability-capabilities-professional-services-firms"
     },
     {
         "title": "From Big Four dominance to more oversight of assurance providers \u2013 what to \nlook out for as Asia adopts ISSB standards",
@@ -196,13 +196,6 @@
         "link": "https://www.financierworldwide.com/a-new-dawn-for-esg-regulation-in-singapore"
     },
     {
-        "title": "Singapore\u2019s Data Center Sector: Regulations, Incentives, and Investment \nProspects",
-        "summary": "A highly advanced telecommunications and impressive network infrastructure \nfeed into opportunities for the Singapore data center sector.",
-        "date": "1 Sept 2023",
-        "source": "ASEAN Briefing",
-        "link": "https://www.aseanbriefing.com/news/singapores-data-center-sector-regulations-incentives-and-investment-prospects/"
-    },
-    {
         "title": "Singapore to propose climate reporting for large companies",
         "summary": "On July 6th Singapore's Sustainability Reporting Advisory Committee (SRAC), \nset up by the Accounting and Corporate Regulatory Authority and...",
         "date": "7 Jul 2023",
@@ -222,6 +215,13 @@
         "date": "7 Jul 2023",
         "source": "Eco-Business",
         "link": "https://www.eco-business.com/news/singapore-among-the-first-in-asia-to-propose-mandatory-climate-reporting-for-non-listed-companies/"
+    },
+    {
+        "title": "Supporting businesses in the transition to a low-carbon and sustainable \nfuture",
+        "summary": "Enhanced PACT to support more collaborations between larger companies and \nSMEs across expanded range of industry segments and partnership...",
+        "date": "1 Mar 2024",
+        "source": "Singapore Economic Development Board (EDB)",
+        "link": "https://www.edb.gov.sg/en/about-edb/media-releases-publications/supporting-businesses-in-the-transition-to-a-low-carbon-and-sustainable-future.html"
     },
     {
         "title": "Mandatory climate disclosures proposed for large non-listcos from FY2027, \nall listcos from FY2025",
@@ -294,6 +294,13 @@
         "link": "https://www.straitstimes.com/singapore/politics/proposed-changes-to-law-on-environmental-pollution-will-boost-efforts-to-tackle"
     },
     {
+        "title": "Sustainability disclosure requirements are tightening",
+        "summary": "The regulatory disclosure of ESG information has accelerated in the first \nhalf of 2023 as organisations and governments propose and adopt...",
+        "date": "1 Sept 2023",
+        "source": "Economist Intelligence Unit",
+        "link": "https://www.eiu.com/n/sustainability-disclosure-requirements-are-tightening/"
+    },
+    {
         "title": "New sustainability playbook, microsite can help logistics players go green",
         "summary": "SINGAPORE'S logistics players who are keen to adopt green practices can now \ndraw on step-by-step resources from a new sustainability...",
         "date": "21 Feb 2024",
@@ -306,13 +313,6 @@
         "date": "7 Dec 2023",
         "source": "The Business Times",
         "link": "https://www.businesstimes.com.sg/singapore/singapore-china-launch-new-sustainability-initiatives-under-tianjin-eco-city-bilateral"
-    },
-    {
-        "title": "Transforming Singapore towards sustainable tourism and urban living",
-        "summary": "Sustainable tourism is becoming a bigger concept in Singapore, where they \nare prepared to address traveller needs and reconsider their...",
-        "date": "11 Apr 2023",
-        "source": "Open Access Government",
-        "link": "https://www.openaccessgovernment.org/transforming-singapore-sustainable-tourism-urban-living/157031/"
     },
     {
         "title": "How the Singapore Green Plan 2030 is creating Asia\u2019s most sustainable city",
@@ -329,11 +329,11 @@
         "link": "https://www.straitstimes.com/business/singapore-regulators-propose-mandatory-climate-reporting-for-listed-and-large-non-listed-companies"
     },
     {
-        "title": "Prepare for sustainability-related disclosure standards",
-        "summary": "The ISSB will be redeliberating the first proposed sustainability \ndisclosure standards based on the public comments received. Learn more.",
-        "date": "6 Feb 2023",
-        "source": "EY",
-        "link": "https://www.ey.com/en_sg/ifrs/how-to-get-ready-for-sustainability-related-disclosure-standards"
+        "title": "Transforming Singapore towards sustainable tourism and urban living",
+        "summary": "Sustainable tourism is becoming a bigger concept in Singapore, where they \nare prepared to address traveller needs and reconsider their...",
+        "date": "11 Apr 2023",
+        "source": "Open Access Government",
+        "link": "https://www.openaccessgovernment.org/transforming-singapore-sustainable-tourism-urban-living/157031/"
     },
     {
         "title": "The first ISSB reporting standards are here",
@@ -343,11 +343,11 @@
         "link": "https://kpmg.com/sg/en/home/insights/2023/07/issb-standards-are-now-live.html"
     },
     {
-        "title": "Tender evaluations for government projects to include environmental \ncriteria from 2024",
-        "summary": "COMPANIES that can demonstrate the sustainability credentials of their \ngoods and services may soon have a leg up when bidding for certain...",
-        "date": "2 Mar 2023",
-        "source": "The Business Times",
-        "link": "https://www.businesstimes.com.sg/singapore/tender-evaluations-government-projects-include-environmental-criteria-2024"
+        "title": "Prepare for sustainability-related disclosure standards",
+        "summary": "The ISSB will be redeliberating the first proposed sustainability \ndisclosure standards based on the public comments received. Learn more.",
+        "date": "6 Feb 2023",
+        "source": "EY",
+        "link": "https://www.ey.com/en_sg/ifrs/how-to-get-ready-for-sustainability-related-disclosure-standards"
     },
     {
         "title": "Senior Minister Of State For Sustainability And Environment Dr Koh Poh Koon To Attend The 8th Ministerial On Climate Action Meeting",
@@ -1573,146 +1573,6 @@
         "date": "13 June 2023",
         "source": "European Commission",
         "link": "https://environment.ec.europa.eu/news/life-luchs-pfalzerwald-project-wins-life-award-nature-2023-06-13_en"
-    },
-    {
-        "title": "Circular economy: Commission recommends actions to boost recycling in 18 Member States at risk of missing waste targets",
-        "summary": "In a\u00a0report published today, the Commission identifies Member States at\u00a0risk of not meeting the 2025 preparing for re-use and recycling targets for\u00a0municipal and all packaging waste\u00a0and the\u00a02035 landfilling target.",
-        "date": "8 June 2023",
-        "source": "European Commission",
-        "link": "https://ec.europa.eu/commission/presscorner/detail/en/ip_23_3105"
-    },
-    {
-        "title": "European Air Quality Index App now available in all EU languages",
-        "summary": "The European Air Quality Index App, first launched in 2021, provides instant access to up-to-date air quality monitoring data from monitoring stations located in European cities and towns and includes air quality forecasts and health recommendations.",
-        "date": "7 June 2023",
-        "source": "European Commission",
-        "link": "https://www.eea.europa.eu/en/newsroom/news/european-air-quality-index-app"
-    },
-    {
-        "title": "EU Green Week: Nature, environment and climate action all winners in 2023 LIFE Awards",
-        "summary": "Re-wilding forests with Eurasian lynx, boosting farming with hi-tech bio-stimulants and helping one of Europe\u2019s biggest cities adapt to climate change are among the winning projects announced yesterday at the EU\u2019s annual LIFE Awards.",
-        "date": "7 June 2023",
-        "source": "European Commission",
-        "link": "https://environment.ec.europa.eu/news/eu-green-week-nature-environment-and-climate-action-all-winners-2023-life-awards-2023-06-07_en"
-    },
-    {
-        "title": "Follow up to the European Parliament non-legislative resolution on the protection of livestock farming and large carnivores in Europe",
-        "summary": "Following the EP Resolution of 24/11/2022 on the protection of livestock farming and large carnivores in Europe, the Commission is currently carrying out an in-depth analysis of all available scientific and technical data concerning the wolf situation in the EU. Results are expected end 2023.",
-        "date": "6 June 2023",
-        "source": "European Commission",
-        "link": "https://environment.ec.europa.eu/news/follow-european-parliament-non-legislative-resolution-protection-livestock-farming-and-large-2023-06-06_en"
-    },
-    {
-        "title": "Meet the applicant cities for the 2025 European Green Capital and European Green Leaf Awards",
-        "summary": "Several European cities are vying for the European Green Capital and European Green Leaf Awards, demonstrating their commitment to sustainability and a healthier environment for their residents.",
-        "date": "26 May 2023",
-        "source": "European Commission",
-        "link": "https://environment.ec.europa.eu/news/meet-applicant-cities-2025-european-green-capital-and-european-green-leaf-awards-2023-05-26_en"
-    },
-    {
-        "title": "EU Ecolabel - March 2023 Statistics",
-        "summary": "The EU Ecolabel - the official EU label of environmental excellence - registered once again a significant number of licences and awarded products!",
-        "date": "20 April 2023",
-        "source": "European Commission",
-        "link": "https://environment.ec.europa.eu/news/eu-ecolabel-march-2023-statistics-2023-04-20_en"
-    },
-    {
-        "title": "New European Bauhaus: call for projects to help rebuild Ukraine and foster sustainable construction skills in Europe",
-        "summary": "The Commission is calling for proposals for three projects \u2013 two for the reconstruction of Ukraine and one for the development of skills in sustainable construction.",
-        "date": "18 April 2023",
-        "source": "European Commission",
-        "link": "https://ec.europa.eu/commission/presscorner/detail/en/ip_23_2332"
-    },
-    {
-        "title": "Consumer protection: enabling sustainable choices and ending greenwashing",
-        "summary": "Today, the Commission is proposing common criteria against greenwashing and misleading environmental claims.",
-        "date": "22 March 2023",
-        "source": "European Commission",
-        "link": "https://ec.europa.eu/commission/presscorner/detail/en/ip_23_1692"
-    },
-    {
-        "title": "UN Water Conference: EU joins efforts to address the global water crisis and ensure water security for all by 2050",
-        "summary": "From tomorrow, at the United Nations Water Conference in New York from 22 to 24 March, the EU will be confirming its strong engagement for global water security by announcing 33 commitments for action starting now.",
-        "date": "21 March 2023",
-        "source": "European Commission",
-        "link": "https://ec.europa.eu/commission/presscorner/detail/en/ip_23_1790"
-    },
-    {
-        "title": "Rebuilding Ukraine",
-        "summary": "During a visit to Ukraine, the College of Commissioners discussed with the Ukrainian government EU support to help Ukraine rebuild its cities in a high-quality, sustainable and inclusive way.",
-        "date": "2 February 2023",
-        "source": "European Commission",
-        "link": "https://environment.ec.europa.eu/news/rebuilding-ukraine-2023-02-02_en"
-    },
-    {
-        "title": "Sustainable products: Commission consults on new product priorities",
-        "summary": "Today the Commission has launched an online public consultation on what the new product priorities under the proposed Ecodesign for Sustainable Products Regulation (ESPR) should be.",
-        "date": "31 January 2023",
-        "source": "European Commission",
-        "link": "https://environment.ec.europa.eu/news/sustainable-products-commission-consults-new-product-priorities-2023-01-31_en"
-    },
-    {
-        "title": "Food security and ecosystem resilience: Commission boosts action on pollinators",
-        "summary": "Today, the Commission is presenting 'A New Deal for Pollinators' to tackle the alarming decline in wild pollinating insects in Europe, revising the 2018 EU Pollinators Initiative.",
-        "date": "24 January 2023",
-        "source": "European Commission",
-        "link": "https://ec.europa.eu/commission/presscorner/detail/en/ip_23_281"
-    },
-    {
-        "title": "Commission sets up rules to identify endocrine disruptors and long-lasting chemicals and to improve labelling",
-        "summary": "Today, the Commission proposed a revised Regulation on classification, labelling and packaging of chemicals (CLP) and introduced new hazard classes for endocrine disruptors and other harmful chemical substances to better protect people and the environment from hazardous chemicals.",
-        "date": "19 December 2022",
-        "source": "European Commission",
-        "link": "https://ec.europa.eu/commission/presscorner/detail/en/IP_22_7775"
-    },
-    {
-        "title": "Statement by Commissioner Sinkevi\u010dius and Dr. Ladislav Miko, representing the Czech Presidency, at the COP15 stock taking plenary",
-        "summary": "Statement by Virginijus Sinkevi\u010dius, Commissioner for Environment, Oceans and Fisheries, and Dr. Ladislav Miko, Special Envoy for International Negotiations, Biodiversity and Ecosystems Services representing the Czech Presidency of the Council of the European Union at the COP15 stock taking plenary.",
-        "date": "17 December 2022",
-        "source": "European Commission",
-        "link": "https://environment.ec.europa.eu/news/statement-commissioner-sinkevicius-and-dr-ladislav-miko-representing-czech-presidency-cop15-stock-2022-12-17_en"
-    },
-    {
-        "title": "COP15: Commission, Member States and other donors commit to increase global biodiversity finance",
-        "summary": "Today, at the United Nations Conference on Biodiversity (COP15) in Montreal, the EU together with a number of EU Member States and several other countries are joining forces to significantly increase finance for biodiversity from all sources.",
-        "date": "16 December 2022",
-        "source": "European Commission",
-        "link": "https://ec.europa.eu/commission/presscorner/detail/en/ip_22_7767"
-    },
-    {
-        "title": "EU at COP15: Final stretch to global deal to halt and reverse biodiversity loss, for people and planet",
-        "summary": "Today the United Nations Biodiversity Conference COP15 meeting starts in Montr\u00e9al. From 7 to 19 December, countries will aim to reach a global agreement for the protection of nature and the planet with long-term goals by 2050 and milestones for 2030.",
-        "date": "13 December 2022",
-        "source": "European Commission",
-        "link": "https://ec.europa.eu/commission/presscorner/detail/en/ip_22_7538"
-    },
-    {
-        "title": "Zero pollution: 2030 targets within reach but need stronger action",
-        "summary": "Today, the Commission is publishing its first Zero Pollution Monitoring and Outlook report and its third Clean Air Outlook report - together setting pathways to cleaner air, water and soil.",
-        "date": "8 December 2022",
-        "source": "European Commission",
-        "link": "https://ec.europa.eu/commission/presscorner/detail/en/ip_22_7552"
-    },
-    {
-        "title": "Green Deal: EU agrees law to fight global deforestation and forest degradation driven by EU production and consumption",
-        "summary": "The Commission welcomes the provisional political agreement just reached between the European Parliament and the Council on an EU Regulation on deforestation-free supply chains.",
-        "date": "6 December 2022",
-        "source": "European Commission",
-        "link": "https://ec.europa.eu/commission/presscorner/detail/en/ip_22_7444"
-    },
-    {
-        "title": "European Green Deal: Putting an end to wasteful packaging, boosting reuse and recycling",
-        "summary": "Today, the Commission is proposing new EU-wide rules on packaging, to tackle this constantly growing source of waste and of consumer frustration.",
-        "date": "30 November 2022",
-        "source": "European Commission",
-        "link": "https://ec.europa.eu/commission/presscorner/detail/en/ip_22_7155"
-    },
-    {
-        "title": "LIFE Programme: \u20ac380 million for 168 new green projects all around Europe",
-        "summary": "Today, the Commission has approved more than \u20ac380 million of funding for 168 new projects across Europe under the LIFE Programme for the environment and climate action.",
-        "date": "23 November 2022",
-        "source": "European Commission",
-        "link": "https://ec.europa.eu/commission/presscorner/detail/en/ip_22_6983"
     },
     {
         "title": "2024 High-level Political Forum on Sustainable Development",
