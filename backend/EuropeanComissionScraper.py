@@ -14,7 +14,7 @@ headers = {
 articles = []
 
 # Number of pages to scrape
-num_pages = 5
+num_pages = 3
 
 for page in range(num_pages):
     # If page > 0, add the page parameter to the URL
