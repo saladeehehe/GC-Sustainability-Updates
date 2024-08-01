@@ -97,14 +97,15 @@ def getNewsData():
         date = each.select_one("div.OSrXXb span").get_text()
         source = each.select_one("div.MgUUmf span").get_text()
         link = each.find("a")["href"]
-        
-        articles.append({
-            "title": title,
-            "summary": summary,
-            "date": date,
-            "source": source,
-            "link": link
-        })
+
+        if title  != "" and date  != "":
+            articles.append({
+                "title": title,
+                "summary": summary,
+                "date": date,
+                "source": source,
+                "link": link
+            })
 
     with open('results.json', 'w') as json_file:
         json.dump(articles, json_file, indent=4)
