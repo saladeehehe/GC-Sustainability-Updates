@@ -79,7 +79,7 @@ for page in range(num_pages):
 
 
 # Output the list of articles
-print(articles[20])
+# print(articles[20])
 
 with open('results.json', 'w') as json_file:
     json.dump(articles, json_file, indent=4)
