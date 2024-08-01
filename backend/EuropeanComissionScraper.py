@@ -1,6 +1,7 @@
 import requests
 from bs4 import BeautifulSoup
 import json
+from datetime import datetime
 
 # URL of the page to scrape
 base_url = "https://environment.ec.europa.eu/news_en?f%5B0%5D=oe_news_subject%3Ahttp%3A//data.europa.eu/uxp/343&f%5B1%5D=oe_news_subject%3Ahttp%3A//data.europa.eu/uxp/535&f%5B2%5D=oe_news_subject%3Ahttp%3A//data.europa.eu/uxp/1158&f%5B3%5D=oe_news_subject%3Ahttp%3A//data.europa.eu/uxp/2470&f%5B4%5D=oe_news_subject%3Ahttp%3A//data.europa.eu/uxp/2530&f%5B5%5D=oe_news_subject%3Ahttp%3A//data.europa.eu/uxp/2947&f%5B6%5D=oe_news_subject%3Ahttp%3A//data.europa.eu/uxp/5482&f%5B7%5D=oe_news_subject%3Ahttp%3A//data.europa.eu/uxp/c_98d1408a&f%5B8%5D=oe_news_subject%3Ahttp%3A//data.europa.eu/uxp/c_749f2ce9&f%5B9%5D=oe_news_subject%3Ahttp%3A//data.europa.eu/uxp/c_1138d9d2&f%5B10%5D=oe_news_types%3Ahttp%3A//publications.europa.eu/resource/authority/resource-type/ANNOUNC_NEWS&f%5B11%5D=oe_news_types%3Ahttp%3A//publications.europa.eu/resource/authority/resource-type/PRESS_REL&f%5B12%5D=oe_news_types%3Ahttp%3A//publications.europa.eu/resource/authority/resource-type/STAT"
@@ -15,6 +16,17 @@ articles = []
 
 # Number of pages to scrape
 num_pages = 3
+
+def format_date(date_str):
+    try:
+        # Parse the date string
+        date_obj = datetime.strptime(date_str, '%d %B %Y')
+        # Format the date to have the month as a 3-letter abbreviation
+        formatted_date = date_obj.strftime('%d %b %Y')
+        return formatted_date
+    except ValueError:
+        # Handle cases where the date format does not match the expected format
+        return date_str
 
 for page in range(num_pages):
     # If page > 0, add the page parameter to the URL
@@ -38,6 +50,7 @@ for page in range(num_pages):
             for news_item in news_items:
                 # Extracting the date
                 date = news_item.select_one('ul.ecl-content-block__primary-meta-container > li:nth-child(2) > time').get_text(strip=True)
+                formatted_date = format_date(date)
 
                 # Extracting the title and link
                 title_element = news_item.select_one('div.ecl-content-block__title > a')
@@ -55,7 +68,7 @@ for page in range(num_pages):
                 articles.append({
                     "title": title,
                     "summary": description,
-                    "date": date,
+                    "date": formatted_date,
                     "source": "European Commission",
                     "link": link
                 })
@@ -64,8 +77,9 @@ for page in range(num_pages):
     else:
         print(f"Failed to retrieve the webpage for page {page + 1}. Status code: {response.status_code}")
 
+
 # Output the list of articles
-# print(articles[-1])
+print(articles[20])
 
 with open('results.json', 'w') as json_file:
     json.dump(articles, json_file, indent=4)
