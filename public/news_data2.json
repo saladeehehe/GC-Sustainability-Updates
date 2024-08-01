@@ -70,18 +70,18 @@
         "link": "https://fintech.global/2024/03/19/singapore-leads-with-new-funding-initiative-for-sustainability-reporting/"
     },
     {
-        "title": "Unlocking ESG Reporting Requirements in Singapore",
-        "summary": "ASEAN Briefing Magazine highlights the importance of Environmental, Social, \nand Governance (ESG) reporting in Singapore,...",
-        "date": "05 Mar 2024",
-        "source": "Thailand Business News",
-        "link": "https://www.thailand-business-news.com/asean/129220-unlocking-esg-reporting-requirements-in-singapore"
-    },
-    {
         "title": "SGX RegCo launches consultation on incorporating ISSB standards into \nsustainability reporting rules",
         "summary": "Singapore Exchange Regulation (SGX RegCo) is consulting the market on \ndetails of how the International Sustainability Standards Board (ISSB)...",
         "date": "07 Mar 2024",
         "source": "The Edge Singapore",
         "link": "https://www.theedgesingapore.com/news/environmental-social-and-governance/sgx-regco-launches-consultation-incorporating-issb"
+    },
+    {
+        "title": "Unlocking ESG Reporting Requirements in Singapore",
+        "summary": "ASEAN Briefing Magazine highlights the importance of Environmental, Social, \nand Governance (ESG) reporting in Singapore,...",
+        "date": "05 Mar 2024",
+        "source": "Thailand Business News",
+        "link": "https://www.thailand-business-news.com/asean/129220-unlocking-esg-reporting-requirements-in-singapore"
     },
     {
         "title": "Singapore to Provide Funding for Companies to Meet New Climate Reporting \nRequirements",
@@ -91,18 +91,18 @@
         "link": "https://www.esgtoday.com/singapore-to-provide-funding-for-companies-to-meet-new-climate-reporting-requirements/"
     },
     {
+        "title": "Highly specialised roles in sustainable finance to be created to support \nAsia's transition: new MAS chief",
+        "summary": "Sustainability risk analysts and other specialists will be in demand and \nupskilling initiatives are to come, says Singapore central bank...",
+        "date": "26 Jan 2024",
+        "source": "Eco-Business",
+        "link": "https://www.eco-business.com/news/highly-specialised-roles-in-sustainable-finance-to-be-created-to-support-asias-transition-new-mas-chief/"
+    },
+    {
         "title": "Accounting and law bodies team up to build sustainability capabilities in \nprofessional services firms",
         "summary": "SINGAPORE's key accountancy and legal professional bodies will join hands \nover the next three years to build a community of professional...",
         "date": "05 Jan 2024",
         "source": "The Business Times",
         "link": "https://www.businesstimes.com.sg/esg/accounting-and-law-bodies-team-build-sustainability-capabilities-professional-services-firms"
-    },
-    {
-        "title": "From Big Four dominance to more oversight of assurance providers \u2013 what to \nlook out for as Asia adopts ISSB standards",
-        "summary": "Australia, Japan, Hong Kong, Malaysia, New Zealand, Philippines and \nSingapore are introducing mandatory climate reporting rules,...",
-        "date": "26 Mar 2024",
-        "source": "Eco-Business",
-        "link": "https://www.eco-business.com/news/from-big-four-dominance-to-more-oversight-of-assurance-providers-what-to-look-out-for-as-asia-adopts-issb-standards/"
     },
     {
         "title": "New association in Singapore to focus on developing talent, industry \nstandards in sustainable finance",
@@ -119,18 +119,11 @@
         "link": "https://www.straitstimes.com/business/companies-markets/sustainability-reporting-can-help-s-pore-smes-attract-clients-consumers-financing-experts"
     },
     {
-        "title": "New sustainability playbook, microsite can help logistics players go green",
-        "summary": "SINGAPORE'S logistics players who are keen to adopt green practices can now \ndraw on step-by-step resources from a new sustainability...",
-        "date": "21 Feb 2024",
-        "source": "The Business Times",
-        "link": "https://www.businesstimes.com.sg/singapore/smes/new-sustainability-playbook-microsite-can-help-logistics-players-go-green"
-    },
-    {
-        "title": "Can Singapore\u2019s new taxonomy fill the regulatory vacuum in \u2018transition \nfinance\u2019 for Asia and beyond?",
-        "summary": "Market participants have welcomed the Singapore-Asia Taxonomy, but whether \nit emerges as a widely used standard for transition finance,...",
-        "date": "15 Dec 2023",
+        "title": "From Big Four dominance to more oversight of assurance providers \u2013 what to \nlook out for as Asia adopts ISSB standards",
+        "summary": "Australia, Japan, Hong Kong, Malaysia, New Zealand, Philippines and \nSingapore are introducing mandatory climate reporting rules,...",
+        "date": "26 Mar 2024",
         "source": "Eco-Business",
-        "link": "https://www.eco-business.com/news/can-singapores-new-taxonomy-fill-the-regulatory-vacuum-in-transition-finance-for-asia-and-beyond/"
+        "link": "https://www.eco-business.com/news/from-big-four-dominance-to-more-oversight-of-assurance-providers-what-to-look-out-for-as-asia-adopts-issb-standards/"
     },
     {
         "title": "Singapore to Require Sustainable Aviation Fuel Use on All Departing Flights \nfrom 2026",
@@ -140,9 +133,16 @@
         "link": "https://www.esgtoday.com/singapore-to-require-sustainable-aviation-fuel-use-on-all-departing-flights-from-2026/"
     },
     {
+        "title": "Can Singapore\u2019s new taxonomy fill the regulatory vacuum in \u2018transition \nfinance\u2019 for Asia and beyond?",
+        "summary": "Market participants have welcomed the Singapore-Asia Taxonomy, but whether \nit emerges as a widely used standard for transition finance,...",
+        "date": "15 Dec 2023",
+        "source": "Eco-Business",
+        "link": "https://www.eco-business.com/news/can-singapores-new-taxonomy-fill-the-regulatory-vacuum-in-transition-finance-for-asia-and-beyond/"
+    },
+    {
         "title": "Enterprise Singapore developing new local, international sustainability \nstandards and accreditation schemes",
         "summary": "The standard provides requirements on grid integration, performance \nindicators, monitoring and maintenance of EES systems, which can help...",
-        "date": "29 Sept 2023",
+        "date": "29 Sep 2023",
         "source": "The Edge Singapore",
         "link": "https://www.theedgesingapore.com/news/sustainability/enterprise-singapore-developing-new-local-international-sustainability-standards"
     },
@@ -170,7 +170,7 @@
     {
         "title": "Singapore and China join forces with new green finance taskforce",
         "summary": "Sustainable finance garners significant attention from global investors and \npolicymakers. In recent years, Europe has led the way in...",
-        "date": "20 Sept 2023",
+        "date": "20 Sep 2023",
         "source": "East Asia Forum",
         "link": "https://eastasiaforum.org/2023/09/20/singapore-and-china-join-forces-with-new-green-finance-taskforce/"
     },
@@ -184,7 +184,7 @@
     {
         "title": "Singapore to formulate alternative-fuel standards by 2025",
         "summary": "SINGAPORE is set to step up its efforts to develop quality and standards in \nareas such as greenhouse gas reporting, decarbonisation and...",
-        "date": "29 Sept 2023",
+        "date": "29 Sep 2023",
         "source": "The Business Times",
         "link": "https://www.businesstimes.com.sg/esg/singapore-formulate-alternative-fuel-standards-2025"
     },
@@ -210,18 +210,18 @@
         "link": "https://www.financierworldwide.com/a-new-dawn-for-esg-regulation-in-singapore"
     },
     {
-        "title": "Singapore Proposes Mandatory Climate Reporting for both Public and Private \nCompanies",
-        "summary": "Public and large private companies in Singapore will be required to provide \nclimate-related disclosures aligned with the IFRS' newly...",
-        "date": "10 Jul 2023",
-        "source": "ESG Today",
-        "link": "https://www.esgtoday.com/singapore-proposes-mandatory-climate-reporting-for-both-public-and-private-companies/"
-    },
-    {
         "title": "Singapore to propose climate reporting for large companies",
         "summary": "On July 6th Singapore's Sustainability Reporting Advisory Committee (SRAC), \nset up by the Accounting and Corporate Regulatory Authority and...",
         "date": "07 Jul 2023",
         "source": "Economist Intelligence Unit",
         "link": "https://www.eiu.com/n/singapore-to-propose-climate-reporting-for-large-companies/"
+    },
+    {
+        "title": "Singapore Proposes Mandatory Climate Reporting for both Public and Private \nCompanies",
+        "summary": "Public and large private companies in Singapore will be required to provide \nclimate-related disclosures aligned with the IFRS' newly...",
+        "date": "10 Jul 2023",
+        "source": "ESG Today",
+        "link": "https://www.esgtoday.com/singapore-proposes-mandatory-climate-reporting-for-both-public-and-private-companies/"
     },
     {
         "title": "Singapore among the first in Asia to propose mandatory climate reporting \nfor non-listed companies",
@@ -259,6 +259,13 @@
         "link": "https://www.sustainableviews.com/esg-standard-setters-launch-best-practice-platform-in-singapore-f60ab263/"
     },
     {
+        "title": "Navigating the ESG Reporting Landscape in Singapore",
+        "summary": "Experts from Morgan Lewis offer a comprehensive look into the dynamic and \ncontinuously evolving ESG regulatory landscape in Singapore.",
+        "date": "23 Feb 2024",
+        "source": "Regulation Asia",
+        "link": "https://www.regulationasia.com/navigating-the-esg-reporting-landscape-in-singapore/"
+    },
+    {
         "title": "New road map to set sustainability standards, targets for business events \norganisers",
         "summary": "SINGAPORE - The events sector is looking to green its business by \nintroducing strategies, standards and targets that cover areas like waste...",
         "date": "01 Dec 2022",
@@ -266,18 +273,18 @@
         "link": "https://www.straitstimes.com/singapore/consumer/new-roadmap-to-set-sustainability-standards-targets-for-business-events-organisers"
     },
     {
-        "title": "Global accounting standards body launches its first two sustainability \ndisclosure standards",
-        "summary": "THE global accounting standards body launched its first two disclosure \nstandards for sustainability and climate on Monday (Jun 26),...",
-        "date": "26 Jun 2023",
-        "source": "The Business Times",
-        "link": "https://www.businesstimes.com.sg/esg/global-accounting-standards-body-launches-its-first-two-sustainability-disclosure-standards"
-    },
-    {
         "title": "How ISSB standards redefine sustainability disclosures",
         "summary": "Companies can now integrate sustainability and financial outcomes better \nwith the new IFRS S1 and S2 standards. Learn more.",
         "date": "01 Aug 2023",
         "source": "EY",
         "link": "https://www.ey.com/en_sg/assurance/how-issb-standards-redefine-sustainability-disclosures"
+    },
+    {
+        "title": "Singapore moves forward with mandatory climate reporting \u2013 implications for \nU.S.-based multinationals",
+        "summary": "Amidst the uncertain future of U.S. climate reporting rules, other \njurisdictions continue to move forward with climate reporting...",
+        "date": "15 Apr 2024",
+        "source": "Ropes & Gray LLP",
+        "link": "https://www.ropesgray.com/en/insights/viewpoints/102j5cd/singapore-moves-forward-with-mandatory-climate-reporting-implications-for-u-s"
     },
     {
         "title": "Singapore's Sustainability Reporting Advisory Committee Recommends \nMandatory Climate Reporting For Listed And Large Non-Listed Companies",
@@ -294,6 +301,13 @@
         "link": "https://www.businesstimes.com.sg/esg/almost-40-singapore-companies-are-greenhushing-report"
     },
     {
+        "title": "Nearly all Singapore listcos have started climate-related reporting in \nFY2023: EY, CPA report",
+        "summary": "OUT of 362 Singapore-listed companies, 346 \u2013 or 96 per cent \u2013 have \ncommenced climate-related disclosures for the financial year ended Dec 31...",
+        "date": "3 weeks ago",
+        "source": "The Business Times",
+        "link": "https://www.businesstimes.com.sg/esg/nearly-all-singapore-listcos-have-started-climate-related-reporting-fy2023-ey-cpa-report"
+    },
+    {
         "title": "Singapore to require climate reporting by unlisted companies",
         "summary": "SINGAPORE -- Singapore aims to make climate-related disclosures mandatory \nfor privately held companies in a move that would bring the...",
         "date": "06 Jul 2023",
@@ -303,7 +317,7 @@
     {
         "title": "Environmental pollution law receives boost to tackle climate change, noise",
         "summary": "Amendments to the law give regulatory teeth to existing initiatives to \ncontrol the release of hydrofluorocarbons.",
-        "date": "13 Sept 2021",
+        "date": "13 Sep 2021",
         "source": "The Straits Times",
         "link": "https://www.straitstimes.com/singapore/politics/proposed-changes-to-law-on-environmental-pollution-will-boost-efforts-to-tackle"
     },
@@ -313,6 +327,13 @@
         "date": "06 Jul 2023",
         "source": "The Straits Times",
         "link": "https://www.straitstimes.com/business/singapore-regulators-propose-mandatory-climate-reporting-for-listed-and-large-non-listed-companies"
+    },
+    {
+        "title": "Transforming Singapore towards sustainable tourism and urban living",
+        "summary": "Sustainable tourism is becoming a bigger concept in Singapore, where they \nare prepared to address traveller needs and reconsider their...",
+        "date": "11 Apr 2023",
+        "source": "Open Access Government",
+        "link": "https://www.openaccessgovernment.org/transforming-singapore-sustainable-tourism-urban-living/157031/"
     },
     {
         "title": "The first ISSB reporting standards are here",
@@ -327,27 +348,6 @@
         "date": "06 Feb 2023",
         "source": "EY",
         "link": "https://www.ey.com/en_sg/ifrs/how-to-get-ready-for-sustainability-related-disclosure-standards"
-    },
-    {
-        "title": "Tender evaluations for government projects to include environmental \ncriteria from 2024",
-        "summary": "COMPANIES that can demonstrate the sustainability credentials of their \ngoods and services may soon have a leg up when bidding for certain...",
-        "date": "02 Mar 2023",
-        "source": "The Business Times",
-        "link": "https://www.businesstimes.com.sg/singapore/tender-evaluations-government-projects-include-environmental-criteria-2024"
-    },
-    {
-        "title": "Singapore launches mandatory climate reporting consultation",
-        "summary": "The city-state has plans to expand current climate disclosure requirements \nto a wider group of listed and unlisted companies active in the...",
-        "date": "18 Jul 2023",
-        "source": "FinanceAsia",
-        "link": "https://www.financeasia.com/article/singapore-launches-mandatory-climate-reporting-consultation/485384"
-    },
-    {
-        "title": "Singapore\u2019s top 100 companies outperform the global average in \nsustainability reporting",
-        "summary": "The latest findings from KPMG reveal that sustainability reporting has \ngrown steadily, with 79% of leading global companies providing...",
-        "date": "18 Oct 2022",
-        "source": "KPMG",
-        "link": "https://kpmg.com/sg/en/home/media/press-releases/2022/10/singapore-top-100-companies-in-sustainability-reporting.html"
     },
     {
         "title": "Senior Minister Of State For Sustainability And Environment Dr Koh Poh Koon To Attend The 8th Ministerial On Climate Action Meeting",
@@ -1636,17 +1636,6 @@
         ]
     },
     {
-        "title": "COP28: To save the planet, we need a just and fair renewable energy revolution",
-        "main_content_words": "",
-        "date": "",
-        "source": "UN SDGs",
-        "link": "https://sdgs.un.org/news/cop28-save-planet-we-need-just-and-fair-renewable-energy-revolution-54772",
-        "related_goals": [
-            "7",
-            "13"
-        ]
-    },
-    {
         "title": "COP28 ends with call to \u2018transition away\u2019 from fossil fuels; UN\u2019s Guterres says phaseout is inevitable",
         "main_content_words": "",
         "date": "",
@@ -1674,6 +1663,17 @@
         "date": "",
         "source": "UN SDGs",
         "link": "https://sdgs.un.org/news/sdg-pavilion-opens-cop28-focus-youth-achieving-climate-goals-and-sdgs-together-54771",
+        "related_goals": [
+            "7",
+            "13"
+        ]
+    },
+    {
+        "title": "COP28: To save the planet, we need a just and fair renewable energy revolution",
+        "main_content_words": "",
+        "date": "",
+        "source": "UN SDGs",
+        "link": "https://sdgs.un.org/news/cop28-save-planet-we-need-just-and-fair-renewable-energy-revolution-54772",
         "related_goals": [
             "7",
             "13"
