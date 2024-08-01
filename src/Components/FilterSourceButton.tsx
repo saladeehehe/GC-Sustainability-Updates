@@ -16,7 +16,7 @@ const FilterSourceButton: React.FC<FilterSourceButtonProps> = ({ sources, onFilt
   };
 
   return (
-    <Popover width={200} position="right" withArrow shadow="md">
+    <Popover width={250} position="right" withArrow shadow="md">
       <Popover.Target>
         <UnstyledButton style={{ display: 'flex', alignItems: 'center' }}>
           <IconRadar size={20} stroke={1.5} />

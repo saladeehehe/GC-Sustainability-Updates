@@ -1,6 +1,6 @@
 // src/components/SearchableMultiSelect.tsx
 import { useState } from 'react';
-import { CheckIcon, Combobox, Group, Pill, PillsInput, useCombobox, ScrollArea } from '@mantine/core';
+import { CheckIcon, Combobox, Group, Pill, PillsInput, useCombobox } from '@mantine/core';
 
 interface SearchableMultiSelectProps {
   sources: string[];
@@ -59,7 +59,7 @@ export function SearchableMultiSelect({ sources, onChange }: SearchableMultiSele
                 onFocus={() => combobox.openDropdown()}
                 onBlur={() => combobox.closeDropdown()}
                 value={search}
-                placeholder="Search sources"
+                placeholder="None selected yet"
                 onChange={(event) => {
                   combobox.updateSelectedOptionIndex();
                   setSearch(event.currentTarget.value);

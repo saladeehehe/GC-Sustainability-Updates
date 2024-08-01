@@ -10,7 +10,7 @@ export function Welcome() {
           inherit
           variant="gradient"
           component="span"
-          gradient={{ from: "green", to: "blue" }}
+          gradient={{ from: "red", to: "blue" }}
         >
           Resources
         </Text>
@@ -23,6 +23,8 @@ export function Welcome() {
         </Anchor>
         .
       </Text>
+      <Text color="dimmed" ta="center" size="lg" maw={580} mx="auto" mt="xl">  
+      Last updated: </Text>
     </>
   );
 }

@@ -8,6 +8,7 @@ import { ColorSchemeToggle } from "./ColorSchemeToggle/ColorSchemeToggle";
 import { useState, useEffect } from 'react';
 import { NewsArticle } from './Components/newsComponent';
 import { convertToDate } from './utils/dateUtils';
+import { categorizeArticle } from './articleCategorizer';
 import './App.css'; // Ensure this is where you put the .mainContent styles
 
 const extractSources = (newsData: NewsArticle[]): string[] => {
@@ -15,27 +16,41 @@ const extractSources = (newsData: NewsArticle[]): string[] => {
   return Array.from(sourcesSet);
 };
 
+const extractCategories = (newsData: NewsArticle[]): string[] => {
+  const categoriesSet = new Set<string>();
+  newsData.forEach(article => {
+    article.categories.forEach(category => categoriesSet.add(category));
+  });
+  return Array.from(categoriesSet);
+};
+
 export default function App() {
   const [newsData, setNewsData] = useState<NewsArticle[]>([]);
   const [sources, setSources] = useState<string[]>([]);
+  const [categories, setCategories] = useState<string[]>([]);
   const [filteredData, setFilteredData] = useState<NewsArticle[]>([]);
   const [loading, setLoading] = useState<boolean>(true);
   const [error, setError] = useState<string | null>(null);
   const [selectedSources, setSelectedSources] = useState<string[]>([]);
+  const [selectedCategories, setSelectedCategories] = useState<string[]>([]);
   const [dateRange, setDateRange] = useState<[Date | null, Date | null]>([null, null]);
+  const [showBookmarkedArticles, setShowBookmarkedArticles] = useState<boolean>(false);
+
 
   useEffect(() => {
     async function fetchData() {
       try {
         setLoading(true);
-        const response = await fetch('/news_data.json');
+        const response = await fetch('/news_data2.json');
         if (!response.ok) {
           throw new Error('Failed to fetch news data');
         }
         const data = await response.json();
         const newsData = data.map((article: any) => ({
           ...article,
-          date: convertToDate(article.date)
+          date: convertToDate(article.date),
+          categories: categorizeArticle(article.main_content_words || article.summary || article.title || ""),
+          bookmarked: false,
         })) as NewsArticle[];
 
         // Sort news data by date in descending order
@@ -43,6 +58,7 @@ export default function App() {
 
         setNewsData(newsData);
         setSources(extractSources(newsData));
+        setCategories(extractCategories(newsData)); // Extract categories
         setFilteredData(newsData);
       } catch (error: any) {
         setError(error.message);
@@ -55,32 +71,50 @@ export default function App() {
   }, []);
 
   useEffect(() => {
-    // Apply both source and date range filters
-    const filtered = newsData.filter(article => {
-      const articleDate = new Date(article.date);
-      const startDate = dateRange[0] ? new Date(dateRange[0]) : null;
-      const endDate = dateRange[1] ? new Date(dateRange[1]) : null;
+    if (showBookmarkedArticles) {
+      const bookmarkedArticles = newsData.filter(article => article.bookmarked);
+      setFilteredData(bookmarkedArticles);
+    } else {
+      const filtered = newsData.filter(article => {
+        const articleDate = new Date(article.date);
+        const startDate = dateRange[0] ? new Date(dateRange[0]) : null;
+        const endDate = dateRange[1] ? new Date(dateRange[1]) : null;
 
-      const withinDateRange = startDate && endDate
-        ? articleDate >= startDate && articleDate <= endDate
-        : true;
+        const withinDateRange = startDate && endDate
+          ? articleDate >= startDate && articleDate <= endDate
+          : true;
 
-      const matchesSource = selectedSources.length
-        ? selectedSources.includes(article.source)
-        : true;
+        const matchesSource = selectedSources.length
+          ? selectedSources.includes(article.source)
+          : true;
 
-      return withinDateRange && matchesSource;
-    });
+        return withinDateRange && matchesSource;
+      });
+      setFilteredData(filtered);
+    }
+  }, [showBookmarkedArticles, newsData, selectedSources, dateRange]);
 
-    setFilteredData(filtered);
-  }, [newsData, selectedSources, dateRange]);
-
-  const handleFilterChange = (selectedSources: string[]) => {
+  const handleSourceFilterChange = (selectedSources: string[]) => {
     setSelectedSources(selectedSources);
+  };
+
+  const handleCategoryFilterChange = (selectedCategories: string[]) => {
+    setSelectedCategories(selectedCategories);
   };
 
   const handleDateRangeChange = (startDate: Date | null, endDate: Date | null) => {
     setDateRange([startDate, endDate]);
+  };
+  const toggleBookmark = (title: string) => {
+    const updatedNewsData = newsData.map(article => 
+      article.title === title ? { ...article, bookmarked: !article.bookmarked } : article
+    );
+    setNewsData(updatedNewsData);
+    setFilteredData(updatedNewsData); // Update filtered data to reflect the change
+  };
+
+  const toggleShowBookmarkedArticles = () => {
+    setShowBookmarkedArticles(!showBookmarkedArticles);
   };
 
   if (loading) return <p>Loading...</p>;
@@ -90,12 +124,20 @@ export default function App() {
     <MantineProvider theme={theme}>
       <div className="grid-container">
         <div className="navbar">
-          <NavbarMinimal sources={sources} onFilterChange={handleFilterChange} onDateRangeChange={handleDateRangeChange} />
+          <NavbarMinimal 
+            sources={sources} 
+            categories={categories} 
+            onFilterChange={handleSourceFilterChange} 
+            onDateRangeChange={handleDateRangeChange} 
+            onCategoryChange={handleCategoryFilterChange} 
+            showBookmarkedArticles={showBookmarkedArticles}
+            toggleShowBookmarkedArticles={toggleShowBookmarkedArticles}
+           />
         </div>
         <div className="main-content">
           <Welcome />
           <ColorSchemeToggle />
-          <NewsComponent newsData={filteredData} />
+          <NewsComponent newsData={filteredData} toggleBookmark={toggleBookmark} />
         </div>
       </div>
     </MantineProvider>

@@ -1,13 +1,25 @@
 import React from 'react';
 import { NewsArticle } from './newsComponent';
-import { Grid, Paper, Text, Anchor } from '@mantine/core';
+import { Grid, Paper, Text, Anchor, Badge, ActionIcon} from '@mantine/core';
+import { IconBookmark, IconBookmarkFilled } from '@tabler/icons-react';
 import { format } from 'date-fns';
 
 interface NewsComponentProps {
   newsData: NewsArticle[];
+  toggleBookmark: (title: string) => void; 
 }
+const categoryColors: { [key: string]: string } = {
+  Carbon: 'green',
+  Water: 'blue',
+  Energy: 'yellow',
+  Material: 'orange',
+  'Policies/Acts/Regulations': 'purple',
+  Singapore: 'red'
+  // Add more categories and their colors here
+};
 
-const NewsComponent: React.FC<NewsComponentProps> = ({ newsData }) => {
+
+const NewsComponent: React.FC<NewsComponentProps> = ({ newsData, toggleBookmark }) => {
   return (
     <Grid grow style={{ padding: '20px' }}>
       {newsData.map((article) => {
@@ -33,6 +45,27 @@ const NewsComponent: React.FC<NewsComponentProps> = ({ newsData }) => {
               <Text size="sm" >
                 Source: {article.source}
               </Text>
+              <div style={{ display: 'flex', alignItems: 'center', marginTop: '5px' }}>
+                <Text size="sm" style={{ marginRight: '10px', fontWeight: 'bold' }}>
+                  Categories:
+                </Text>
+                <div style={{ display: 'flex', flexWrap: 'wrap' }}>
+                  {article.categories && article.categories.map((category, index) => (
+                    <Badge key={index} color={categoryColors[category] || 'gray'} // Fallback color if category not found
+                      style={{ marginRight: '5px' }}>
+                      {category}
+                    </Badge>
+                  ))}
+                </div>
+              </div>
+              <ActionIcon
+                onClick={() => toggleBookmark(article.title)}
+                style={{ marginTop: '10px' }}
+                variant="outline"
+                color={article.bookmarked ? 'red' : 'gray'}
+              >
+                {article.bookmarked ? <IconBookmarkFilled size={20} /> : <IconBookmark size={20} />}
+              </ActionIcon>
             </Paper>
           </Grid.Col>
         );
