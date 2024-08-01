@@ -109,6 +109,9 @@ def getNewsData():
         source = each.select_one("div.MgUUmf span").get_text()
         link = each.find("a")["href"]
 
+        # Manually replace "Sept" with "Sep"
+        date = date.replace("Sept", "Sep")
+
         # Attempt to parse the date using known formats
         parsed_date = None
         for fmt in date_formats:
