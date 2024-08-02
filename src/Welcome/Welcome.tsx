@@ -10,19 +10,21 @@ export function Welcome() {
           inherit
           variant="gradient"
           component="span"
-          gradient={{ from: "green", to: "blue" }}
+          gradient={{ from: "red", to: "blue" }}
         >
           Resources
         </Text>
       </Title>
       <Text color="dimmed" ta="center" size="lg" maw={580} mx="auto" mt="xl">
-        This starter Vite project includes a minimal setup, if you want to learn
-        more on Mantine + Vite integration follow{" "}
+      This webpage provides the latest sustainability information from a diverse array of sources, 
+      including news outlets, official government websites, and international organizations.{" "}
         <Anchor href="https://mantine.dev/guides/vite/" size="lg">
           this guide
         </Anchor>
-        . To get started edit pages/Home.page.tsx file.
+        .
       </Text>
+      <Text color="dimmed" ta="center" size="lg" maw={580} mx="auto" mt="xl">  
+      Last updated: </Text>
     </>
   );
 }

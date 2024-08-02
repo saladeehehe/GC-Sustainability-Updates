@@ -1,0 +1,9 @@
+.popover-content {
+    position: absolute;
+    z-index: 1000; /* High z-index to ensure it's on top */
+    background-color: #fff; /* White background for readability */
+    padding: 16px; /* Add some padding */
+    border-radius: 8px; /* Rounded corners */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Box shadow for depth */
+    }
+

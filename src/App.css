@@ -4,6 +4,8 @@
     grid-template-columns: 70px 1fr; /* Adjust width as needed */
     height: 100vh; /* Full viewport height */
     gap: 0; /* No gap between columns */
+    background-color: #b0ddb9; /* Background color */
+
   }
   
   /* Style for the navbar */
