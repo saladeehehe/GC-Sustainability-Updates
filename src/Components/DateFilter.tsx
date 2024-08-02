@@ -1,6 +1,6 @@
 // src/components/DateRangeFilterButton.tsx
 import React, { useState } from 'react';
-import { Popover, UnstyledButton, Button, useMantineTheme } from '@mantine/core';
+import { Popover, UnstyledButton, Button } from '@mantine/core';
 import { IconCalendar } from '@tabler/icons-react';
 import { DatePicker } from '@mantine/dates';
 import './DateFilter.css';
