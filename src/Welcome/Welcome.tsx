@@ -1,4 +1,4 @@
-import { Title, Text, Anchor } from "@mantine/core";
+import { Title, Text  } from "@mantine/core";
 import * as classes from "./Welcome.css";
 
 export function Welcome() {
@@ -15,16 +15,10 @@ export function Welcome() {
           Resources
         </Text>
       </Title>
-      <Text color="dimmed" ta="center" size="lg" maw={580} mx="auto" mt="xl">
-      This webpage provides the latest sustainability information from a diverse array of sources, 
-      including news outlets, official government websites, and international organizations.{" "}
-        <Anchor href="https://mantine.dev/guides/vite/" size="lg">
-          this guide
-        </Anchor>
-        .
+      <Text color="black" ta="center" size="lg" maw={580} mx="auto" mt="xl">
+        This webpage provides the latest sustainability information from a diverse array of sources, 
+        including news outlets, official government websites, and international organizations.
       </Text>
-      <Text color="dimmed" ta="center" size="lg" maw={580} mx="auto" mt="xl">  
-      Last updated: </Text>
     </>
   );
 }

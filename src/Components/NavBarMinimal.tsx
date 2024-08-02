@@ -2,8 +2,6 @@ import { useState } from 'react';
 import { Center, Tooltip, UnstyledButton, Stack, rem } from '@mantine/core';
 import {
   IconHome2,
-  IconLogout,
-  IconSwitchHorizontal,
   IconRadar,
   IconCalendar,
   IconTag,
@@ -127,11 +125,6 @@ export function NavbarMinimal({
           {links}
         </Stack>
       </div>
-
-      <Stack justify="center" gap={0}>
-        <NavbarLink icon={IconSwitchHorizontal} label="Change account" />
-        <NavbarLink icon={IconLogout} label="Logout" />
-      </Stack>
     </nav>
   );
 }
