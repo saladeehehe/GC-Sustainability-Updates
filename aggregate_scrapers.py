@@ -7,7 +7,7 @@ all_articles = []
 # Function to convert date string to datetime object for comparison
 def parse_date(date_str):
     # Adjust the format string to match your date format
-    return datetime.strptime(date_str, "%Y-%m-%d")
+    return datetime.strptime(date_str, "%d-%m-%Y")
 
 # Run each scraper script and collect articles
 for script in os.listdir('backend'):
