@@ -9,7 +9,7 @@ import { useState, useEffect } from 'react';
 import { NewsArticle } from './Components/newsComponent';
 import { convertToDate } from './utils/dateUtils';
 import { categorizeArticle } from './articleCategorizer';
-import {SearchBar} from '.Components/SearchBar'
+import SearchBar from './Components/SearchBar'
 import './App.css'; // Ensure this is where you put the .mainContent styles
 
 const extractSources = (newsData: NewsArticle[]): string[] => {
@@ -117,6 +117,11 @@ export default function App() {
   const handleDateRangeChange = (startDate: Date | null, endDate: Date | null) => {
     setDateRange([startDate, endDate]);
   };
+
+  const handleSearchChange = (event: React.ChangeEvent<HTMLInputElement>) => {
+    setSearchTerm(event.target.value);
+  };
+
   const toggleBookmark = (title: string) => {
     const updatedNewsData = newsData.map(article => 
       article.title === title ? { ...article, bookmarked: !article.bookmarked } : article
@@ -148,6 +153,15 @@ export default function App() {
         <div className="main-content">
           <Welcome />
           <ColorSchemeToggle />
+          {
+          /*
+          <SearchBar 
+            searchTerm={searchTerm} 
+            onSearchChange={handleSearchChange} 
+          />
+          */
+          }
+
           <NewsComponent newsData={filteredData} toggleBookmark={toggleBookmark} />
         </div>
       </div>
