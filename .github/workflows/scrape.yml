@@ -14,10 +14,10 @@ jobs:
 
     steps:
     - name: Checkout repository
-      uses: actions/checkout@v3  # Updated to use the latest version
+      uses: actions/checkout@v3  # This action will use Node.js 20 automatically
 
     - name: Set up Python
-      uses: actions/setup-python@v4
+      uses: actions/setup-python@v4  # This action will use Node.js 20 automatically
       with:
         python-version: '3.11'  # Using the latest stable version of Python
 
@@ -31,25 +31,11 @@ jobs:
       
       env:
         GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-
-    - name: Commit and push changes to main
-      run: |
-        git config --global user.name 'github-actions'
-        git config --global user.email 'github-actions@github.com'
-        git checkout main
-        git add public/news_data2.json
-        git commit -m "Update scraped data"
-        git push origin main
-
-    - name: Checkout Deployment branch
-      uses: actions/checkout@v3
-      with:
-        ref: Deployment
-
-    - name: Commit and push changes to Deployment
+        
+    - name: Commit and push changes
       run: |
         git config --global user.name 'github-actions'
         git config --global user.email 'github-actions@github.com'
         git add public/news_data2.json
         git commit -m "Update scraped data"
-        git push origin Deployment
+        git push
