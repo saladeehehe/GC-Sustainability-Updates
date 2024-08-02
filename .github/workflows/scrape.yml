@@ -38,4 +38,4 @@ jobs:
         git config --global user.email 'github-actions@github.com'
         git add public/news_data2.json
         git commit -m "Update scraped data"
-        git push
+        git push origin Deployment  # Ensure changes are pushed to the Deployment branch
