@@ -43,7 +43,7 @@ export default function App() {
     async function fetchData() {
       try {
         setLoading(true);
-        const response = await fetch('/news_data2.json');
+        const response = await fetch('/GC-Sustainability-Updates/news_data2.json'); // Updated path
         if (!response.ok) {
           throw new Error('Failed to fetch news data');
         }
@@ -54,10 +54,10 @@ export default function App() {
           categories: categorizeArticle(article.main_content_words || article.summary || article.title || "") ||[],
           bookmarked: false,
         })) as NewsArticle[];
-
+  
         // Sort news data by date in descending order
         newsData.sort((a, b) => b.date.getTime() - a.date.getTime());
-
+  
         setNewsData(newsData);
         setSources(extractSources(newsData));
         setCategories(extractCategories(newsData)); // Extract categories
@@ -68,7 +68,7 @@ export default function App() {
         setLoading(false);
       }
     }
-
+  
     fetchData();
   }, []);
 
