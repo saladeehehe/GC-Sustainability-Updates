@@ -19,7 +19,7 @@ const extractSources = (newsData: NewsArticle[]): string[] => {
 const extractCategories = (newsData: NewsArticle[]): string[] => {
   const categoriesSet = new Set<string>();
   newsData.forEach(article => {
-    article.categories.forEach(category => categoriesSet.add(category));
+    (article.categories || []).forEach(category => categoriesSet.add(category));
   });
   return Array.from(categoriesSet);
 };
@@ -49,7 +49,7 @@ export default function App() {
         const newsData = data.map((article: any) => ({
           ...article,
           date: convertToDate(article.date),
-          categories: categorizeArticle(article.main_content_words || article.summary || article.title || ""),
+          categories: categorizeArticle(article.main_content_words || article.summary || article.title || "") ||[],
           bookmarked: false,
         })) as NewsArticle[];
 
@@ -71,6 +71,8 @@ export default function App() {
   }, []);
 
   useEffect(() => {
+    console.log("Selected Categories:", selectedCategories);
+
     if (showBookmarkedArticles) {
       const bookmarkedArticles = newsData.filter(article => article.bookmarked);
       setFilteredData(bookmarkedArticles);
@@ -87,12 +89,21 @@ export default function App() {
         const matchesSource = selectedSources.length
           ? selectedSources.includes(article.source)
           : true;
+        const matchesCategory = selectedCategories.length
+          ? (article.categories || []).some(category => selectedCategories.includes(category))
+          : true;
+        // Debugging statements
+        console.log("Article:", article.title);
+        console.log("Date within range:", withinDateRange);
+        console.log("Source matches:", matchesSource);
+        console.log("Category matches:", matchesCategory);
 
-        return withinDateRange && matchesSource;
+
+        return withinDateRange && matchesSource && matchesCategory;
       });
       setFilteredData(filtered);
     }
-  }, [showBookmarkedArticles, newsData, selectedSources, dateRange]);
+  }, [showBookmarkedArticles, newsData, selectedSources, selectedCategories, dateRange]);
 
   const handleSourceFilterChange = (selectedSources: string[]) => {
     setSelectedSources(selectedSources);
@@ -125,14 +136,13 @@ export default function App() {
       <div className="grid-container">
         <div className="navbar">
           <NavbarMinimal 
-            sources={sources} 
-            categories={categories} 
-            onFilterChange={handleSourceFilterChange} 
-            onDateRangeChange={handleDateRangeChange} 
-            onCategoryChange={handleCategoryFilterChange} 
+            sources={sources}
+            categories={categories}
+            onFilterChange={handleSourceFilterChange}
+            onDateRangeChange={handleDateRangeChange}
+            onCategoryChange={handleCategoryFilterChange}
             showBookmarkedArticles={showBookmarkedArticles}
-            toggleShowBookmarkedArticles={toggleShowBookmarkedArticles}
-           />
+            toggleShowBookmarkedArticles={toggleShowBookmarkedArticles} selectedSources={selectedSources} selectedCategories={selectedCategories}           />
         </div>
         <div className="main-content">
           <Welcome />

@@ -7,13 +7,11 @@ import { SearchableMultiSelect } from './SearchableMultiSelect';
 
 interface CategoryFilterProps {
   categories: string[];
+  selectedCategories: string[]; // Add selectedCategories prop
   onCategoryChange: (selectedCategories: string[]) => void;
 }
 
-const CategoryFilter: React.FC<CategoryFilterProps> = ({ categories, onCategoryChange }) => {
-    const handleCategoryChange = (selectedCategories: string[]) => {
-        onCategoryChange(selectedCategories); // Call the callback when filters change
-      };
+const CategoryFilter: React.FC<CategoryFilterProps> = ({ categories, selectedCategories, onCategoryChange }) => {
     return (
     <Popover width={300} position="right" withArrow shadow="md">
         <Popover.Target>
@@ -22,7 +20,7 @@ const CategoryFilter: React.FC<CategoryFilterProps> = ({ categories, onCategoryC
         </UnstyledButton>
         </Popover.Target>
         <Popover.Dropdown >
-        <SearchableMultiSelect sources={categories} onChange={handleCategoryChange} />
+        <SearchableMultiSelect sources={categories} value={selectedCategories} onChange={onCategoryChange} />
         </Popover.Dropdown>
     </Popover>
     );
