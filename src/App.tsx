@@ -4,7 +4,7 @@ import { theme } from "./theme";
 import { Welcome } from "./Welcome/Welcome";
 import NewsComponent from "./Components/newsComponent.tsx";
 import { NavbarMinimal } from "./Components/NavBarMinimal";
-import { ColorSchemeToggle } from "./ColorSchemeToggle/ColorSchemeToggle";
+//import { ColorSchemeToggle } from "./ColorSchemeToggle/ColorSchemeToggle";
 import { useState, useEffect } from 'react';
 import { NewsArticle } from './Components/newsComponent';
 import { convertToDate } from './utils/dateUtils';
@@ -152,9 +152,9 @@ export default function App() {
         </div>
         <div className="main-content">
           <Welcome />
-          <ColorSchemeToggle />
-          {
-          /*
+          {/*<ColorSchemeToggle />
+          
+          
           <SearchBar 
             searchTerm={searchTerm} 
             onSearchChange={handleSearchChange} 
