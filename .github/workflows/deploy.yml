@@ -25,6 +25,11 @@ jobs:
     - name: Build project
       run: yarn build
 
+    - name: Configure Git
+      run: |
+        git config --global user.name 'github-actions[bot]'
+        git config --global user.email 'github-actions[bot]@users.noreply.github.com'
+
     - name: Deploy to GitHub Pages
       env:
         GH_TOKEN: ${{ secrets.GH_PAT }} # Use the PAT instead of the default GITHUB_TOKEN
