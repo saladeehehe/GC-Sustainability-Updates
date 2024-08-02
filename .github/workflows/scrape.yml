@@ -31,12 +31,25 @@ jobs:
       
       env:
         GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-        
-    - name: Commit and push changes
+
+    - name: Commit and push changes to main
+      run: |
+        git config --global user.name 'github-actions'
+        git config --global user.email 'github-actions@github.com'
+        git checkout main
+        git add public/news_data2.json
+        git commit -m "Update scraped data"
+        git push origin main
+
+    - name: Checkout Deployment branch
+      uses: actions/checkout@v3
+      with:
+        ref: Deployment
+
+    - name: Commit and push changes to Deployment
       run: |
         git config --global user.name 'github-actions'
         git config --global user.email 'github-actions@github.com'
         git add public/news_data2.json
         git commit -m "Update scraped data"
-        git push
-
+        git push origin Deployment
