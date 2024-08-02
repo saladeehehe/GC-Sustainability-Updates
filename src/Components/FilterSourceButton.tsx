@@ -7,13 +7,12 @@ import { SearchableMultiSelect } from './SearchableMultiSelect';
 
 interface FilterSourceButtonProps {
   sources: string[];
+  selectedSources: string[];
   onFilterChange: (selectedSources: string[]) => void; // Callback for filter changes
 }
 
-const FilterSourceButton: React.FC<FilterSourceButtonProps> = ({ sources, onFilterChange }) => {
-  const handleFilterChange = (selectedSources: string[]) => {
-    onFilterChange(selectedSources); // Call the callback when filters change
-  };
+const FilterSourceButton: React.FC<FilterSourceButtonProps> = ({ sources,selectedSources, onFilterChange }) => {
+
 
   return (
     <Popover width={250} position="right" withArrow shadow="md">
@@ -23,7 +22,7 @@ const FilterSourceButton: React.FC<FilterSourceButtonProps> = ({ sources, onFilt
         </UnstyledButton>
       </Popover.Target>
       <Popover.Dropdown >
-        <SearchableMultiSelect sources={sources} onChange={handleFilterChange} />
+        <SearchableMultiSelect sources={sources} value={selectedSources} onChange={onFilterChange} />
       </Popover.Dropdown>
     </Popover>
   );

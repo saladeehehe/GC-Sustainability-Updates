@@ -31,7 +31,7 @@ const NewsComponent: React.FC<NewsComponentProps> = ({ newsData, toggleBookmark 
         }
 
         return (
-          <Grid.Col span={4} key={article.title} style={{ display: 'flex'}}>
+          <Grid.Col span={4} key={article.title} style={{ display: 'flex', position:'relative'}}>
             <Paper shadow="lg" radius="md" style={{ flex: 1, flexDirection: 'column' , padding: '10px'}}>
               <Anchor href={article.link} target="_blank" rel="noopener noreferrer" size="lg" mt="sm" fw={600}>
                 {article.title}
@@ -49,10 +49,10 @@ const NewsComponent: React.FC<NewsComponentProps> = ({ newsData, toggleBookmark 
                 <Text size="sm" style={{ marginRight: '10px', fontWeight: 'bold' }}>
                   Categories:
                 </Text>
-                <div style={{ display: 'flex', flexWrap: 'wrap' }}>
+                <div style={{ display: 'flex', flexWrap: 'wrap', margin: '5px'}}>
                   {article.categories && article.categories.map((category, index) => (
                     <Badge key={index} color={categoryColors[category] || 'gray'} // Fallback color if category not found
-                      style={{ marginRight: '5px' }}>
+                      style={{ marginRight: '5px', marginBottom:'5px'}}>
                       {category}
                     </Badge>
                   ))}
@@ -60,7 +60,9 @@ const NewsComponent: React.FC<NewsComponentProps> = ({ newsData, toggleBookmark 
               </div>
               <ActionIcon
                 onClick={() => toggleBookmark(article.title)}
-                style={{ marginTop: '10px' }}
+                style={{ position: 'absolute', 
+                bottom: '20px', 
+                right: '20px'}}
                 variant="outline"
                 color={article.bookmarked ? 'red' : 'gray'}
               >

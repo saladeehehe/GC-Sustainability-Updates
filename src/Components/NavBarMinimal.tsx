@@ -2,8 +2,6 @@ import { useState } from 'react';
 import { Center, Tooltip, UnstyledButton, Stack, rem } from '@mantine/core';
 import {
   IconHome2,
-  IconLogout,
-  IconSwitchHorizontal,
   IconRadar,
   IconCalendar,
   IconTag,
@@ -43,6 +41,8 @@ const mockdata = [
 interface NavbarMinimalProps {
   sources: string[]; // Add sources prop
   categories: string[];
+  selectedSources: string[], 
+  selectedCategories: string[],
   onFilterChange: (selectedSources: string[]) => void;
   onCategoryChange: (selectedCategories: string[]) => void;  
   onDateRangeChange: (startDate: Date | null, endDate: Date | null) => void;
@@ -53,6 +53,8 @@ interface NavbarMinimalProps {
 export function NavbarMinimal({ 
   sources, 
   categories, 
+  selectedSources, 
+  selectedCategories,
   onFilterChange, 
   onCategoryChange, 
   onDateRangeChange, 
@@ -71,13 +73,14 @@ export function NavbarMinimal({
 
   const handleCategoryChange = (selectedCategories: string[]) => {
     onCategoryChange(selectedCategories); // Propagate category change
+    console.log('Selected Categories:', selectedCategories);
   };
 
   const links = mockdata.map((link, index) => {
     if (link.label === 'Filter Sources') {
       return (
         <NavbarLink key={link.label} label={link.label} active={index === active} onClick={() => setActive(index)} icon={IconRadar}>
-          <FilterSourceButton sources={sources} onFilterChange={handleFilterChange} /> {/* Use the FilterSourceButton as the icon */}
+          <FilterSourceButton sources={sources} selectedSources = {selectedSources} onFilterChange={handleFilterChange} /> {/* Use the FilterSourceButton as the icon */}
         </NavbarLink>
       );
     } else if (link.label === 'Filter Dates') {
@@ -91,6 +94,7 @@ export function NavbarMinimal({
         <NavbarLink key={link.label} label={link.label} active={index === active} onClick={() => setActive(index)} icon={IconTag}>
           <CategoryFilter
             categories={categories}
+            selectedCategories={selectedCategories} // Pass selectedCategories
             onCategoryChange={handleCategoryChange}
           />
         </NavbarLink>
@@ -121,11 +125,6 @@ export function NavbarMinimal({
           {links}
         </Stack>
       </div>
-
-      <Stack justify="center" gap={0}>
-        <NavbarLink icon={IconSwitchHorizontal} label="Change account" />
-        <NavbarLink icon={IconLogout} label="Logout" />
-      </Stack>
     </nav>
   );
 }

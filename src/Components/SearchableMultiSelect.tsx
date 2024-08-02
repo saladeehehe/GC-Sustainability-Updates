@@ -1,32 +1,29 @@
-// src/components/SearchableMultiSelect.tsx
 import { useState } from 'react';
 import { CheckIcon, Combobox, Group, Pill, PillsInput, useCombobox } from '@mantine/core';
 
 interface SearchableMultiSelectProps {
   sources: string[];
+  value: string[]; // Add value prop
   onChange: (selectedSources: string[]) => void; // Add this prop
 }
 
-export function SearchableMultiSelect({ sources, onChange }: SearchableMultiSelectProps) {
+export function SearchableMultiSelect({ sources, value, onChange }: SearchableMultiSelectProps) {
   const combobox = useCombobox({
     onDropdownClose: () => combobox.resetSelectedOption(),
     onDropdownOpen: () => combobox.updateSelectedOptionIndex('active'),
   });
 
   const [search, setSearch] = useState('');
-  const [value, setValue] = useState<string[]>([]);
 
   const handleValueSelect = (val: string) => {
     const newValue = value.includes(val)
       ? value.filter((v) => v !== val)
       : [...value, val];
-    setValue(newValue);
     onChange(newValue); // Notify parent component of the change
   };
 
   const handleValueRemove = (val: string) => {
     const newValue = value.filter((v) => v !== val);
-    setValue(newValue);
     onChange(newValue); // Notify parent component of the change
   };
 

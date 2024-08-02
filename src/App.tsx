@@ -9,6 +9,7 @@ import { useState, useEffect } from 'react';
 import { NewsArticle } from './Components/newsComponent';
 import { convertToDate } from './utils/dateUtils';
 import { categorizeArticle } from './articleCategorizer';
+import SearchBar from './Components/SearchBar'
 import './App.css'; // Ensure this is where you put the .mainContent styles
 
 const extractSources = (newsData: NewsArticle[]): string[] => {
@@ -19,7 +20,7 @@ const extractSources = (newsData: NewsArticle[]): string[] => {
 const extractCategories = (newsData: NewsArticle[]): string[] => {
   const categoriesSet = new Set<string>();
   newsData.forEach(article => {
-    article.categories.forEach(category => categoriesSet.add(category));
+    (article.categories || []).forEach(category => categoriesSet.add(category));
   });
   return Array.from(categoriesSet);
 };
@@ -35,6 +36,7 @@ export default function App() {
   const [selectedCategories, setSelectedCategories] = useState<string[]>([]);
   const [dateRange, setDateRange] = useState<[Date | null, Date | null]>([null, null]);
   const [showBookmarkedArticles, setShowBookmarkedArticles] = useState<boolean>(false);
+  const [searchTerm, setSearchTerm] = useState<string>(''); // New state for search term
 
 
   useEffect(() => {
@@ -49,7 +51,7 @@ export default function App() {
         const newsData = data.map((article: any) => ({
           ...article,
           date: convertToDate(article.date),
-          categories: categorizeArticle(article.main_content_words || article.summary || article.title || ""),
+          categories: categorizeArticle(article.main_content_words || article.summary || article.title || "") ||[],
           bookmarked: false,
         })) as NewsArticle[];
 
@@ -71,6 +73,8 @@ export default function App() {
   }, []);
 
   useEffect(() => {
+    console.log("Selected Categories:", selectedCategories);
+
     if (showBookmarkedArticles) {
       const bookmarkedArticles = newsData.filter(article => article.bookmarked);
       setFilteredData(bookmarkedArticles);
@@ -87,12 +91,20 @@ export default function App() {
         const matchesSource = selectedSources.length
           ? selectedSources.includes(article.source)
           : true;
+        const matchesCategory = selectedCategories.length
+          ? (article.categories || []).some(category => selectedCategories.includes(category))
+          : true;
+        const matchesSearchTerm = searchTerm
+          ? article.title.toLowerCase().includes(searchTerm.toLowerCase()) || article.summary.toLowerCase().includes(searchTerm.toLowerCase())
+          : true;
 
-        return withinDateRange && matchesSource;
+
+
+        return withinDateRange && matchesSource && matchesCategory && matchesSearchTerm;
       });
       setFilteredData(filtered);
     }
-  }, [showBookmarkedArticles, newsData, selectedSources, dateRange]);
+  }, [showBookmarkedArticles, newsData, selectedSources, selectedCategories, dateRange]);
 
   const handleSourceFilterChange = (selectedSources: string[]) => {
     setSelectedSources(selectedSources);
@@ -105,6 +117,11 @@ export default function App() {
   const handleDateRangeChange = (startDate: Date | null, endDate: Date | null) => {
     setDateRange([startDate, endDate]);
   };
+
+  const handleSearchChange = (event: React.ChangeEvent<HTMLInputElement>) => {
+    setSearchTerm(event.target.value);
+  };
+
   const toggleBookmark = (title: string) => {
     const updatedNewsData = newsData.map(article => 
       article.title === title ? { ...article, bookmarked: !article.bookmarked } : article
@@ -125,18 +142,26 @@ export default function App() {
       <div className="grid-container">
         <div className="navbar">
           <NavbarMinimal 
-            sources={sources} 
-            categories={categories} 
-            onFilterChange={handleSourceFilterChange} 
-            onDateRangeChange={handleDateRangeChange} 
-            onCategoryChange={handleCategoryFilterChange} 
+            sources={sources}
+            categories={categories}
+            onFilterChange={handleSourceFilterChange}
+            onDateRangeChange={handleDateRangeChange}
+            onCategoryChange={handleCategoryFilterChange}
             showBookmarkedArticles={showBookmarkedArticles}
-            toggleShowBookmarkedArticles={toggleShowBookmarkedArticles}
-           />
+            toggleShowBookmarkedArticles={toggleShowBookmarkedArticles} selectedSources={selectedSources} selectedCategories={selectedCategories}           />
         </div>
         <div className="main-content">
           <Welcome />
           <ColorSchemeToggle />
+          {
+          /*
+          <SearchBar 
+            searchTerm={searchTerm} 
+            onSearchChange={handleSearchChange} 
+          />
+          */
+          }
+
           <NewsComponent newsData={filteredData} toggleBookmark={toggleBookmark} />
         </div>
       </div>
