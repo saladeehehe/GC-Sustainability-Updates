@@ -9,7 +9,7 @@ import { useState, useEffect } from 'react';
 import { NewsArticle } from './Components/newsComponent';
 import { convertToDate } from './utils/dateUtils';
 import { categorizeArticle } from './articleCategorizer';
-import SearchBar from './Components/SearchBar'
+//import SearchBar from './Components/SearchBar'
 import './App.css'; // Ensure this is where you put the .mainContent styles
 
 const extractSources = (newsData: NewsArticle[]): string[] => {
@@ -36,7 +36,7 @@ export default function App() {
   const [selectedCategories, setSelectedCategories] = useState<string[]>([]);
   const [dateRange, setDateRange] = useState<[Date | null, Date | null]>([null, null]);
   const [showBookmarkedArticles, setShowBookmarkedArticles] = useState<boolean>(false);
-  const [searchTerm, setSearchTerm] = useState<string>(''); // New state for search term
+  //const [searchTerm, setSearchTerm] = useState<string>(''); // New state for search term
 
 
   useEffect(() => {
@@ -94,13 +94,13 @@ export default function App() {
         const matchesCategory = selectedCategories.length
           ? (article.categories || []).some(category => selectedCategories.includes(category))
           : true;
-        const matchesSearchTerm = searchTerm
-          ? article.title.toLowerCase().includes(searchTerm.toLowerCase()) || article.summary.toLowerCase().includes(searchTerm.toLowerCase())
-          : true;
+        //const matchesSearchTerm = searchTerm
+        //  ? article.title.toLowerCase().includes(searchTerm.toLowerCase()) || article.summary.toLowerCase().includes(searchTerm.toLowerCase())
+        //  : true;
 
 
 
-        return withinDateRange && matchesSource && matchesCategory && matchesSearchTerm;
+        return withinDateRange && matchesSource && matchesCategory && {/*matchesSearchTerm*/};
       });
       setFilteredData(filtered);
     }
@@ -118,9 +118,9 @@ export default function App() {
     setDateRange([startDate, endDate]);
   };
 
-  const handleSearchChange = (event: React.ChangeEvent<HTMLInputElement>) => {
-    setSearchTerm(event.target.value);
-  };
+  //const handleSearchChange = (event: React.ChangeEvent<HTMLInputElement>) => {
+  //  setSearchTerm(event.target.value);
+  //};
 
   const toggleBookmark = (title: string) => {
     const updatedNewsData = newsData.map(article => 
