@@ -11,6 +11,41 @@ response = requests.get(url)
 
 press_release_links = np.array([])
 
+# Initialize the articles list
+articles = []
+
+
+def get_pdf_details(href):
+    link = 'https://www.mse.gov.sg' + href
+    soup = BeautifulSoup(response.content, 'html.parser')
+    
+    # Find the section containing the PDF link
+    link_element = soup.find('a', href=href)
+    if link_element:
+        # Extract the h5 and small elements
+        h5_element = link_element.find('h5', class_='has-text-white')
+        small_elements = link_element.find_all('small', class_='has-text-white')
+        
+        if h5_element and small_elements:
+            h5_text = h5_element.get_text(strip=True)
+            date = small_elements[1].get_text(strip=True)
+            date = ' '.join([word.title() if word.isupper() else word for word in date.split()])
+            
+            # Combine the extracted details
+            articles.append({
+                'title': h5_text,
+                'summary' : 'This is a pdf',
+                'date': date,
+                "source": "Ministry of Sustainability and the Environment",
+                "link": link
+            })
+            
+        else:
+            print('h5 or small elements not found')
+    else:
+        print('Link element not found')
+
+# get the links to the press release news
 def get_press_release_links():
     global press_release_links
     soup = BeautifulSoup(response.content, 'html.parser')
@@ -25,12 +60,14 @@ def get_press_release_links():
     hrefs = [a['href'] for a in a_tags]
     
     for href in hrefs:
-        press_release_links = np.append(press_release_links, 'https://www.mse.gov.sg' + href)
+        if href.endswith('.pdf'):
+            # links to a pdf instead of webpage so need to dealt with by another function
+            get_pdf_details(href)
+        else:
+            press_release_links = np.append(press_release_links, 'https://www.mse.gov.sg' + href)
 
 get_press_release_links()
 
-# Initialize the articles list
-articles = []
 
 # Function to fetch and parse details from each press release link
 def get_press_release_details(link):
@@ -71,6 +108,7 @@ def get_press_release_details(link):
 
 # Loop through each press release link and get details
 for link in press_release_links:
+    # Check if the link ends with .pdf
     get_press_release_details(link)
 
 #len(articles)
