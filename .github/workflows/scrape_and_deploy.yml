@@ -13,8 +13,10 @@ jobs:
     runs-on: ubuntu-latest
 
     steps:
-    - name: Checkout repository
+    - name: Checkout main branch
       uses: actions/checkout@v3
+      with:
+        ref: main  # Check out the main branch
 
     - name: Set up Python
       uses: actions/setup-python@v4
@@ -40,23 +42,16 @@ jobs:
         git push origin main
 
     - name: Checkout Deployment branch
-      run: git checkout Deployment
+      uses: actions/checkout@v3
+      with:
+        ref: Deployment  # Check out the Deployment branch
 
-    - name: Merge main into Deployment
+    - name: Copy updated file from main to Deployment
       run: |
-        git merge main --no-edit
-      continue-on-error: true
-
-    - name: Resolve merge conflicts
-      if: failure()
-      run: |
-        git merge --abort
-        git checkout -B Deployment origin/main
-        git push -f origin Deployment
-
-    - name: Commit and push changes to Deployment branch
-      if: success() || failure()
-      run: git push origin Deployment
+        git checkout main -- public/news_data2.json
+        git add public/news_data2.json
+        git commit -m "Update news_data2.json in Deployment branch"
+        git push origin Deployment
 
     - name: Deploy to GitHub Pages
       if: github.ref == 'refs/heads/Deployment'
