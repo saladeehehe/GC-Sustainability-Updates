@@ -40,7 +40,9 @@ jobs:
         git push origin main
 
     - name: Checkout Deployment branch
-      run: git checkout Deployment
+      run: |
+        git fetch origin
+        git checkout Deployment
 
     - name: Merge main into Deployment
       run: |
