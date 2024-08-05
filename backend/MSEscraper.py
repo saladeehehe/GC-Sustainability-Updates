@@ -34,7 +34,7 @@ def get_pdf_details(href):
             # Combine the extracted details
             articles.append({
                 'title': h5_text,
-                'summary' : 'This is a pdf',
+                'summary' : 'This is a PDF',
                 'date': date,
                 "source": "Ministry of Sustainability and the Environment",
                 "link": link

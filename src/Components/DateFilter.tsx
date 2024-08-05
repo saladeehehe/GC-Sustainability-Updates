@@ -25,6 +25,20 @@ const DateRangeFilterButton: React.FC<DateRangeFilterButtonProps> = ({ onDateRan
     setOpened(false);
   };
 
+  const setLast3Months = () => {
+    const today = new Date();
+    const last3Months = new Date();
+    last3Months.setMonth(today.getMonth() - 3);
+    setDateRange([last3Months, today]);
+    onDateRangeChange(last3Months, today);
+  };
+
+  const setThisYear = () => {
+    const today = new Date();
+    const startOfYear = new Date(today.getFullYear(), 0, 1);
+    setDateRange([startOfYear, today]);
+    onDateRangeChange(startOfYear, today);
+  };
   return (
     <Popover
       position="right"
@@ -42,6 +56,14 @@ const DateRangeFilterButton: React.FC<DateRangeFilterButtonProps> = ({ onDateRan
         </UnstyledButton>
       </Popover.Target>
       <Popover.Dropdown>
+        <div style={{ display: 'flex', justifyContent: 'space-between', marginBottom: '10px' }}>
+          <Button variant = "light"  color="red" onClick={setLast3Months} >
+            Last 3 Months
+          </Button>
+          <Button variant = "light"  color="red" onClick={setThisYear}>
+            This Year
+          </Button>
+        </div>
         <DatePicker
           type = "range"
           allowSingleDateInRange 

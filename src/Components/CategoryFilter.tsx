@@ -1,7 +1,7 @@
 import React from 'react';
 
 import { Popover, UnstyledButton } from '@mantine/core';
-import { IconRadar } from '@tabler/icons-react';
+import { IconCategory } from '@tabler/icons-react';
 import { SearchableMultiSelect } from './SearchableMultiSelect';
 
 
@@ -16,7 +16,7 @@ const CategoryFilter: React.FC<CategoryFilterProps> = ({ categories, selectedCat
     <Popover width={300} position="right" withArrow shadow="md">
         <Popover.Target>
         <UnstyledButton style={{ display: 'flex', alignItems: 'center' }}>
-            <IconRadar size={20} stroke={1.5} />
+            <IconCategory size={20} stroke={1.5} />
         </UnstyledButton>
         </Popover.Target>
         <Popover.Dropdown >

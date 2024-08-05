@@ -20,3 +20,7 @@ export const title = style({
     },
   },
 });
+
+export const welcomeComponent = style({
+  marginBottom: rem(20),
+});
