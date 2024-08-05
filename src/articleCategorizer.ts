@@ -3,7 +3,7 @@ const categories = {
     "Water": ["water conservation", "water management", "water usage", 'Water'],
     "Energy": ["energy efficiency", "renewable energy", "energy consumption", 'energy'],
     "Material": ["materials", "resource efficiency", "recycling"],
-    "Policies/Acts/Regulations": ["Agreement", "regulation", "policy", 'Act', 'Reporting'], 
+    "Policies/Acts/Regulations": ["Agreement", "regulation", "policy", 'Act', 'Reporting', 'legislation'], 
     "Singapore": ['Singapore']
 };
 

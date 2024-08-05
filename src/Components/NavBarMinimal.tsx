@@ -4,8 +4,8 @@ import {
   IconHome2,
   IconRadar,
   IconCalendar,
-  IconTag,
   IconBookmark,
+  IconCategory
 } from '@tabler/icons-react';
 import classes from './NavbarMinimal.module.css';
 import FilterSourceButton from './FilterSourceButton.tsx'; // Import the FilterSourceButton
@@ -33,7 +33,7 @@ function NavbarLink({ icon: Icon, label, active, onClick, children }: NavbarLink
 const mockdata = [
   { icon: IconRadar, label: 'Filter Sources' },
   { icon: IconCalendar, label: 'Filter Dates' },
-  { icon: IconTag, label: 'Filter Categories' },
+  { icon: IconCategory, label: 'Filter Categories' },
   { icon: IconBookmark, label: 'Bookmarked Articles' }
 
 ];
@@ -91,7 +91,7 @@ export function NavbarMinimal({
       );
     } else if (link.label === 'Filter Categories') {
       return (
-        <NavbarLink key={link.label} label={link.label} active={index === active} onClick={() => setActive(index)} icon={IconTag}>
+        <NavbarLink key={link.label} label={link.label} active={index === active} onClick={() => setActive(index)} icon={IconCategory}>
           <CategoryFilter
             categories={categories}
             selectedCategories={selectedCategories} // Pass selectedCategories

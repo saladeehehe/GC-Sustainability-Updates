@@ -1,5 +1,5 @@
 import "@mantine/core/styles.css";
-import { MantineProvider } from "@mantine/core";
+import { MantineProvider, Button, Dialog, Text } from "@mantine/core";
 import { theme } from "./theme";
 import { Welcome } from "./Welcome/Welcome";
 import NewsComponent from "./Components/newsComponent.tsx";
@@ -9,8 +9,9 @@ import { useState, useEffect } from 'react';
 import { NewsArticle } from './Components/newsComponent';
 import { convertToDate } from './utils/dateUtils';
 import { categorizeArticle } from './articleCategorizer';
-//import SearchBar from './Components/SearchBar'
+import SearchBar from './Components/SearchBar'
 import './App.css'; // Ensure this is where you put the .mainContent styles
+import * as styles from './Welcome/Welcome.css.ts'
 
 const extractSources = (newsData: NewsArticle[]): string[] => {
   const sourcesSet = new Set(newsData.map(article => article.source));
@@ -36,7 +37,9 @@ export default function App() {
   const [selectedCategories, setSelectedCategories] = useState<string[]>([]);
   const [dateRange, setDateRange] = useState<[Date | null, Date | null]>([null, null]);
   const [showBookmarkedArticles, setShowBookmarkedArticles] = useState<boolean>(false);
-  //const [searchTerm, setSearchTerm] = useState<string>(''); // New state for search term
+  const [searchTerm, setSearchTerm] = useState<string>(''); // New state for search term
+  const [openConfirmation, setOpenConfirmation] = useState<boolean>(false); //for clear bookmarks Dialog
+
 
 
   useEffect(() => {
@@ -51,13 +54,21 @@ export default function App() {
         const newsData = data.map((article: any) => ({
           ...article,
           date: convertToDate(article.date),
-          categories: categorizeArticle(article.main_content_words || article.summary || article.title || "") ||[],
+          categories: categorizeArticle(article.title || article.main_content_words || article.summary || "") ||[],
           bookmarked: false,
         })) as NewsArticle[];
   
         // Sort news data by date in descending order
         newsData.sort((a, b) => b.date.getTime() - a.date.getTime());
-  
+        
+        // Load bookmarks from localStorage so that bookmarks persist across page reloads 
+        const bookmarks = JSON.parse(localStorage.getItem('bookmarks') || '[]');
+        newsData.forEach(article => {
+          if (bookmarks.includes(article.title)) {
+            article.bookmarked = true;
+          }
+        });
+
         setNewsData(newsData);
         setSources(extractSources(newsData));
         setCategories(extractCategories(newsData)); // Extract categories
@@ -73,7 +84,6 @@ export default function App() {
   }, []);
 
   useEffect(() => {
-    console.log("Selected Categories:", selectedCategories);
 
     if (showBookmarkedArticles) {
       const bookmarkedArticles = newsData.filter(article => article.bookmarked);
@@ -94,17 +104,17 @@ export default function App() {
         const matchesCategory = selectedCategories.length
           ? (article.categories || []).some(category => selectedCategories.includes(category))
           : true;
-        //const matchesSearchTerm = searchTerm
-        //  ? article.title.toLowerCase().includes(searchTerm.toLowerCase()) || article.summary.toLowerCase().includes(searchTerm.toLowerCase())
-        //  : true;
+        const matchesSearchTerm = searchTerm
+          ? article.title.toLowerCase().includes(searchTerm.toLowerCase()) || article.summary?.toLowerCase().includes(searchTerm.toLowerCase())
+          : true;
 
 
 
-        return withinDateRange && matchesSource && matchesCategory && {/*matchesSearchTerm*/};
+        return withinDateRange && matchesSource && matchesCategory && matchesSearchTerm;
       });
       setFilteredData(filtered);
     }
-  }, [showBookmarkedArticles, newsData, selectedSources, selectedCategories, dateRange]);
+  }, [showBookmarkedArticles, newsData, selectedSources, selectedCategories, dateRange, searchTerm]);
 
   const handleSourceFilterChange = (selectedSources: string[]) => {
     setSelectedSources(selectedSources);
@@ -118,21 +128,33 @@ export default function App() {
     setDateRange([startDate, endDate]);
   };
 
-  //const handleSearchChange = (event: React.ChangeEvent<HTMLInputElement>) => {
-  //  setSearchTerm(event.target.value);
-  //};
+  const handleSearchChange = (event: React.ChangeEvent<HTMLInputElement>) => {
+    setSearchTerm(event.target.value);
+  };
 
   const toggleBookmark = (title: string) => {
     const updatedNewsData = newsData.map(article => 
       article.title === title ? { ...article, bookmarked: !article.bookmarked } : article
     );
+
     setNewsData(updatedNewsData);
     setFilteredData(updatedNewsData); // Update filtered data to reflect the change
+
+    // Update localStorage
+    const bookmarks = updatedNewsData.filter(article => article.bookmarked).map(article => article.title);
+    localStorage.setItem('bookmarks', JSON.stringify(bookmarks));
   };
 
   const toggleShowBookmarkedArticles = () => {
     setShowBookmarkedArticles(!showBookmarkedArticles);
   };
+  const clearAllBookmarks = () => {
+    const updatedNewsData = newsData.map(article => ({ ...article, bookmarked: false }));
+    setNewsData(updatedNewsData);
+    setFilteredData(updatedNewsData);
+    setOpenConfirmation(false);
+  };
+
 
   if (loading) return <p>Loading...</p>;
   if (error) return <p>Error: {error}</p>;
@@ -151,16 +173,36 @@ export default function App() {
             toggleShowBookmarkedArticles={toggleShowBookmarkedArticles} selectedSources={selectedSources} selectedCategories={selectedCategories}           />
         </div>
         <div className="main-content">
-          <Welcome />
-          {/*<ColorSchemeToggle />
-          
-          
+          <div className = {styles.welcomeComponent}>
+            <Welcome/>
+          </div>
+          <div style={{ textAlign: 'right', padding: '20px' }}>
+            {/* Add the Clear Bookmarks Button */}
+            <Button onClick={() => setOpenConfirmation(true)}>
+              Clear All Bookmarks
+            </Button>
+          </div>
+            {/* Confirmation Dialog */}
+          <Dialog
+            opened={openConfirmation}
+            onClose={() => setOpenConfirmation(false)}
+            title="Confirm Action"
+          >
+            <Text>Are you sure you want to clear all bookmarks? This action cannot be undone.</Text>
+            <div style={{ marginTop: '20px', display: 'flex', justifyContent: 'flex-end' }}>
+              <Button onClick={clearAllBookmarks} style={{ marginRight: '10px' }}>
+                Yes, Clear
+              </Button>
+              <Button variant="outline" onClick={() => setOpenConfirmation(false)}>
+                Cancel
+              </Button>
+            </div>
+          </Dialog>
           <SearchBar 
             searchTerm={searchTerm} 
             onSearchChange={handleSearchChange} 
           />
-          */
-          }
+          
 
           <NewsComponent newsData={filteredData} toggleBookmark={toggleBookmark} />
         </div>
