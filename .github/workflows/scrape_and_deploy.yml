@@ -13,8 +13,10 @@ jobs:
     runs-on: ubuntu-latest
 
     steps:
-    - name: Checkout repository
+    - name: Checkout main branch
       uses: actions/checkout@v3
+      with:
+        ref: main
 
     - name: Set up Python
       uses: actions/setup-python@v4
@@ -40,25 +42,22 @@ jobs:
         git push origin main
 
     - name: Checkout Deployment branch
-      run: |
-        git fetch origin
-        git checkout Deployment
+      uses: actions/checkout@v3
+      with:
+        ref: Deployment
 
-    - name: Merge main into Deployment
+    - name: Overwrite news_data2.json from main branch
       run: |
-        git merge main --allow-unrelated-histories --no-edit
-      continue-on-error: true
-
-    - name: Resolve merge conflicts
-      if: failure()
-      run: |
-        git merge --abort
-        git checkout -B Deployment origin/main
-        git push -f origin Deployment
+        git fetch origin main
+        git checkout origin/main -- public/news_data2.json
 
     - name: Commit and push changes to Deployment branch
-      if: success() || failure()
-      run: git push origin Deployment
+      run: |
+        git config --global user.name 'github-actions'
+        git config --global user.email 'github-actions@github.com'
+        git add public/news_data2.json
+        git commit -m "Overwrite news_data2.json with version from main"
+        git push origin Deployment
 
     - name: Deploy to GitHub Pages
       if: github.ref == 'refs/heads/Deployment'
