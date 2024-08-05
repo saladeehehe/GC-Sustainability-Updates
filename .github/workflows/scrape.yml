@@ -1,4 +1,4 @@
-name: Run Python Scrapers
+name: Scrape and Deploy
 
 on:
   schedule:
@@ -14,28 +14,53 @@ jobs:
 
     steps:
     - name: Checkout repository
-      uses: actions/checkout@v3  # This action will use Node.js 20 automatically
+      uses: actions/checkout@v3
 
     - name: Set up Python
-      uses: actions/setup-python@v4  # This action will use Node.js 20 automatically
+      uses: actions/setup-python@v4
       with:
-        python-version: '3.11'  # Using the latest stable version of Python
+        python-version: '3.11'
 
-    - name: Install dependencies
+    - name: Install Python dependencies
       run: |
         python -m pip install --upgrade pip
-        pip install -r backend/requirements.txt  # Adjusted path to requirements.txt
+        pip install -r backend/requirements.txt
 
     - name: Run aggregator script
       run: python aggregate_scrapers.py
-      
       env:
         GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-        
-    - name: Commit and push changes
+
+    - name: Commit and push changes to main branch
       run: |
         git config --global user.name 'github-actions'
         git config --global user.email 'github-actions@github.com'
         git add public/news_data2.json
-        git commit -m "Update scraped data"
-        git push
+        git commit -m "Update scraped data in main"
+        git push origin main
+
+    - name: Checkout Deployment branch
+      run: git checkout Deployment
+
+    - name: Merge main into Deployment
+      run: |
+        git merge main --no-edit
+      continue-on-error: true
+
+    - name: Resolve merge conflicts
+      if: failure()
+      run: |
+        git merge --abort
+        git checkout -B Deployment origin/main
+        git push -f origin Deployment
+
+    - name: Commit and push changes to Deployment branch
+      if: success() || failure()
+      run: git push origin Deployment
+
+    - name: Deploy to GitHub Pages
+      if: github.ref == 'refs/heads/Deployment'
+      run: |
+        yarn add gh-pages
+        git remote set-url origin https://x-access-token:${{ secrets.GH_PAT }}@github.com/${{ github.repository }}.git
+        yarn deploy
