@@ -14,10 +14,10 @@ jobs:
 
     steps:
     - name: Checkout repository
-      uses: actions/checkout@v3  # Updated to use the latest version
+      uses: actions/checkout@v3  # This action will use Node.js 20 automatically
 
     - name: Set up Python
-      uses: actions/setup-python@v4
+      uses: actions/setup-python@v4  # This action will use Node.js 20 automatically
       with:
         python-version: '3.11'  # Using the latest stable version of Python
 
@@ -39,4 +39,3 @@ jobs:
         git add public/news_data2.json
         git commit -m "Update scraped data"
         git push
-
