@@ -48,7 +48,6 @@ jobs:
 
     - name: Copy updated file from main to Deployment
       run: |
-        git fetch origin main
         git checkout main -- public/news_data2.json
         git add public/news_data2.json
         git commit -m "Update news_data2.json in Deployment branch"
