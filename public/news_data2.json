@@ -35,13 +35,6 @@
         "link": "https://news.nus.edu.sg/raising-standards-for-sustainability-reporting-in-singapore/"
     },
     {
-        "title": "Singapore\u2019s Carbon Regulations: Paving the Way for the Green Plan 2030",
-        "summary": "Other Author Maria Chang, Senior Associate of PK Wong & Nair. Recognising \nthe threat of climate change and the importance of sustainable...",
-        "date": "06 Feb 2024",
-        "source": "Mayer Brown",
-        "link": "https://www.mayerbrown.com/en/insights/publications/2024/02/singapores-carbon-regulations-paving-the-way-for-the-green-plan-2030"
-    },
-    {
         "title": "Singapore rolls out new industry benchmark for sustainable finance skills",
         "summary": "As the city-state seeks to expand its sustainable finance workforce over \nthe next few years, the sector's national certification agency has...",
         "date": "18 Apr 2024",
@@ -49,11 +42,18 @@
         "link": "https://www.eco-business.com/news/singapore-rolls-out-new-industry-benchmark-for-sustainable-finance-skills/"
     },
     {
+        "title": "Singapore\u2019s Carbon Regulations: Paving the Way for the Green Plan 2030",
+        "summary": "Other Author Maria Chang, Senior Associate of PK Wong & Nair. Recognising \nthe threat of climate change and the importance of sustainable...",
+        "date": "06 Feb 2024",
+        "source": "Mayer Brown",
+        "link": "https://www.mayerbrown.com/en/insights/publications/2024/02/singapores-carbon-regulations-paving-the-way-for-the-green-plan-2030"
+    },
+    {
         "title": "Unlocking ESG Reporting Requirements in Singapore",
-        "summary": "ASEAN Briefing Magazine highlights the importance of Environmental, Social, \nand Governance (ESG) reporting in Singapore,...",
-        "date": "05 Mar 2024",
-        "source": "Thailand Business News",
-        "link": "https://www.thailand-business-news.com/asean/129220-unlocking-esg-reporting-requirements-in-singapore"
+        "summary": "The latest ASEAN Briefing Magazine, titled \u201cUnlocking ESG Reporting \nRequirements in Singapore\u201d, is out now for free download.",
+        "date": "04 Mar 2024",
+        "source": "ASEAN Briefing",
+        "link": "https://www.aseanbriefing.com/news/unlocking-esg-reporting-requirements-in-singapore-latest-issue-of-asean-briefing-magazine/"
     },
     {
         "title": "Climate vouchers, coastal protection law among sustainability measures \nannounced at Budget debate",
@@ -61,6 +61,13 @@
         "date": "10 Mar 2024",
         "source": "The Straits Times",
         "link": "https://www.straitstimes.com/singapore/politics/at-a-glance-sustainability-measures-announced-at-the-2024-budget-debate"
+    },
+    {
+        "title": "In Brief: Europe expands register of environmental crimes; Singapore to \nimplement mandatory ISSB standards",
+        "summary": "The latest ESG policy and regulatory news The Belgian presidency of the \nEuropean Council has failed to negotiate an agreement between member...",
+        "date": "01 Mar 2024",
+        "source": "Sustainable Views",
+        "link": "https://www.sustainableviews.com/in-brief-europe-expands-register-of-environmental-crimes-singapore-to-implement-mandatory-issb-standards-598ec0aa/"
     },
     {
         "title": "Singapore leads with new funding initiative for sustainability reporting",
@@ -89,13 +96,6 @@
         "date": "06 Mar 2024",
         "source": "ESG Today",
         "link": "https://www.esgtoday.com/singapore-to-provide-funding-for-companies-to-meet-new-climate-reporting-requirements/"
-    },
-    {
-        "title": "Accounting and law bodies team up to build sustainability capabilities in \nprofessional services firms",
-        "summary": "SINGAPORE's key accountancy and legal professional bodies will join hands \nover the next three years to build a community of professional...",
-        "date": "05 Jan 2024",
-        "source": "The Business Times",
-        "link": "https://www.businesstimes.com.sg/esg/accounting-and-law-bodies-team-build-sustainability-capabilities-professional-services-firms"
     },
     {
         "title": "From Big Four dominance to more oversight of assurance providers \u2013 what to \nlook out for as Asia adopts ISSB standards",
@@ -164,7 +164,7 @@
         "title": "Enterprise Singapore developing new local, international sustainability \nstandards and accreditation schemes",
         "summary": "Enterprise Singapore developing new local, international sustainability \nstandards and accreditation schemes ... Among the earliest standards to \nbe...",
         "date": "28 Sep 2023",
-        "source": "Yahoo Finance",
+        "source": "Yahoo Finance Singapore",
         "link": "https://sg.finance.yahoo.com/news/enterprise-singapore-developing-local-international-232146590.html"
     },
     {
@@ -252,6 +252,13 @@
         "link": "https://www.straitstimes.com/singapore/consumer/new-roadmap-to-set-sustainability-standards-targets-for-business-events-organisers"
     },
     {
+        "title": "Singapore moves forward with mandatory climate reporting \u2013 implications for \nU.S.-based multinationals",
+        "summary": "Amidst the uncertain future of U.S. climate reporting rules, other \njurisdictions continue to move forward with climate reporting...",
+        "date": "15 Apr 2024",
+        "source": "Ropes & Gray LLP",
+        "link": "https://www.ropesgray.com/en/insights/viewpoints/102j5cd/singapore-moves-forward-with-mandatory-climate-reporting-implications-for-u-s"
+    },
+    {
         "title": "How ISSB standards redefine sustainability disclosures",
         "summary": "Companies can now integrate sustainability and financial outcomes better \nwith the new IFRS S1 and S2 standards. Learn more.",
         "date": "01 Aug 2023",
@@ -273,11 +280,32 @@
         "link": "https://asia.nikkei.com/Spotlight/Environment/Climate-Change/Singapore-to-require-climate-reporting-by-unlisted-companies"
     },
     {
+        "title": "New sustainability playbook, microsite can help logistics players go green",
+        "summary": "SINGAPORE'S logistics players who are keen to adopt green practices can now \ndraw on step-by-step resources from a new sustainability...",
+        "date": "21 Feb 2024",
+        "source": "The Business Times",
+        "link": "https://www.businesstimes.com.sg/singapore/smes/new-sustainability-playbook-microsite-can-help-logistics-players-go-green"
+    },
+    {
         "title": "Environmental pollution law receives boost to tackle climate change, noise",
         "summary": "Amendments to the law give regulatory teeth to existing initiatives to \ncontrol the release of hydrofluorocarbons.",
         "date": "13 Sep 2021",
         "source": "The Straits Times",
         "link": "https://www.straitstimes.com/singapore/politics/proposed-changes-to-law-on-environmental-pollution-will-boost-efforts-to-tackle"
+    },
+    {
+        "title": "S\u2019pore regulators propose mandatory climate reporting for listed, large \nnon-listed firms",
+        "summary": "A committee formed by two of Singapore's top regulators is seeking public \nfeedback on the move. Read more at straitstimes.com.",
+        "date": "06 Jul 2023",
+        "source": "The Straits Times",
+        "link": "https://www.straitstimes.com/business/singapore-regulators-propose-mandatory-climate-reporting-for-listed-and-large-non-listed-companies"
+    },
+    {
+        "title": "Transforming Singapore towards sustainable tourism and urban living",
+        "summary": "Sustainable tourism is becoming a bigger concept in Singapore, where they \nare prepared to address traveller needs and reconsider their...",
+        "date": "11 Apr 2023",
+        "source": "Open Access Government",
+        "link": "https://www.openaccessgovernment.org/transforming-singapore-sustainable-tourism-urban-living/157031/"
     },
     {
         "title": "New developments in Singapore\u2019s ESG investment regulatory landscape",
@@ -287,6 +315,20 @@
         "link": "https://www.iflr.com/article/2a647zxame68p5ffjft34/new-developments-in-singapores-esg-investment-regulatory-landscape"
     },
     {
+        "title": "Get ready for a new level of ESG reporting",
+        "summary": "The European Union's Corporate Sustainability Reporting Directive (CSRD) is \ntransforming environmental, social and governance (ESG) reporting.",
+        "date": "09 Mar 2023",
+        "source": "KPMG",
+        "link": "https://kpmg.com/sg/en/home/insights/2023/03/get-ready-for-the-next-wave-of-esg-reporting.html"
+    },
+    {
+        "title": "The first ISSB reporting standards are here",
+        "summary": "The inaugural publication of the first two IFRS \u00ae Sustainability Disclosure \nStandards 1 is a key milestone in the International Sustainability \nStandards...",
+        "date": "13 Jul 2023",
+        "source": "KPMG",
+        "link": "https://kpmg.com/sg/en/home/insights/2023/07/issb-standards-are-now-live.html"
+    },
+    {
         "title": "Singapore launches mandatory climate reporting consultation",
         "summary": "The city-state has plans to expand current climate disclosure requirements \nto a wider group of listed and unlisted companies active in the...",
         "date": "18 Jul 2023",
@@ -294,46 +336,11 @@
         "link": "https://www.financeasia.com/article/singapore-launches-mandatory-climate-reporting-consultation/485384"
     },
     {
-        "title": "Singapore\u2019s top 100 companies outperform the global average in \nsustainability reporting",
-        "summary": "The latest findings from KPMG reveal that sustainability reporting has \ngrown steadily, with 79% of leading global companies providing...",
-        "date": "18 Oct 2022",
-        "source": "KPMG",
-        "link": "https://kpmg.com/sg/en/home/media/press-releases/2022/10/singapore-top-100-companies-in-sustainability-reporting.html"
-    },
-    {
-        "title": "How the Singapore Green Plan 2030 is creating Asia\u2019s most sustainable city",
-        "summary": "... the most sustainable city in Asia-Pacific in Knight Frank's new study; \nIn the global Arcadis Sustainable Cities Index, Singapore ranks...",
-        "date": "09 Aug 2022",
-        "source": "South China Morning Post",
-        "link": "https://www.scmp.com/country-reports/country-reports/topics/singapore-national-day-2022/article/3188126/how-singapore"
-    },
-    {
-        "title": "Singapore introduces sustainability standard for data centers in tropical \nclimate",
-        "summary": "Singapore launches one of the world's first standard for optimizing energy \nefficiency for data center sustainability in tropical climate.",
-        "date": "05 Jun 2023",
-        "source": "Tech Wire Asia",
-        "link": "https://techwireasia.com/2023/06/sustainability-standard-for-data-centers-in-tropical-climate/"
-    },
-    {
-        "title": "Tender evaluations for government projects to include environmental \ncriteria from 2024",
-        "summary": "COMPANIES that can demonstrate the sustainability credentials of their \ngoods and services may soon have a leg up when bidding for certain...",
-        "date": "02 Mar 2023",
-        "source": "The Business Times",
-        "link": "https://www.businesstimes.com.sg/singapore/tender-evaluations-government-projects-include-environmental-criteria-2024"
-    },
-    {
-        "title": "Buildings in S'pore have to meet higher standards to be certified green \nunder refreshed scheme",
-        "summary": "The changes come as Singapore pushes towards its target to become a \nlow-carbon built environment. Read more at straitstimes.com.",
-        "date": "07 Sep 2021",
-        "source": "The Straits Times",
-        "link": "https://www.straitstimes.com/singapore/buildings-in-spore-have-to-meet-higher-standards-to-be-certified-green-under-refreshed"
-    },
-    {
-        "title": "Review of climate-related financial disclosure regimes around the world",
-        "summary": "In this article we explore the climate-related financial disclosure (CRFD) \nregimes in various jurisdictions around the world.",
-        "date": "10 Jun 2024",
-        "source": "Norton Rose Fulbright",
-        "link": "https://www.nortonrosefulbright.com/en/knowledge/publications/9261bbcf/review-of-climate-related-financial-disclosure-regimes-around-the-world"
+        "title": "Prepare for sustainability-related disclosure standards",
+        "summary": "The ISSB will be redeliberating the first proposed sustainability \ndisclosure standards based on the public comments received. Learn more.",
+        "date": "06 Feb 2023",
+        "source": "EY",
+        "link": "https://www.ey.com/en_sg/ifrs/how-to-get-ready-for-sustainability-related-disclosure-standards"
     },
     {
         "title": "2024 High-level Political Forum on Sustainable Development",
@@ -366,22 +373,23 @@
         ]
     },
     {
-        "title": "UN to Convene Global Experts in Tokyo on 4-6 March to Assess Climate Action Targets under Sustainable Development Goals",
-        "main_content_words": "",
-        "date": "1 Mar 2024",
-        "source": "UN SDGs",
-        "link": "https://sdgs.un.org/news/un-convene-global-experts-tokyo-4-6-march-assess-climate-action-targets-under-sustainable",
-        "related_goals": [
-            "13"
-        ]
-    },
-    {
         "title": "UNEA Adopts a Bold Resolution on Promoting Synergies in Environmental Action",
         "main_content_words": "26 February 1 March 2024, Nairobi, Kenya Leading the way in this rapidly expanding field, Japan put forward a resolution...",
         "date": "1 Mar 2024",
         "source": "UN SDGs",
         "link": "https://sdgs.un.org/news/unea-adopts-bold-resolution-promoting-synergies-environmental-action-56082",
         "related_goals": [
+            "13"
+        ]
+    },
+    {
+        "title": "UN to Convene Global Experts in Tokyo on 4-6 March to Assess Climate Action Targets under Sustainable Development Goals",
+        "main_content_words": "",
+        "date": "1 Mar 2024",
+        "source": "UN SDGs",
+        "link": "https://sdgs.un.org/news/un-convene-global-experts-tokyo-4-6-march-assess-climate-action-targets-under-sustainable-0",
+        "related_goals": [
+            "7",
             "13"
         ]
     },
