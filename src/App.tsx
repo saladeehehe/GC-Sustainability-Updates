@@ -4,18 +4,33 @@ import { theme } from "./theme";
 import { Welcome } from "./Welcome/Welcome";
 import NewsComponent from "./Components/newsComponent.tsx";
 import { NavbarMinimal } from "./Components/NavBarMinimal";
-//import { ColorSchemeToggle } from "./ColorSchemeToggle/ColorSchemeToggle";
-import { useState, useEffect } from 'react';
+import { useState, useEffect,  useMemo, useCallback  } from 'react';
 import { NewsArticle } from './Components/newsComponent';
 import { convertToDate } from './utils/dateUtils';
-import { categorizeArticle } from './articleCategorizer';
+import { categorizeArticle } from './Components/articleCategorizer.ts';
 import SearchBar from './Components/SearchBar'
-import './App.css'; // Ensure this is where you put the .mainContent styles
+import './App.css';
 import * as styles from './Welcome/Welcome.css.ts'
 
+// fetch news data from API and handle loading and error states
+const fetchNewsData = async (setLoading: React.Dispatch<React.SetStateAction<boolean>>, setError: React.Dispatch<React.SetStateAction<string | null>>) => {
+  try {
+    setLoading(true);
+    const response = await fetch('/GC-Sustainability-Updates/news_data2.json');
+    if (!response.ok) throw new Error('Failed to fetch news data');
+    const data = await response.json();
+    return data;
+  } catch (error: any) {
+    setError(error.message);
+    return [];
+  } finally {
+    setLoading(false);
+  }
+};
+
+// Extract unique sources and categories from news data
 const extractSources = (newsData: NewsArticle[]): string[] => {
-  const sourcesSet = new Set(newsData.map(article => article.source));
-  return Array.from(sourcesSet);
+  return Array.from(new Set(newsData.map(article => article.source)));
 };
 
 const extractCategories = (newsData: NewsArticle[]): string[] => {
@@ -26,138 +41,128 @@ const extractCategories = (newsData: NewsArticle[]): string[] => {
   return Array.from(categoriesSet);
 };
 
-export default function App() {
+// Custom hook to manage news data state and effects
+const useNewsData = () => {
   const [newsData, setNewsData] = useState<NewsArticle[]>([]);
   const [sources, setSources] = useState<string[]>([]);
   const [categories, setCategories] = useState<string[]>([]);
   const [filteredData, setFilteredData] = useState<NewsArticle[]>([]);
   const [loading, setLoading] = useState<boolean>(true);
   const [error, setError] = useState<string | null>(null);
+  
+  // Load news data when component mounts
+  useEffect(() => {
+    const loadData = async () => {
+      const data = await fetchNewsData(setLoading, setError);
+      const processedData = data.map((article: any) => ({
+        ...article,
+        date: convertToDate(article.date),
+        categories: categorizeArticle(article.title || article.main_content_words || article.summary || "") || [],
+        bookmarked: false,
+      })) as NewsArticle[];
+      
+      // Sort articles by date in descending order
+      processedData.sort((a, b) => b.date.getTime() - a.date.getTime());
+
+      // Load bookmarks from localStorage and update articles' bookmarked state
+      const bookmarks = JSON.parse(localStorage.getItem('bookmarks') || '[]');
+      processedData.forEach(article => {
+        if (bookmarks.includes(article.title)) {
+          article.bookmarked = true;
+        }
+      });
+
+      setNewsData(processedData);
+      setSources(extractSources(processedData));
+      setCategories(extractCategories(processedData));
+      setFilteredData(processedData);
+    };
+
+    loadData();
+  }, []);
+
+  return { newsData, sources, categories, filteredData, loading, error, setNewsData, setFilteredData };
+};
+
+export default function App() {
+  const {
+    newsData,
+    sources,
+    categories,
+    filteredData,
+    loading,
+    error,
+    setNewsData,
+    setFilteredData,
+  } = useNewsData();
+
   const [selectedSources, setSelectedSources] = useState<string[]>([]);
   const [selectedCategories, setSelectedCategories] = useState<string[]>([]);
   const [dateRange, setDateRange] = useState<[Date | null, Date | null]>([null, null]);
   const [showBookmarkedArticles, setShowBookmarkedArticles] = useState<boolean>(false);
-  const [searchTerm, setSearchTerm] = useState<string>(''); // New state for search term
-  const [openConfirmation, setOpenConfirmation] = useState<boolean>(false); //for clear bookmarks Dialog
+  const [searchTerm, setSearchTerm] = useState<string>('');
+  const [openConfirmation, setOpenConfirmation] = useState<boolean>(false);
 
-
-
-  useEffect(() => {
-    async function fetchData() {
-      try {
-        setLoading(true);
-        const response = await fetch('/GC-Sustainability-Updates/news_data2.json'); // Updated path
-        if (!response.ok) {
-          throw new Error('Failed to fetch news data');
-        }
-        const data = await response.json();
-        const newsData = data.map((article: any) => ({
-          ...article,
-          date: convertToDate(article.date),
-          categories: categorizeArticle(article.title || article.main_content_words || article.summary || "") ||[],
-          bookmarked: false,
-        })) as NewsArticle[];
-  
-        // Sort news data by date in descending order
-        newsData.sort((a, b) => b.date.getTime() - a.date.getTime());
-        
-        // Load bookmarks from localStorage so that bookmarks persist across page reloads 
-        const bookmarks = JSON.parse(localStorage.getItem('bookmarks') || '[]');
-        newsData.forEach(article => {
-          if (bookmarks.includes(article.title)) {
-            article.bookmarked = true;
-          }
-        });
-
-        setNewsData(newsData);
-        setSources(extractSources(newsData));
-        setCategories(extractCategories(newsData)); // Extract categories
-        setFilteredData(newsData);
-      } catch (error: any) {
-        setError(error.message);
-      } finally {
-        setLoading(false);
-      }
-    }
-  
-    fetchData();
-  }, []);
-
-  useEffect(() => {
-
+  // Memoized filtered data based on selected filters (caching results of computation to improve performance)
+  const filteredDataMemo = useMemo(() => {
     if (showBookmarkedArticles) {
-      const bookmarkedArticles = newsData.filter(article => article.bookmarked);
-      setFilteredData(bookmarkedArticles);
-    } else {
-      const filtered = newsData.filter(article => {
-        const articleDate = new Date(article.date);
-        const startDate = dateRange[0] ? new Date(dateRange[0]) : null;
-        const endDate = dateRange[1] ? new Date(dateRange[1]) : null;
-
-        const withinDateRange = startDate && endDate
-          ? articleDate >= startDate && articleDate <= endDate
-          : true;
-
-        const matchesSource = selectedSources.length
-          ? selectedSources.includes(article.source)
-          : true;
-        const matchesCategory = selectedCategories.length
-          ? (article.categories || []).some(category => selectedCategories.includes(category))
-          : true;
-        const matchesSearchTerm = searchTerm
-          ? article.title.toLowerCase().includes(searchTerm.toLowerCase()) || article.summary?.toLowerCase().includes(searchTerm.toLowerCase())
-          : true;
-
-
-
-        return withinDateRange && matchesSource && matchesCategory && matchesSearchTerm;
-      });
-      setFilteredData(filtered);
+      return newsData.filter(article => article.bookmarked);
     }
+
+    return newsData.filter(article => {
+      const articleDate = new Date(article.date);
+      const [startDate, endDate] = dateRange;
+
+      const withinDateRange = startDate && endDate
+        ? articleDate >= startDate && articleDate <= endDate
+        : true;
+
+      const matchesSource = selectedSources.length
+        ? selectedSources.includes(article.source)
+        : true;
+
+      const matchesCategory = selectedCategories.length
+        ? (article.categories || []).some(category => selectedCategories.includes(category))
+        : true;
+
+      const matchesSearchTerm = searchTerm
+        ? article.title.toLowerCase().includes(searchTerm.toLowerCase()) || article.summary?.toLowerCase().includes(searchTerm.toLowerCase())
+        : true;
+
+      return withinDateRange && matchesSource && matchesCategory && matchesSearchTerm;
+    });
   }, [showBookmarkedArticles, newsData, selectedSources, selectedCategories, dateRange, searchTerm]);
 
-  const handleSourceFilterChange = (selectedSources: string[]) => {
-    setSelectedSources(selectedSources);
-  };
+  useEffect(() => {
+    setFilteredData(filteredDataMemo);
+  }, [filteredDataMemo, setFilteredData]);
 
-  const handleCategoryFilterChange = (selectedCategories: string[]) => {
-    setSelectedCategories(selectedCategories);
-  };
-
-  const handleDateRangeChange = (startDate: Date | null, endDate: Date | null) => {
-    setDateRange([startDate, endDate]);
-  };
-
-  const handleSearchChange = (event: React.ChangeEvent<HTMLInputElement>) => {
-    setSearchTerm(event.target.value);
-  };
-
-  const toggleBookmark = (title: string) => {
-    const updatedNewsData = newsData.map(article => 
+  // Handlers for filter changes
+  const handleSourceFilterChange = useCallback((selectedSources: string[]) => setSelectedSources(selectedSources), []);
+  const handleCategoryFilterChange = useCallback((selectedCategories: string[]) => setSelectedCategories(selectedCategories), []);
+  const handleDateRangeChange = useCallback((startDate: Date | null, endDate: Date | null) => setDateRange([startDate, endDate]), []);
+  const handleSearchChange = useCallback((event: React.ChangeEvent<HTMLInputElement>) => setSearchTerm(event.target.value), []);
+  
+  // Toggle showing bookmarked articles
+  const toggleBookmark = useCallback((title: string) => {
+    const updatedNewsData = newsData.map(article =>
       article.title === title ? { ...article, bookmarked: !article.bookmarked } : article
     );
-
     setNewsData(updatedNewsData);
-    setFilteredData(updatedNewsData); // Update filtered data to reflect the change
-
-    // Update localStorage
     const bookmarks = updatedNewsData.filter(article => article.bookmarked).map(article => article.title);
     localStorage.setItem('bookmarks', JSON.stringify(bookmarks));
-  };
+  }, [newsData, setNewsData]);
 
-  const toggleShowBookmarkedArticles = () => {
-    setShowBookmarkedArticles(!showBookmarkedArticles);
-  };
-  const clearAllBookmarks = () => {
+  const toggleShowBookmarkedArticles = useCallback(() => setShowBookmarkedArticles(prev => !prev), []);
+  const clearAllBookmarks = useCallback(() => {
     const updatedNewsData = newsData.map(article => ({ ...article, bookmarked: false }));
     setNewsData(updatedNewsData);
     setFilteredData(updatedNewsData);
     setOpenConfirmation(false);
-  };
+  }, [newsData, setNewsData, setFilteredData]);
 
-
-  if (loading) return <p>Loading...</p>;
-  if (error) return <p>Error: {error}</p>;
+  if (loading) return  <div className="loading-container"><p>Loading...</p></div>;
+  if (error) return <div className="loading-container"><p>Error: {error}</p></div>;
 
   return (
     <MantineProvider theme={theme}>
@@ -170,19 +175,20 @@ export default function App() {
             onDateRangeChange={handleDateRangeChange}
             onCategoryChange={handleCategoryFilterChange}
             showBookmarkedArticles={showBookmarkedArticles}
-            toggleShowBookmarkedArticles={toggleShowBookmarkedArticles} selectedSources={selectedSources} selectedCategories={selectedCategories}           />
+            toggleShowBookmarkedArticles={toggleShowBookmarkedArticles}
+            selectedSources={selectedSources}
+            selectedCategories={selectedCategories}
+          />
         </div>
         <div className="main-content">
-          <div className = {styles.welcomeComponent}>
-            <Welcome/>
+          <div className={styles.welcomeComponent}>
+            <Welcome />
           </div>
           <div style={{ textAlign: 'right', padding: '20px' }}>
-            {/* Add the Clear Bookmarks Button */}
             <Button onClick={() => setOpenConfirmation(true)}>
               Clear All Bookmarks
             </Button>
           </div>
-            {/* Confirmation Dialog */}
           <Dialog
             opened={openConfirmation}
             onClose={() => setOpenConfirmation(false)}
@@ -202,8 +208,6 @@ export default function App() {
             searchTerm={searchTerm} 
             onSearchChange={handleSearchChange} 
           />
-          
-
           <NewsComponent newsData={filteredData} toggleBookmark={toggleBookmark} />
         </div>
       </div>

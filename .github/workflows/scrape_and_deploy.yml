@@ -16,7 +16,7 @@ jobs:
     - name: Checkout main branch
       uses: actions/checkout@v3
       with:
-        ref: main  # Check out the main branch
+        ref: main
 
     - name: Set up Python
       uses: actions/setup-python@v4
@@ -44,17 +44,41 @@ jobs:
     - name: Checkout Deployment branch
       uses: actions/checkout@v3
       with:
-        ref: Deployment  # Check out the Deployment branch
+        ref: Deployment
 
-    - name: Copy updated file from main to Deployment
+    - name: Overwrite news_data2.json from main branch
       run: |
-        git checkout main -- public/news_data2.json
+        git fetch origin main
+        git checkout origin/main -- public/news_data2.json
+
+    - name: Commit and push changes to Deployment branch
+      run: |
+        git config --global user.name 'github-actions'
+        git config --global user.email 'github-actions@github.com'
         git add public/news_data2.json
-        git commit -m "Update news_data2.json in Deployment branch"
+        git commit -m "Overwrite news_data2.json with version from main"
         git push origin Deployment
 
+    - name: Set up Node.js
+      uses: actions/setup-node@v3  # Ensure this is included to set up Node.js environment
+      with:
+        node-version: 'lts/*'  # Use the latest LTS version of Node.js
+
+    - name: Install dependencies
+      run: yarn install
+      
+    - name: Build project
+      run: yarn build
+
+    - name: Configure Git
+      run: |
+        git config --global user.name 'github-actions[bot]'
+        git config --global user.email 'github-actions[bot]@users.noreply.github.com'
+
+
     - name: Deploy to GitHub Pages
-      if: github.ref == 'refs/heads/Deployment'
+      env:
+        GH_TOKEN: ${{ secrets.GH_PAT }} # Use the PAT instead of the default GITHUB_TOKEN
       run: |
         yarn add gh-pages
         git remote set-url origin https://x-access-token:${{ secrets.GH_PAT }}@github.com/${{ github.repository }}.git

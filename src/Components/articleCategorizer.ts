@@ -1,3 +1,4 @@
+// Declaration of categories by keywords in the article title and summary
 const categories = {
     "Carbon": ["carbon emissions", "CO2", "carbon footprint", 'carbon'],
     "Water": ["water conservation", "water management", "water usage", 'Water'],

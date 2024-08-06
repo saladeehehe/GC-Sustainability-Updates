@@ -23,4 +23,12 @@
     padding: 20px; /* Padding around the content */
     overflow-y: auto; /* Scroll if content overflows */
   }
+
+  .loading-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh; /* Full viewport height */
+    text-align: center;
+  }
   

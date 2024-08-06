@@ -3,6 +3,8 @@
 ## About The Project
 Our project aims to simplify the process of staying updated on sustainability-related news and regulatory trends by consolidating information from various sources into a single, convenient platform.
 
+Please refer to the README.md in the `src` and 
+
 ## Benefits of Our Product
 
 ### Automated Web Scraping
@@ -24,12 +26,82 @@ Our project aims to simplify the process of staying updated on sustainability-re
 - Allows users to conveniently visit the original news sites directly from the dashboard.
 - Provides a seamless experience from discovery to in-depth reading.
 
-## Code Functionality
+# Techstack
 
-### `aggregate_scrapers.py`
-- Iterates over all Python scripts in the `backend` directory.
-- Executes each script, assuming each outputs its results to a file named `results.json`.
-- Reads the results from `results.json` and aggregates them into a single list (`all_articles`).
-- Writes the aggregated results to `news_data.json` in the specified location (`vite-vanilla-extract-template/public/`).
+Below is the list of techstack used for the project:
 
-This approach allows you to run multiple scraper scripts, collect their outputs, and store the combined results in a single JSON file.
+## Frontend:
+
+[![React][React.js]][React-url]
+[![Mantine][Mantine]][Mantine-url]
+
+## Backend:
+
+- **Language**: Python
+- **Libraries**: Requests, BeautifulSoup, NumPy, JSON for web scraping and data processing.
+
+## Deployment:
+- **GitHub Pages**: Used for hosting and deploying the website.
+- **GitHub Actions**: For automating workflows and deployments.
+
+<!-- GETTING STARTED -->
+## Getting Started
+
+To get the project running on your machine, follow these steps
+
+### Installation
+1. Clone the repository
+   ```sh
+   git clone https://github.com/saladeehehe/GC-Sustainability-Updates.git
+   ```
+
+2. Navigate to the project directory
+   ```sh
+   cd GC-sustainability-updates
+   ```
+3. Install dependencies
+   ```sh
+   yarn install
+   ```
+#### **Usage**
+To start the project, use the following command:
+
+```sh
+yarn dev
+```
+
+
+
+
+This project is made possible with the efforts of everyone in the team: 
+
+<div>
+ <table>
+  <tr>
+    <th>Name</th>
+    <th>GitHub</th>
+  </tr>
+  <tr>
+    <td>Tee Yue Ning</td>
+    <td>
+      <a href="https://github.com/saladeehehe" target="_blank">
+        saladeehehe
+      </a>
+    </td>
+  </tr>
+  <tr>
+    <td>Yap Yi Pin</td>
+    <td>
+      <a href="https://github.com/Yi-Pin-123" target="_blank">
+        Yi-Pin-123
+      </a>
+    </td>
+ 
+</table>
+
+<!-- MARKDOWN LINKS & IMAGES -->
+[React.js]: https://img.shields.io/badge/React-20232A?style=for-the-badge&logo=react&logoColor=61DAFB
+[React-url]: https://reactjs.org/
+[Mantine]: https://img.shields.io/badge/Mantine-ffffff?style=for-the-badge&logo=Mantine&logoColor=339af0
+[Mantine-url]: https://mantine.dev/
+
