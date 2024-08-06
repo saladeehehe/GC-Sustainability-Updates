@@ -59,7 +59,17 @@ jobs:
         git commit -m "Overwrite news_data2.json with version from main"
         git push origin Deployment
 
+    - name: Set up Node.js
+      uses: actions/setup-node@v3  # Ensure this is included to set up Node.js environment
+      with:
+        node-version: 'lts/*'  # Use the latest LTS version of Node.js
+
+    - name: Install dependencies
+      run: yarn install
+
     - name: Deploy to GitHub Pages
+      env:
+        GH_TOKEN: ${{ secrets.GH_PAT }} # Use the PAT instead of the default GITHUB_TOKEN
       run: |
         yarn add gh-pages
         git remote set-url origin https://x-access-token:${{ secrets.GH_PAT }}@github.com/${{ github.repository }}.git
