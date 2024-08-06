@@ -26,7 +26,7 @@ Our project aims to simplify the process of staying updated on sustainability-re
 
 # Techstack
 
-Below is the list of techstack used for the project:
+Below is the list of tech stack used for the project:
 
 ## Frontend:
 
@@ -43,9 +43,10 @@ Below is the list of techstack used for the project:
 - **GitHub Actions**: For automating workflows and deployments.
 
 # Code Documentation 
-Please refer to the README.md in the `src/` and `backend/` folders for more documentation of the scripts in the respective folders.
-- **src/:** contains files for the frontend development of the webpage. 
-- **backend/:** contains files required for web scraping of specific websites 
+Please refer to the README.md in the `src/`, `backend/` and `.github/workflows/` folders for more documentation of the scripts in the respective folders.
+- **`src/:`** Contains files for the frontend development of the webpage. 
+- **`backend/:`** Contains files required for web scraping of specific websites.
+- **`.github/workflows/:`** Contains file for web scraping and deployment workflow.
 
 <!-- GETTING STARTED -->
 ## Getting Started
