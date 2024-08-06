@@ -1,5 +1,5 @@
 import { Title, Text  } from "@mantine/core";
-import * as classes from "./Welcome.css";
+import * as classes from "./Heading.css";
 
 export function Welcome() {
   return (

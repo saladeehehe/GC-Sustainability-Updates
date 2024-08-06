@@ -3,8 +3,6 @@
 ## About The Project
 Our project aims to simplify the process of staying updated on sustainability-related news and regulatory trends by consolidating information from various sources into a single, convenient platform.
 
-Please refer to the README.md in the `src` and 
-
 ## Benefits of Our Product
 
 ### Automated Web Scraping
@@ -13,7 +11,7 @@ Please refer to the README.md in the `src` and
 
 ### Daily Updates
 - System updates news once a day.
-- Keeps you informed with the most recent developments and trends in sustainability.
+- Keeps you informed of the most recent developments and trends in sustainability.
 
 ### Comprehensive Dashboard
 - User-friendly dashboard with multiple functionalities:
@@ -28,7 +26,7 @@ Please refer to the README.md in the `src` and
 
 # Techstack
 
-Below is the list of techstack used for the project:
+Below is the list of tech stack used for the project:
 
 ## Frontend:
 
@@ -44,10 +42,16 @@ Below is the list of techstack used for the project:
 - **GitHub Pages**: Used for hosting and deploying the website.
 - **GitHub Actions**: For automating workflows and deployments.
 
+# Code Documentation 
+Please refer to the README.md in the `src/`, `backend/` and `.github/workflows/` folders for more documentation of the scripts in the respective folders.
+- **`src/:`** Contains files for the frontend development of the webpage. 
+- **`backend/:`** Contains files required for web scraping of specific websites.
+- **`.github/workflows/:`** Contains file for web scraping and deployment workflow.
+
 <!-- GETTING STARTED -->
 ## Getting Started
 
-To get the project running on your machine, follow these steps
+To get the project running on your machine, follow these steps: 
 
 ### Installation
 1. Clone the repository
@@ -63,41 +67,13 @@ To get the project running on your machine, follow these steps
    ```sh
    yarn install
    ```
-#### **Usage**
+### **Usage**
 To start the project, use the following command:
 
 ```sh
 yarn dev
 ```
 
-
-
-
-This project is made possible with the efforts of everyone in the team: 
-
-<div>
- <table>
-  <tr>
-    <th>Name</th>
-    <th>GitHub</th>
-  </tr>
-  <tr>
-    <td>Tee Yue Ning</td>
-    <td>
-      <a href="https://github.com/saladeehehe" target="_blank">
-        saladeehehe
-      </a>
-    </td>
-  </tr>
-  <tr>
-    <td>Yap Yi Pin</td>
-    <td>
-      <a href="https://github.com/Yi-Pin-123" target="_blank">
-        Yi-Pin-123
-      </a>
-    </td>
- 
-</table>
 
 <!-- MARKDOWN LINKS & IMAGES -->
 [React.js]: https://img.shields.io/badge/React-20232A?style=for-the-badge&logo=react&logoColor=61DAFB

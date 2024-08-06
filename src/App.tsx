@@ -1,7 +1,7 @@
 import "@mantine/core/styles.css";
 import { MantineProvider, Button, Dialog, Text } from "@mantine/core";
 import { theme } from "./theme";
-import { Welcome } from "./Welcome/Welcome";
+import { Welcome } from "./Heading/Heading.tsx";
 import NewsComponent from "./Components/newsComponent.tsx";
 import { NavbarMinimal } from "./Components/NavBarMinimal";
 import { useState, useEffect,  useMemo, useCallback  } from 'react';
@@ -10,7 +10,7 @@ import { convertToDate } from './utils/dateUtils';
 import { categorizeArticle } from './Components/articleCategorizer.ts';
 import SearchBar from './Components/SearchBar'
 import './App.css';
-import * as styles from './Welcome/Welcome.css.ts'
+import * as styles from './Heading/Heading.css.ts'
 
 // fetch news data from API and handle loading and error states
 const fetchNewsData = async (setLoading: React.Dispatch<React.SetStateAction<boolean>>, setError: React.Dispatch<React.SetStateAction<string | null>>) => {
