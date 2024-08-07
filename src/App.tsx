@@ -11,6 +11,8 @@ import { categorizeArticle } from './Components/articleCategorizer.ts';
 import SearchBar from './Components/SearchBar'
 import './App.css';
 import * as styles from './Heading/Heading.css.ts'
+import SourcesComponent from './SourcesComponent';
+
 
 // fetch news data from API and handle loading and error states
 const fetchNewsData = async (setLoading: React.Dispatch<React.SetStateAction<boolean>>, setError: React.Dispatch<React.SetStateAction<string | null>>) => {
@@ -102,6 +104,7 @@ export default function App() {
   const [showBookmarkedArticles, setShowBookmarkedArticles] = useState<boolean>(false);
   const [searchTerm, setSearchTerm] = useState<string>('');
   const [openConfirmation, setOpenConfirmation] = useState<boolean>(false);
+  const [showSources, setShowSources] = useState<boolean>(false);
 
   // Memoized filtered data based on selected filters (caching results of computation to improve performance)
   const filteredDataMemo = useMemo(() => {
@@ -178,37 +181,35 @@ export default function App() {
             toggleShowBookmarkedArticles={toggleShowBookmarkedArticles}
             selectedSources={selectedSources}
             selectedCategories={selectedCategories}
+            toggleSources={() => setShowSources(!showSources)} // Pass toggle handler
           />
         </div>
         <div className="main-content">
           <div className={styles.welcomeComponent}>
             <Welcome />
           </div>
-          <div style={{ textAlign: 'right', padding: '20px' }}>
-            <Button onClick={() => setOpenConfirmation(true)}>
-              Clear All Bookmarks
-            </Button>
-          </div>
-          <Dialog
-            opened={openConfirmation}
-            onClose={() => setOpenConfirmation(false)}
-            title="Confirm Action"
-          >
-            <Text>Are you sure you want to clear all bookmarks? This action cannot be undone.</Text>
-            <div style={{ marginTop: '20px', display: 'flex', justifyContent: 'flex-end' }}>
-              <Button onClick={clearAllBookmarks} style={{ marginRight: '10px' }}>
-                Yes, Clear
-              </Button>
-              <Button variant="outline" onClick={() => setOpenConfirmation(false)}>
-                Cancel
-              </Button>
-            </div>
-          </Dialog>
-          <SearchBar 
-            searchTerm={searchTerm} 
-            onSearchChange={handleSearchChange} 
-          />
-          <NewsComponent newsData={filteredData} toggleBookmark={toggleBookmark} />
+          {showSources ? (
+            <SourcesComponent />
+          ) : (
+            <>
+              <div style={{ textAlign: 'right', padding: '20px' }}>
+                <Button onClick={() => setOpenConfirmation(true)}>Clear All Bookmarks</Button>
+              </div>
+              <Dialog
+                opened={openConfirmation}
+                onClose={() => setOpenConfirmation(false)}
+                title="Confirm Action"
+              >
+                <Text>Are you sure you want to clear all bookmarks? This action cannot be undone.</Text>
+                <div style={{ marginTop: '20px', display: 'flex', justifyContent: 'flex-end' }}>
+                  <Button onClick={clearAllBookmarks} style={{ marginRight: '10px' }}>Yes, Clear</Button>
+                  <Button variant="outline" onClick={() => setOpenConfirmation(false)}>Cancel</Button>
+                </div>
+              </Dialog>
+              <SearchBar searchTerm={searchTerm} onSearchChange={handleSearchChange} />
+              <NewsComponent newsData={filteredData} toggleBookmark={toggleBookmark} />
+            </>
+          )}
         </div>
       </div>
     </MantineProvider>
