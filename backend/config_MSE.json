@@ -1,0 +1,13 @@
+{
+    "url": "https://www.mse.gov.sg/news/--press-releases/",
+    "selectors": {
+        "press_release_links_container": "#main-content > section:nth-child(3) > div > div",
+        "press_release_link_tag": "a",
+        "pdf_title": "h5.has-text-white",
+        "pdf_date": "small.has-text-white",
+        "press_release_title": "#main-content > section:nth-child(1) > div:nth-child(2) > div > div > h1 > b",
+        "press_release_summary": "#main-content > section:nth-child(2) > div > div > div:nth-child(1) > p:nth-child(2)",
+        "press_release_date": "#main-content > section:nth-child(1) > div:nth-child(3) > div > div > small"
+    },
+    "source_name": "Ministry of Sustainability and the Environment"
+}

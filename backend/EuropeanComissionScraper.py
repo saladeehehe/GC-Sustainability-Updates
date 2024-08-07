@@ -3,19 +3,18 @@ from bs4 import BeautifulSoup
 import json
 from datetime import datetime
 
-# URL of the page to scrape
-base_url = "https://environment.ec.europa.eu/news_en?f%5B0%5D=oe_news_subject%3Ahttp%3A//data.europa.eu/uxp/343&f%5B1%5D=oe_news_subject%3Ahttp%3A//data.europa.eu/uxp/535&f%5B2%5D=oe_news_subject%3Ahttp%3A//data.europa.eu/uxp/1158&f%5B3%5D=oe_news_subject%3Ahttp%3A//data.europa.eu/uxp/2470&f%5B4%5D=oe_news_subject%3Ahttp%3A//data.europa.eu/uxp/2530&f%5B5%5D=oe_news_subject%3Ahttp%3A//data.europa.eu/uxp/2947&f%5B6%5D=oe_news_subject%3Ahttp%3A//data.europa.eu/uxp/5482&f%5B7%5D=oe_news_subject%3Ahttp%3A//data.europa.eu/uxp/c_98d1408a&f%5B8%5D=oe_news_subject%3Ahttp%3A//data.europa.eu/uxp/c_749f2ce9&f%5B9%5D=oe_news_subject%3Ahttp%3A//data.europa.eu/uxp/c_1138d9d2&f%5B10%5D=oe_news_types%3Ahttp%3A//publications.europa.eu/resource/authority/resource-type/ANNOUNC_NEWS&f%5B11%5D=oe_news_types%3Ahttp%3A//publications.europa.eu/resource/authority/resource-type/PRESS_REL&f%5B12%5D=oe_news_types%3Ahttp%3A//publications.europa.eu/resource/authority/resource-type/STAT"
+# Load configuration from the config_EuropeanCommission.json file
+with open('backend/config_EuropeanCommission.json', 'r') as config_file:
+    config = json.load(config_file)
 
-# Set headers to mimic a browser request
-headers = {
-    "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/92.0.4515.131 Safari/537.36"
-}
+base_url = config['base_url']
+headers = config['headers']
+num_pages = config['num_pages']
+output_file = config['output_file']
+selectors = config['selectors']
 
 # Initialize the list to store all articles
 articles = []
-
-# Number of pages to scrape
-num_pages = 3
 
 def format_date(date_str):
     try:
@@ -44,16 +43,16 @@ for page in range(num_pages):
         soup = BeautifulSoup(response.content, 'html.parser')
 
         # Select all news items
-        news_items = soup.select('#block-ewcms-theme-main-page-content > article > div > div > div.ecl-col-s-12.ecl-col-m-9 > div:nth-child(4) > div > div > div > div > article')
+        news_items = soup.select(selectors['news_items'])
 
         if news_items:
             for news_item in news_items:
                 # Extracting the date
-                date = news_item.select_one('ul.ecl-content-block__primary-meta-container > li:nth-child(2) > time').get_text(strip=True)
+                date = news_item.select_one(selectors['date']).get_text(strip=True)
                 formatted_date = format_date(date)
 
                 # Extracting the title and link
-                title_element = news_item.select_one('div.ecl-content-block__title > a')
+                title_element = news_item.select_one(selectors['title'])
                 title = title_element.get_text(strip=True)
                 link = title_element['href']
 
@@ -62,7 +61,7 @@ for page in range(num_pages):
                     link = 'https://environment.ec.europa.eu' + link
 
                 # Extracting the description
-                description = news_item.select_one('div.ecl-content-block__description > p').get_text(strip=True)
+                description = news_item.select_one(selectors['description']).get_text(strip=True)
 
                 # Append the extracted data to the articles list
                 articles.append({
@@ -77,9 +76,6 @@ for page in range(num_pages):
     else:
         print(f"Failed to retrieve the webpage for page {page + 1}. Status code: {response.status_code}")
 
-
 # Output the list of articles
-# print(articles[20])
-
-with open('results.json', 'w') as json_file:
+with open(output_file, 'w') as json_file:
     json.dump(articles, json_file, indent=4)

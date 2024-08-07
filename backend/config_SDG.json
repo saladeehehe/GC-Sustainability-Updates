@@ -1,0 +1,28 @@
+{
+    "date_element": {
+        "tag": "span",
+        "class": "date"
+    },
+    "main_content_element": {
+        "tag": "div",
+        "class": "col-12 col-lg-7 mt-5"
+    },
+    "news_card_element": {
+        "tag": "div",
+        "class": "card card-custom news-03 col-12 col-sm-6 col-lg-4"
+    },
+    "title_element": {
+        "tag": "h4",
+        "class": "card-title"
+    },
+    "link_element": {
+        "tag": "a",
+        "href": true
+    },
+    "goal_element": {
+        "tag": "span",
+        "class": "badge badge-primary"
+    },
+    "base_url": "https://sdgs.un.org/news?page=%2C%2C{}",
+    "num_pages": 3
+}
