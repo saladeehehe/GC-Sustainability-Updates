@@ -23,6 +23,7 @@ This folder contains the source code, including all the main components and conf
   - **Category Filter**: `CategoryFilter.tsx` enables filtering news articles by categories. `articleCategorizer.ts` contains the declaration of categories by specific keywords and the function to add category attributes to each news article.
   - **Bookmark Button**: Integrated within `NavbarMinimal.tsx`, this button allows users to toggle the visibility of bookmarked articles, enhancing content management.
   - **SearchableMultiSelect.tsx**: Used in the Source Filter and Category Filter components to provide a searchable, multi-select dropdown.
+  - **Sources Button:** `SourcesComponent.tsx` defines a source button which when clicked, brings users to the list of sources where news articles in this website are extracted from. Additional relevant resources are also provided.
 
 #### Components of the Main Page:
 
