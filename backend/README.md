@@ -8,6 +8,11 @@ This folder contains python scripts used for web scraping of various sources, wh
   - *To change the search, modify the `search_query` variable in `newsScraper.py`*
 - requirements.txt (for installing of dependencies)
 
+## Configuration Files
+
+Each scraper script has an associated `config_{scraper}.json` file. These configuration files store the HTML selectors used to identify elements on each site. If the website's structure changes, you can easily update the selectors in the configuration file rather than searching through the .py scraper scripts to make adjustments.
+
+
 ## Requirements 
 Make sure to install the required dependencies listed in `requirements.txt` before running the scripts 
 ```sh
