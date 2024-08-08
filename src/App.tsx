@@ -11,7 +11,7 @@ import { categorizeArticle } from './Components/articleCategorizer.ts';
 import SearchBar from './Components/SearchBar'
 import './App.css';
 import * as styles from './Heading/Heading.css.ts'
-import SourcesComponent from './SourcesComponent';
+import SourcesComponent from './Components/SourcesComponent.tsx';
 
 
 // fetch news data from API and handle loading and error states
