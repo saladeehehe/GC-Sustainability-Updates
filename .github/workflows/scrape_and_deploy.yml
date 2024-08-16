@@ -1,39 +1,85 @@
-name: Update Flight Data
+name: Scrape and Deploy
 
 on:
   schedule:
-    - cron: "0 */12 * * *"
+    - cron: '0 10 * * *'  # Runs every day at 10:00 AM UTC
+  workflow_dispatch:  # Allows manual triggering of the workflow
+
+permissions:
+  contents: write  # Ensure the workflow has write permissions
 
 jobs:
-  update-data:
+  run-scrapers:
     runs-on: ubuntu-latest
 
     steps:
-    - name: Checkout repository
+    - name: Checkout main branch
       uses: actions/checkout@v3
+      with:
+        ref: main
 
     - name: Set up Python
       uses: actions/setup-python@v4
       with:
-        python-version: '3.12'
+        python-version: '3.11'
 
-    - name: Install dependencies
+    - name: Install Python dependencies
       run: |
         python -m pip install --upgrade pip
-        pip install -r requirements.txt
+        pip install -r backend/requirements.txt
 
-    - name: Install Chrome
+    - name: Run aggregator script
+      run: python aggregate_scrapers.py
+      env:
+        GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+
+    - name: Commit and push changes to main branch
       run: |
-        sudo apt-get update
-        sudo apt-get install -y google-chrome-stable
+        git config --global user.name 'github-actions'
+        git config --global user.email 'github-actions@github.com'
+        git add public/news_data2.json
+        git commit -m "Update scraped data in main"
+        git push origin main
 
-    - name: Run the scraper
-      run: python webscraper_departures.py
+    - name: Checkout Deployment branch
+      uses: actions/checkout@v3
+      with:
+        ref: Deployment
 
-    - name: Commit and push changes
+    - name: Overwrite news_data2.json from main branch
       run: |
-        git config --local user.name "github-actions[bot]"
-        git config --local user.email "github-actions[bot]@users.noreply.github.com"
-        git add .
-        git commit -m "Update flight data"
-        git push
+        git fetch origin main
+        git checkout origin/main -- public/news_data2.json
+
+    - name: Commit and push changes to Deployment branch
+      run: |
+        git config --global user.name 'github-actions'
+        git config --global user.email 'github-actions@github.com'
+        git add public/news_data2.json
+        git commit -m "Overwrite news_data2.json with version from main"
+        git push origin Deployment
+
+    - name: Set up Node.js
+      uses: actions/setup-node@v3  # Ensure this is included to set up Node.js environment
+      with:
+        node-version: 'lts/*'  # Use the latest LTS version of Node.js
+
+    - name: Install dependencies
+      run: yarn install
+      
+    - name: Build project
+      run: yarn build
+
+    - name: Configure Git
+      run: |
+        git config --global user.name 'github-actions[bot]'
+        git config --global user.email 'github-actions[bot]@users.noreply.github.com'
+
+
+    - name: Deploy to GitHub Pages
+      env:
+        GH_TOKEN: ${{ secrets.GH_PAT }} # Use the PAT instead of the default GITHUB_TOKEN
+      run: |
+        yarn add gh-pages
+        git remote set-url origin https://x-access-token:${{ secrets.GH_PAT }}@github.com/${{ github.repository }}.git
+        yarn deploy
