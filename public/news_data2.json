@@ -56,13 +56,6 @@
         "link": "https://www.mayerbrown.com/en/insights/publications/2024/02/singapores-carbon-regulations-paving-the-way-for-the-green-plan-2030"
     },
     {
-        "title": "In Brief: Europe expands register of environmental crimes; Singapore to \nimplement mandatory ISSB standards",
-        "summary": "The latest ESG policy and regulatory news The Belgian presidency of the \nEuropean Council has failed to negotiate an agreement between member...",
-        "date": "01 Mar 2024",
-        "source": "Sustainable Views",
-        "link": "https://www.sustainableviews.com/in-brief-europe-expands-register-of-environmental-crimes-singapore-to-implement-mandatory-issb-standards-598ec0aa/"
-    },
-    {
         "title": "Climate vouchers, coastal protection law among sustainability measures \nannounced at Budget debate",
         "summary": "Key announcements include an expanded climate voucher scheme for households \nand a new requirement for businesses to declare their carbon...",
         "date": "10 Mar 2024",
@@ -294,20 +287,6 @@
         "link": "https://www.theedgesingapore.com/news/environmental-social-and-governance/sgx-regco-launches-consultation-incorporating-issb"
     },
     {
-        "title": "Transforming Singapore towards sustainable tourism and urban living",
-        "summary": "Sustainable tourism is becoming a bigger concept in Singapore, where they \nare prepared to address traveller needs and reconsider their...",
-        "date": "11 Apr 2023",
-        "source": "Open Access Government",
-        "link": "https://www.openaccessgovernment.org/transforming-singapore-sustainable-tourism-urban-living/157031/"
-    },
-    {
-        "title": "Get ready for a new level of ESG reporting",
-        "summary": "The European Union's Corporate Sustainability Reporting Directive (CSRD) is \ntransforming environmental, social and governance (ESG) reporting.",
-        "date": "09 Mar 2023",
-        "source": "KPMG",
-        "link": "https://kpmg.com/sg/en/home/insights/2023/03/get-ready-for-the-next-wave-of-esg-reporting.html"
-    },
-    {
         "title": "New developments in Singapore\u2019s ESG investment regulatory landscape",
         "summary": "With regulations on ESG disclosure increasing, Joseph Chun, Andrea Ng and \nKwah Chee Hian of Shook Lin & Bok discuss the impact on asset...",
         "date": "07 Apr 2022",
@@ -327,6 +306,27 @@
         "date": "13 Sep 2021",
         "source": "The Straits Times",
         "link": "https://www.straitstimes.com/singapore/politics/proposed-changes-to-law-on-environmental-pollution-will-boost-efforts-to-tackle"
+    },
+    {
+        "title": "Singapore launches mandatory climate reporting consultation",
+        "summary": "The city-state has plans to expand current climate disclosure requirements \nto a wider group of listed and unlisted companies active in the...",
+        "date": "18 Jul 2023",
+        "source": "FinanceAsia",
+        "link": "https://www.financeasia.com/article/singapore-launches-mandatory-climate-reporting-consultation/485384"
+    },
+    {
+        "title": "How the Singapore Green Plan 2030 is creating Asia\u2019s most sustainable city",
+        "summary": "... the most sustainable city in Asia-Pacific in Knight Frank's new study; \nIn the global Arcadis Sustainable Cities Index, Singapore ranks...",
+        "date": "09 Aug 2022",
+        "source": "South China Morning Post",
+        "link": "https://www.scmp.com/country-reports/country-reports/topics/singapore-national-day-2022/article/3188126/how-singapore"
+    },
+    {
+        "title": "Singapore\u2019s top 100 companies outperform the global average in \nsustainability reporting",
+        "summary": "The latest findings from KPMG reveal that sustainability reporting has \ngrown steadily, with 79% of leading global companies providing...",
+        "date": "18 Oct 2022",
+        "source": "KPMG",
+        "link": "https://kpmg.com/sg/en/home/media/press-releases/2022/10/singapore-top-100-companies-in-sustainability-reporting.html"
     },
     {
         "title": "2024 High-level Political Forum on Sustainable Development",
@@ -413,11 +413,11 @@
         "link": "https://sdgs.un.org/news/new-report-launch-synergy-solutions-world-crisis-tackling-climate-and-sdg-action-together"
     },
     {
-        "title": "Small Island Developing States Are in Hot Water: Here\u2019s What the International Community Must Do to Help",
+        "title": "Climate change, debt relief expected to top Caribbean island nation priorities at regional meeting ahead of UN conference on Small Island Developing States",
         "summary": "",
         "date": "8 Aug 2023",
         "source": "UN SDGs",
-        "link": "https://sdgs.un.org/news/small-island-developing-states-are-hot-water-heres-what-international-community-must-do-help"
+        "link": "https://sdgs.un.org/news/climate-change-debt-relief-expected-top-caribbean-island-nation-priorities-regional-meeting"
     },
     {
         "title": "Singapore's Third National Climate Change Study (V3)",
@@ -1421,11 +1421,11 @@
         "link": "https://www.mse.gov.sg/resource-room/category/2020-03-04-press-release-on-new-sg-eco-office-and-sg-eco-fund/"
     },
     {
-        "title": "Nature Restoration Law set to enter into force",
+        "title": "Nature Restoration Law enters into force",
         "summary": "The regulation sets binding targets to restore degraded ecosystems, particularly those with the most potential to capture and store carbon.",
         "date": "15 Aug 2024",
         "source": "European Commission",
-        "link": "https://environment.ec.europa.eu/news/nature-restoration-law-set-enter-force-2024-08-15_en"
+        "link": "https://environment.ec.europa.eu/news/nature-restoration-law-enters-force-2024-08-15_en"
     },
     {
         "title": "New legislation gives EU Ecolabel big thumbs up",
