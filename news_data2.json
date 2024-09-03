@@ -63,13 +63,6 @@
         "link": "https://www.eco-business.com/news/singapore-rolls-out-new-industry-benchmark-for-sustainable-finance-skills/"
     },
     {
-        "title": "SGX RegCo issues consultation paper on incorporation of ISSB standards in \nsustainability reporting",
-        "summary": "On 7 March 2024, Singapore Exchange Regulation (SGX RegCo) issued a \nconsultation paper titled \u201cSustainability Reporting - Enhancing Consistency \nand...",
-        "date": "04 Apr 2024",
-        "source": "Allen & Gledhill",
-        "link": "https://www.allenandgledhill.com/perspectives/articles/27744/sgkh-sgx-regco-issues-consultation-paper-on-incorporation-of-issb-standards-in-sustainability-reporting"
-    },
-    {
         "title": "Climate vouchers, coastal protection law among sustainability measures \nannounced at Budget debate",
         "summary": "Key announcements include an expanded climate voucher scheme for households \nand a new requirement for businesses to declare their carbon footprint.",
         "date": "10 Mar 2024",
@@ -161,18 +154,18 @@
         "link": "https://www.sustainableviews.com/in-brief-singapore-launches-taxonomy-with-transition-category-canada-releases-oil-emissions-cap-regulation-5887b742/"
     },
     {
-        "title": "Sustainability reporting can help S\u2019pore SMEs attract clients, consumers, \nfinancing: Experts",
-        "summary": "Sustainability reporting includes climate disclosures, which have gained \nprominence. Read more at straitstimes.com.",
-        "date": "02 Oct 2023",
-        "source": "The Straits Times",
-        "link": "https://www.straitstimes.com/business/companies-markets/sustainability-reporting-can-help-s-pore-smes-attract-clients-consumers-financing-experts"
-    },
-    {
         "title": "Reducing food waste in Singapore: new action required under the Resource \nSustainability Act",
         "summary": "New obligations for hotels. For a number of years now since 2019, Singapore \nhotels and large building occupiers have been put on notice...",
         "date": "05 Dec 2023",
         "source": "Meetings & Conventions Asia",
         "link": "https://www.meetings-conventions-asia.com/News/Food-Beverage/Reducing-food-waste-in-Singapore-new-action-required-under-the-Resource-Sustainability-Act-RSA"
+    },
+    {
+        "title": "Sustainability reporting can help S\u2019pore SMEs attract clients, consumers, \nfinancing: Experts",
+        "summary": "Sustainability reporting includes climate disclosures, which have gained \nprominence. Read more at straitstimes.com.",
+        "date": "02 Oct 2023",
+        "source": "The Straits Times",
+        "link": "https://www.straitstimes.com/business/companies-markets/sustainability-reporting-can-help-s-pore-smes-attract-clients-consumers-financing-experts"
     },
     {
         "title": "Enterprise Singapore developing new local, international sustainability \nstandards and accreditation schemes",
@@ -259,6 +252,13 @@
         "link": "https://stacs.io/singapore-budget-2024-key-esg-takeaways-grants-to-support-sustainability-reporting/"
     },
     {
+        "title": "Applying ESG Metrics for Sustainability Reports in Singapore",
+        "summary": "Singapore's SGX recommends a set of 27 core ESG metrics for sustainability \nreporting, which are subject to periodic review and revision to...",
+        "date": "01 Mar 2024",
+        "source": "ASEAN Briefing",
+        "link": "https://www.aseanbriefing.com/news/applying-esg-metrics-for-sustainability-reports-in-singapore/"
+    },
+    {
         "title": "MAS and SGX Group Launch ESGenome Disclosure Portal to Streamline \nSustainability Reporting and Enhance Investor Access to ESG Data",
         "summary": "A digital disclosure portal for companies to report Environmental, Social \nand Governance (ESG) data in a structured and efficient manner.",
         "date": "13 Sep 2022",
@@ -285,6 +285,13 @@
         "date": "23 Feb 2024",
         "source": "Regulation Asia",
         "link": "https://www.regulationasia.com/navigating-the-esg-reporting-landscape-in-singapore/"
+    },
+    {
+        "title": "Singapore Publishes New Agri-Food Standards for Green and Sustainable \nProduce",
+        "summary": "The Singapore Food Agency (SFA) will use these standards for its Singapore \nGood Agricultural Practices (SG GAP) certification. So far, eight farms out \nof a...",
+        "date": "21 Sep 2023",
+        "source": "Seneca ESG",
+        "link": "https://senecaesg.com/insights/singapore-publishes-new-agri-food-standards-for-green-and-sustainable-produce/"
     },
     {
         "title": "Singapore to offset a third of climate reporting costs for large non-listed \ncompanies",
@@ -315,18 +322,11 @@
         "link": "https://www.nortonrosefulbright.com/en-sg/knowledge/publications/cea3bbd9/eu-taxonomy-regulation-and-aviation-a-transition-to-sustainability"
     },
     {
-        "title": "New developments in Singapore\u2019s ESG investment regulatory landscape",
-        "summary": "This article provides an overview of the ESG investment regulatory \nlandscape in Singapore, focusing on the MAS Guidelines on Environmental \nRisk Management (...",
-        "date": "07 Apr 2022",
-        "source": "IFLR",
-        "link": "https://www.iflr.com/article/2a647zxame68p5ffjft34/new-developments-in-singapores-esg-investment-regulatory-landscape"
-    },
-    {
-        "title": "Singapore's Sustainability Reporting Advisory Committee Recommends \nMandatory Climate Reporting For Listed And Large Non-Listed Companies",
-        "summary": "The Accounting and Corporate Regulatory Authority (ACRA) and Singapore \nExchange Regulation (SGX RegCo) have launched a public consultation...",
-        "date": "06 Jul 2023",
-        "source": "Mondo Visione",
-        "link": "https://mondovisione.com/news/singapores-sustainability-reporting-advisory-committee-recommends-mandatory-cli/"
+        "title": "New road map to set sustainability standards, targets for business events \norganisers",
+        "summary": "SINGAPORE - The events sector is looking to green its business by \nintroducing strategies, standards and targets that cover areas like waste...",
+        "date": "01 Dec 2022",
+        "source": "The Straits Times",
+        "link": "https://www.straitstimes.com/singapore/consumer/new-roadmap-to-set-sustainability-standards-targets-for-business-events-organisers"
     },
     {
         "title": "2024 High-level Political Forum on Sustainable Development",
@@ -399,13 +399,6 @@
         "link": "https://sdgs.un.org/news/water-action-agenda-online-survey-circulated-54050"
     },
     {
-        "title": "Governments must seek win-win synergies\u00a0by tackling climate and sustainable development crises together, urges expert group report",
-        "summary": "NOTE Report launch event on 13 September, 9 30 10 15am NY time, will be broadcast live from the SDG...",
-        "date": "13 Sep 2023",
-        "source": "UN SDGs",
-        "link": "https://sdgs.un.org/news/governments-must-seek-win-win-synergies-tackling-climate-and-sustainable-development-crises"
-    },
-    {
         "title": "New Report Launch: Synergy Solutions for a World in Crisis: Tackling Climate and SDG Action Together",
         "summary": "13 September, New York The new report launched by UNDESA and UNFCCC marks a significant step towards positive change. The...",
         "date": "13 Sep 2023",
@@ -413,11 +406,18 @@
         "link": "https://sdgs.un.org/news/new-report-launch-synergy-solutions-world-crisis-tackling-climate-and-sdg-action-together"
     },
     {
-        "title": "Small Island Developing States Are in Hot Water: Here\u2019s What the International Community Must Do to Help",
+        "title": "Governments must seek win-win synergies\u00a0by tackling climate and sustainable development crises together, urges expert group report",
+        "summary": "NOTE Report launch event on 13 September, 9 30 10 15am NY time, will be broadcast live from the SDG...",
+        "date": "13 Sep 2023",
+        "source": "UN SDGs",
+        "link": "https://sdgs.un.org/news/governments-must-seek-win-win-synergies-tackling-climate-and-sustainable-development-crises"
+    },
+    {
+        "title": "Climate change, debt relief expected to top Caribbean island nation priorities at regional meeting ahead of UN conference on Small Island Developing States",
         "summary": "",
         "date": "8 Aug 2023",
         "source": "UN SDGs",
-        "link": "https://sdgs.un.org/news/small-island-developing-states-are-hot-water-heres-what-international-community-must-do-help"
+        "link": "https://sdgs.un.org/news/climate-change-debt-relief-expected-top-caribbean-island-nation-priorities-regional-meeting"
     },
     {
         "title": "Singapore's Third National Climate Change Study (V3)",
