@@ -1,5 +1,5 @@
 # Sustainability News Web Scraper and Dashboard
-
+## Website Link: https://saladeehehe.github.io/GC-Sustainability-Updates/
 ## About The Project
 Our project aims to simplify the process of staying updated on sustainability-related news and regulatory trends by consolidating information from various sources into a single, convenient platform.
 
