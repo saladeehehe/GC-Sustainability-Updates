@@ -1358,18 +1358,18 @@
         "link": "https://www.globalcompliancenews.com/2024/04/25/https-insightplus-bakermckenzie-com-bm-dispute-resolution-singapore-esg-developments_04172024/"
     },
     {
-        "title": "Food Waste Management",
-        "summary": "Food waste accounted for about 11 per cent of the total waste generated in \nSingapore in 2023. The total amount of food waste generated in...",
-        "date": "30 Jul 2024",
-        "source": "The National Environment Agency",
-        "link": "https://www.nea.gov.sg/our-services/waste-management/3r-programmes-and-resources/food-waste-management"
-    },
-    {
         "title": "More Singapore businesses will have to report sustainability information, \nstarting with listed firms in 2025",
         "summary": "Singapore will require all listed firms to make climate-related disclosures \nfrom financial year 2025, followed by large non-listed firms two...",
         "date": "28 Feb 2024",
         "source": "CNA",
         "link": "https://www.channelnewsasia.com/singapore/singapore-mandatory-climate-disclosures-listed-companies-2025-4155586"
+    },
+    {
+        "title": "Food Waste Management",
+        "summary": "Food waste accounted for about 11 per cent of the total waste generated in \nSingapore in 2023. The total amount of food waste generated in...",
+        "date": "30 Jul 2024",
+        "source": "The National Environment Agency",
+        "link": "https://www.nea.gov.sg/our-services/waste-management/3r-programmes-and-resources/food-waste-management"
     },
     {
         "title": "UK and Singapore Strengthen Collaboration in Sustainable Finance and FinTech",
@@ -1400,25 +1400,18 @@
         "link": "https://esgpedia.io/singapore-budget-2024-sustainability-reporting-grants/"
     },
     {
+        "title": "Singapore\u2019s Carbon Regulations: Paving the Way for the Green Plan 2030",
+        "summary": "Other Author Maria Chang, Senior Associate of PK Wong & Nair Recognising \nthe threat of climate change and the importance of sustainable.",
+        "date": "06 Feb 2024",
+        "source": "Mayer Brown",
+        "link": "https://www.mayerbrown.com/en/insights/publications/2024/02/singapores-carbon-regulations-paving-the-way-for-the-green-plan-2030"
+    },
+    {
         "title": "Applying ESG Metrics for Sustainability Reports in Singapore",
         "summary": "Singapore's SGX recommends a set of 27 core ESG metrics for sustainability \nreporting, which are subject to periodic review and revision to...",
         "date": "01 Mar 2024",
         "source": "ASEAN Briefing",
         "link": "https://www.aseanbriefing.com/news/applying-esg-metrics-for-sustainability-reports-in-singapore/"
-    },
-    {
-        "title": "Navigating ESG Reporting in Singapore",
-        "summary": "Sustainability reporting in Singapore has evolved since the turn of the \nmillennium with reporting provisions for Singapore-based companies...",
-        "date": "28 Feb 2024",
-        "source": "ASEAN Briefing",
-        "link": "https://www.aseanbriefing.com/news/navigating-esg-reporting-in-singapore/"
-    },
-    {
-        "title": "Singapore to Provide Funding for Companies to Meet New Climate Reporting \nRequirements",
-        "summary": "The government of Singapore announced the launch of a new Sustainability \nReporting Grant, providing companies with support covering up to nearly a \nthird of the...",
-        "date": "06 Mar 2024",
-        "source": "ESG Today",
-        "link": "https://www.esgtoday.com/singapore-to-provide-funding-for-companies-to-meet-new-climate-reporting-requirements/"
     },
     {
         "title": "The green balancing act: How Singapore SMEs can navigate sustainability and \ncosts",
@@ -1428,11 +1421,18 @@
         "link": "https://www.businesstimes.com.sg/esg/the-green-balancing-act-how-singapore-smes-can-navigate-sustainability-and-costs"
     },
     {
-        "title": "Singapore\u2019s Carbon Regulations: Paving the Way for the Green Plan 2030",
-        "summary": "Other Author Maria Chang, Senior Associate of PK Wong & Nair Recognising \nthe threat of climate change and the importance of sustainable.",
-        "date": "06 Feb 2024",
-        "source": "Mayer Brown",
-        "link": "https://www.mayerbrown.com/en/insights/publications/2024/02/singapores-carbon-regulations-paving-the-way-for-the-green-plan-2030"
+        "title": "Singapore to Provide Funding for Companies to Meet New Climate Reporting \nRequirements",
+        "summary": "The government of Singapore announced the launch of a new Sustainability \nReporting Grant, providing companies with support covering up to nearly a \nthird of the...",
+        "date": "06 Mar 2024",
+        "source": "ESG Today",
+        "link": "https://www.esgtoday.com/singapore-to-provide-funding-for-companies-to-meet-new-climate-reporting-requirements/"
+    },
+    {
+        "title": "Navigating ESG Reporting in Singapore",
+        "summary": "Sustainability reporting in Singapore has evolved since the turn of the \nmillennium with reporting provisions for Singapore-based companies...",
+        "date": "28 Feb 2024",
+        "source": "ASEAN Briefing",
+        "link": "https://www.aseanbriefing.com/news/navigating-esg-reporting-in-singapore/"
     },
     {
         "title": "Singapore to Require Sustainable Aviation Fuel Use on All Departing Flights \nfrom 2026",
@@ -1440,13 +1440,6 @@
         "date": "19 Feb 2024",
         "source": "ESG Today",
         "link": "https://www.esgtoday.com/singapore-to-require-sustainable-aviation-fuel-use-on-all-departing-flights-from-2026/"
-    },
-    {
-        "title": "DPM Heng Swee Keat at the Launch of the SGX Sustainability Reporting Review",
-        "summary": "Speech by Deputy Prime Minister and Coordinating Minister for Economic \nPolicies Heng Swee Keat at the Launch of the SGX Sustainability Reporting \nReview on 23...",
-        "date": "23 Nov 2023",
-        "source": "Prime Minister's Office Singapore",
-        "link": "https://www.pmo.gov.sg/Newsroom/DPM-Heng-Swee-Keat-at-the-Launch-of-the-SGX-Sustainability-Reporting-Review"
     },
     {
         "title": "Singapore leads with new funding initiative for sustainability reporting",
@@ -1533,13 +1526,6 @@
         "link": "https://www.financierworldwide.com/a-new-dawn-for-esg-regulation-in-singapore"
     },
     {
-        "title": "Six ways that governments can drive the green transition",
-        "summary": "These six government priorities can help accelerate the evolution to a \ngreen, net-zero future.",
-        "date": "15 Aug 2024",
-        "source": "EY",
-        "link": "https://www.ey.com/en_sg/insights/government-public-sector/six-ways-that-governments-can-drive-the-green-transition"
-    },
-    {
         "title": "CNA Explains: More companies are putting out sustainability reports \u2013 why, \nand how to read them?",
         "summary": "SINGAPORE: On top of voluminous annual reports and financial statements, \nmore companies are presenting their actions in the environmental,...",
         "date": "23 Jul 2024",
@@ -1547,18 +1533,25 @@
         "link": "https://www.channelnewsasia.com/business/sustainability-reports-acronyms-cna-explains-4490596"
     },
     {
-        "title": "Launch Of Inaugural Zero Waste Manager Course",
-        "summary": "NEA supports businesses to build competencies in waste management and \nintegrate 3Rs \u2013 Reduce, Reuse and Recycle - into organisational...",
-        "date": "04 Mar 2024",
-        "source": "The National Environment Agency",
-        "link": "https://www.nea.gov.sg/media/news/news/index/launch-of-inaugural-zero-waste-manager-course"
-    },
-    {
         "title": "News Releases",
         "summary": "JOINT NEWS RELEASE BETWEEN NEA AND PPP, SDO@SCIC AND SSC. Singapore, 7 \nOctober 2022 - To equip producers of packaged products as well as...",
         "date": "07 Oct 2022",
         "source": "The National Environment Agency",
         "link": "https://www.nea.gov.sg/media/news/news/index/new-technical-reference-to-guide-companies-on-sustainable-packaging-practices"
+    },
+    {
+        "title": "UK and Singapore Enhance Cooperation in Sustainable Finance and FinTech",
+        "summary": "The 8th UK-Singapore Financial Dialogue facilitated a useful exchange of \nviews, and identified opportunities for further collaboration on...",
+        "date": "27 Jul 2023",
+        "source": "Monetary Authority of Singapore",
+        "link": "https://www.mas.gov.sg/news/media-releases/2023/uk-and-singapore-enhance-cooperation-in-sustainable-finance-and-fintech"
+    },
+    {
+        "title": "Launch Of Inaugural Zero Waste Manager Course",
+        "summary": "NEA supports businesses to build competencies in waste management and \nintegrate 3Rs \u2013 Reduce, Reuse and Recycle - into organisational...",
+        "date": "04 Mar 2024",
+        "source": "The National Environment Agency",
+        "link": "https://www.nea.gov.sg/media/news/news/index/launch-of-inaugural-zero-waste-manager-course"
     },
     {
         "title": "Singapore and China join forces with new green finance taskforce",
@@ -1589,6 +1582,13 @@
         "link": "https://www.mas.gov.sg/news/media-releases/2022/mas-and-sgx-group-launch-esgenome-disclosure-portal-to-streamline-sustainability-reporting-and-enhance-investor-access-to-esg-data"
     },
     {
+        "title": "Singapore moves forward with mandatory climate reporting \u2013 implications for \nU.S.-based multinationals",
+        "summary": "Singapore will introduce mandatory climate-related disclosures in a phased \napproach, in line with the final accepted recommendations.",
+        "date": "15 Apr 2024",
+        "source": "Ropes & Gray LLP",
+        "link": "https://www.ropesgray.com/en/insights/viewpoints/102j5cd/singapore-moves-forward-with-mandatory-climate-reporting-implications-for-u-s"
+    },
+    {
         "title": "Remarks by Mr Chia Der Jiun, Managing Director, MAS, at the MAS Annual \nReport 2023/2024 Media Conference on 18 July 2024",
         "summary": "Mr Chia Der Jiun, Managing Director of MAS, spoke on economic developments \nand monetary policy, the resilience of Singapore's financial...",
         "date": "18 Jul 2024",
@@ -1596,11 +1596,11 @@
         "link": "https://www.mas.gov.sg/news/speeches/2024/mas-annual-report-media-conference-2023-2024"
     },
     {
-        "title": "Singapore moves forward with mandatory climate reporting \u2013 implications for \nU.S.-based multinationals",
-        "summary": "Singapore will introduce mandatory climate-related disclosures in a phased \napproach, in line with the final accepted recommendations.",
-        "date": "15 Apr 2024",
-        "source": "Ropes & Gray LLP",
-        "link": "https://www.ropesgray.com/en/insights/viewpoints/102j5cd/singapore-moves-forward-with-mandatory-climate-reporting-implications-for-u-s"
+        "title": "Elevating sustainability standards and strengthening supply chains in the \nreal estate sector",
+        "summary": "Tay Hong Beng, Partner and Head of Real Estate at KPMG in Singapore, speaks \non the importance of integrating Environmental, Social and Governance \n(ESG)...",
+        "date": "25 May 2023",
+        "source": "KPMG",
+        "link": "https://kpmg.com/sg/en/home/insights/2023/05/elevating-sustainability-standards-and-strenghening-supply-chains-in-the-real-estate-sector.html"
     },
     {
         "title": "Breaking New Ground",
@@ -1610,10 +1610,10 @@
         "link": "https://www.pwc.com/sg/en/newsletters/breaking-new-ground/2024-02.html"
     },
     {
-        "title": "SGX RegCo launches consultation on incorporating ISSB standards into \nsustainability reporting rules",
-        "summary": "Singapore Exchange Regulation (SGX RegCo) is consulting the market on \ndetails of how the International Sustainability Standards Board (ISSB)...",
-        "date": "07 Mar 2024",
-        "source": "The Edge Singapore",
-        "link": "https://www.theedgesingapore.com/news/environmental-social-and-governance/sgx-regco-launches-consultation-incorporating-issb"
+        "title": "Singapore's Green Data Centre Roadmap \u2013 Representing a Necessary \nIntersection between Digital Infrastructure and Sustainability",
+        "summary": "Other Author Marianne Yeo, associate director of PKWN 1. Introduction The \ndemand for digital infrastructure has seen exponential growth.",
+        "date": "22 Aug 2024",
+        "source": "Mayer Brown",
+        "link": "https://www.mayerbrown.com/en/insights/publications/2024/08/singapores-green-data-centre-roadmap-representing-a-necessary-intersection-between-digital-infrastructure-and-sustainability"
     }
 ]
