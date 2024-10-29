@@ -21,18 +21,18 @@
         "link": "https://sdgs.un.org/news/water-action-agenda-invitation-submit-progress-report-55191"
     },
     {
-        "title": "UN to Convene Global Experts in Tokyo on 4-6 March to Assess Climate Action Targets under Sustainable Development Goals",
-        "summary": "",
-        "date": "1 Mar 2024",
-        "source": "UN SDGs",
-        "link": "https://sdgs.un.org/news/un-convene-global-experts-tokyo-4-6-march-assess-climate-action-targets-under-sustainable"
-    },
-    {
         "title": "UNEA Adopts a Bold Resolution on Promoting Synergies in Environmental Action",
         "summary": "26 February 1 March 2024, Nairobi, Kenya Leading the way in this rapidly expanding field, Japan put forward a resolution...",
         "date": "1 Mar 2024",
         "source": "UN SDGs",
         "link": "https://sdgs.un.org/news/unea-adopts-bold-resolution-promoting-synergies-environmental-action-56082"
+    },
+    {
+        "title": "UN to Convene Global Experts in Tokyo on 4-6 March to Assess Climate Action Targets under Sustainable Development Goals",
+        "summary": "",
+        "date": "1 Mar 2024",
+        "source": "UN SDGs",
+        "link": "https://sdgs.un.org/news/un-convene-global-experts-tokyo-4-6-march-assess-climate-action-targets-under-sustainable-0"
     },
     {
         "title": "United Nations Secretary-General Appoints New Members to the High-level Group to Champion Science, Technology, and Innovation for the Sustainable Development Goals",
@@ -84,11 +84,11 @@
         "link": "https://sdgs.un.org/news/new-report-launch-synergy-solutions-world-crisis-tackling-climate-and-sdg-action-together"
     },
     {
-        "title": "Small Island Developing States Are in Hot Water: Here\u2019s What the International Community Must Do to Help",
+        "title": "Climate change, debt relief expected to top Caribbean island nation priorities at regional meeting ahead of UN conference on Small Island Developing States",
         "summary": "",
         "date": "8 Aug 2023",
         "source": "UN SDGs",
-        "link": "https://sdgs.un.org/news/small-island-developing-states-are-hot-water-heres-what-international-community-must-do-help"
+        "link": "https://sdgs.un.org/news/climate-change-debt-relief-expected-top-caribbean-island-nation-priorities-regional-meeting"
     },
     {
         "title": "EU invests over \u20ac380 million in 133 new LIFE projects to support the green transition all around Europe",
@@ -1400,11 +1400,11 @@
         "link": "https://esgpedia.io/singapore-budget-2024-sustainability-reporting-grants/"
     },
     {
-        "title": "Applying ESG Metrics for Sustainability Reports in Singapore",
-        "summary": "Singapore's SGX recommends a set of 27 core ESG metrics for sustainability \nreporting, which are subject to periodic review and revision to...",
-        "date": "01 Mar 2024",
-        "source": "ASEAN Briefing",
-        "link": "https://www.aseanbriefing.com/news/applying-esg-metrics-for-sustainability-reports-in-singapore/"
+        "title": "Singapore\u2019s Carbon Regulations: Paving the Way for the Green Plan 2030",
+        "summary": "Other Author Maria Chang, Senior Associate of PK Wong & Nair Recognising \nthe threat of climate change and the importance of sustainable.",
+        "date": "06 Feb 2024",
+        "source": "Mayer Brown",
+        "link": "https://www.mayerbrown.com/en/insights/publications/2024/02/singapores-carbon-regulations-paving-the-way-for-the-green-plan-2030"
     },
     {
         "title": "The green balancing act: How Singapore SMEs can navigate sustainability and \ncosts",
@@ -1412,6 +1412,13 @@
         "date": "12 Mar 2024",
         "source": "The Business Times",
         "link": "https://www.businesstimes.com.sg/esg/the-green-balancing-act-how-singapore-smes-can-navigate-sustainability-and-costs"
+    },
+    {
+        "title": "Applying ESG Metrics for Sustainability Reports in Singapore",
+        "summary": "Singapore's SGX recommends a set of 27 core ESG metrics for sustainability \nreporting, which are subject to periodic review and revision to...",
+        "date": "01 Mar 2024",
+        "source": "ASEAN Briefing",
+        "link": "https://www.aseanbriefing.com/news/applying-esg-metrics-for-sustainability-reports-in-singapore/"
     },
     {
         "title": "Singapore to Provide Funding for Companies to Meet New Climate Reporting \nRequirements",
@@ -1428,25 +1435,11 @@
         "link": "https://www.aseanbriefing.com/news/navigating-esg-reporting-in-singapore/"
     },
     {
-        "title": "F&N, Sheng Siong, QAF among Asian food procurers that fall short of \ninvestors\u2019 sustainability standards: report",
-        "summary": "LISTED food procurers in Asia, including Singapore-listed F&N, Sheng Siong \nand QAF, have failed to meet investors' expectations on their...",
-        "date": "13 Jun 2024",
-        "source": "The Business Times",
-        "link": "https://www.businesstimes.com.sg/esg/fn-sheng-siong-qaf-among-asian-food-procurers-fall-short-investors-sustainability-standards-report"
-    },
-    {
         "title": "SGX RegCo seeks views on incorporating ISSB sustainability standards into \nlisting rules",
         "summary": "The Singapore Exchange Regulation (SGX RegCo) is seeking feedback from the \nmarket on how to incorporate standards developed by the International \nSustainability...",
         "date": "07 Mar 2024",
         "source": "The Business Times",
         "link": "https://www.businesstimes.com.sg/esg/sgx-regco-seeks-views-incorporating-issb-sustainability-standards-listing-rules"
-    },
-    {
-        "title": "Singapore\u2019s Carbon Regulations: Paving the Way for the Green Plan 2030",
-        "summary": "Other Author Maria Chang, Senior Associate of PK Wong & Nair Recognising \nthe threat of climate change and the importance of sustainable.",
-        "date": "06 Feb 2024",
-        "source": "Mayer Brown",
-        "link": "https://www.mayerbrown.com/en/insights/publications/2024/02/singapores-carbon-regulations-paving-the-way-for-the-green-plan-2030"
     },
     {
         "title": "Singapore leads with new funding initiative for sustainability reporting",
@@ -1456,6 +1449,13 @@
         "link": "https://fintech.global/2024/03/19/singapore-leads-with-new-funding-initiative-for-sustainability-reporting/"
     },
     {
+        "title": "Singapore to Require Sustainable Aviation Fuel Use on All Departing Flights \nfrom 2026",
+        "summary": "Singapore Minister for Transport Chee Hong Tat announced today the launch \nof the Singapore Sustainable Air Hub Blueprint, outlining a series...",
+        "date": "19 Feb 2024",
+        "source": "ESG Today",
+        "link": "https://www.esgtoday.com/singapore-to-require-sustainable-aviation-fuel-use-on-all-departing-flights-from-2026/"
+    },
+    {
         "title": "New grant for large businesses to defray costs of sustainability reporting",
         "summary": "TO HELP businesses develop their first sustainability reports, a new grant \nwill defray the costs that large companies incur; a separate new...",
         "date": "01 Mar 2024",
@@ -1463,11 +1463,11 @@
         "link": "https://www.businesstimes.com.sg/singapore/new-grant-for-large-businesses-to-defray-costs-of-sustainability-reporting"
     },
     {
-        "title": "Singapore to Require Sustainable Aviation Fuel Use on All Departing Flights \nfrom 2026",
-        "summary": "Singapore Minister for Transport Chee Hong Tat announced today the launch \nof the Singapore Sustainable Air Hub Blueprint, outlining a series...",
-        "date": "19 Feb 2024",
-        "source": "ESG Today",
-        "link": "https://www.esgtoday.com/singapore-to-require-sustainable-aviation-fuel-use-on-all-departing-flights-from-2026/"
+        "title": "DPM Heng Swee Keat at the Launch of the SGX Sustainability Reporting Review",
+        "summary": "Speech by Deputy Prime Minister and Coordinating Minister for Economic \nPolicies Heng Swee Keat at the Launch of the SGX Sustainability Reporting \nReview on 23...",
+        "date": "23 Nov 2023",
+        "source": "Prime Minister's Office Singapore",
+        "link": "https://www.pmo.gov.sg/Newsroom/DPM-Heng-Swee-Keat-at-the-Launch-of-the-SGX-Sustainability-Reporting-Review"
     },
     {
         "title": "New association in Singapore to focus on developing talent, industry \nstandards in sustainable finance",
@@ -1519,6 +1519,13 @@
         "link": "https://www.edb.gov.sg/en/about-edb/media-releases-publications/supporting-businesses-in-the-transition-to-a-low-carbon-and-sustainable-future.html"
     },
     {
+        "title": "Financial services regulation and ESG: Regulation Around the World | \nSingapore | Global law firm",
+        "summary": "We review recent steps that financial services regulatory authorities have \ntaken as regards Environmental, Social and Governance (ESG) measures.",
+        "date": "06 Oct 2023",
+        "source": "Norton Rose Fulbright",
+        "link": "https://www.nortonrosefulbright.com/en-sg/knowledge/publications/8c48a4f6/financial-services-regulation-and-esg-regulation-around-the-world"
+    },
+    {
         "title": "Singapore Issues Environmental Crimes Money Laundering National Risk \nAssessment",
         "summary": "Singapore published today an Environmental Crimes Money Laundering (ML) \nNational Risk Assessment (NRA) which identifies the key threats and \nvulnerabilities in...",
         "date": "29 May 2024",
@@ -1540,11 +1547,11 @@
         "link": "https://www.ey.com/en_sg/insights/government-public-sector/six-ways-that-governments-can-drive-the-green-transition"
     },
     {
-        "title": "CNA Explains: More companies are putting out sustainability reports \u2013 why, \nand how to read them?",
-        "summary": "SINGAPORE: On top of voluminous annual reports and financial statements, \nmore companies are presenting their actions in the environmental,...",
-        "date": "23 Jul 2024",
-        "source": "CNA",
-        "link": "https://www.channelnewsasia.com/business/sustainability-reports-acronyms-cna-explains-4490596"
+        "title": "News Releases",
+        "summary": "JOINT NEWS RELEASE BETWEEN NEA AND PPP, SDO@SCIC AND SSC. Singapore, 7 \nOctober 2022 - To equip producers of packaged products as well as...",
+        "date": "07 Oct 2022",
+        "source": "The National Environment Agency",
+        "link": "https://www.nea.gov.sg/media/news/news/index/new-technical-reference-to-guide-companies-on-sustainable-packaging-practices"
     },
     {
         "title": "UK and Singapore Enhance Cooperation in Sustainable Finance and FinTech",
@@ -1554,25 +1561,18 @@
         "link": "https://www.mas.gov.sg/news/media-releases/2023/uk-and-singapore-enhance-cooperation-in-sustainable-finance-and-fintech"
     },
     {
+        "title": "CNA Explains: More companies are putting out sustainability reports \u2013 why, \nand how to read them?",
+        "summary": "SINGAPORE: On top of voluminous annual reports and financial statements, \nmore companies are presenting their actions in the environmental,...",
+        "date": "23 Jul 2024",
+        "source": "CNA",
+        "link": "https://www.channelnewsasia.com/business/sustainability-reports-acronyms-cna-explains-4490596"
+    },
+    {
         "title": "Singapore and China join forces with new green finance taskforce",
         "summary": "Sustainable finance garners significant attention from global investors and \npolicymakers. In recent years, Europe has led the way in...",
         "date": "20 Sep 2023",
         "source": "East Asia Forum",
         "link": "https://eastasiaforum.org/2023/09/20/singapore-and-china-join-forces-with-new-green-finance-taskforce/"
-    },
-    {
-        "title": "News Releases",
-        "summary": "JOINT NEWS RELEASE BETWEEN NEA AND PPP, SDO@SCIC AND SSC. Singapore, 7 \nOctober 2022 - To equip producers of packaged products as well as...",
-        "date": "07 Oct 2022",
-        "source": "The National Environment Agency",
-        "link": "https://www.nea.gov.sg/media/news/news/index/new-technical-reference-to-guide-companies-on-sustainable-packaging-practices"
-    },
-    {
-        "title": "Mandatory climate disclosures proposed for large non-listcos from FY2027, \nall listcos from FY2025",
-        "summary": "SINGAPORE could become the first country in Asia to roll out mandatory \nclimate-related disclosures on non-listed companies, as its business...",
-        "date": "06 Jul 2023",
-        "source": "The Business Times",
-        "link": "https://www.businesstimes.com.sg/esg/mandatory-climate-disclosures-proposed-large-non-listcos-fy2027-all-listcos-fy2025"
     },
     {
         "title": "MAS and SGX Group Launch ESGenome Disclosure Portal to Streamline \nSustainability Reporting and Enhance Investor Access to ESG Data",
@@ -1589,6 +1589,13 @@
         "link": "https://www.ropesgray.com/en/insights/viewpoints/102j5cd/singapore-moves-forward-with-mandatory-climate-reporting-implications-for-u-s"
     },
     {
+        "title": "Remarks by Mr Chia Der Jiun, Managing Director, MAS, at the MAS Annual \nReport 2023/2024 Media Conference on 18 July 2024",
+        "summary": "Mr Chia Der Jiun, Managing Director of MAS, spoke on economic developments \nand monetary policy, the resilience of Singapore's financial...",
+        "date": "18 Jul 2024",
+        "source": "Monetary Authority of Singapore",
+        "link": "https://www.mas.gov.sg/news/speeches/2024/mas-annual-report-media-conference-2023-2024"
+    },
+    {
         "title": "Elevating sustainability standards and strengthening supply chains in the \nreal estate sector",
         "summary": "Tay Hong Beng, Partner and Head of Real Estate at KPMG in Singapore, speaks \non the importance of integrating Environmental, Social and Governance \n(ESG)...",
         "date": "25 May 2023",
@@ -1601,13 +1608,6 @@
         "date": "23 Feb 2024",
         "source": "Regulation Asia",
         "link": "https://www.regulationasia.com/navigating-the-esg-reporting-landscape-in-singapore/"
-    },
-    {
-        "title": "Nearly all Singapore listcos have started climate-related reporting in \nFY2023: EY, CPA report",
-        "summary": "Out of 362 Singapore-listed companies, 346 \u2013 or 96 per cent \u2013 have \ncommenced climate-related disclosures for the financial year ended Dec 31, \n2023.",
-        "date": "08 Jul 2024",
-        "source": "The Business Times",
-        "link": "https://www.businesstimes.com.sg/esg/nearly-all-singapore-listcos-have-started-climate-related-reporting-fy2023-ey-cpa-report"
     },
     {
         "title": "SGX RegCo launches consultation on incorporating ISSB standards into \nsustainability reporting rules",
