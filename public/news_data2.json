@@ -84,11 +84,18 @@
         "link": "https://sdgs.un.org/news/new-report-launch-synergy-solutions-world-crisis-tackling-climate-and-sdg-action-together"
     },
     {
-        "title": "Small Island Developing States Are in Hot Water: Here\u2019s What the International Community Must Do to Help",
+        "title": "Climate change, debt relief expected to top Caribbean island nation priorities at regional meeting ahead of UN conference on Small Island Developing States",
         "summary": "",
         "date": "8 Aug 2023",
         "source": "UN SDGs",
-        "link": "https://sdgs.un.org/news/small-island-developing-states-are-hot-water-heres-what-international-community-must-do-help"
+        "link": "https://sdgs.un.org/news/climate-change-debt-relief-expected-top-caribbean-island-nation-priorities-regional-meeting"
+    },
+    {
+        "title": "EU Ecolabel Cosmetics Webinar",
+        "summary": "Join the webinar \u2018 When beauty meets green: the EU Ecolabel for cosmetic products \u2019 on 11 December 2024 to learn all you need to know about the EU Ecolabel, its future perspectives, and the opportunities it offers cosmetics producers to showcase the environmental credentials of their products.",
+        "date": "12 Nov 2024",
+        "source": "European Commission",
+        "link": "https://environment.ec.europa.eu/news/eu-ecolabel-cosmetics-webinar-2024-11-12_en"
     },
     {
         "title": "EU invests over \u20ac380 million in 133 new LIFE projects to support the green transition all around Europe",
@@ -141,7 +148,7 @@
     },
     {
         "title": "EU Ecolabel Webinar: Opportunities for businesses in tourist accommodation",
-        "summary": "Join the webinar \u2018Bring tourist accommodation into the green spotlight with the EU Ecolabel\u2019 webinar on 11 June 2024 to learn all you need to know about the EU Ecolabel, how it works, its future perspectives and discover the opportunities it offers to tourist accommodations.",
+        "summary": "Join the webinar \u2018Bring tourist accommodation into the green spotlight with the EU Ecolabel\u2019 on 11 June 2024 to learn all you need to know about the EU Ecolabel, how it works, its future perspectives and discover the opportunities it offers to tourist accommodations.",
         "date": "21 May 2024",
         "source": "European Commission",
         "link": "https://environment.ec.europa.eu/news/eu-ecolabel-webinar-opportunities-businesses-tourist-accommodation-2024-05-21_en"
@@ -264,13 +271,6 @@
         "date": "24 Jul 2023",
         "source": "European Commission",
         "link": "https://climate.ec.europa.eu/news-your-voice/news/joint-press-release-following-fourth-eu-china-high-level-environment-and-climate-dialogue-2023-07-24_en"
-    },
-    {
-        "title": "Sustainable cities: five finalists for the European Green Capital & Leaf Awards",
-        "summary": "The Commission announces the finalists of the European Green Capital and Green Leaf Awards 2025.",
-        "date": "20 Jul 2023",
-        "source": "European Commission",
-        "link": "https://environment.ec.europa.eu/news/sustainable-cities-five-finalists-european-green-capital-leaf-awards-2023-07-20_en"
     },
     {
         "title": "Circular economy: improving design and end-of-life management of cars for more resource-efficient automotive sector",
@@ -1358,18 +1358,18 @@
         "link": "https://www.globalcompliancenews.com/2024/04/25/https-insightplus-bakermckenzie-com-bm-dispute-resolution-singapore-esg-developments_04172024/"
     },
     {
-        "title": "Food Waste Management",
-        "summary": "Food waste accounted for about 11 per cent of the total waste generated in \nSingapore in 2023. The total amount of food waste generated in...",
-        "date": "30 Jul 2024",
-        "source": "The National Environment Agency",
-        "link": "https://www.nea.gov.sg/our-services/waste-management/3r-programmes-and-resources/food-waste-management"
-    },
-    {
         "title": "More Singapore businesses will have to report sustainability information, \nstarting with listed firms in 2025",
         "summary": "All listed companies in Singapore will be required to make climate-related \ndisclosures starting from the financial year (FY) of 2025.",
         "date": "28 Feb 2024",
         "source": "CNA",
         "link": "https://www.channelnewsasia.com/singapore/singapore-mandatory-climate-disclosures-listed-companies-2025-4155586"
+    },
+    {
+        "title": "Food Waste Management",
+        "summary": "Food waste accounted for about 11 per cent of the total waste generated in \nSingapore in 2023. The total amount of food waste generated in...",
+        "date": "30 Jul 2024",
+        "source": "The National Environment Agency",
+        "link": "https://www.nea.gov.sg/our-services/waste-management/3r-programmes-and-resources/food-waste-management"
     },
     {
         "title": "UK and Singapore Strengthen Collaboration in Sustainable Finance and FinTech",
@@ -1407,18 +1407,18 @@
         "link": "https://www.ropesgray.com/en/insights/viewpoints/102j5cd/singapore-moves-forward-with-mandatory-climate-reporting-implications-for-u-s"
     },
     {
+        "title": "Singapore\u2019s Carbon Regulations: Paving the Way for the Green Plan 2030",
+        "summary": "Other Author Maria Chang, Senior Associate of PK Wong & Nair Recognising \nthe threat of climate change and the importance of sustainable.",
+        "date": "06 Feb 2024",
+        "source": "Mayer Brown",
+        "link": "https://www.mayerbrown.com/en/insights/publications/2024/02/singapores-carbon-regulations-paving-the-way-for-the-green-plan-2030"
+    },
+    {
         "title": "The green balancing act: How Singapore SMEs can navigate sustainability and \ncosts",
         "summary": "Recent surveys found that some of the top challenges that SMEs face in \ngoing green include lack of knowledge and lack of manpower.",
         "date": "12 Mar 2024",
         "source": "The Business Times",
         "link": "https://www.businesstimes.com.sg/esg/the-green-balancing-act-how-singapore-smes-can-navigate-sustainability-and-costs"
-    },
-    {
-        "title": "CNA Explains: More companies are putting out sustainability reports \u2013 why, \nand how to read them?",
-        "summary": "SINGAPORE: On top of voluminous annual reports and financial statements, \nmore companies are presenting their actions in the environmental,...",
-        "date": "23 Jul 2024",
-        "source": "CNA",
-        "link": "https://www.channelnewsasia.com/business/sustainability-reports-acronyms-cna-explains-4490596"
     },
     {
         "title": "Applying ESG Metrics for Sustainability Reports in Singapore",
@@ -1435,13 +1435,6 @@
         "link": "https://www.esgtoday.com/singapore-to-provide-funding-for-companies-to-meet-new-climate-reporting-requirements/"
     },
     {
-        "title": "Singapore\u2019s Carbon Regulations: Paving the Way for the Green Plan 2030",
-        "summary": "Other Author Maria Chang, Senior Associate of PK Wong & Nair Recognising \nthe threat of climate change and the importance of sustainable.",
-        "date": "06 Feb 2024",
-        "source": "Mayer Brown",
-        "link": "https://www.mayerbrown.com/en/insights/publications/2024/02/singapores-carbon-regulations-paving-the-way-for-the-green-plan-2030"
-    },
-    {
         "title": "New association in Singapore to focus on developing talent, industry \nstandards in sustainable finance",
         "summary": "A new association launched in Singapore on Wednesday (Jan 24) will help to \ndevelop the local talent pool, industry standards and financing solutions \nrequired...",
         "date": "24 Jan 2024",
@@ -1454,13 +1447,6 @@
         "date": "19 Feb 2024",
         "source": "ESG Today",
         "link": "https://www.esgtoday.com/singapore-to-require-sustainable-aviation-fuel-use-on-all-departing-flights-from-2026/"
-    },
-    {
-        "title": "DPM Heng Swee Keat at the Launch of the SGX Sustainability Reporting Review",
-        "summary": "Speech by Deputy Prime Minister and Coordinating Minister for Economic \nPolicies Heng Swee Keat at the Launch of the SGX Sustainability Reporting \nReview on 23...",
-        "date": "23 Nov 2023",
-        "source": "Prime Minister's Office Singapore",
-        "link": "https://www.pmo.gov.sg/Newsroom/DPM-Heng-Swee-Keat-at-the-Launch-of-the-SGX-Sustainability-Reporting-Review"
     },
     {
         "title": "A regional comparison of ESG regulations: Singapore",
@@ -1484,18 +1470,18 @@
         "link": "https://www.eiu.com/n/singapore-to-propose-climate-reporting-for-large-companies/"
     },
     {
-        "title": "A new dawn for ESG regulation in Singapore?",
-        "summary": "September 2023 | SPOTLIGHT | RISK MANAGEMENT. Financier Worldwide Magazine. \nSeptember 2023 Issue. Singapore's regulators are taking important steps \ntoward...",
-        "date": "15 Aug 2023",
-        "source": "Financier Worldwide",
-        "link": "https://www.financierworldwide.com/a-new-dawn-for-esg-regulation-in-singapore"
-    },
-    {
         "title": "Financial services regulation and ESG: Regulation Around the World | \nSingapore | Global law firm",
         "summary": "We review recent steps that financial services regulatory authorities have \ntaken as regards Environmental, Social and Governance (ESG) measures.",
         "date": "06 Oct 2023",
         "source": "Norton Rose Fulbright",
         "link": "https://www.nortonrosefulbright.com/en-sg/knowledge/publications/8c48a4f6/financial-services-regulation-and-esg-regulation-around-the-world"
+    },
+    {
+        "title": "Singapore Proposes Mandatory Climate Reporting for both Public and Private \nCompanies",
+        "summary": "Public and large private companies in Singapore will be required to provide \nclimate-related disclosures aligned with the IFRS' newly published ISSB \ndisclosure...",
+        "date": "10 Jul 2023",
+        "source": "ESG Today",
+        "link": "https://www.esgtoday.com/singapore-proposes-mandatory-climate-reporting-for-both-public-and-private-companies/"
     },
     {
         "title": "Supporting businesses in the transition to a low-carbon and sustainable \nfuture",
@@ -1505,11 +1491,11 @@
         "link": "https://www.edb.gov.sg/en/about-edb/media-releases-publications/supporting-businesses-in-the-transition-to-a-low-carbon-and-sustainable-future.html"
     },
     {
-        "title": "Singapore Proposes Mandatory Climate Reporting for both Public and Private \nCompanies",
-        "summary": "Public and large private companies in Singapore will be required to provide \nclimate-related disclosures aligned with the IFRS' newly published ISSB \ndisclosure...",
-        "date": "10 Jul 2023",
-        "source": "ESG Today",
-        "link": "https://www.esgtoday.com/singapore-proposes-mandatory-climate-reporting-for-both-public-and-private-companies/"
+        "title": "A new dawn for ESG regulation in Singapore?",
+        "summary": "September 2023 | SPOTLIGHT | RISK MANAGEMENT. Financier Worldwide Magazine. \nSeptember 2023 Issue. Singapore's regulators are taking important steps \ntoward...",
+        "date": "15 Aug 2023",
+        "source": "Financier Worldwide",
+        "link": "https://www.financierworldwide.com/a-new-dawn-for-esg-regulation-in-singapore"
     },
     {
         "title": "Singapore Issues Environmental Crimes Money Laundering National Risk \nAssessment",
@@ -1526,25 +1512,11 @@
         "link": "https://www.aseanbriefing.com/news/navigating-esg-reporting-in-singapore/"
     },
     {
-        "title": "Harnessing the power of Singapore fintech to drive sustainability",
-        "summary": "New regulations for data and mandatory reporting are acting as a catalyst \nfor making the country a regional ESG hub, a key topic at this...",
-        "date": "14 Nov 2023",
-        "source": "FinanceAsia",
-        "link": "https://www.financeasia.com/article/harnessing-the-power-of-singapore-fintech-to-drive-sustainability/492703"
-    },
-    {
         "title": "Thriving Sustainably: Local Manufacturers Managing Carbon Footprints",
         "summary": "Discover how sustainable manufacturing is key to staying competitive in \nSingapore's global market. Insights from Dr Yeo Zhiquan at A*STAR.",
         "date": "29 May 2024",
         "source": "Agency for Science, Technology and Research",
         "link": "https://www.a-star.edu.sg/News/astarNews/news/features/Thriving-Sustainably-Local-Manufacturers-Managing-Carbon-Footprints"
-    },
-    {
-        "title": "Global Greenwashing Regulations: How the World Is Cracking Down on \nMisleading Sustainability Claims",
-        "summary": "Amid fears of greenwashing claims, sustainable investment assets have \ndropped as much as 51-percent. This blog outlines how ESG Stewardship...",
-        "date": "14 Nov 2023",
-        "source": "Sustainalytics",
-        "link": "https://www.sustainalytics.com/esg-research/resource/investors-esg-blog/global-greenwashing-regulations--how-the-world-is-cracking-down-on-misleading-sustainability-claims"
     },
     {
         "title": "Singapore and China join forces with new green finance taskforce",
@@ -1554,25 +1526,18 @@
         "link": "https://eastasiaforum.org/2023/09/20/singapore-and-china-join-forces-with-new-green-finance-taskforce/"
     },
     {
+        "title": "UK and Singapore Enhance Cooperation in Sustainable Finance and FinTech",
+        "summary": "The 8th UK-Singapore Financial Dialogue facilitated a useful exchange of \nviews, and identified opportunities for further collaboration on...",
+        "date": "27 Jul 2023",
+        "source": "Monetary Authority of Singapore",
+        "link": "https://www.mas.gov.sg/news/media-releases/2023/uk-and-singapore-enhance-cooperation-in-sustainable-finance-and-fintech"
+    },
+    {
         "title": "Six ways that governments can drive the green transition",
         "summary": "In brief. Tackling the environmental, economic and social impact of climate \nchange requires a huge transformation across all sectors.",
         "date": "15 Aug 2024",
         "source": "EY",
         "link": "https://www.ey.com/en_sg/insights/government-public-sector/six-ways-that-governments-can-drive-the-green-transition"
-    },
-    {
-        "title": "News Releases",
-        "summary": "JOINT NEWS RELEASE BETWEEN NEA AND PPP, SDO@SCIC AND SSC. Singapore, 7 \nOctober 2022 - To equip producers of packaged products as well as...",
-        "date": "07 Oct 2022",
-        "source": "The National Environment Agency",
-        "link": "https://www.nea.gov.sg/media/news/news/index/new-technical-reference-to-guide-companies-on-sustainable-packaging-practices"
-    },
-    {
-        "title": "Navigating the green horizon: The real estate response to ESG in Asia \nPacific",
-        "summary": "RSM's real estate specialists share their insights on how the global demand \nfor sustainable practices is shaping the sector.",
-        "date": "06 Feb 2024",
-        "source": "RSM Global",
-        "link": "https://www.rsm.global/singapore/insights/navigating-green-horizon-real-estate-response-esg-asia-pacific"
     },
     {
         "title": "MAS and SGX Group Launch ESGenome Disclosure Portal to Streamline \nSustainability Reporting and Enhance Investor Access to ESG Data",
@@ -1582,11 +1547,32 @@
         "link": "https://www.mas.gov.sg/news/media-releases/2022/mas-and-sgx-group-launch-esgenome-disclosure-portal-to-streamline-sustainability-reporting-and-enhance-investor-access-to-esg-data"
     },
     {
-        "title": "Breaking New Ground",
-        "summary": "From adapting to new realities in emerging industries such as Web3, \nevolving regulations, to compliance and commitment to environmental, \nsocial, and governance...",
-        "date": "18 Feb 2024",
-        "source": "PwC",
-        "link": "https://www.pwc.com/sg/en/newsletters/breaking-new-ground/2024-02.html"
+        "title": "EU Taxonomy Regulation and aviation - A transition to sustainability | \nSingapore | Global law firm",
+        "summary": "On 21 November 2023 the Delegated Regulation (EU) 2023/2485 of 27 June 2023 \namending Delegated Act EU 2021/2139 (also known as the Climate Delegated \nAct)...",
+        "date": "08 Sep 2023",
+        "source": "Norton Rose Fulbright",
+        "link": "https://www.nortonrosefulbright.com/en-sg/knowledge/publications/cea3bbd9/eu-taxonomy-regulation-and-aviation-a-transition-to-sustainability"
+    },
+    {
+        "title": "Navigating the green horizon: The real estate response to ESG in Asia \nPacific",
+        "summary": "RSM's real estate specialists share their insights on how the global demand \nfor sustainable practices is shaping the sector.",
+        "date": "06 Feb 2024",
+        "source": "RSM Global",
+        "link": "https://www.rsm.global/singapore/insights/navigating-green-horizon-real-estate-response-esg-asia-pacific"
+    },
+    {
+        "title": "Global Greenwashing Regulations: How the World Is Cracking Down on \nMisleading Sustainability Claims",
+        "summary": "Amid fears of greenwashing claims, sustainable investment assets have \ndropped as much as 51-percent. This blog outlines how ESG Stewardship...",
+        "date": "14 Nov 2023",
+        "source": "Sustainalytics",
+        "link": "https://www.sustainalytics.com/esg-research/resource/investors-esg-blog/global-greenwashing-regulations--how-the-world-is-cracking-down-on-misleading-sustainability-claims"
+    },
+    {
+        "title": "Elevating sustainability standards and strengthening supply chains in the \nreal estate sector",
+        "summary": "Tay Hong Beng, Partner and Head of Real Estate at KPMG in Singapore, speaks \non the importance of integrating Environmental, Social and Governance \n(ESG)...",
+        "date": "25 May 2023",
+        "source": "KPMG",
+        "link": "https://kpmg.com/sg/en/home/insights/2023/05/elevating-sustainability-standards-and-strenghening-supply-chains-in-the-real-estate-sector.html"
     },
     {
         "title": "Navigating the ESG Reporting Landscape in Singapore",
@@ -1596,17 +1582,52 @@
         "link": "https://www.regulationasia.com/navigating-the-esg-reporting-landscape-in-singapore/"
     },
     {
-        "title": "Pathfinding in Digital Governance: Singapore\u2019s Holistic Approach to Digital \nRegulation",
-        "summary": "In this article, Janessa Kong, Senior Policy Analyst at SIIA (Singapore \nInstitute of International Affairs), shares her insights on Singapore's \npragmatic...",
-        "date": "10 Sep 2024",
-        "source": "Tech For Good Institute",
-        "link": "https://techforgoodinstitute.org/blog/expert-opinion/pathfinding-in-digital-governance-singapores-holistic-approach-to-digital-regulation/"
-    },
-    {
         "title": "The first ISSB reporting standards are here",
         "summary": "The inaugural publication of the first two IFRS \u00ae Sustainability Disclosure \nStandards 1 is a key milestone in the International Sustainability \nStandards...",
         "date": "13 Jul 2023",
         "source": "KPMG",
         "link": "https://kpmg.com/sg/en/home/insights/2023/07/issb-standards-are-now-live.html"
+    },
+    {
+        "title": "SGX RegCo launches consultation on incorporating ISSB standards into \nsustainability reporting rules",
+        "summary": "Singapore Exchange Regulation (SGX RegCo) is consulting the market on \ndetails of how the International Sustainability Standards Board (ISSB)...",
+        "date": "07 Mar 2024",
+        "source": "The Edge Singapore",
+        "link": "https://www.theedgesingapore.com/news/environmental-social-and-governance/sgx-regco-launches-consultation-incorporating-issb"
+    },
+    {
+        "title": "Maritime Singapore Decarbonisation Blueprint: Working Towards 2050",
+        "summary": "The Maritime Singapore Decarbonisation Blueprint: Working Towards 2050 \ncharts ambitious and concrete long-term strategies to build a sustainable \nMaritime...",
+        "date": "06 Jun 2022",
+        "source": "Maritime and Port Authority of Singapore",
+        "link": "https://www.mpa.gov.sg/maritime-singapore/sustainability/maritime-singapore-decarbonisation-blueprint"
+    },
+    {
+        "title": "Get ready for a new level of ESG reporting",
+        "summary": "The European Union's Corporate Sustainability Reporting Directive (CSRD) is \ntransforming environmental, social and governance (ESG) reporting.",
+        "date": "09 Mar 2023",
+        "source": "KPMG",
+        "link": "https://kpmg.com/sg/en/home/insights/2023/03/get-ready-for-the-next-wave-of-esg-reporting.html"
+    },
+    {
+        "title": "Exclusive! Redefining Possibilities: Singapore\u2019s Embrace of AI and \nSustainable IT for Digital Resilience",
+        "summary": "The OpenGov Event on 23 May 2024 at Novotel Singapore on Stevens delved \ninto strategies for harnessing AI capabilities and fostering sustainable IT.",
+        "date": "23 May 2024",
+        "source": "OpenGov Asia",
+        "link": "https://opengovasia.com/2024/05/23/exclusive-redefining-possibilities-singapores-embrace-of-ai-and-sustainable-it-for-digital-resilience/"
+    },
+    {
+        "title": "Transforming Singapore towards sustainable tourism and urban living",
+        "summary": "Sustainable tourism is becoming a bigger concept in Singapore, where they \nare prepared to address traveller needs and reconsider their carbon output.",
+        "date": "11 Apr 2023",
+        "source": "Open Access Government",
+        "link": "https://www.openaccessgovernment.org/transforming-singapore-sustainable-tourism-urban-living/157031/"
+    },
+    {
+        "title": "What do the EU\u2019s latest proposals regarding Sustainable Aviation Fuel (SAF) \nmean for the aviation sector?",
+        "summary": "The ReFuel Regulation targets airlines, fuel suppliers and airports and its \nrequirements apply to all flights leaving EU airports.",
+        "date": "02 Jun 2023",
+        "source": "Norton Rose Fulbright",
+        "link": "https://www.nortonrosefulbright.com/en-sg/knowledge/publications/056fe0dd/what-do-the-eus-latest-proposals-regarding-sustainable-aviation"
     }
 ]
