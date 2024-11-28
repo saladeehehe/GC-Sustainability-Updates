@@ -1470,6 +1470,13 @@
         "link": "https://www.channelnewsasia.com/business/sustainability-reports-acronyms-cna-explains-4490596"
     },
     {
+        "title": "SGX RegCo issues consultation paper on incorporation of ISSB standards in \nsustainability reporting",
+        "summary": "On 7 March 2024, Singapore Exchange Regulation (SGX RegCo) issued a \nconsultation paper titled \u201cSustainability Reporting - Enhancing Consistency \nand...",
+        "date": "04 Apr 2024",
+        "source": "Allen & Gledhill",
+        "link": "https://www.allenandgledhill.com/sg/perspectives/articles/27744/sgkh-sgx-regco-issues-consultation-paper-on-incorporation-of-issb-standards-in-sustainability-reporting"
+    },
+    {
         "title": "Applying ESG Metrics for Sustainability Reports in Singapore",
         "summary": "Singapore's SGX recommends a set of 27 core ESG metrics for sustainability \nreporting, which are subject to periodic review and revision to...",
         "date": "01 Mar 2024",
@@ -1491,18 +1498,18 @@
         "link": "https://www.aseanbriefing.com/news/navigating-esg-reporting-in-singapore/"
     },
     {
-        "title": "Singapore rolls out new industry benchmark for sustainable finance skills",
-        "summary": "As the city-state seeks to expand its sustainable finance workforce over \nthe next few years, the sector's national certification agency has...",
-        "date": "18 Apr 2024",
-        "source": "Eco-Business",
-        "link": "https://www.eco-business.com/news/singapore-rolls-out-new-industry-benchmark-for-sustainable-finance-skills/"
-    },
-    {
         "title": "Singapore\u2019s Carbon Regulations: Paving the Way for the Green Plan 2030",
         "summary": "Other Author Maria Chang, Senior Associate of PK Wong & Nair Recognising \nthe threat of climate change and the importance of sustainable.",
         "date": "06 Feb 2024",
         "source": "Mayer Brown",
         "link": "https://www.mayerbrown.com/en/insights/publications/2024/02/singapores-carbon-regulations-paving-the-way-for-the-green-plan-2030"
+    },
+    {
+        "title": "Singapore rolls out new industry benchmark for sustainable finance skills",
+        "summary": "As the city-state seeks to expand its sustainable finance workforce over \nthe next few years, the sector's national certification agency has...",
+        "date": "18 Apr 2024",
+        "source": "Eco-Business",
+        "link": "https://www.eco-business.com/news/singapore-rolls-out-new-industry-benchmark-for-sustainable-finance-skills/"
     },
     {
         "title": "From Big Four dominance to more oversight of assurance providers \u2013 what to \nlook out for as Asia adopts ISSB standards",
@@ -1603,18 +1610,18 @@
         "link": "https://www.mas.gov.sg/news/media-releases/2022/mas-and-sgx-group-launch-esgenome-disclosure-portal-to-streamline-sustainability-reporting-and-enhance-investor-access-to-esg-data"
     },
     {
-        "title": "UK and Singapore Enhance Cooperation in Sustainable Finance and FinTech",
-        "summary": "The 8th UK-Singapore Financial Dialogue facilitated a useful exchange of \nviews, and identified opportunities for further collaboration on...",
-        "date": "27 Jul 2023",
-        "source": "Monetary Authority of Singapore",
-        "link": "https://www.mas.gov.sg/news/media-releases/2023/uk-and-singapore-enhance-cooperation-in-sustainable-finance-and-fintech"
-    },
-    {
         "title": "Sustainability Knowledge Hub",
         "summary": "SGX's sustainability knowledge hub is designed to be a one-stop information \nplatform for listed companies, investors, and other key stakeholders.",
         "date": "20 Apr 2022",
         "source": "Singapore Exchange (SGX)",
         "link": "https://www.sgx.com/sustainable-finance/sustainability-knowledge-hub"
+    },
+    {
+        "title": "UK and Singapore Enhance Cooperation in Sustainable Finance and FinTech",
+        "summary": "The 8th UK-Singapore Financial Dialogue facilitated a useful exchange of \nviews, and identified opportunities for further collaboration on...",
+        "date": "27 Jul 2023",
+        "source": "Monetary Authority of Singapore",
+        "link": "https://www.mas.gov.sg/news/media-releases/2023/uk-and-singapore-enhance-cooperation-in-sustainable-finance-and-fintech"
     },
     {
         "title": "EU Taxonomy Regulation and aviation - A transition to sustainability | \nSingapore | Global law firm",
@@ -1631,25 +1638,11 @@
         "link": "https://kpmg.com/sg/en/home/insights/2023/05/elevating-sustainability-standards-and-strenghening-supply-chains-in-the-real-estate-sector.html"
     },
     {
-        "title": "SGX RegCo will require ISSB-aligned climate-related disclosures from all \nlisted issuers starting FY2025",
-        "summary": "Singapore Exchange Regulation (SGX RegCo) will begin incorporating the IFRS \nsustainability disclosure standards into its sustainability...",
-        "date": "23 Sep 2024",
-        "source": "The Edge Singapore",
-        "link": "https://www.theedgesingapore.com/news/environmental-social-and-governance/sgx-regco-will-require-issb-aligned-climate-related"
-    },
-    {
         "title": "Singapore to offset a third of climate reporting costs for large non-listed \ncompanies",
         "summary": "Government grants will cover 30 per cent of the costs incurred by large \ncompanies that will begin mandatory reporting against ISSB standards...",
         "date": "02 Mar 2024",
         "source": "Eco-Business",
         "link": "https://www.eco-business.com/news/singapore-to-offset-a-third-of-climate-reporting-costs-for-large-non-listed-companies/"
-    },
-    {
-        "title": "Six ways that governments can drive the green transition",
-        "summary": "In brief. Tackling the environmental, economic and social impact of climate \nchange requires a huge transformation across all sectors.",
-        "date": "15 Aug 2024",
-        "source": "EY",
-        "link": "https://www.ey.com/en_sg/insights/government-public-sector/six-ways-that-governments-can-drive-the-green-transition"
     },
     {
         "title": "Mandatory climate disclosures proposed for large non-listcos from FY2027, \nall listcos from FY2025",
@@ -1659,6 +1652,13 @@
         "link": "https://www.businesstimes.com.sg/esg/mandatory-climate-disclosures-proposed-large-non-listcos-fy2027-all-listcos-fy2025"
     },
     {
+        "title": "SGX RegCo will require ISSB-aligned climate-related disclosures from all \nlisted issuers starting FY2025",
+        "summary": "Singapore Exchange Regulation (SGX RegCo) will begin incorporating the IFRS \nsustainability disclosure standards into its sustainability...",
+        "date": "23 Sep 2024",
+        "source": "The Edge Singapore",
+        "link": "https://www.theedgesingapore.com/news/environmental-social-and-governance/sgx-regco-will-require-issb-aligned-climate-related"
+    },
+    {
         "title": "Navigating the green horizon: The real estate response to ESG in Asia \nPacific",
         "summary": "RSM's real estate specialists share their insights on how the global demand \nfor sustainable practices is shaping the sector.",
         "date": "06 Feb 2024",
@@ -1666,10 +1666,10 @@
         "link": "https://www.rsm.global/singapore/insights/navigating-green-horizon-real-estate-response-esg-asia-pacific"
     },
     {
-        "title": "Over 70% of large Singapore listcos aiming for net-zero emissions by 2050: \nstudy",
-        "summary": "Some 71 per cent of billion-dollar issuers on the Singapore Exchange (SGX) \nhave set a target to hit net-zero emissions by 2050 or earlier, a study \nreleased on...",
-        "date": "08 Jul 2024",
-        "source": "The Business Times",
-        "link": "https://www.businesstimes.com.sg/esg/over-70-large-singapore-listcos-aiming-net-zero-emissions-2050-study"
+        "title": "Six ways that governments can drive the green transition",
+        "summary": "In brief. Tackling the environmental, economic and social impact of climate \nchange requires a huge transformation across all sectors.",
+        "date": "15 Aug 2024",
+        "source": "EY",
+        "link": "https://www.ey.com/en_sg/insights/government-public-sector/six-ways-that-governments-can-drive-the-green-transition"
     }
 ]
