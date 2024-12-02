@@ -1449,6 +1449,13 @@
         "link": "https://www.esgtoday.com/singapore-exchange-softens-requirement-for-scope-3-reporting-for-smaller-companies/"
     },
     {
+        "title": "CNA Explains: More companies are putting out sustainability reports \u2013 why, \nand how to read them?",
+        "summary": "SINGAPORE: On top of voluminous annual reports and financial statements, \nmore companies are presenting their actions in the environmental,...",
+        "date": "23 Jul 2024",
+        "source": "CNA",
+        "link": "https://www.channelnewsasia.com/business/sustainability-reports-acronyms-cna-explains-4490596"
+    },
+    {
         "title": "Applying ESG Metrics for Sustainability Reports in Singapore",
         "summary": "Singapore's SGX recommends a set of 27 core ESG metrics for sustainability \nreporting, which are subject to periodic review and revision to...",
         "date": "01 Mar 2024",
@@ -1482,6 +1489,13 @@
         "date": "18 Apr 2024",
         "source": "Eco-Business",
         "link": "https://www.eco-business.com/news/singapore-rolls-out-new-industry-benchmark-for-sustainable-finance-skills/"
+    },
+    {
+        "title": "From Big Four dominance to more oversight of assurance providers \u2013 what to \nlook out for as Asia adopts ISSB standards",
+        "summary": "Australia, Japan, Hong Kong, Malaysia, New Zealand, Philippines and \nSingapore are introducing mandatory climate reporting rules,...",
+        "date": "26 Mar 2024",
+        "source": "Eco-Business",
+        "link": "https://www.eco-business.com/news/from-big-four-dominance-to-more-oversight-of-assurance-providers-what-to-look-out-for-as-asia-adopts-issb-standards/"
     },
     {
         "title": "Climate vouchers, coastal protection law among sustainability measures \nannounced at Budget debate",
@@ -1547,20 +1561,6 @@
         "link": "https://www.financierworldwide.com/a-new-dawn-for-esg-regulation-in-singapore"
     },
     {
-        "title": "Supporting businesses in the transition to a low-carbon and sustainable \nfuture",
-        "summary": "The Energy Efficiency Grant (EEG) aims to support businesses in their \nsustainability journey by co-funding investments in energy-efficient \nequipment.",
-        "date": "01 Mar 2024",
-        "source": "Singapore Economic Development Board (EDB)",
-        "link": "https://www.edb.gov.sg/en/about-edb/media-releases-publications/supporting-businesses-in-the-transition-to-a-low-carbon-and-sustainable-future.html"
-    },
-    {
-        "title": "Thriving Sustainably: Local Manufacturers Managing Carbon Footprints",
-        "summary": "Discover how sustainable manufacturing is key to staying competitive in \nSingapore's global market. Insights from Dr Yeo Zhiquan at A*STAR.",
-        "date": "29 May 2024",
-        "source": "Agency for Science, Technology and Research",
-        "link": "https://www.a-star.edu.sg/News/astarNews/news/features/Thriving-Sustainably-Local-Manufacturers-Managing-Carbon-Footprints"
-    },
-    {
         "title": "Singapore to propose climate reporting for large companies",
         "summary": "On July 6th Singapore's Sustainability Reporting Advisory Committee (SRAC), \nset up by the Accounting and Corporate Regulatory Authority and...",
         "date": "07 Jul 2023",
@@ -1580,6 +1580,13 @@
         "date": "13 Sep 2022",
         "source": "Monetary Authority of Singapore",
         "link": "https://www.mas.gov.sg/news/media-releases/2022/mas-and-sgx-group-launch-esgenome-disclosure-portal-to-streamline-sustainability-reporting-and-enhance-investor-access-to-esg-data"
+    },
+    {
+        "title": "Sustainability reporting can help S\u2019pore SMEs attract clients, consumers, \nfinancing: Experts",
+        "summary": "Sustainability reporting includes climate disclosures, which have gained \nprominence. Read more at straitstimes.com.",
+        "date": "02 Oct 2023",
+        "source": "The Straits Times",
+        "link": "https://www.straitstimes.com/business/companies-markets/sustainability-reporting-can-help-s-pore-smes-attract-clients-consumers-financing-experts"
     },
     {
         "title": "Sustainability Knowledge Hub",
@@ -1603,6 +1610,13 @@
         "link": "https://www.nortonrosefulbright.com/en-sg/knowledge/publications/cea3bbd9/eu-taxonomy-regulation-and-aviation-a-transition-to-sustainability"
     },
     {
+        "title": "News Releases",
+        "summary": "JOINT NEWS RELEASE BETWEEN NEA AND PPP, SDO@SCIC AND SSC. Singapore, 7 \nOctober 2022 - To equip producers of packaged products as well as...",
+        "date": "07 Oct 2022",
+        "source": "The National Environment Agency",
+        "link": "https://www.nea.gov.sg/media/news/news/index/new-technical-reference-to-guide-companies-on-sustainable-packaging-practices"
+    },
+    {
         "title": "Elevating sustainability standards and strengthening supply chains in the \nreal estate sector",
         "summary": "Tay Hong Beng, Partner and Head of Real Estate at KPMG in Singapore, speaks \non the importance of integrating Environmental, Social and Governance \n(ESG)...",
         "date": "25 May 2023",
@@ -1610,11 +1624,11 @@
         "link": "https://kpmg.com/sg/en/home/insights/2023/05/elevating-sustainability-standards-and-strenghening-supply-chains-in-the-real-estate-sector.html"
     },
     {
-        "title": "Singapore to offset a third of climate reporting costs for large non-listed \ncompanies",
-        "summary": "Government grants will cover 30 per cent of the costs incurred by large \ncompanies that will begin mandatory reporting against ISSB standards...",
-        "date": "02 Mar 2024",
-        "source": "Eco-Business",
-        "link": "https://www.eco-business.com/news/singapore-to-offset-a-third-of-climate-reporting-costs-for-large-non-listed-companies/"
+        "title": "Thriving Sustainably: Local Manufacturers Managing Carbon Footprints",
+        "summary": "Discover how sustainable manufacturing is key to staying competitive in \nSingapore's global market. Insights from Dr Yeo Zhiquan at A*STAR.",
+        "date": "29 May 2024",
+        "source": "Agency for Science, Technology and Research",
+        "link": "https://www.a-star.edu.sg/News/astarNews/news/features/Thriving-Sustainably-Local-Manufacturers-Managing-Carbon-Footprints"
     },
     {
         "title": "SGX RegCo will require ISSB-aligned climate-related disclosures from all \nlisted issuers starting FY2025",
@@ -1624,11 +1638,18 @@
         "link": "https://www.theedgesingapore.com/news/environmental-social-and-governance/sgx-regco-will-require-issb-aligned-climate-related"
     },
     {
-        "title": "Navigating the green horizon: The real estate response to ESG in Asia \nPacific",
-        "summary": "RSM's real estate specialists share their insights on how the global demand \nfor sustainable practices is shaping the sector.",
-        "date": "06 Feb 2024",
-        "source": "RSM Global",
-        "link": "https://www.rsm.global/singapore/insights/navigating-green-horizon-real-estate-response-esg-asia-pacific"
+        "title": "Leading law schools in Australia, Hong Kong & Singapore join hands to form \nResearch Alliance on Law & Sustainability to drive research & teaching in \nthe Asia-Pacific region",
+        "summary": "A first of its kind in the Asia-Pacific region, with an aim to drive \nlaw-focused research and teaching initiatives on achieving sustainability \nfor this part of...",
+        "date": "13 Jul 2023",
+        "source": "SMU Newsroom",
+        "link": "https://news.smu.edu.sg/news/2023/07/13/leading-law-schools-australia-hong-kong-singapore-join-hands-form-research-alliance"
+    },
+    {
+        "title": "Singapore to offset a third of climate reporting costs for large non-listed \ncompanies",
+        "summary": "Government grants will cover 30 per cent of the costs incurred by large \ncompanies that will begin mandatory reporting against ISSB standards...",
+        "date": "02 Mar 2024",
+        "source": "Eco-Business",
+        "link": "https://www.eco-business.com/news/singapore-to-offset-a-third-of-climate-reporting-costs-for-large-non-listed-companies/"
     },
     {
         "title": "Over 70% of large Singapore listcos aiming for net-zero emissions by 2050: \nstudy",
@@ -1664,19 +1685,5 @@
         "date": "23 Sep 2024",
         "source": "The Business Times",
         "link": "https://www.businesstimes.com.sg/companies-markets/singapore-listcos-must-report-direct-and-indirect-greenhouse-gas-emissions-fy2025"
-    },
-    {
-        "title": "Key sustainability trends that will drive decision-making in 2023",
-        "summary": "In 2023, we think continued geopolitical turmoil, persistent inflation, \nlooming recession and worsening physical impacts of climate change...",
-        "date": "16 Jan 2023",
-        "source": "S&P Global",
-        "link": "https://www.spglobal.com/esg/insights/featured/special-editorial/key-sustainability-trends-that-will-drive-decision-making-in-2023"
-    },
-    {
-        "title": "The first ISSB reporting standards are here",
-        "summary": "The inaugural publication of the first two IFRS \u00ae Sustainability Disclosure \nStandards 1 is a key milestone in the International Sustainability \nStandards...",
-        "date": "13 Jul 2023",
-        "source": "KPMG",
-        "link": "https://kpmg.com/sg/en/home/insights/2023/07/issb-standards-are-now-live.html"
     }
 ]
