@@ -126,18 +126,18 @@
         "link": "https://sbr.com.sg/markets-investing/news/sgx-regco-sets-new-standards-in-sustainability-reporting-starting-fy2025"
     },
     {
-        "title": "Singapore moves forward with ISSB standards, despite scope 3 delay",
-        "summary": "Singapore Exchange Regulation (SGX RegCo) is set to apply the latest international sustainability standards to listed companies.",
-        "date": "01 Oct 2024",
-        "source": "Green Central Banking",
-        "link": "https://greencentralbanking.com/2024/10/01/singapore-moves-forward-with-issb-standards-despite-scope-3-delay/"
-    },
-    {
         "title": "Singapore\u2019s ISCA Unveils 2024 Sustainability Reporting Guide for Compliance with ISSB Standards",
         "summary": "The Institute of Singapore Chartered Accountants (ISCA) has introduced a comprehensive guide to support companies in their sustainability reporting efforts.",
         "date": "10 Oct 2024",
         "source": "Seneca ESG",
         "link": "https://senecaesg.com/insights/singapores-isca-unveils-2024-sustainability-reporting-guide-for-compliance-with-issb-standards/"
+    },
+    {
+        "title": "Singapore moves forward with ISSB standards, despite scope 3 delay",
+        "summary": "Singapore Exchange Regulation (SGX RegCo) is set to apply the latest international sustainability standards to listed companies.",
+        "date": "01 Oct 2024",
+        "source": "Green Central Banking",
+        "link": "https://greencentralbanking.com/2024/10/01/singapore-moves-forward-with-issb-standards-despite-scope-3-delay/"
     },
     {
         "title": "Singapore Budget 2024: Key ESG Takeaways & Grants to support Sustainability Reporting",
@@ -152,6 +152,13 @@
         "date": "28 Feb 2024",
         "source": "CNA",
         "link": "https://www.channelnewsasia.com/singapore/singapore-mandatory-climate-disclosures-listed-companies-2025-4155586"
+    },
+    {
+        "title": "Soilbuild strives towards new sustainability standards with Tampines Connection",
+        "summary": "the eco-friendly development will aim to achieve the highest BCA sustainability rating \u2014 the Green Mark Platinum Super Low Energy (SLE)...",
+        "date": "18 Oct 2024",
+        "source": "EdgeProp Singapore",
+        "link": "https://www.edgeprop.sg/property-news/soilbuild-strives-towards-new-sustainability-standards-tampines-connection"
     },
     {
         "title": "Sustainability reporting can help S\u2019pore SMEs attract clients, consumers, financing: Experts",
@@ -196,32 +203,11 @@
         "link": "https://www.businesstimes.com.sg/companies-markets/singapore-listcos-must-report-direct-and-indirect-greenhouse-gas-emissions-fy2025"
     },
     {
-        "title": "New anti-money laundering laws in Singapore target kingpins\u2019 profits from environmental crime",
-        "summary": "Singapore's new laws take aim at a criminal industry worth billions worldwide. Read more at straitstimes.com.",
-        "date": "15 Sep 2024",
-        "source": "The Straits Times",
-        "link": "https://www.straitstimes.com/singapore/new-anti-money-laundering-laws-in-singapore-target-kingpins-profits-from-environmental-crime"
-    },
-    {
-        "title": "Soilbuild strives towards new sustainability standards with Tampines Connection",
-        "summary": "the eco-friendly development will aim to achieve the highest BCA sustainability rating \u2014 the Green Mark Platinum Super Low Energy (SLE)...",
-        "date": "18 Oct 2024",
-        "source": "EdgeProp Singapore",
-        "link": "https://www.edgeprop.sg/property-news/soilbuild-strives-towards-new-sustainability-standards-tampines-connection"
-    },
-    {
         "title": "The green balancing act: How Singapore SMEs can navigate sustainability and costs",
         "summary": "Recent surveys found that some of the top challenges that SMEs face in going green include lack of knowledge and lack of manpower.",
         "date": "12 Mar 2024",
         "source": "The Business Times",
         "link": "https://www.businesstimes.com.sg/esg/the-green-balancing-act-how-singapore-smes-can-navigate-sustainability-and-costs"
-    },
-    {
-        "title": "Singapore: Gprnt Launches New Sustainability Reporting Tools",
-        "summary": "A new Disclosure tool will simplify sustainability reporting for businesses while a new Marketplace will enable them to connect to an...",
-        "date": "06 Nov 2024",
-        "source": "Regulation Asia",
-        "link": "https://www.regulationasia.com/singapore-gprnt-launches-new-sustainability-reporting-tools/"
     },
     {
         "title": "Climate vouchers, coastal protection law among sustainability measures announced at Budget debate",
@@ -266,6 +252,20 @@
         "link": "https://www.eco-business.com/news/from-big-four-dominance-to-more-oversight-of-assurance-providers-what-to-look-out-for-as-asia-adopts-issb-standards/"
     },
     {
+        "title": "In Brief: Europe expands register of environmental crimes; Singapore to implement mandatory ISSB standards",
+        "summary": "The latest ESG policy and regulatory news The Belgian presidency of the European Council has failed to negotiate an agreement between member...",
+        "date": "01 Mar 2024",
+        "source": "Sustainable Views",
+        "link": "https://www.sustainableviews.com/in-brief-europe-expands-register-of-environmental-crimes-singapore-to-implement-mandatory-issb-standards-598ec0aa/"
+    },
+    {
+        "title": "Malaysia\u2019s ISSB consultation reveals urgent need for capacity in sustainability reporting",
+        "summary": "Following a public consultation on the proposed timeline and reliefs for the adoption of the international sustainability reporting standard...",
+        "date": "25 Mar 2024",
+        "source": "Eco-Business",
+        "link": "https://www.eco-business.com/news/malaysias-issb-consultation-reveals-urgent-need-for-capacity-in-sustainability-reporting/"
+    },
+    {
         "title": "Singapore to Require Sustainable Aviation Fuel Use on All Departing Flights from 2026",
         "summary": "Singapore Minister for Transport Chee Hong Tat announced today the launch of the Singapore Sustainable Air Hub Blueprint, outlining a series...",
         "date": "19 Feb 2024",
@@ -308,13 +308,6 @@
         "link": "https://www.straitstimes.com/singapore/legally-green-how-the-courts-help-protect-the-environment-amid-climate-change"
     },
     {
-        "title": "New association in Singapore to focus on developing talent, industry standards in sustainable finance",
-        "summary": "A new association launched in Singapore on Wednesday (Jan 24) will help to develop the local talent pool, industry standards and financing solutions required...",
-        "date": "24 Jan 2024",
-        "source": "CNA",
-        "link": "https://www.channelnewsasia.com/business/singapore-sustainable-finance-association-launch-build-talent-industry-standards-4070791"
-    },
-    {
         "title": "Supporting businesses in the transition to a low-carbon and sustainable future",
         "summary": "The Energy Efficiency Grant (EEG) aims to support businesses in their sustainability journey by co-funding investments in energy-efficient equipment.",
         "date": "01 Mar 2024",
@@ -327,6 +320,13 @@
         "date": "15 Aug 2023",
         "source": "Financier Worldwide",
         "link": "https://www.financierworldwide.com/a-new-dawn-for-esg-regulation-in-singapore"
+    },
+    {
+        "title": "New association in Singapore to focus on developing talent, industry standards in sustainable finance",
+        "summary": "A new association launched in Singapore on Wednesday (Jan 24) will help to develop the local talent pool, industry standards and financing solutions required...",
+        "date": "24 Jan 2024",
+        "source": "CNA",
+        "link": "https://www.channelnewsasia.com/business/singapore-sustainable-finance-association-launch-build-talent-industry-standards-4070791"
     },
     {
         "title": "Singapore among the first in Asia to propose mandatory climate reporting for non-listed companies",
@@ -378,13 +378,6 @@
         "link": "https://eastasiaforum.org/2023/09/20/singapore-and-china-join-forces-with-new-green-finance-taskforce/"
     },
     {
-        "title": "Over 70% of large Singapore listcos aiming for net-zero emissions by 2050: study",
-        "summary": "Some 71 per cent of billion-dollar issuers on the Singapore Exchange (SGX) have set a target to hit net-zero emissions by 2050 or earlier, a study released on...",
-        "date": "08 Jul 2024",
-        "source": "The Business Times",
-        "link": "https://www.businesstimes.com.sg/esg/over-70-large-singapore-listcos-aiming-net-zero-emissions-2050-study"
-    },
-    {
         "title": "In Brief: Singapore launches taxonomy with transition category; Canada releases oil emissions cap regulation",
         "summary": "The latest ESG policy and regulatory news The Monetary Authority of Singapore has released its sustainable finance taxonomy and become the...",
         "date": "08 Dec 2023",
@@ -411,6 +404,13 @@
         "date": "02 Mar 2024",
         "source": "Eco-Business",
         "link": "https://www.eco-business.com/news/singapore-to-offset-a-third-of-climate-reporting-costs-for-large-non-listed-companies/"
+    },
+    {
+        "title": "SGX RegCo will require ISSB-aligned climate-related disclosures from all listed issuers starting FY2025",
+        "summary": "Singapore Exchange Regulation (SGX RegCo) will begin incorporating the IFRS sustainability disclosure standards into its sustainability...",
+        "date": "23 Sep 2024",
+        "source": "The Edge Singapore",
+        "link": "https://www.theedgesingapore.com/news/environmental-social-and-governance/sgx-regco-will-require-issb-aligned-climate-related"
     },
     {
         "title": "Water for Climate: Together Better, Together Stronger",
@@ -448,18 +448,18 @@
         "link": "https://sdgs.un.org/news/water-action-agenda-invitation-submit-progress-report-55191"
     },
     {
-        "title": "UN to Convene Global Experts in Tokyo on 4-6 March to Assess Climate Action Targets under Sustainable Development Goals",
-        "summary": "",
-        "date": "1 Mar 2024",
-        "source": "UN SDGs",
-        "link": "https://sdgs.un.org/news/un-convene-global-experts-tokyo-4-6-march-assess-climate-action-targets-under-sustainable"
-    },
-    {
         "title": "UNEA Adopts a Bold Resolution on Promoting Synergies in Environmental Action",
         "summary": "26 February 1 March 2024, Nairobi, Kenya Leading the way in this rapidly expanding field, Japan put forward a resolution...",
         "date": "1 Mar 2024",
         "source": "UN SDGs",
         "link": "https://sdgs.un.org/news/unea-adopts-bold-resolution-promoting-synergies-environmental-action-56082"
+    },
+    {
+        "title": "UN to Convene Global Experts in Tokyo on 4-6 March to Assess Climate Action Targets under Sustainable Development Goals",
+        "summary": "",
+        "date": "1 Mar 2024",
+        "source": "UN SDGs",
+        "link": "https://sdgs.un.org/news/un-convene-global-experts-tokyo-4-6-march-assess-climate-action-targets-under-sustainable-0"
     },
     {
         "title": "United Nations Secretary-General Appoints New Members to the High-level Group to Champion Science, Technology, and Innovation for the Sustainable Development Goals",
