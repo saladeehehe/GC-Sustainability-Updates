@@ -385,6 +385,13 @@
         "link": "https://www.eco-business.com/news/from-big-four-dominance-to-more-oversight-of-assurance-providers-what-to-look-out-for-as-asia-adopts-issb-standards/"
     },
     {
+        "title": "In Brief: Europe expands register of environmental crimes; Singapore to implement mandatory ISSB standards",
+        "summary": "The latest ESG policy and regulatory news The Belgian presidency of the European Council has failed to negotiate an agreement between member...",
+        "date": "01 Mar 2024",
+        "source": "Sustainable Views",
+        "link": "https://www.sustainableviews.com/in-brief-europe-expands-register-of-environmental-crimes-singapore-to-implement-mandatory-issb-standards-598ec0aa/"
+    },
+    {
         "title": "Singapore\u2019s Carbon Regulations: Paving the Way for the Green Plan 2030",
         "summary": "Other Author Maria Chang, Senior Associate of PK Wong & Nair Recognising the threat of climate change and the importance of sustainable.",
         "date": "06 Feb 2024",
@@ -441,13 +448,6 @@
         "link": "https://www.eco-business.com/news/singapore-among-the-first-in-asia-to-propose-mandatory-climate-reporting-for-non-listed-companies/"
     },
     {
-        "title": "Singapore Proposes Mandatory Climate Reporting for both Public and Private Companies",
-        "summary": "Public and large private companies in Singapore will be required to provide climate-related disclosures aligned with the IFRS' newly published ISSB disclosure...",
-        "date": "10 Jul 2023",
-        "source": "ESG Today",
-        "link": "https://www.esgtoday.com/singapore-proposes-mandatory-climate-reporting-for-both-public-and-private-companies/"
-    },
-    {
         "title": "Financial services regulation and ESG: Regulation Around the World | Singapore | Global law firm",
         "summary": "We review recent steps that financial services regulatory authorities have taken as regards Environmental, Social and Governance (ESG) measures.",
         "date": "06 Oct 2023",
@@ -460,13 +460,6 @@
         "date": "21 Oct 2024",
         "source": "Singapore Post",
         "link": "https://www.singpost.com/about-us/news-releases/new-queen-bee-enabled-sustainability-transition-quest-programme-launched"
-    },
-    {
-        "title": "New association in Singapore to focus on developing talent, industry standards in sustainable finance",
-        "summary": "A new association launched in Singapore on Wednesday (Jan 24) will help to develop the local talent pool, industry standards and financing solutions required...",
-        "date": "24 Jan 2024",
-        "source": "CNA",
-        "link": "https://www.channelnewsasia.com/business/singapore-sustainable-finance-association-launch-build-talent-industry-standards-4070791"
     },
     {
         "title": "Singapore and China join forces with new green finance taskforce",
@@ -483,11 +476,25 @@
         "link": "https://www.businesstimes.com.sg/esg/over-70-large-singapore-listcos-aiming-net-zero-emissions-2050-study"
     },
     {
+        "title": "New association in Singapore to focus on developing talent, industry standards in sustainable finance",
+        "summary": "A new association launched in Singapore on Wednesday (Jan 24) will help to develop the local talent pool, industry standards and financing solutions required...",
+        "date": "24 Jan 2024",
+        "source": "CNA",
+        "link": "https://www.channelnewsasia.com/business/singapore-sustainable-finance-association-launch-build-talent-industry-standards-4070791"
+    },
+    {
         "title": "In Brief: Singapore launches taxonomy with transition category; Canada releases oil emissions cap regulation",
         "summary": "The latest ESG policy and regulatory news The Monetary Authority of Singapore has released its sustainable finance taxonomy and become the...",
         "date": "08 Dec 2023",
         "source": "Sustainable Views",
         "link": "https://www.sustainableviews.com/in-brief-singapore-launches-taxonomy-with-transition-category-canada-releases-oil-emissions-cap-regulation-5887b742/"
+    },
+    {
+        "title": "Navigating the green horizon: The real estate response to ESG in Asia Pacific",
+        "summary": "RSM's real estate specialists share their insights on how the global demand for sustainable practices is shaping the sector.",
+        "date": "06 Feb 2024",
+        "source": "RSM Global",
+        "link": "https://www.rsm.global/singapore/insights/navigating-green-horizon-real-estate-response-esg-asia-pacific"
     },
     {
         "title": "Singapore to propose climate reporting for large companies",
@@ -497,6 +504,20 @@
         "link": "https://www.eiu.com/n/singapore-to-propose-climate-reporting-for-large-companies/"
     },
     {
+        "title": "Singapore Proposes Mandatory Climate Reporting for both Public and Private Companies",
+        "summary": "Public and large private companies in Singapore will be required to provide climate-related disclosures aligned with the IFRS' newly published ISSB disclosure...",
+        "date": "10 Jul 2023",
+        "source": "ESG Today",
+        "link": "https://www.esgtoday.com/singapore-proposes-mandatory-climate-reporting-for-both-public-and-private-companies/"
+    },
+    {
+        "title": "Regulatory Updates in Asia ESG \u2014 August 2023",
+        "summary": "Issuers of green bonds (i.e., bonds whose proceeds are allocated to eligible green projects) and sustainability-linked bonds (SLBs, i.e.,...",
+        "date": "26 Aug 2023",
+        "source": "Latham & Watkins LLP",
+        "link": "https://www.lw.com/en/insights/regulatory-updates-in-asia-esg-august-2023"
+    },
+    {
         "title": "Global Greenwashing Regulations: How the World Is Cracking Down on Misleading Sustainability Claims",
         "summary": "Amid fears of greenwashing claims, sustainable investment assets have dropped as much as 51-percent. This blog outlines how ESG Stewardship...",
         "date": "14 Nov 2023",
@@ -504,11 +525,11 @@
         "link": "https://www.sustainalytics.com/esg-research/resource/investors-esg-blog/global-greenwashing-regulations--how-the-world-is-cracking-down-on-misleading-sustainability-claims"
     },
     {
-        "title": "Climate reporting may combat greenwashing, but more data-related woes may follow",
-        "summary": "In recent years, greenwashing has been a rising concern echoing across boardrooms and regulatory circles alike. With a growing awareness of...",
-        "date": "13 Nov 2023",
-        "source": "The Business Times",
-        "link": "https://www.businesstimes.com.sg/esg/climate-reporting-may-combat-greenwashing-more-data-related-woes-may-follow"
+        "title": "Elevating sustainability standards and strengthening supply chains in the real estate sector",
+        "summary": "Tay Hong Beng, Partner and Head of Real Estate at KPMG in Singapore, speaks on the importance of integrating Environmental, Social and Governance (ESG)...",
+        "date": "25 May 2023",
+        "source": "KPMG",
+        "link": "https://kpmg.com/sg/en/home/insights/2023/05/elevating-sustainability-standards-and-strenghening-supply-chains-in-the-real-estate-sector.html"
     },
     {
         "title": "In Focus: Singapore Climate-related Disclosures and the ESG Landscape in APAC",
@@ -523,27 +544,6 @@
         "date": "07 Oct 2022",
         "source": "The National Environment Agency",
         "link": "https://www.nea.gov.sg/media/news/news/index/new-technical-reference-to-guide-companies-on-sustainable-packaging-practices"
-    },
-    {
-        "title": "Mandatory climate disclosures proposed for large non-listcos from FY2027, all listcos from FY2025",
-        "summary": "SINGAPORE could become the first country in Asia to roll out mandatory climate-related disclosures on non-listed companies, as its business...",
-        "date": "06 Jul 2023",
-        "source": "The Business Times",
-        "link": "https://www.businesstimes.com.sg/esg/mandatory-climate-disclosures-proposed-large-non-listcos-fy2027-all-listcos-fy2025"
-    },
-    {
-        "title": "Singapore\u2019s top 100 companies outperform the global average in sustainability reporting",
-        "summary": "The latest findings from KPMG reveal that sustainability reporting has grown steadily, with 79% of leading global companies providing...",
-        "date": "18 Oct 2022",
-        "source": "KPMG",
-        "link": "https://kpmg.com/sg/en/home/media/press-releases/2022/10/singapore-top-100-companies-in-sustainability-reporting.html"
-    },
-    {
-        "title": "S\u2019pore regulators propose mandatory climate reporting for listed, large non-listed firms",
-        "summary": "A committee formed by two of Singapore's top regulators is seeking public feedback on the move. Read more at straitstimes.com.",
-        "date": "16 Jul 2023",
-        "source": "The Straits Times",
-        "link": "https://www.straitstimes.com/business/singapore-regulators-propose-mandatory-climate-reporting-for-listed-and-large-non-listed-companies"
     },
     {
         "title": "Water for Climate: Together Better, Together Stronger",
