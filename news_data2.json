@@ -28,11 +28,11 @@
         "link": "https://www.meetings-conventions-asia.com/News/Conferences-and-Exhibitions/Singapores-pavilion-at-IMEX-America-sets-new-sustainability-standards"
     },
     {
-        "title": "Singapore to Introduce Mandatory Climate Reporting Beginning 2025",
-        "summary": "Singapore will implement mandatory climate-related reporting requirements for listed and large non-listed companies.",
-        "date": "28 Feb 2024",
+        "title": "Singapore Exchange Softens Requirement for Scope 3 Reporting for Smaller Companies",
+        "summary": "SGX RegCo announced updates to its sustainability reporting rules for listed companies, including pushing back mandatory value chain, or Scope 3, emissions...",
+        "date": "24 Sep 2024",
         "source": "ESG Today",
-        "link": "https://www.esgtoday.com/singapore-to-introduce-mandatory-climate-reporting-beginning-2025/"
+        "link": "https://www.esgtoday.com/singapore-exchange-softens-requirement-for-scope-3-reporting-for-smaller-companies/"
     },
     {
         "title": "Singapore moves forward with ISSB standards, despite scope 3 delay",
@@ -77,6 +77,13 @@
         "link": "https://esgpedia.io/singapore-budget-2024-sustainability-reporting-grants/"
     },
     {
+        "title": "In Focus: Singapore Climate-related Disclosures and the ESG Landscape in APAC",
+        "summary": "Rising investor expectations have spurred a global push for publicly listed companies (PLCs) to disclose comprehensive sustainability information.",
+        "date": "26 Apr 2024",
+        "source": "Anthesis Group",
+        "link": "https://www.anthesisgroup.com/au/insights/singapore-climate-related-disclosures-and-esg/"
+    },
+    {
         "title": "Singapore moves forward with mandatory climate reporting \u2013 implications for U.S.-based multinationals",
         "summary": "Singapore will introduce mandatory climate-related disclosures in a phased approach, in line with the final accepted recommendations.",
         "date": "15 Apr 2024",
@@ -105,18 +112,11 @@
         "link": "https://www.sgx.com/regco/public-consultations/20240307-consultation-paper-sustainability-reporting-enhancing"
     },
     {
-        "title": "Singapore Exchange Softens Requirement for Scope 3 Reporting for Smaller Companies",
-        "summary": "SGX RegCo announced updates to its sustainability reporting rules for listed companies, including pushing back mandatory value chain, or Scope 3, emissions...",
-        "date": "24 Sep 2024",
+        "title": "Singapore to Introduce Mandatory Climate Reporting Beginning 2025",
+        "summary": "Singapore will implement mandatory climate-related reporting requirements for listed and large non-listed companies.",
+        "date": "28 Feb 2024",
         "source": "ESG Today",
-        "link": "https://www.esgtoday.com/singapore-exchange-softens-requirement-for-scope-3-reporting-for-smaller-companies/"
-    },
-    {
-        "title": "F&N, Sheng Siong, QAF among Asian food procurers that fall short of investors\u2019 sustainability standards: report",
-        "summary": "LISTED food procurers in Asia, including Singapore-listed F&N, Sheng Siong and QAF, have failed to meet investors' expectations on their...",
-        "date": "13 Jun 2024",
-        "source": "The Business Times",
-        "link": "https://www.businesstimes.com.sg/esg/fn-sheng-siong-qaf-among-asian-food-procurers-fall-short-investors-sustainability-standards-report"
+        "link": "https://www.esgtoday.com/singapore-to-introduce-mandatory-climate-reporting-beginning-2025/"
     },
     {
         "title": "More Singapore businesses will have to report sustainability information, starting with listed firms in 2025",
@@ -231,18 +231,18 @@
         "link": "https://www.a-star.edu.sg/News/astarNews/news/features/Thriving-Sustainably-Local-Manufacturers-Managing-Carbon-Footprints"
     },
     {
-        "title": "Global Greenwashing Regulations: How the World Is Cracking Down on Misleading Sustainability Claims",
-        "summary": "Amid fears of greenwashing claims, sustainable investment assets have dropped as much as 51-percent. This blog outlines how ESG Stewardship...",
-        "date": "14 Nov 2023",
-        "source": "Sustainalytics",
-        "link": "https://www.sustainalytics.com/esg-research/resource/investors-esg-blog/global-greenwashing-regulations--how-the-world-is-cracking-down-on-misleading-sustainability-claims"
-    },
-    {
         "title": "New Queen Bee Enabled Sustainability Transition (QUEST) programme launched to support SingPost\u2019s suppliers with sustainability efforts",
         "summary": "Friday, 18 October 2024 [Singapore] \u2013 The Singapore Business Federation (SBF), in partnership with Singapore Post (SingPost), Ernst & Young...",
         "date": "21 Oct 2024",
         "source": "Singapore Post",
         "link": "https://www.singpost.com/about-us/news-releases/new-queen-bee-enabled-sustainability-transition-quest-programme-launched"
+    },
+    {
+        "title": "Global Greenwashing Regulations: How the World Is Cracking Down on Misleading Sustainability Claims",
+        "summary": "Amid fears of greenwashing claims, sustainable investment assets have dropped as much as 51-percent. This blog outlines how ESG Stewardship...",
+        "date": "14 Nov 2023",
+        "source": "Sustainalytics",
+        "link": "https://www.sustainalytics.com/esg-research/resource/investors-esg-blog/global-greenwashing-regulations--how-the-world-is-cracking-down-on-misleading-sustainability-claims"
     },
     {
         "title": "Singapore and China join forces with new green finance taskforce",
@@ -259,11 +259,11 @@
         "link": "https://www.rsm.global/singapore/insights/navigating-green-horizon-real-estate-response-esg-asia-pacific"
     },
     {
-        "title": "Singapore to Require Sustainable Aviation Fuel Use on All Departing Flights from 2026",
-        "summary": "Singapore Minister for Transport Chee Hong Tat announced today the launch of the Singapore Sustainable Air Hub Blueprint, outlining a series...",
-        "date": "19 Feb 2024",
-        "source": "ESG Today",
-        "link": "https://www.esgtoday.com/singapore-to-require-sustainable-aviation-fuel-use-on-all-departing-flights-from-2026/"
+        "title": "Six ways that governments can drive the green transition",
+        "summary": "In brief. Tackling the environmental, economic and social impact of climate change requires a huge transformation across all sectors.",
+        "date": "15 Aug 2024",
+        "source": "EY",
+        "link": "https://www.ey.com/en_sg/insights/government-public-sector/six-ways-that-governments-can-drive-the-green-transition"
     },
     {
         "title": "Chain reactions \u2013 Explaining the new deforestation regulations",
@@ -273,13 +273,6 @@
         "link": "https://www.fidelity.com.sg/articles/analysis-and-research/2024-06-03-chain-reactions-explaining-the-new-deforestation-regulations-1717394400298"
     },
     {
-        "title": "Accounting and law bodies team up to build sustainability capabilities in professional services firms",
-        "summary": "Singapore's key accountancy and legal professional bodies will join hands over the next three years to build a community of professional services firms.",
-        "date": "05 Jan 2024",
-        "source": "The Business Times",
-        "link": "https://www.businesstimes.com.sg/esg/accounting-and-law-bodies-team-build-sustainability-capabilities-professional-services-firms"
-    },
-    {
         "title": "Financing sustainability in shipping | Singapore | Global law firm",
         "summary": "In this article we shall look specifically at how sustainable finance products are assisting the shipping industry in meeting climate change challenges.",
         "date": "04 Oct 2023",
@@ -287,11 +280,25 @@
         "link": "https://www.nortonrosefulbright.com/en-sg/knowledge/publications/7a30bc0d/financing-sustainability-in-shipping"
     },
     {
+        "title": "Accounting and law bodies team up to build sustainability capabilities in professional services firms",
+        "summary": "Singapore's key accountancy and legal professional bodies will join hands over the next three years to build a community of professional services firms.",
+        "date": "05 Jan 2024",
+        "source": "The Business Times",
+        "link": "https://www.businesstimes.com.sg/esg/accounting-and-law-bodies-team-build-sustainability-capabilities-professional-services-firms"
+    },
+    {
         "title": "Navigating the ESG Reporting Landscape in Singapore",
         "summary": "Experts from Morgan Lewis offer a comprehensive look into the dynamic and continuously evolving ESG regulatory landscape in Singapore.",
         "date": "23 Feb 2024",
         "source": "Regulation Asia",
         "link": "https://www.regulationasia.com/navigating-the-esg-reporting-landscape-in-singapore/"
+    },
+    {
+        "title": "Singapore to Require Sustainable Aviation Fuel Use on All Departing Flights from 2026",
+        "summary": "Singapore Minister for Transport Chee Hong Tat announced today the launch of the Singapore Sustainable Air Hub Blueprint, outlining a series...",
+        "date": "19 Feb 2024",
+        "source": "ESG Today",
+        "link": "https://www.esgtoday.com/singapore-to-require-sustainable-aviation-fuel-use-on-all-departing-flights-from-2026/"
     },
     {
         "title": "Singapore to offset a third of climate reporting costs for large non-listed companies",
@@ -308,11 +315,11 @@
         "link": "https://www.nortonrosefulbright.com/en-sg/knowledge/publications/e2505907/issb-sustainability-related-disclosure-standards-published-a-new-global-baseline"
     },
     {
-        "title": "Guidelines in the works after study found unverified eco-friendly claims for 1 in 2 online products",
-        "summary": "A study found that one in two products sold online had overstated their environmental claims. Specifically, they were marketed as \u201cenvironmentally friendly\u201d, \u201c...",
-        "date": "27 Nov 2023",
-        "source": "The Straits Times",
-        "link": "https://www.straitstimes.com/singapore/environment/guidelines-in-the-works-after-study-found-unverified-eco-friendly-claims-for-1-in-2-online-products"
+        "title": "F&N, Sheng Siong, QAF among Asian food procurers that fall short of investors\u2019 sustainability standards: report",
+        "summary": "LISTED food procurers in Asia, including Singapore-listed F&N, Sheng Siong and QAF, have failed to meet investors' expectations on their...",
+        "date": "13 Jun 2024",
+        "source": "The Business Times",
+        "link": "https://www.businesstimes.com.sg/esg/fn-sheng-siong-qaf-among-asian-food-procurers-fall-short-investors-sustainability-standards-report"
     },
     {
         "title": "Elevating sustainability standards and strengthening supply chains in the real estate sector",
@@ -327,20 +334,6 @@
         "date": "08 Jul 2024",
         "source": "The Business Times",
         "link": "https://www.businesstimes.com.sg/esg/nearly-all-singapore-listcos-have-started-climate-related-reporting-fy2023-ey-cpa-report"
-    },
-    {
-        "title": "Singapore to propose climate reporting for large companies",
-        "summary": "On July 6th Singapore's Sustainability Reporting Advisory Committee (SRAC), set up by the Accounting and Corporate Regulatory Authority and...",
-        "date": "07 Jul 2023",
-        "source": "Economist Intelligence Unit",
-        "link": "https://www.eiu.com/n/singapore-to-propose-climate-reporting-for-large-companies/"
-    },
-    {
-        "title": "New association in Singapore to focus on developing talent, industry standards in sustainable finance",
-        "summary": "A new association launched in Singapore on Wednesday (Jan 24) will help to develop the local talent pool, industry standards and financing solutions required...",
-        "date": "24 Jan 2024",
-        "source": "CNA",
-        "link": "https://www.channelnewsasia.com/business/singapore-sustainable-finance-association-launch-build-talent-industry-standards-4070791"
     },
     {
         "title": "Water for Climate: Together Better, Together Stronger",
