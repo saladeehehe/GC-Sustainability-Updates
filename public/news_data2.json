@@ -56,6 +56,13 @@
         "link": "https://sbr.com.sg/markets-investing/news/sgx-regco-sets-new-standards-in-sustainability-reporting-starting-fy2025"
     },
     {
+        "title": "Sustainability reporting can help S\u2019pore SMEs attract clients, consumers, financing: Experts",
+        "summary": "SINGAPORE - Recent developments such as new international standards on climate-related disclosures have helped to clear the air for firms...",
+        "date": "13 Nov 2024",
+        "source": "The Straits Times",
+        "link": "https://www.straitstimes.com/business/companies-markets/sustainability-reporting-can-help-s-pore-smes-attract-clients-consumers-financing-experts"
+    },
+    {
         "title": "New law to bolster S\u2019pore\u2019s food safety, security passed, with powers to increase food stockpiles",
         "summary": "SINGAPORE - A new law that aims to bolster Singapore's food safety regulations and safeguard food security will, among other things,...",
         "date": "09 Jan 2025",
@@ -63,18 +70,18 @@
         "link": "https://www.straitstimes.com/singapore/politics/new-law-to-bolster-spores-food-safety-security-passed-with-powers-to-increase-food-stockpiles"
     },
     {
-        "title": "New anti-money laundering laws in Singapore target kingpins\u2019 profits from environmental crime",
-        "summary": "Singapore's new laws take aim at a criminal industry worth billions worldwide. Read more at straitstimes.com.",
-        "date": "15 Sep 2024",
-        "source": "The Straits Times",
-        "link": "https://www.straitstimes.com/singapore/new-anti-money-laundering-laws-in-singapore-target-kingpins-profits-from-environmental-crime"
-    },
-    {
         "title": "Isca launches new sustainability guide for companies",
         "summary": "The Institute of Singapore Chartered Accountants (Isca) has launched a guide to support entities in sustainability reporting.",
         "date": "14 Oct 2024",
         "source": "The Business Times",
         "link": "https://www.businesstimes.com.sg/esg/isca-launches-new-sustainability-guide-companies"
+    },
+    {
+        "title": "New anti-money laundering laws in Singapore target kingpins\u2019 profits from environmental crime",
+        "summary": "Singapore's new laws take aim at a criminal industry worth billions worldwide. Read more at straitstimes.com.",
+        "date": "15 Sep 2024",
+        "source": "The Straits Times",
+        "link": "https://www.straitstimes.com/singapore/new-anti-money-laundering-laws-in-singapore-target-kingpins-profits-from-environmental-crime"
     },
     {
         "title": "Enterprise Singapore and EDB to launch sustainability reporting grant in November",
@@ -189,13 +196,6 @@
         "link": "https://www.businesstimes.com.sg/esg/sustainable-finance/under-40-singapores-top-100-companies-link-pay-sustainability-goals-kpmg-survey"
     },
     {
-        "title": "ESG standard setters launch best practice platform in Singapore",
-        "summary": "The International Sustainability Standards Board and the Global Reporting Initiative have launched a best practice platform in Singapore to help companies...",
-        "date": "29 Nov 2023",
-        "source": "Sustainable Views",
-        "link": "https://www.sustainableviews.com/esg-standard-setters-launch-best-practice-platform-in-singapore-f60ab263/"
-    },
-    {
         "title": "In Focus: Singapore Climate-related Disclosures and the ESG Landscape in APAC",
         "summary": "Rising investor expectations have spurred a global push for publicly listed companies (PLCs) to disclose comprehensive sustainability information.",
         "date": "26 Apr 2024",
@@ -238,13 +238,6 @@
         "link": "https://www.ey.com/en_sg/insights/government-public-sector/six-ways-that-governments-can-drive-the-green-transition"
     },
     {
-        "title": "Breaking New Ground",
-        "summary": "From adapting to new realities in emerging industries such as Web3, evolving regulations, compliance and commitment to environmental, social, and governance (...",
-        "date": "20 Jan 2025",
-        "source": "PwC",
-        "link": "https://www.pwc.com/sg/en/newsletters/breaking-new-ground/2024-04.html"
-    },
-    {
         "title": "Global Greenwashing Regulations: How the World Is Cracking Down on Misleading Sustainability Claims",
         "summary": "Amid fears of greenwashing claims, sustainable investment assets have dropped as much as 51-percent. This blog outlines how ESG Stewardship...",
         "date": "14 Nov 2023",
@@ -257,6 +250,13 @@
         "date": "20 May 2024",
         "source": "Global Compliance News",
         "link": "https://www.globalcompliancenews.com/2024/05/20/https-www-bakermckenzie-com-en-insight-publications-2024-05-singapore-climate-related-disclosures-esg-landscape_05102024/"
+    },
+    {
+        "title": "Thriving Sustainably: Local Manufacturers Managing Carbon Footprints",
+        "summary": "Discover how sustainable manufacturing is key to staying competitive in Singapore's global market. Insights from Dr Yeo Zhiquan at A*STAR.",
+        "date": "29 May 2024",
+        "source": "Agency for Science, Technology and Research",
+        "link": "https://www.a-star.edu.sg/News/astarNews/news/features/Thriving-Sustainably-Local-Manufacturers-Managing-Carbon-Footprints"
     },
     {
         "title": "A new dawn for ESG regulation in Singapore?",
@@ -273,18 +273,25 @@
         "link": "https://eastasiaforum.org/2023/09/20/singapore-and-china-join-forces-with-new-green-finance-taskforce/"
     },
     {
-        "title": "Thriving Sustainably: Local Manufacturers Managing Carbon Footprints",
-        "summary": "Discover how sustainable manufacturing is key to staying competitive in Singapore's global market. Insights from Dr Yeo Zhiquan at A*STAR.",
-        "date": "29 May 2024",
-        "source": "Agency for Science, Technology and Research",
-        "link": "https://www.a-star.edu.sg/News/astarNews/news/features/Thriving-Sustainably-Local-Manufacturers-Managing-Carbon-Footprints"
-    },
-    {
         "title": "Singapore\u2019s ISCA Unveils 2024 Sustainability Reporting Guide for Compliance with ISSB Standards",
         "summary": "The Institute of Singapore Chartered Accountants (ISCA) has introduced a comprehensive guide to support companies in their sustainability reporting efforts.",
         "date": "10 Oct 2024",
         "source": "Seneca ESG",
         "link": "https://senecaesg.com/insights/singapores-isca-unveils-2024-sustainability-reporting-guide-for-compliance-with-issb-standards/"
+    },
+    {
+        "title": "From Big Four dominance to more oversight of assurance providers \u2013 what to look out for as Asia adopts ISSB standards",
+        "summary": "Australia, Japan, Hong Kong, Malaysia, New Zealand, Philippines and Singapore are introducing mandatory climate reporting rules,...",
+        "date": "26 Mar 2024",
+        "source": "Eco-Business",
+        "link": "https://www.eco-business.com/news/from-big-four-dominance-to-more-oversight-of-assurance-providers-what-to-look-out-for-as-asia-adopts-issb-standards/"
+    },
+    {
+        "title": "ISCA, SGX RegCo launch training workshops to help listcos understand ISSB-aligned sustainability reporting",
+        "summary": "SGX RegCo will subsidise the workshop fees for the first two representatives from each Singapore-listed company. After subsidies, the course...",
+        "date": "25 Feb 2025",
+        "source": "The Edge Singapore",
+        "link": "https://www.theedgesingapore.com/news/environmental-social-and-governance/isca-sgx-regco-launch-training-workshops-help-listcos"
     },
     {
         "title": "Singapore among the first in Asia to propose mandatory climate reporting for non-listed companies",
