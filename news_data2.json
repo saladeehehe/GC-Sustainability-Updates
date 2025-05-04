@@ -35,6 +35,13 @@
         "link": "https://www.nortonrosefulbright.com/en-sg/knowledge/publications/98b274d3/a-new-year-ahead-for-shipping-environmental-and-regulatory-compliance"
     },
     {
+        "title": "Monthly News and Views Asia",
+        "summary": "The latest sustainability policy and regulatory news from Asia. The month that was President Donald Trump's withdrawal from the Paris Agreement has had...",
+        "date": "07 Feb 2025",
+        "source": "Sustainable Views",
+        "link": "https://www.sustainableviews.com/monthly-news-and-views-asia-965b418d/"
+    },
+    {
         "title": "Singapore's pavilion at IMEX America sets new sustainability standards",
         "summary": "The pavilion sets a new benchmark with initiatives that reduces booth-related emissions by 45% and aims for carbon-neutral participation at key international...",
         "date": "11 Oct 2024",
@@ -54,13 +61,6 @@
         "date": "23 Sep 2024",
         "source": "Singapore Business Review",
         "link": "https://sbr.com.sg/markets-investing/news/sgx-regco-sets-new-standards-in-sustainability-reporting-starting-fy2025"
-    },
-    {
-        "title": "How ISSB standards redefine sustainability disclosures",
-        "summary": "Companies can now integrate sustainability and financial outcomes better with the new IFRS S1 and S2 standards. Learn more.",
-        "date": "13 Aug 2024",
-        "source": "EY",
-        "link": "https://www.ey.com/en_sg/insights/assurance/how-issb-standards-redefine-sustainability-disclosures"
     },
     {
         "title": "Sustainability reporting can help S\u2019pore SMEs attract clients, consumers, financing: Experts",
@@ -89,6 +89,13 @@
         "date": "21 Oct 2024",
         "source": "The Business Times",
         "link": "https://www.businesstimes.com.sg/companies-markets/enterprise-singapore-and-edb-launch-sustainability-reporting-grant-november"
+    },
+    {
+        "title": "How ISSB standards redefine sustainability disclosures",
+        "summary": "Companies can now integrate sustainability and financial outcomes better with the new IFRS S1 and S2 standards. Learn more.",
+        "date": "13 Aug 2024",
+        "source": "EY",
+        "link": "https://www.ey.com/en_sg/insights/assurance/how-issb-standards-redefine-sustainability-disclosures"
     },
     {
         "title": "New anti-money laundering laws in Singapore target kingpins\u2019 profits from environmental crime",
@@ -145,6 +152,13 @@
         "date": "11 Aug 2023",
         "source": "Law.asia",
         "link": "https://law.asia/singapore-evolving-esg-regulations/"
+    },
+    {
+        "title": "More Singapore businesses will have to report sustainability information, starting with listed firms in 2025",
+        "summary": "All listed companies in Singapore will be required to make climate-related disclosures starting from the financial year (FY) of 2025.",
+        "date": "28 Feb 2024",
+        "source": "CNA",
+        "link": "https://www.channelnewsasia.com/singapore/singapore-mandatory-climate-disclosures-listed-companies-2025-4155586"
     },
     {
         "title": "Singapore\u2019s Carbon Regulations: Paving the Way for the Green Plan 2030",
@@ -224,18 +238,25 @@
         "link": "https://www.sustainalytics.com/esg-research/resource/investors-esg-blog/global-greenwashing-regulations--how-the-world-is-cracking-down-on-misleading-sustainability-claims"
     },
     {
-        "title": "A new dawn for ESG regulation in Singapore?",
-        "summary": "September 2023 | SPOTLIGHT | RISK MANAGEMENT. Financier Worldwide Magazine. September 2023 Issue. Singapore's regulators are taking important steps toward...",
-        "date": "15 Aug 2023",
-        "source": "Financier Worldwide",
-        "link": "https://www.financierworldwide.com/a-new-dawn-for-esg-regulation-in-singapore"
-    },
-    {
         "title": "Thriving Sustainably: Local Manufacturers Managing Carbon Footprints",
         "summary": "Discover how sustainable manufacturing is key to staying competitive in Singapore's global market. Insights from Dr Yeo Zhiquan at A*STAR.",
         "date": "29 May 2024",
         "source": "Agency for Science, Technology and Research",
         "link": "https://www.a-star.edu.sg/News/astarNews/news/features/Thriving-Sustainably-Local-Manufacturers-Managing-Carbon-Footprints"
+    },
+    {
+        "title": "In Brief: Singapore launches taxonomy with transition category; Canada releases oil emissions cap regulation",
+        "summary": "The latest ESG policy and regulatory news The Monetary Authority of Singapore has released its sustainable finance taxonomy and become the...",
+        "date": "08 Dec 2023",
+        "source": "Sustainable Views",
+        "link": "https://www.sustainableviews.com/in-brief-singapore-launches-taxonomy-with-transition-category-canada-releases-oil-emissions-cap-regulation-5887b742/"
+    },
+    {
+        "title": "A new dawn for ESG regulation in Singapore?",
+        "summary": "September 2023 | SPOTLIGHT | RISK MANAGEMENT. Financier Worldwide Magazine. September 2023 Issue. Singapore's regulators are taking important steps toward...",
+        "date": "15 Aug 2023",
+        "source": "Financier Worldwide",
+        "link": "https://www.financierworldwide.com/a-new-dawn-for-esg-regulation-in-singapore"
     },
     {
         "title": "Singapore to roll out mandatory climate reporting from 2025",
@@ -287,32 +308,11 @@
         "link": "https://www.nea.gov.sg/media/news/news/index/new-technical-reference-to-guide-companies-on-sustainable-packaging-practices"
     },
     {
-        "title": "Singapore to Require Sustainable Aviation Fuel Use on All Departing Flights from 2026",
-        "summary": "Singapore Minister for Transport Chee Hong Tat announced today the launch of the Singapore Sustainable Air Hub Blueprint, outlining a series...",
-        "date": "19 Feb 2024",
-        "source": "ESG Today",
-        "link": "https://www.esgtoday.com/singapore-to-require-sustainable-aviation-fuel-use-on-all-departing-flights-from-2026/"
-    },
-    {
-        "title": "Singapore to propose climate reporting for large companies",
-        "summary": "On July 6th Singapore's Sustainability Reporting Advisory Committee (SRAC), set up by the Accounting and Corporate Regulatory Authority and...",
-        "date": "07 Jul 2023",
-        "source": "Economist Intelligence Unit",
-        "link": "https://www.eiu.com/n/singapore-to-propose-climate-reporting-for-large-companies/"
-    },
-    {
         "title": "Singapore Proposes Mandatory Climate Reporting for both Public and Private Companies",
         "summary": "Public and large private companies in Singapore will be required to provide climate-related disclosures aligned with the IFRS' newly...",
         "date": "10 Jul 2023",
         "source": "ESG Today",
         "link": "https://www.esgtoday.com/singapore-proposes-mandatory-climate-reporting-for-both-public-and-private-companies/"
-    },
-    {
-        "title": "Singapore ranks 5th in new index tracking sustainable global trade practices",
-        "summary": "Singapore has been ranked fifth among 30 economies for the sustainability of its global trade practices, according to a study by the Swiss business school.",
-        "date": "08 Nov 2022",
-        "source": "The Business Times",
-        "link": "https://www.businesstimes.com.sg/singapore/economy-policy/singapore-ranks-5th-new-index-tracking-sustainable-global-trade-practices"
     },
     {
         "title": "Special Envoy&#039;s Message: World Water Day 2025",
