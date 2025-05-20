@@ -357,11 +357,11 @@
         "link": "https://www.meetings-conventions-asia.com/News/Conferences-and-Exhibitions/Singapores-pavilion-at-IMEX-America-sets-new-sustainability-standards"
     },
     {
-        "title": "Monthly News and Views Asia",
-        "summary": "The latest sustainability policy and regulatory news from Asia. The month that was President Donald Trump's withdrawal from the Paris Agreement has had...",
-        "date": "07 Feb 2025",
-        "source": "Sustainable Views",
-        "link": "https://www.sustainableviews.com/monthly-news-and-views-asia-965b418d/"
+        "title": "Singapore Exchange Softens Requirement for Scope 3 Reporting for Smaller Companies",
+        "summary": "SGX RegCo announced updates to its sustainability reporting rules for listed companies, including pushing back mandatory value chain, or Scope 3, emissions...",
+        "date": "24 Sep 2024",
+        "source": "ESG Today",
+        "link": "https://www.esgtoday.com/singapore-exchange-softens-requirement-for-scope-3-reporting-for-smaller-companies/"
     },
     {
         "title": "Singapore-listed firms made progress in climate reporting, but there\u2019s room for improvement",
@@ -397,13 +397,6 @@
         "date": "21 Oct 2024",
         "source": "The Business Times",
         "link": "https://www.businesstimes.com.sg/companies-markets/enterprise-singapore-and-edb-launch-sustainability-reporting-grant-november"
-    },
-    {
-        "title": "Singapore Exchange Softens Requirement for Scope 3 Reporting for Smaller Companies",
-        "summary": "SGX RegCo announced updates to its sustainability reporting rules for listed companies, including pushing back mandatory value chain, or Scope 3, emissions...",
-        "date": "24 Sep 2024",
-        "source": "ESG Today",
-        "link": "https://www.esgtoday.com/singapore-exchange-softens-requirement-for-scope-3-reporting-for-smaller-companies/"
     },
     {
         "title": "New anti-money laundering laws in Singapore target kingpins\u2019 profits from environmental crime",
@@ -567,13 +560,6 @@
         "link": "https://www.a-star.edu.sg/News/astarNews/news/features/Thriving-Sustainably-Local-Manufacturers-Managing-Carbon-Footprints"
     },
     {
-        "title": "Singapore moves forward with mandatory climate reporting \u2013 implications for U.S.-based multinationals",
-        "summary": "Singapore will introduce mandatory climate-related disclosures in a phased approach, in line with the final accepted recommendations.",
-        "date": "15 Apr 2024",
-        "source": "Ropes & Gray LLP",
-        "link": "https://www.ropesgray.com/en/insights/viewpoints/102j5cd/singapore-moves-forward-with-mandatory-climate-reporting-implications-for-u-s"
-    },
-    {
         "title": "A new dawn for ESG regulation in Singapore?",
         "summary": "September 2023 | SPOTLIGHT | RISK MANAGEMENT. Financier Worldwide Magazine. September 2023 Issue. Singapore's regulators are taking important steps toward...",
         "date": "15 Aug 2023",
@@ -588,11 +574,11 @@
         "link": "https://www.eco-business.com/news/singapore-among-the-first-in-asia-to-propose-mandatory-climate-reporting-for-non-listed-companies/"
     },
     {
-        "title": "Singapore\u2019s ISCA Unveils 2024 Sustainability Reporting Guide for Compliance with ISSB Standards",
-        "summary": "The Institute of Singapore Chartered Accountants (ISCA) has introduced a comprehensive guide to support companies in their sustainability reporting efforts.",
-        "date": "10 Oct 2024",
-        "source": "Seneca ESG",
-        "link": "https://senecaesg.com/insights/singapores-isca-unveils-2024-sustainability-reporting-guide-for-compliance-with-issb-standards/"
+        "title": "Singapore moves forward with mandatory climate reporting \u2013 implications for U.S.-based multinationals",
+        "summary": "Singapore will introduce mandatory climate-related disclosures in a phased approach, in line with the final accepted recommendations.",
+        "date": "15 Apr 2024",
+        "source": "Ropes & Gray LLP",
+        "link": "https://www.ropesgray.com/en/insights/viewpoints/102j5cd/singapore-moves-forward-with-mandatory-climate-reporting-implications-for-u-s"
     },
     {
         "title": "In Brief: Singapore launches taxonomy with transition category; Canada releases oil emissions cap regulation",
@@ -614,5 +600,12 @@
         "date": "07 Mar 2024",
         "source": "Pinsent Masons",
         "link": "https://www.pinsentmasons.com/out-law/news/singapore-to-roll-out-mandatory-climate-reporting-from-2025"
+    },
+    {
+        "title": "Large non-listed companies required to make climate disclosures from FY2027",
+        "summary": "Large non-listed companies will be required to make climate disclosures from the 2027 fiscal year, in a move by the government aimed at equipping Singapore...",
+        "date": "28 Feb 2024",
+        "source": "The Business Times",
+        "link": "https://www.businesstimes.com.sg/esg/large-non-listed-companies-required-to-make-climate-disclosures-from-fy2027"
     }
 ]
