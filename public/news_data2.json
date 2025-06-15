@@ -70,18 +70,18 @@
         "link": "https://sdgs.un.org/news/water-action-agenda-invitation-submit-progress-report-55191"
     },
     {
-        "title": "UN to Convene Global Experts in Tokyo on 4-6 March to Assess Climate Action Targets under Sustainable Development Goals",
-        "summary": "",
-        "date": "1 Mar 2024",
-        "source": "UN SDGs",
-        "link": "https://sdgs.un.org/news/un-convene-global-experts-tokyo-4-6-march-assess-climate-action-targets-under-sustainable"
-    },
-    {
         "title": "UNEA Adopts a Bold Resolution on Promoting Synergies in Environmental Action",
         "summary": "26 February 1 March 2024, Nairobi, Kenya Leading the way in this rapidly expanding field, Japan put forward a resolution...",
         "date": "1 Mar 2024",
         "source": "UN SDGs",
         "link": "https://sdgs.un.org/news/unea-adopts-bold-resolution-promoting-synergies-environmental-action-56082"
+    },
+    {
+        "title": "UN to Convene Global Experts in Tokyo on 4-6 March to Assess Climate Action Targets under Sustainable Development Goals",
+        "summary": "",
+        "date": "1 Mar 2024",
+        "source": "UN SDGs",
+        "link": "https://sdgs.un.org/news/un-convene-global-experts-tokyo-4-6-march-assess-climate-action-targets-under-sustainable-0"
     },
     {
         "title": "United Nations Secretary-General Appoints New Members to the High-level Group to Champion Science, Technology, and Innovation for the Sustainable Development Goals",
@@ -364,18 +364,18 @@
         "link": "https://www.meetings-conventions-asia.com/News/Conferences-and-Exhibitions/Singapores-pavilion-at-IMEX-America-sets-new-sustainability-standards"
     },
     {
-        "title": "Singapore Exchange Softens Requirement for Scope 3 Reporting for Smaller Companies",
-        "summary": "SGX RegCo announced updates to its sustainability reporting rules for listed companies, including pushing back mandatory value chain, or Scope 3, emissions...",
-        "date": "24 Sep 2024",
-        "source": "ESG Today",
-        "link": "https://www.esgtoday.com/singapore-exchange-softens-requirement-for-scope-3-reporting-for-smaller-companies/"
-    },
-    {
         "title": "Singapore\u2019s sustainability legal services market to treble to at least S$450 million by 2033: PwC study",
         "summary": "[SINGAPORE] Singapore's sustainability legal services market is set for significant expansion, with its value projected to treble to between...",
         "date": "30 Mar 2025",
         "source": "The Business Times",
         "link": "https://www.businesstimes.com.sg/esg/sustainable-finance/singapores-sustainability-legal-services-market-treble-least-s450-million-2033-pwc-study"
+    },
+    {
+        "title": "Singapore Exchange Softens Requirement for Scope 3 Reporting for Smaller Companies",
+        "summary": "SGX RegCo announced updates to its sustainability reporting rules for listed companies, including pushing back mandatory value chain, or Scope 3, emissions...",
+        "date": "24 Sep 2024",
+        "source": "ESG Today",
+        "link": "https://www.esgtoday.com/singapore-exchange-softens-requirement-for-scope-3-reporting-for-smaller-companies/"
     },
     {
         "title": "Food Waste Management",
@@ -504,18 +504,18 @@
         "link": "https://www.mayerbrown.com/en/insights/publications/2024/02/singapores-carbon-regulations-paving-the-way-for-the-green-plan-2030"
     },
     {
-        "title": "ESG standard setters launch best practice platform in Singapore",
-        "summary": "The International Sustainability Standards Board and the Global Reporting Initiative have launched a best practice platform in Singapore to help companies...",
-        "date": "29 Nov 2023",
-        "source": "Sustainable Views",
-        "link": "https://www.sustainableviews.com/esg-standard-setters-launch-best-practice-platform-in-singapore-f60ab263/"
-    },
-    {
         "title": "Keeping up to speed with Singapore ESG regulations",
         "summary": "Singapore's regulations on environmental, social and corporate governance (ESG) are rapidly evolving and companies need to keep up to speed.",
         "date": "11 Aug 2023",
         "source": "Law.asia",
         "link": "https://law.asia/singapore-evolving-esg-regulations/"
+    },
+    {
+        "title": "ESG standard setters launch best practice platform in Singapore",
+        "summary": "The International Sustainability Standards Board and the Global Reporting Initiative have launched a best practice platform in Singapore to help companies...",
+        "date": "29 Nov 2023",
+        "source": "Sustainable Views",
+        "link": "https://www.sustainableviews.com/esg-standard-setters-launch-best-practice-platform-in-singapore-f60ab263/"
     },
     {
         "title": "New Queen Bee Enabled Sustainability Transition (QUEST) programme launched to support SingPost\u2019s suppliers with sustainability efforts",
@@ -546,13 +546,6 @@
         "link": "https://www.anthesisgroup.com/au/insights/singapore-climate-related-disclosures-and-esg/"
     },
     {
-        "title": "Six ways that governments can drive the green transition",
-        "summary": "In brief. Tackling the environmental, economic and social impact of climate change requires a huge transformation across all sectors.",
-        "date": "15 Aug 2024",
-        "source": "EY",
-        "link": "https://www.ey.com/en_sg/insights/government-public-sector/six-ways-that-governments-can-drive-the-green-transition"
-    },
-    {
         "title": "Singapore-listed firms made progress in climate reporting, but there\u2019s room for improvement",
         "summary": "Singapore-listed companies have made progress in climate reporting, but less than a third of them provided all the information required under a framework by...",
         "date": "11 Mar 2025",
@@ -560,11 +553,25 @@
         "link": "https://www.straitstimes.com/business/companies-markets/singapore-listed-firms-made-progress-in-climate-reporting-but-there-is-still-room-for-improvement"
     },
     {
+        "title": "Six ways that governments can drive the green transition",
+        "summary": "In brief. Tackling the environmental, economic and social impact of climate change requires a huge transformation across all sectors.",
+        "date": "15 Aug 2024",
+        "source": "EY",
+        "link": "https://www.ey.com/en_sg/insights/government-public-sector/six-ways-that-governments-can-drive-the-green-transition"
+    },
+    {
         "title": "Climate vouchers, coastal protection law among sustainability measures announced at Budget debate",
         "summary": "SINGAPORE \u2013 Sustainability was a key pillar that was mentioned in the 2024 Budget debate for multiple ministries. What are some of the new...",
         "date": "18 Mar 2024",
         "source": "The Straits Times",
         "link": "https://www.straitstimes.com/singapore/politics/at-a-glance-sustainability-measures-announced-at-the-2024-budget-debate"
+    },
+    {
+        "title": "Large non-listed companies required to make climate disclosures from FY2027",
+        "summary": "Large non-listed companies will be required to make climate disclosures from the 2027 fiscal year, in a move by the government aimed at equipping Singapore...",
+        "date": "28 Feb 2024",
+        "source": "The Business Times",
+        "link": "https://www.businesstimes.com.sg/esg/large-non-listed-companies-required-to-make-climate-disclosures-from-fy2027"
     },
     {
         "title": "Global Greenwashing Regulations: How the World Is Cracking Down on Misleading Sustainability Claims",
@@ -602,13 +609,6 @@
         "link": "https://www.ropesgray.com/en/insights/viewpoints/102j5cd/singapore-moves-forward-with-mandatory-climate-reporting-implications-for-u-s"
     },
     {
-        "title": "New road map to set sustainability standards, targets for business events organisers",
-        "summary": "SINGAPORE - The events sector is looking to green its business by introducing strategies, standards and targets that cover areas like waste...",
-        "date": "02 Dec 2022",
-        "source": "The Straits Times",
-        "link": "https://www.straitstimes.com/singapore/consumer/new-roadmap-to-set-sustainability-standards-targets-for-business-events-organisers"
-    },
-    {
         "title": "Singapore to roll out mandatory climate reporting from 2025",
         "summary": "Singapore has announced plans to introduce new reporting requirements which will make climate-related disclosures mandatory for Singapore Exchange (SGX) listed...",
         "date": "07 Mar 2024",
@@ -616,10 +616,10 @@
         "link": "https://www.pinsentmasons.com/out-law/news/singapore-to-roll-out-mandatory-climate-reporting-from-2025"
     },
     {
-        "title": "In Brief: Singapore launches taxonomy with transition category; Canada releases oil emissions cap regulation",
-        "summary": "The latest ESG policy and regulatory news The Monetary Authority of Singapore has released its sustainable finance taxonomy and become the...",
-        "date": "08 Dec 2023",
-        "source": "Sustainable Views",
-        "link": "https://www.sustainableviews.com/in-brief-singapore-launches-taxonomy-with-transition-category-canada-releases-oil-emissions-cap-regulation-5887b742/"
+        "title": "New road map to set sustainability standards, targets for business events organisers",
+        "summary": "SINGAPORE - The events sector is looking to green its business by introducing strategies, standards and targets that cover areas like waste...",
+        "date": "02 Dec 2022",
+        "source": "The Straits Times",
+        "link": "https://www.straitstimes.com/singapore/consumer/new-roadmap-to-set-sustainability-standards-targets-for-business-events-organisers"
     }
 ]
