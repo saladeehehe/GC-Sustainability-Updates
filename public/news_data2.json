@@ -287,6 +287,13 @@
         "link": "https://www.esgtoday.com/singapore-exchange-softens-requirement-for-scope-3-reporting-for-smaller-companies/"
     },
     {
+        "title": "ESG Regulations 2025: Navigating The Evolving Reporting Landscape",
+        "summary": "As environmental, social, and governance (ESG) standards continue to evolve, businesses worldwide face a transformative period of regulatory...",
+        "date": "14 Jan 2025",
+        "source": "Anthesis",
+        "link": "https://www.anthesisgroup.com/insights/the-evolving-landscape-of-esg-reporting-regulation-expectations-for-2025/"
+    },
+    {
         "title": "Soilbuild strives towards new sustainability standards with Tampines Connection",
         "summary": "the eco-friendly development will aim to achieve the highest BCA sustainability rating \u2014 the Green Mark Platinum Super Low Energy (SLE)...",
         "date": "18 Oct 2024",
@@ -295,7 +302,7 @@
     },
     {
         "title": "Enterprise Singapore and EDB to launch sustainability reporting grant in November",
-        "summary": "The initiative will assist companies in producing their first reports aligned with the ISSB standards. play icon. Listen to this article.",
+        "summary": "The initiative will assist companies in producing their first reports aligned with the ISSB standards. Ranamita Chakraborty.",
         "date": "21 Oct 2024",
         "source": "The Business Times",
         "link": "https://www.businesstimes.com.sg/companies-markets/enterprise-singapore-and-edb-launch-sustainability-reporting-grant-november"
@@ -441,13 +448,6 @@
         "link": "https://www.ey.com/en_sg/insights/government-public-sector/six-ways-that-governments-can-drive-the-green-transition"
     },
     {
-        "title": "A surge in sustainability jobs in Singapore",
-        "summary": "The market for sustainability and climate action in Singapore has expanded significantly in recent years. Key national policy.",
-        "date": "20 Feb 2024",
-        "source": "Anthesis Group",
-        "link": "https://www.anthesisgroup.com/au/insights/a-surge-in-sustainability-jobs-in-singapore/"
-    },
-    {
         "title": "Climate vouchers, coastal protection law among sustainability measures announced at Budget debate",
         "summary": "SINGAPORE \u2013 Sustainability was a key pillar that was mentioned in the 2024 Budget debate for multiple ministries. What are some of the new...",
         "date": "18 Mar 2024",
@@ -462,25 +462,11 @@
         "link": "https://www.nea.gov.sg/our-services/waste-management/mandatory-packaging-reporting"
     },
     {
-        "title": "SME Sustainability Reporting Programme (SME SRP)",
-        "summary": "The SME Sustainability Reporting Programme (SME SRP) assists Singapore SMEs in developing their first sustainability reports.",
-        "date": "21 Oct 2024",
-        "source": "RSM Global",
-        "link": "https://www.rsm.global/singapore/news/sme-sustainability-reporting-programme-sme-srp"
-    },
-    {
         "title": "Singapore among the first in Asia to propose mandatory climate reporting for non-listed companies",
         "summary": "Singapore's listed companies could make mandatory climate-related disclosures from FY2025, followed by large non-listed companies from FY2027.",
         "date": "07 Jul 2023",
         "source": "Eco-Business",
         "link": "https://www.eco-business.com/news/singapore-among-the-first-in-asia-to-propose-mandatory-climate-reporting-for-non-listed-companies/"
-    },
-    {
-        "title": "Navigating the green horizon: The real estate response to ESG in Asia Pacific",
-        "summary": "RSM's real estate specialists share their insights on how the global demand for sustainable practices is shaping the sector.",
-        "date": "06 Feb 2024",
-        "source": "RSM Global",
-        "link": "https://www.rsm.global/singapore/insights/navigating-green-horizon-real-estate-response-esg-asia-pacific"
     },
     {
         "title": "Global Greenwashing Regulations: How the World Is Cracking Down on Misleading Sustainability Claims",
@@ -504,18 +490,18 @@
         "link": "https://www.ropesgray.com/en/insights/viewpoints/102j5cd/singapore-moves-forward-with-mandatory-climate-reporting-implications-for-u-s"
     },
     {
-        "title": "New road map to set sustainability standards, targets for business events organisers",
-        "summary": "SINGAPORE - The events sector is looking to green its business by introducing strategies, standards and targets that cover areas like waste...",
-        "date": "01 Dec 2022",
-        "source": "The Straits Times",
-        "link": "https://www.straitstimes.com/singapore/consumer/new-roadmap-to-set-sustainability-standards-targets-for-business-events-organisers"
-    },
-    {
         "title": "Singapore\u2019s ISCA Unveils 2024 Sustainability Reporting Guide for Compliance with ISSB Standards",
         "summary": "The Institute of Singapore Chartered Accountants (ISCA) has introduced a comprehensive guide to support companies in their sustainability reporting efforts.",
         "date": "10 Oct 2024",
         "source": "Seneca ESG",
         "link": "https://senecaesg.com/insights/singapores-isca-unveils-2024-sustainability-reporting-guide-for-compliance-with-issb-standards/"
+    },
+    {
+        "title": "New road map to set sustainability standards, targets for business events organisers",
+        "summary": "SINGAPORE - The events sector is looking to green its business by introducing strategies, standards and targets that cover areas like waste...",
+        "date": "01 Dec 2022",
+        "source": "The Straits Times",
+        "link": "https://www.straitstimes.com/singapore/consumer/new-roadmap-to-set-sustainability-standards-targets-for-business-events-organisers"
     },
     {
         "title": "New Technical Reference To Guide Companies On Sustainable Packaging Practices",
@@ -525,11 +511,25 @@
         "link": "https://www.nea.gov.sg/media/news/news/index/new-technical-reference-to-guide-companies-on-sustainable-packaging-practices"
     },
     {
-        "title": "Singapore and China join forces with new green finance taskforce",
-        "summary": "Sustainable finance garners significant attention from global investors and policymakers. In recent years, Europe has led the way in...",
-        "date": "20 Sep 2023",
-        "source": "East Asia Forum",
-        "link": "https://eastasiaforum.org/2023/09/20/singapore-and-china-join-forces-with-new-green-finance-taskforce/"
+        "title": "Singapore Proposes Mandatory Climate Reporting for both Public and Private Companies",
+        "summary": "Public and large private companies in Singapore will be required to provide climate-related disclosures aligned with the IFRS' newly published ISSB disclosure...",
+        "date": "10 Jul 2023",
+        "source": "ESG Today",
+        "link": "https://www.esgtoday.com/singapore-proposes-mandatory-climate-reporting-for-both-public-and-private-companies/"
+    },
+    {
+        "title": "From Big Four dominance to more oversight of assurance providers \u2013 what to look out for as Asia adopts ISSB standards",
+        "summary": "Australia, Japan, Hong Kong, Malaysia, New Zealand, Philippines and Singapore are introducing mandatory climate reporting rules,...",
+        "date": "26 Mar 2024",
+        "source": "Eco-Business",
+        "link": "https://www.eco-business.com/news/from-big-four-dominance-to-more-oversight-of-assurance-providers-what-to-look-out-for-as-asia-adopts-issb-standards/"
+    },
+    {
+        "title": "Law don who backed setting up of environmental law centre among 33 environmentalists lauded",
+        "summary": "SINGAPORE \u2013 Multilateral environmental treaties and lawsuits against fossil fuel firms have recently propelled environmental law into the...",
+        "date": "04 Aug 2024",
+        "source": "The Straits Times",
+        "link": "https://www.straitstimes.com/singapore/law-don-who-championed-setup-of-environmental-law-centre-among-33-awardees-of-inaugural-award"
     },
     {
         "title": "Special Envoy&#039;s Message: World Water Day 2025",
@@ -602,18 +602,18 @@
         "link": "https://sdgs.un.org/news/water-action-agenda-invitation-submit-progress-report-55191"
     },
     {
-        "title": "UN to Convene Global Experts in Tokyo on 4-6 March to Assess Climate Action Targets under Sustainable Development Goals",
-        "summary": "",
-        "date": "1 Mar 2024",
-        "source": "UN SDGs",
-        "link": "https://sdgs.un.org/news/un-convene-global-experts-tokyo-4-6-march-assess-climate-action-targets-under-sustainable"
-    },
-    {
         "title": "UNEA Adopts a Bold Resolution on Promoting Synergies in Environmental Action",
         "summary": "26 February 1 March 2024, Nairobi, Kenya Leading the way in this rapidly expanding field, Japan put forward a resolution...",
         "date": "1 Mar 2024",
         "source": "UN SDGs",
         "link": "https://sdgs.un.org/news/unea-adopts-bold-resolution-promoting-synergies-environmental-action-56082"
+    },
+    {
+        "title": "UN to Convene Global Experts in Tokyo on 4-6 March to Assess Climate Action Targets under Sustainable Development Goals",
+        "summary": "",
+        "date": "1 Mar 2024",
+        "source": "UN SDGs",
+        "link": "https://sdgs.un.org/news/un-convene-global-experts-tokyo-4-6-march-assess-climate-action-targets-under-sustainable-0"
     },
     {
         "title": "United Nations Secretary-General Appoints New Members to the High-level Group to Champion Science, Technology, and Innovation for the Sustainable Development Goals",
