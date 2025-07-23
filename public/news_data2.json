@@ -336,6 +336,13 @@
         "link": "https://www.nea.gov.sg/our-services/waste-management/3r-programmes-and-resources/food-waste-management"
     },
     {
+        "title": "THE BRIEFS: Singapore Firms Leverage Local Expertise as City\u2019s Sustainability Legal Services Market Gears up for Growth | Asian Legal Business",
+        "summary": "A new report by PwC Singapore has revealed that Singapore's sustainability legal services market is poised for substantial growth.",
+        "date": "25 May 2025",
+        "source": "| Asian Legal Business",
+        "link": "http://www.legalbusinessonline.com/features/briefs-singapore-firms-leverage-local-expertise-city%E2%80%99s-sustainability-legal-services-market-gears"
+    },
+    {
         "title": "Singapore moves forward with ISSB standards, despite scope 3 delay",
         "summary": "Singapore Exchange Regulation (SGX RegCo) is set to apply the latest international sustainability standards to listed companies.",
         "date": "01 Oct 2024",
@@ -385,13 +392,6 @@
         "link": "https://www.straitstimes.com/business/companies-markets/sustainability-reporting-will-pay-off-for-spore-companies-in-the-long-run-experts"
     },
     {
-        "title": "How ISSB standards redefine sustainability disclosures",
-        "summary": "Companies can now integrate sustainability and financial outcomes better with the new IFRS S1 and S2 standards. Learn more.",
-        "date": "13 Aug 2024",
-        "source": "EY",
-        "link": "https://www.ey.com/en_sg/insights/assurance/how-issb-standards-redefine-sustainability-disclosures"
-    },
-    {
         "title": "Singapore to Introduce Mandatory Climate Reporting Beginning 2025",
         "summary": "Singapore will implement mandatory climate-related reporting requirements for listed and large non-listed companies.",
         "date": "28 Feb 2024",
@@ -413,11 +413,18 @@
         "link": "https://www.businesstimes.com.sg/companies-markets/enterprise-singapore-and-edb-launch-sustainability-reporting-grant-november"
     },
     {
-        "title": "New grant helping companies with climate reporting to launch in November",
-        "summary": "The Sustainability Reporting Grant will help large companies with annual revenues of at least $100 million and above to develop their first International...",
-        "date": "21 Oct 2024",
+        "title": "New law to bolster S\u2019pore\u2019s food safety, security passed, with powers to increase food stockpiles",
+        "summary": "SINGAPORE - A new law that aims to bolster Singapore's food safety regulations and safeguard food security will, among other things,...",
+        "date": "09 Jan 2025",
         "source": "The Straits Times",
-        "link": "https://www.straitstimes.com/business/new-grant-helping-companies-with-climate-reporting-to-launch-in-nov-2024"
+        "link": "https://www.straitstimes.com/singapore/politics/new-law-to-bolster-spores-food-safety-security-passed-with-powers-to-increase-food-stockpiles"
+    },
+    {
+        "title": "Companies to report greenhouse gas emissions starting FY2025: SGX",
+        "summary": "The move reflects a growing emphasis on transparency and accountability in environmental impact. Read more at straitstimes.com.",
+        "date": "23 Sep 2024",
+        "source": "The Straits Times",
+        "link": "https://www.straitstimes.com/business/companies-to-report-greenhouse-gas-emissions-starting-fy2025-sgx"
     },
     {
         "title": "Singapore listcos must report direct and indirect greenhouse gas emissions from FY2025",
@@ -432,6 +439,13 @@
         "date": "18 Oct 2024",
         "source": "EdgeProp.sg",
         "link": "https://www.edgeprop.sg/property-news/soilbuild-strives-towards-new-sustainability-standards-tampines-connection"
+    },
+    {
+        "title": "How ISSB standards redefine sustainability disclosures",
+        "summary": "Companies can now integrate sustainability and financial outcomes better with the new IFRS S1 and S2 standards. Learn more.",
+        "date": "13 Aug 2024",
+        "source": "EY",
+        "link": "https://www.ey.com/en_sg/insights/assurance/how-issb-standards-redefine-sustainability-disclosures"
     },
     {
         "title": "Singapore: ESG developments",
@@ -469,6 +483,13 @@
         "link": "https://news.nus.edu.sg/raising-standards-for-sustainability-reporting-in-singapore/"
     },
     {
+        "title": "Legally green: How the courts help protect the environment amid climate change",
+        "summary": "Environmental laws could play a critical role in improving conservation efforts and encouraging corporate responsibility. Singapore Courts'...",
+        "date": "13 Aug 2024",
+        "source": "The Straits Times",
+        "link": "https://www.straitstimes.com/singapore/legally-green-how-the-courts-help-protect-the-environment-amid-climate-change"
+    },
+    {
         "title": "Singapore Launches Guidebook for Sustainability Reporting Training Providers",
         "summary": "Singapore's Accounting and Corporate Regulatory Authority has launched the Sustainability Reporting Body of Knowledge.",
         "date": "20 May 2025",
@@ -488,13 +509,6 @@
         "date": "11 Aug 2023",
         "source": "Law.asia",
         "link": "https://law.asia/singapore-evolving-esg-regulations/"
-    },
-    {
-        "title": "Legally green: How the courts help protect the environment amid climate change",
-        "summary": "Environmental laws could play a critical role in improving conservation efforts and encouraging corporate responsibility. Singapore Courts'...",
-        "date": "13 Aug 2024",
-        "source": "The Straits Times",
-        "link": "https://www.straitstimes.com/singapore/legally-green-how-the-courts-help-protect-the-environment-amid-climate-change"
     },
     {
         "title": "New Queen Bee Enabled Sustainability Transition (QUEST) programme launched to support SingPost\u2019s suppliers with sustainability efforts",
@@ -560,6 +574,27 @@
         "link": "https://www.eco-business.com/news/singapore-among-the-first-in-asia-to-propose-mandatory-climate-reporting-for-non-listed-companies/"
     },
     {
+        "title": "SME Sustainability Reporting Programme (SME SRP)",
+        "summary": "The SME Sustainability Reporting Programme (SME SRP) assists Singapore SMEs in developing their first sustainability reports.",
+        "date": "21 Oct 2024",
+        "source": "RSM Global",
+        "link": "https://www.rsm.global/singapore/news/sme-sustainability-reporting-programme-sme-srp"
+    },
+    {
+        "title": "Navigating the green horizon: The real estate response to ESG in Asia Pacific",
+        "summary": "RSM's real estate specialists share their insights on how the global demand for sustainable practices is shaping the sector.",
+        "date": "06 Feb 2024",
+        "source": "RSM Global",
+        "link": "https://www.rsm.global/singapore/insights/navigating-green-horizon-real-estate-response-esg-asia-pacific"
+    },
+    {
+        "title": "Breaking New Ground",
+        "summary": "This publication aims to share bite-sized information and updates on trends and issues shaping the environmental, social and governance (ESG), metaverse,...",
+        "date": "20 Jan 2025",
+        "source": "PwC",
+        "link": "https://www.pwc.com/sg/en/newsletters/breaking-new-ground/2024-04.html"
+    },
+    {
         "title": "Thriving Sustainably: Local Manufacturers Managing Carbon Footprints",
         "summary": "Discover how sustainable manufacturing is key to staying competitive in Singapore's global market. Insights from Dr Yeo Zhiquan at A*STAR.",
         "date": "29 May 2024",
@@ -572,13 +607,6 @@
         "date": "14 Nov 2023",
         "source": "Sustainalytics",
         "link": "https://www.sustainalytics.com/esg-research/resource/investors-esg-blog/global-greenwashing-regulations--how-the-world-is-cracking-down-on-misleading-sustainability-claims"
-    },
-    {
-        "title": "CNA Explains: More companies are putting out sustainability reports \u2013 why, and how to read them?",
-        "summary": "More companies are presenting their actions in the environmental, social and governance (ESG) space in what's called a sustainability report.",
-        "date": "23 Jul 2024",
-        "source": "CNA",
-        "link": "https://www.channelnewsasia.com/business/sustainability-reports-acronyms-cna-explains-4490596"
     },
     {
         "title": "A new dawn for ESG regulation in Singapore?",
@@ -600,33 +628,5 @@
         "date": "10 Jul 2023",
         "source": "ESG Today",
         "link": "https://www.esgtoday.com/singapore-proposes-mandatory-climate-reporting-for-both-public-and-private-companies/"
-    },
-    {
-        "title": "From Big Four dominance to more oversight of assurance providers \u2013 what to look out for as Asia adopts ISSB standards",
-        "summary": "Australia, Japan, Hong Kong, Malaysia, New Zealand, Philippines and Singapore are introducing mandatory climate reporting rules,...",
-        "date": "26 Mar 2024",
-        "source": "Eco-Business",
-        "link": "https://www.eco-business.com/news/from-big-four-dominance-to-more-oversight-of-assurance-providers-what-to-look-out-for-as-asia-adopts-issb-standards/"
-    },
-    {
-        "title": "Singapore and China join forces with new green finance taskforce",
-        "summary": "Sustainable finance garners significant attention from global investors and policymakers. In recent years, Europe has led the way in...",
-        "date": "20 Sep 2023",
-        "source": "East Asia Forum",
-        "link": "https://eastasiaforum.org/2023/09/20/singapore-and-china-join-forces-with-new-green-finance-taskforce/"
-    },
-    {
-        "title": "Singapore to propose climate reporting for large companies",
-        "summary": "On July 6th Singapore's Sustainability Reporting Advisory Committee (SRAC), set up by the Accounting and Corporate Regulatory Authority and...",
-        "date": "07 Jul 2023",
-        "source": "Economist Intelligence Unit",
-        "link": "https://www.eiu.com/n/singapore-to-propose-climate-reporting-for-large-companies/"
-    },
-    {
-        "title": "Climate vouchers, coastal protection law among sustainability measures announced at Budget debate",
-        "summary": "SINGAPORE \u2013 Sustainability was a key pillar that was mentioned in the 2024 Budget debate for multiple ministries. What are some of the new...",
-        "date": "10 Mar 2024",
-        "source": "The Straits Times",
-        "link": "https://www.straitstimes.com/singapore/politics/at-a-glance-sustainability-measures-announced-at-the-2024-budget-debate"
     }
 ]
