@@ -371,6 +371,13 @@
         "link": "https://www.straitstimes.com/business/companies-markets/singapore-listed-firms-made-progress-in-climate-reporting-but-there-is-still-room-for-improvement"
     },
     {
+        "title": "New Queen Bee Enabled Sustainability Transition (QUEST) programme launched to support SingPost\u2019s suppliers with sustainability efforts",
+        "summary": "Friday, 18 October 2024 [Singapore] \u2013 The Singapore Business Federation (SBF), in partnership with Singapore Post (SingPost), Ernst & Young...",
+        "date": "21 Oct 2024",
+        "source": "Singapore Post",
+        "link": "https://www.singpost.com/about-us/news-releases/new-queen-bee-enabled-sustainability-transition-quest-programme-launched"
+    },
+    {
         "title": "Singapore's pavilion at IMEX America sets new sustainability standards",
         "summary": "Singapore's pavilion at IMEX America sets new sustainability standards \u00b7 A 75% reduction in carpet usage \u2013 a first for Singapore at any...",
         "date": "11 Oct 2024",
@@ -490,13 +497,6 @@
         "link": "https://www.straitstimes.com/singapore/legally-green-how-the-courts-help-protect-the-environment-amid-climate-change"
     },
     {
-        "title": "Keeping up to speed with Singapore ESG regulations",
-        "summary": "Singapore's regulations on environmental, social and corporate governance (ESG) are rapidly evolving and companies need to keep up to speed.",
-        "date": "11 Aug 2023",
-        "source": "Law.asia",
-        "link": "https://law.asia/singapore-evolving-esg-regulations/"
-    },
-    {
         "title": "How law departments can address supply chain ESG risk",
         "summary": "Focus is expanding on the ESG and sustainability practices of supply chains. Law departments need to be proactive now to mitigate risk. Learn how.",
         "date": "25 Jul 2024",
@@ -504,11 +504,25 @@
         "link": "https://www.ey.com/en_sg/insights/law/four-actions-for-law-departments-to-address-supply-chain-esg-risk"
     },
     {
-        "title": "New Queen Bee Enabled Sustainability Transition (QUEST) programme launched to support SingPost\u2019s suppliers with sustainability efforts",
-        "summary": "Friday, 18 October 2024 [Singapore] \u2013 The Singapore Business Federation (SBF), in partnership with Singapore Post (SingPost), Ernst & Young...",
-        "date": "21 Oct 2024",
-        "source": "Singapore Post",
-        "link": "https://www.singpost.com/about-us/news-releases/new-queen-bee-enabled-sustainability-transition-quest-programme-launched"
+        "title": "Keeping up to speed with Singapore ESG regulations",
+        "summary": "Singapore's regulations on environmental, social and corporate governance (ESG) are rapidly evolving and companies need to keep up to speed.",
+        "date": "11 Aug 2023",
+        "source": "Law.asia",
+        "link": "https://law.asia/singapore-evolving-esg-regulations/"
+    },
+    {
+        "title": "Singapore Budget 2024: Key ESG Takeaways & Grants to support Sustainability Reporting",
+        "summary": "Singapore's Budget 2024 signals a shift for businesses to kickstart sustainability reporting. Read on for key ESG takeaways,...",
+        "date": "03 Apr 2024",
+        "source": "ESGpedia",
+        "link": "https://esgpedia.io/blog/singapore-budget-2024-sustainability-reporting-grants/"
+    },
+    {
+        "title": "Sustainability reporting can help S\u2019pore SMEs attract clients, consumers, financing: Experts",
+        "summary": "SINGAPORE - Recent developments such as new international standards on climate-related disclosures have helped to clear the air for firms...",
+        "date": "02 Oct 2023",
+        "source": "The Straits Times",
+        "link": "https://www.straitstimes.com/business/companies-markets/sustainability-reporting-can-help-s-pore-smes-attract-clients-consumers-financing-experts"
     },
     {
         "title": "Singapore to Provide Funding for Companies to Meet New Climate Reporting Requirements",
@@ -518,13 +532,6 @@
         "link": "https://www.esgtoday.com/singapore-to-provide-funding-for-companies-to-meet-new-climate-reporting-requirements/"
     },
     {
-        "title": "Consultation Paper on Sustainability Reporting: Enhancing Consistency and Comparability",
-        "summary": "SGX RegCo has enhanced its sustainability reporting regime and will start incorporating the latest international standards into its sustainability reporting...",
-        "date": "07 Mar 2024",
-        "source": "Singapore Exchange (SGX)",
-        "link": "https://www.sgx.com/regco/public-consultations/20240307-consultation-paper-sustainability-reporting-enhancing"
-    },
-    {
         "title": "Six ways that governments can drive the green transition",
         "summary": "In brief. Tackling the environmental, economic and social impact of climate change requires a huge transformation across all sectors.",
         "date": "15 Aug 2024",
@@ -532,11 +539,11 @@
         "link": "https://www.ey.com/en_sg/insights/government-public-sector/six-ways-that-governments-can-drive-the-green-transition"
     },
     {
-        "title": "UK and Singapore Strengthen Collaboration in Sustainable Finance and FinTech",
-        "summary": "At the 9th UK-Singapore Financial Dialogue, both countries discussed collaboration opportunities in priority areas such as sustainable...",
-        "date": "08 May 2024",
-        "source": "Monetary Authority of Singapore",
-        "link": "https://www.mas.gov.sg/news/media-releases/2024/uk-and-singapore-strengthen-collaboration-in-sustainable-finance-and-fintech"
+        "title": "Consultation Paper on Sustainability Reporting: Enhancing Consistency and Comparability",
+        "summary": "SGX RegCo has enhanced its sustainability reporting regime and will start incorporating the latest international standards into its sustainability reporting...",
+        "date": "07 Mar 2024",
+        "source": "Singapore Exchange (SGX)",
+        "link": "https://www.sgx.com/regco/public-consultations/20240307-consultation-paper-sustainability-reporting-enhancing"
     },
     {
         "title": "Singapore moves forward with mandatory climate reporting \u2013 implications for U.S.-based multinationals",
@@ -621,12 +628,5 @@
         "date": "07 Oct 2022",
         "source": "The National Environment Agency",
         "link": "https://www.nea.gov.sg/media/news/news/index/new-technical-reference-to-guide-companies-on-sustainable-packaging-practices"
-    },
-    {
-        "title": "Singapore Proposes Mandatory Climate Reporting for both Public and Private Companies",
-        "summary": "Public and large private companies in Singapore will be required to provide climate-related disclosures aligned with the IFRS' newly published ISSB disclosure...",
-        "date": "10 Jul 2023",
-        "source": "ESG Today",
-        "link": "https://www.esgtoday.com/singapore-proposes-mandatory-climate-reporting-for-both-public-and-private-companies/"
     }
 ]
