@@ -7,13 +7,6 @@
         "link": "https://www.pwc.com/sg/en/publications/sustainability-linked-opportunities-the-new-frontier-for-singapores-legal-sector.html"
     },
     {
-        "title": "Guidebook launched for sustainability reporting training providers",
-        "summary": "[SINGAPORE] Sustainability-reporting training providers can now refer to a new guidebook to design their programmes and courses in a way...",
-        "date": "19 May 2025",
-        "source": "The Business Times",
-        "link": "https://www.businesstimes.com.sg/esg/guidebook-launched-sustainability-reporting-training-providers"
-    },
-    {
         "title": "MSSPs to help Singapore SMBs meet new 2025 ESG standards",
         "summary": "MSSPs are positioned to help Singapore's small and medium-sized businesses meet the new Environmental, Social, and Governance (ESG) regulations set for 2025.",
         "date": "23 Apr 2025",
@@ -49,6 +42,13 @@
         "link": "http://www.legalbusinessonline.com/features/briefs-singapore-firms-leverage-local-expertise-city%E2%80%99s-sustainability-legal-services-market-gears"
     },
     {
+        "title": "Sustainability reporting will pay off for S\u2019pore companies in the long run: Experts",
+        "summary": "SINGAPORE \u2013 Ramped-up rules on sustainability reporting might be burdensome for companies large and small, but they will pay off in the long...",
+        "date": "01 Jan 2025",
+        "source": "The Straits Times",
+        "link": "https://www.straitstimes.com/business/companies-markets/sustainability-reporting-will-pay-off-for-spore-companies-in-the-long-run-experts"
+    },
+    {
         "title": "2025: A new year ahead for shipping \u2013 environmental and regulatory compliance | Singapore | Global law firm",
         "summary": "It was said that the only constant in life is change. For shipping, this 'constant' is proving to be a challenge with 2024 being...",
         "date": "01 Jan 2025",
@@ -56,11 +56,25 @@
         "link": "https://www.nortonrosefulbright.com/en-sg/knowledge/publications/98b274d3/a-new-year-ahead-for-shipping-environmental-and-regulatory-compliance"
     },
     {
-        "title": "Details",
-        "summary": "A new Technical Reference (TR) 129 on Methanol Bunkering to provide a comprehensive framework for the safe and efficient use of methanol as an alternative fuel...",
-        "date": "10 Mar 2025",
-        "source": "Maritime & Port Authority of Singapore",
-        "link": "https://www.mpa.gov.sg/media-centre/details/singapore-launches-new-standard-on-methanol-bunkering--paves-way-for-maritime-industry-s-transition-to-sustainable-alternative-fuels"
+        "title": "Singapore moves forward with ISSB standards, despite scope 3 delay",
+        "summary": "Singapore Exchange Regulation (SGX RegCo) is set to apply the latest international sustainability standards to listed companies.",
+        "date": "01 Oct 2024",
+        "source": "Green Central Banking",
+        "link": "https://greencentralbanking.com/2024/10/01/singapore-moves-forward-with-issb-standards-despite-scope-3-delay/"
+    },
+    {
+        "title": "New Queen Bee Enabled Sustainability Transition (QUEST) programme launched to support SingPost\u2019s suppliers with sustainability efforts",
+        "summary": "Friday, 18 October 2024 [Singapore] \u2013 The Singapore Business Federation (SBF), in partnership with Singapore Post (SingPost), Ernst & Young...",
+        "date": "21 Oct 2024",
+        "source": "Singapore Post",
+        "link": "https://www.singpost.com/about-us/news-releases/new-queen-bee-enabled-sustainability-transition-quest-programme-launched"
+    },
+    {
+        "title": "Guidebook launched for sustainability reporting training providers",
+        "summary": "[SINGAPORE] Sustainability-reporting training providers can now refer to a new guidebook to design their programmes and courses in a way...",
+        "date": "19 May 2025",
+        "source": "The Business Times",
+        "link": "https://www.businesstimes.com.sg/esg/guidebook-launched-sustainability-reporting-training-providers"
     },
     {
         "title": "Singapore-listed firms made progress in climate reporting, but there\u2019s room for improvement",
@@ -77,13 +91,6 @@
         "link": "https://www.businesstimes.com.sg/singapore/economy-policy/sbf-proposes-1-2-year-extension-compliance-deadline-sgx-listcos-climate-related-disclosures"
     },
     {
-        "title": "Singapore to Introduce Mandatory Climate Reporting Beginning 2025",
-        "summary": "Singapore will implement mandatory climate-related reporting requirements for listed and large non-listed companies.",
-        "date": "28 Feb 2024",
-        "source": "ESG Today",
-        "link": "https://www.esgtoday.com/singapore-to-introduce-mandatory-climate-reporting-beginning-2025/"
-    },
-    {
         "title": "S\u2019pore\u2019s open trade system, trusted regulatory framework a draw for chemicals sector: Tan See Leng",
         "summary": "Singapore's consistency in tackling climate change is attractive to firms serious about reducing emissions. Read more at straitstimes.com.",
         "date": "09 Jul 2025",
@@ -91,18 +98,18 @@
         "link": "https://www.straitstimes.com/singapore/environment/spores-open-trade-system-trusted-regulatory-framework-a-draw-for-chemicals-sector-tan-see-leng"
     },
     {
-        "title": "Singapore moves forward with ISSB standards, despite scope 3 delay",
-        "summary": "Singapore Exchange Regulation (SGX RegCo) is set to apply the latest international sustainability standards to listed companies.",
-        "date": "01 Oct 2024",
-        "source": "Green Central Banking",
-        "link": "https://greencentralbanking.com/2024/10/01/singapore-moves-forward-with-issb-standards-despite-scope-3-delay/"
-    },
-    {
         "title": "Singapore\u2019s sustainability legal services market to treble to at least S$450 million by 2033: PwC study",
         "summary": "[SINGAPORE] Singapore's sustainability legal services market is set for significant expansion, with its value projected to treble to between...",
         "date": "30 Mar 2025",
         "source": "The Business Times",
         "link": "https://www.businesstimes.com.sg/esg/sustainable-finance/singapores-sustainability-legal-services-market-treble-least-s450-million-2033-pwc-study"
+    },
+    {
+        "title": "New grant helping companies with climate reporting to launch in November",
+        "summary": "The Sustainability Reporting Grant will help large companies with annual revenues of at least $100 million and above to develop their first International...",
+        "date": "21 Oct 2024",
+        "source": "The Straits Times",
+        "link": "https://www.straitstimes.com/business/new-grant-helping-companies-with-climate-reporting-to-launch-in-nov-2024"
     },
     {
         "title": "Only 36% of issuers required to make climate disclosures fully met SGX requirements: review",
@@ -119,6 +126,13 @@
         "link": "https://www.businesstimes.com.sg/companies-markets/enterprise-singapore-and-edb-launch-sustainability-reporting-grant-november"
     },
     {
+        "title": "Singapore to Introduce Mandatory Climate Reporting Beginning 2025",
+        "summary": "Singapore will implement mandatory climate-related reporting requirements for listed and large non-listed companies.",
+        "date": "28 Feb 2024",
+        "source": "ESG Today",
+        "link": "https://www.esgtoday.com/singapore-to-introduce-mandatory-climate-reporting-beginning-2025/"
+    },
+    {
         "title": "Singapore's pavilion at IMEX America sets new sustainability standards",
         "summary": "Singapore's pavilion at IMEX America sets new sustainability standards \u00b7 A 75% reduction in carpet usage \u2013 a first for Singapore at any...",
         "date": "11 Oct 2024",
@@ -131,13 +145,6 @@
         "date": "09 Jan 2025",
         "source": "The Straits Times",
         "link": "https://www.straitstimes.com/singapore/politics/new-law-to-bolster-spores-food-safety-security-passed-with-powers-to-increase-food-stockpiles"
-    },
-    {
-        "title": "The role of listed companies in leading Singapore\u2019s ESG shift",
-        "summary": "AS CLIMATE reporting becomes increasingly critical, Singapore's businesses are acutely aware of its ramifications.",
-        "date": "24 Oct 2024",
-        "source": "The Business Times",
-        "link": "https://www.businesstimes.com.sg/opinion-features/role-listed-companies-leading-singapores-esg-shift"
     },
     {
         "title": "Soilbuild strives towards new sustainability standards with Tampines Connection",
@@ -175,13 +182,6 @@
         "link": "https://www.businesstimes.com.sg/esg/sustainable-finance/singapore-listcos-must-report-direct-and-indirect-greenhouse-gas-emissions-fy2025"
     },
     {
-        "title": "New anti-money laundering laws in Singapore target kingpins\u2019 profits from environmental crime",
-        "summary": "Parliament passed a new Bill that allows the authorities to investigate illicit gains from a wider range of foreign serious environmental offences.",
-        "date": "15 Sep 2024",
-        "source": "The Straits Times",
-        "link": "https://www.straitstimes.com/singapore/new-anti-money-laundering-laws-in-singapore-target-kingpins-profits-from-environmental-crime"
-    },
-    {
         "title": "Raising standards for sustainability reporting in Singapore",
         "summary": "Listed companies in Singapore achieved a collective \u201cA\u201d grade for sustainability reporting in the latest Sustainability Reporting Review by...",
         "date": "07 Dec 2023",
@@ -196,11 +196,11 @@
         "link": "https://esgnews.com/singapore-launches-guidebook-for-sustainability-reporting-training-providers/"
     },
     {
-        "title": "Companies to report greenhouse gas emissions starting FY2025: SGX",
-        "summary": "The move reflects a growing emphasis on transparency and accountability in environmental impact. Read more at straitstimes.com.",
-        "date": "23 Sep 2024",
+        "title": "New anti-money laundering laws in Singapore target kingpins\u2019 profits from environmental crime",
+        "summary": "Parliament passed a new Bill that allows the authorities to investigate illicit gains from a wider range of foreign serious environmental offences.",
+        "date": "15 Sep 2024",
         "source": "The Straits Times",
-        "link": "https://www.straitstimes.com/business/companies-to-report-greenhouse-gas-emissions-starting-fy2025-sgx"
+        "link": "https://www.straitstimes.com/singapore/new-anti-money-laundering-laws-in-singapore-target-kingpins-profits-from-environmental-crime"
     },
     {
         "title": "How law departments can address supply chain ESG risk",
@@ -231,13 +231,6 @@
         "link": "https://www.lw.com/en/insights/tackling-greenwashing-singapore-approach-and-apac-evolving-regulatory-landscape"
     },
     {
-        "title": "Singapore to Provide Funding for Companies to Meet New Climate Reporting Requirements",
-        "summary": "The government of Singapore announced the launch of a new Sustainability Reporting Grant, providing companies with support covering up to nearly a third of the...",
-        "date": "06 Mar 2024",
-        "source": "ESG Today",
-        "link": "https://www.esgtoday.com/singapore-to-provide-funding-for-companies-to-meet-new-climate-reporting-requirements/"
-    },
-    {
         "title": "SME Sustainability Reporting Programme (SME SRP)",
         "summary": "The SME Sustainability Reporting Programme (SME SRP) assists Singapore SMEs in developing their first sustainability reports.",
         "date": "21 Oct 2024",
@@ -245,11 +238,11 @@
         "link": "https://www.rsm.global/singapore/news/sme-sustainability-reporting-programme-sme-srp"
     },
     {
-        "title": "Consultation Paper on Sustainability Reporting: Enhancing Consistency and Comparability",
-        "summary": "SGX RegCo has enhanced its sustainability reporting regime and will start incorporating the latest international standards into its sustainability reporting...",
-        "date": "07 Mar 2024",
-        "source": "Singapore Exchange (SGX)",
-        "link": "https://www.sgx.com/regco/public-consultations/20240307-consultation-paper-sustainability-reporting-enhancing"
+        "title": "Singapore to Provide Funding for Companies to Meet New Climate Reporting Requirements",
+        "summary": "The government of Singapore announced the launch of a new Sustainability Reporting Grant, providing companies with support covering up to nearly a third of the...",
+        "date": "06 Mar 2024",
+        "source": "ESG Today",
+        "link": "https://www.esgtoday.com/singapore-to-provide-funding-for-companies-to-meet-new-climate-reporting-requirements/"
     },
     {
         "title": "Helping SMEs go green among the first major initiatives of PAP\u2019s new climate action group",
@@ -257,6 +250,13 @@
         "date": "21 Jan 2025",
         "source": "The Straits Times",
         "link": "https://www.straitstimes.com/singapore/helping-smes-go-greener-among-key-steps-of-paps-new-climate-action-group"
+    },
+    {
+        "title": "Consultation Paper on Sustainability Reporting: Enhancing Consistency and Comparability",
+        "summary": "SGX RegCo has enhanced its sustainability reporting regime and will start incorporating the latest international standards into its sustainability reporting...",
+        "date": "07 Mar 2024",
+        "source": "Singapore Exchange (SGX)",
+        "link": "https://www.sgx.com/regco/public-consultations/20240307-consultation-paper-sustainability-reporting-enhancing"
     },
     {
         "title": "Opinion: Sustainability Regulations Should Not Be Optional",
@@ -273,25 +273,18 @@
         "link": "https://www.ey.com/en_sg/insights/government-public-sector/six-ways-that-governments-can-drive-the-green-transition"
     },
     {
+        "title": "SGX RegCo issues consultation paper on incorporation of ISSB standards in sustainability reporting",
+        "summary": "On 7 March 2024, Singapore Exchange Regulation (SGX RegCo) issued a consultation paper titled \u201cSustainability Reporting - Enhancing Consistency and...",
+        "date": "04 Apr 2024",
+        "source": "Allen & Gledhill",
+        "link": "https://www.allenandgledhill.com/sg/perspectives/articles/27744/sgkh-sgx-regco-issues-consultation-paper-on-incorporation-of-issb-standards-in-sustainability-reporting"
+    },
+    {
         "title": "Singapore moves forward with mandatory climate reporting \u2013 implications for U.S.-based multinationals",
         "summary": "Singapore will introduce mandatory climate-related disclosures in a phased approach, in line with the final accepted recommendations.",
         "date": "15 Apr 2024",
         "source": "Ropes & Gray LLP",
         "link": "https://www.ropesgray.com/en/insights/viewpoints/102j5cd/singapore-moves-forward-with-mandatory-climate-reporting-implications-for-u-s"
-    },
-    {
-        "title": "The green balancing act: How Singapore SMEs can navigate sustainability and costs",
-        "summary": "SMEs continue to face challenges in becoming more sustainable, such as lack of resources and manpower, reveals survey.",
-        "date": "12 Mar 2024",
-        "source": "The Business Times",
-        "link": "https://www.businesstimes.com.sg/esg/the-green-balancing-act-how-singapore-smes-can-navigate-sustainability-and-costs"
-    },
-    {
-        "title": "Global Greenwashing Regulations: How the World Is Cracking Down on Misleading Sustainability Claims",
-        "summary": "Amid fears of greenwashing claims, sustainable investment assets have dropped as much as 51-percent. This blog outlines how ESG Stewardship...",
-        "date": "14 Nov 2023",
-        "source": "Sustainalytics",
-        "link": "https://www.sustainalytics.com/esg-research/resource/investors-esg-blog/global-greenwashing-regulations--how-the-world-is-cracking-down-on-misleading-sustainability-claims"
     },
     {
         "title": "New EU Ecolabel tender call for stakeholder representation",
@@ -574,18 +567,18 @@
         "link": "https://sdgs.un.org/news/water-action-agenda-invitation-submit-progress-report-55191"
     },
     {
-        "title": "UN to Convene Global Experts in Tokyo on 4-6 March to Assess Climate Action Targets under Sustainable Development Goals",
-        "summary": "",
-        "date": "1 Mar 2024",
-        "source": "UN SDGs",
-        "link": "https://sdgs.un.org/news/un-convene-global-experts-tokyo-4-6-march-assess-climate-action-targets-under-sustainable"
-    },
-    {
         "title": "UNEA Adopts a Bold Resolution on Promoting Synergies in Environmental Action",
         "summary": "26 February 1 March 2024, Nairobi, Kenya Leading the way in this rapidly expanding field, Japan put forward a resolution...",
         "date": "1 Mar 2024",
         "source": "UN SDGs",
         "link": "https://sdgs.un.org/news/unea-adopts-bold-resolution-promoting-synergies-environmental-action-56082"
+    },
+    {
+        "title": "UN to Convene Global Experts in Tokyo on 4-6 March to Assess Climate Action Targets under Sustainable Development Goals",
+        "summary": "",
+        "date": "1 Mar 2024",
+        "source": "UN SDGs",
+        "link": "https://sdgs.un.org/news/un-convene-global-experts-tokyo-4-6-march-assess-climate-action-targets-under-sustainable-0"
     },
     {
         "title": "United Nations Secretary-General Appoints New Members to the High-level Group to Champion Science, Technology, and Innovation for the Sustainable Development Goals",
