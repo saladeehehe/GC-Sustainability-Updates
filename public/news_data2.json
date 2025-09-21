@@ -35,13 +35,6 @@
         "link": "https://www.mynewsdesk.com/sg/pwc-singapore/pressreleases/pwc-singapores-report-singapores-sustainability-legal-services-market-set-to-triple-in-value-by-2033-3376915"
     },
     {
-        "title": "World Aquatics Championships aims to set new green standards for sports events in Singapore",
-        "summary": "Singapore is aiming to set new sustainability standards for future sporting events hosted in the country, building on current efforts at the...",
-        "date": "22 Jul 2025",
-        "source": "CNA",
-        "link": "https://www.channelnewsasia.com/watch/world-aquatics-championships-aims-set-new-green-standards-sports-events-singapore-5252191"
-    },
-    {
         "title": "THE BRIEFS: Singapore Firms Leverage Local Expertise as City\u2019s Sustainability Legal Services Market Gears up for Growth | Asian Legal Business",
         "summary": "A new report by PwC Singapore has revealed that Singapore's sustainability legal services market is poised for substantial growth.",
         "date": "25 May 2025",
@@ -61,6 +54,13 @@
         "date": "10 Mar 2025",
         "source": "Yahoo News Singapore",
         "link": "https://sg.news.yahoo.com/singapore-firms-need-better-climate-reporting-as-new-rules-loom-235944710.html"
+    },
+    {
+        "title": "World Aquatics Championships aims to set new green standards for sports events in Singapore",
+        "summary": "Singapore is aiming to set new sustainability standards for future sporting events hosted in the country, building on current efforts at the...",
+        "date": "22 Jul 2025",
+        "source": "CNA",
+        "link": "https://www.channelnewsasia.com/watch/world-aquatics-championships-aims-set-new-green-standards-sports-events-singapore-5252191"
     },
     {
         "title": "Singapore-listed firms made progress in climate reporting, but there\u2019s room for improvement",
@@ -84,18 +84,18 @@
         "link": "https://www.businesstimes.com.sg/esg/guidebook-launched-sustainability-reporting-training-providers"
     },
     {
-        "title": "Singapore\u2019s sustainability legal services market to treble to at least S$450 million by 2033: PwC study",
-        "summary": "[SINGAPORE] Singapore's sustainability legal services market is set for significant expansion, with its value projected to treble to between...",
-        "date": "30 Mar 2025",
-        "source": "The Business Times",
-        "link": "https://www.businesstimes.com.sg/esg/sustainable-finance/singapores-sustainability-legal-services-market-treble-least-s450-million-2033-pwc-study"
-    },
-    {
         "title": "SBF proposes 1-2 year extension of compliance deadline for SGX listcos\u2019 climate-related disclosures",
         "summary": "The Singapore Business Federation (SBF) has proposed extending the deadline for small- and mid-sized companies listed on the Singapore Exchange (SGX) to comply...",
         "date": "26 Jun 2025",
         "source": "The Business Times",
         "link": "https://www.businesstimes.com.sg/singapore/economy-policy/sbf-proposes-1-2-year-extension-compliance-deadline-sgx-listcos-climate-related-disclosures"
+    },
+    {
+        "title": "Singapore\u2019s sustainability legal services market to treble to at least S$450 million by 2033: PwC study",
+        "summary": "[SINGAPORE] Singapore's sustainability legal services market is set for significant expansion, with its value projected to treble to between...",
+        "date": "30 Mar 2025",
+        "source": "The Business Times",
+        "link": "https://www.businesstimes.com.sg/esg/sustainable-finance/singapores-sustainability-legal-services-market-treble-least-s450-million-2033-pwc-study"
     },
     {
         "title": "Only 36% of issuers required to make climate disclosures fully met SGX requirements: review",
@@ -189,25 +189,11 @@
         "link": "https://www.mayerbrown.com/en/insights/publications/2024/02/singapores-carbon-regulations-paving-the-way-for-the-green-plan-2030"
     },
     {
-        "title": "Singapore listcos must report direct and indirect greenhouse gas emissions from FY2025",
-        "summary": "Singapore-listed companies must start reporting their Scope 1 and Scope 2 greenhouse gas (GHG) emissions from the 2025 financial year.",
-        "date": "23 Sep 2024",
-        "source": "The Business Times",
-        "link": "https://www.businesstimes.com.sg/esg/sustainable-finance/singapore-listcos-must-report-direct-and-indirect-greenhouse-gas-emissions-fy2025"
-    },
-    {
         "title": "SME Sustainability Reporting Programme (SME SRP)",
         "summary": "The SME Sustainability Reporting Programme (SME SRP) assists Singapore SMEs in developing their first sustainability reports.",
         "date": "21 Oct 2024",
         "source": "RSM Global",
         "link": "https://www.rsm.global/singapore/news/sme-sustainability-reporting-programme-sme-srp"
-    },
-    {
-        "title": "Helping SMEs go green among the first major initiatives of PAP\u2019s new climate action group",
-        "summary": "SINGAPORE \u2013 Laws to combat greenwashing and make sustainability a key criterion for all government tenders will be among nine...",
-        "date": "21 Jan 2025",
-        "source": "The Straits Times",
-        "link": "https://www.straitstimes.com/singapore/helping-smes-go-greener-among-key-steps-of-paps-new-climate-action-group"
     },
     {
         "title": "Keeping up to speed with Singapore ESG regulations",
@@ -217,11 +203,11 @@
         "link": "https://law.asia/singapore-evolving-esg-regulations/"
     },
     {
-        "title": "Navigating the green horizon: The real estate response to ESG in Asia Pacific",
-        "summary": "RSM's real estate specialists share their insights on how the global demand for sustainable practices is shaping the sector.",
-        "date": "06 Feb 2024",
-        "source": "RSM Global",
-        "link": "https://www.rsm.global/singapore/insights/navigating-green-horizon-real-estate-response-esg-asia-pacific"
+        "title": "Helping SMEs go green among the first major initiatives of PAP\u2019s new climate action group",
+        "summary": "SINGAPORE \u2013 Laws to combat greenwashing and make sustainability a key criterion for all government tenders will be among nine...",
+        "date": "21 Jan 2025",
+        "source": "The Straits Times",
+        "link": "https://www.straitstimes.com/singapore/helping-smes-go-greener-among-key-steps-of-paps-new-climate-action-group"
     },
     {
         "title": "Consultation Paper on Sustainability Reporting: Enhancing Consistency and Comparability",
@@ -231,11 +217,25 @@
         "link": "https://www.sgx.com/regco/public-consultations/20240307-consultation-paper-sustainability-reporting-enhancing"
     },
     {
+        "title": "Financial services regulation and ESG: Regulation Around the World | Singapore | Global law firm",
+        "summary": "In this edition of Regulation Around the World we review recent steps that financial services regulatory authorities have taken as regards...",
+        "date": "06 Oct 2023",
+        "source": "Norton Rose Fulbright",
+        "link": "https://www.nortonrosefulbright.com/en-sg/knowledge/publications/8c48a4f6/financial-services-regulation-and-esg-regulation-around-the-world"
+    },
+    {
         "title": "Singapore to Provide Funding for Companies to Meet New Climate Reporting Requirements",
         "summary": "The government of Singapore announced the launch of a new Sustainability Reporting Grant, providing companies with support covering up to nearly a third of the...",
         "date": "06 Mar 2024",
         "source": "ESG Today",
         "link": "https://www.esgtoday.com/singapore-to-provide-funding-for-companies-to-meet-new-climate-reporting-requirements/"
+    },
+    {
+        "title": "Singapore listcos must report direct and indirect greenhouse gas emissions from FY2025",
+        "summary": "Singapore-listed companies must start reporting their Scope 1 and Scope 2 greenhouse gas (GHG) emissions from the 2025 financial year.",
+        "date": "23 Sep 2024",
+        "source": "The Business Times",
+        "link": "https://www.businesstimes.com.sg/esg/sustainable-finance/singapore-listcos-must-report-direct-and-indirect-greenhouse-gas-emissions-fy2025"
     },
     {
         "title": "Singapore moves forward with mandatory climate reporting \u2013 implications for U.S.-based multinationals",
@@ -266,13 +266,6 @@
         "link": "https://www.lexology.com/library/detail.aspx?g=7baa75fb-586b-43aa-9d4d-6f84b7bf8432"
     },
     {
-        "title": "SGX RegCo will require ISSB-aligned climate-related disclosures from all listed issuers starting FY2025",
-        "summary": "Singapore Exchange Regulation (SGX RegCo) will begin incorporating the IFRS sustainability disclosure standards into its sustainability...",
-        "date": "23 Sep 2024",
-        "source": "The Edge Singapore",
-        "link": "https://www.theedgesingapore.com/news/environmental-social-and-governance/sgx-regco-will-require-issb-aligned-climate-related"
-    },
-    {
         "title": "Six ways that governments can drive the green transition",
         "summary": "In brief. Tackling the environmental, economic and social impact of climate change requires a huge transformation across all sectors.",
         "date": "15 Aug 2024",
@@ -287,6 +280,13 @@
         "link": "https://www.sustainalytics.com/esg-research/resource/investors-esg-blog/global-greenwashing-regulations--how-the-world-is-cracking-down-on-misleading-sustainability-claims"
     },
     {
+        "title": "Singapore among the first in Asia to propose mandatory climate reporting for non-listed companies",
+        "summary": "Singapore's listed companies could make mandatory climate-related disclosures from FY2025, followed by large non-listed companies from FY2027.",
+        "date": "07 Jul 2023",
+        "source": "Eco-Business",
+        "link": "https://www.eco-business.com/news/singapore-among-the-first-in-asia-to-propose-mandatory-climate-reporting-for-non-listed-companies/"
+    },
+    {
         "title": "New anti-money laundering laws in Singapore target kingpins\u2019 profits from environmental crime",
         "summary": "Parliament passed a new Bill that allows the authorities to investigate illicit gains from a wider range of foreign serious environmental offences.",
         "date": "15 Sep 2024",
@@ -294,11 +294,11 @@
         "link": "https://www.straitstimes.com/singapore/new-anti-money-laundering-laws-in-singapore-target-kingpins-profits-from-environmental-crime"
     },
     {
-        "title": "Singapore among the first in Asia to propose mandatory climate reporting for non-listed companies",
-        "summary": "Singapore's listed companies could make mandatory climate-related disclosures from FY2025, followed by large non-listed companies from FY2027.",
-        "date": "07 Jul 2023",
-        "source": "Eco-Business",
-        "link": "https://www.eco-business.com/news/singapore-among-the-first-in-asia-to-propose-mandatory-climate-reporting-for-non-listed-companies/"
+        "title": "SGX RegCo will require ISSB-aligned climate-related disclosures from all listed issuers starting FY2025",
+        "summary": "Singapore Exchange Regulation (SGX RegCo) will begin incorporating the IFRS sustainability disclosure standards into its sustainability...",
+        "date": "23 Sep 2024",
+        "source": "The Edge Singapore",
+        "link": "https://www.theedgesingapore.com/news/environmental-social-and-governance/sgx-regco-will-require-issb-aligned-climate-related"
     },
     {
         "title": "One Label. More than 100,000 greener products. One Catalogue.",
