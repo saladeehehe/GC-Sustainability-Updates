@@ -98,13 +98,6 @@
         "link": "https://www.pwc.com/sg/en/publications/sustainability-linked-opportunities-the-new-frontier-for-singapores-legal-sector.html"
     },
     {
-        "title": "Food Waste Management",
-        "summary": "Food waste accounted for about 12 per cent of the total waste generated in Singapore in 2024. The total amount of food waste generated in...",
-        "date": "31 Jul 2025",
-        "source": "NEA",
-        "link": "https://www.nea.gov.sg/our-services/waste-management/3r-programmes-and-resources/food-waste-management"
-    },
-    {
         "title": "MAS commits to \u2018stay the course\u2019 on sustainable finance amid global headwinds",
         "summary": "The Monetary Authority of Singapore (MAS) latest sustainability report has cemented the city-state's reputation as a green finance...",
         "date": "21 Jul 2025",
@@ -154,6 +147,20 @@
         "link": "https://www.nortonrosefulbright.com/en-sg/knowledge/publications/98b274d3/a-new-year-ahead-for-shipping-environmental-and-regulatory-compliance"
     },
     {
+        "title": "Food Waste Management",
+        "summary": "Food waste accounted for about 12 per cent of the total waste generated in Singapore in 2024. The total amount of food waste generated in...",
+        "date": "31 Jul 2025",
+        "source": "NEA",
+        "link": "https://www.nea.gov.sg/our-services/waste-management/3r-programmes-and-resources/food-waste-management"
+    },
+    {
+        "title": "Over two-thirds of SGX companies unprepared for new sustainability reporting standards: EY study",
+        "summary": "More than two in three Singapore-listed companies are less than prepared to meet climate-related disclosure requirements, a study from EY has found.",
+        "date": "18 Jul 2025",
+        "source": "The Business Times",
+        "link": "https://www.businesstimes.com.sg/esg/over-two-thirds-sgx-companies-unprepared-new-sustainability-reporting-standards-ey-study"
+    },
+    {
         "title": "Guidebook launched for sustainability reporting training providers",
         "summary": "[SINGAPORE] Sustainability-reporting training providers can now refer to a new guidebook to design their programmes and courses in a way...",
         "date": "19 May 2025",
@@ -161,18 +168,18 @@
         "link": "https://www.businesstimes.com.sg/esg/guidebook-launched-sustainability-reporting-training-providers"
     },
     {
-        "title": "SBF proposes 1-2 year extension of compliance deadline for SGX listcos\u2019 climate-related disclosures",
-        "summary": "The Singapore Business Federation (SBF) has proposed extending the deadline for small- and mid-sized companies listed on the Singapore Exchange (SGX) to comply...",
-        "date": "26 Jun 2025",
-        "source": "The Business Times",
-        "link": "https://www.businesstimes.com.sg/singapore/economy-policy/sbf-proposes-1-2-year-extension-compliance-deadline-sgx-listcos-climate-related-disclosures"
-    },
-    {
         "title": "Singapore\u2019s sustainability legal services market to treble to at least S$450 million by 2033: PwC study",
         "summary": "[SINGAPORE] Singapore's sustainability legal services market is set for significant expansion, with its value projected to treble to between...",
         "date": "30 Mar 2025",
         "source": "The Business Times",
         "link": "https://www.businesstimes.com.sg/esg/sustainable-finance/singapores-sustainability-legal-services-market-treble-least-s450-million-2033-pwc-study"
+    },
+    {
+        "title": "S\u2019pore\u2019s open trade system, trusted regulatory framework a draw for chemicals sector: Tan See Leng",
+        "summary": "Singapore's consistency in tackling climate change is attractive to firms serious about reducing emissions. Read more at straitstimes.com.",
+        "date": "09 Jul 2025",
+        "source": "The Straits Times",
+        "link": "https://www.straitstimes.com/singapore/environment/spores-open-trade-system-trusted-regulatory-framework-a-draw-for-chemicals-sector-tan-see-leng"
     },
     {
         "title": "Only 36% of issuers required to make climate disclosures fully met SGX requirements: review",
@@ -187,13 +194,6 @@
         "date": "11 Mar 2025",
         "source": "The Straits Times",
         "link": "https://www.straitstimes.com/business/companies-markets/singapore-listed-firms-made-progress-in-climate-reporting-but-there-is-still-room-for-improvement"
-    },
-    {
-        "title": "Decarbonising digital infrastructure and urban sustainability in the case of data centres",
-        "summary": "This paper critically assesses the complex interplay between urban transitions of digitisation and sustainability.",
-        "date": "23 Apr 2025",
-        "source": "Nature",
-        "link": "https://www.nature.com/articles/s42949-025-00203-1"
     },
     {
         "title": "Singapore to Introduce Mandatory Climate Reporting Beginning 2025",
@@ -232,7 +232,7 @@
     },
     {
         "title": "Singapore moves forward with ISSB standards, despite scope 3 delay",
-        "summary": "Singapore Exchange Regulation (SGX RegCo) is set to apply the latest international sustainability standards to listed companies,...",
+        "summary": "Singapore Exchange Regulation (SGX RegCo) is set to apply the latest international sustainability standards to listed companies.",
         "date": "01 Oct 2024",
         "source": "Green Central Banking",
         "link": "https://greencentralbanking.com/2024/10/01/singapore-moves-forward-with-issb-standards-despite-scope-3-delay/"
@@ -245,13 +245,6 @@
         "link": "https://news.nus.edu.sg/raising-standards-for-sustainability-reporting-in-singapore/"
     },
     {
-        "title": "More Singapore businesses will have to report sustainability information, starting with listed firms in 2025",
-        "summary": "Singapore will require all listed firms to make climate-related disclosures from financial year 2025, followed by large non-listed firms two...",
-        "date": "28 Feb 2024",
-        "source": "CNA",
-        "link": "https://www.channelnewsasia.com/singapore/singapore-mandatory-climate-disclosures-listed-companies-2025-4155586"
-    },
-    {
         "title": "A regional comparison of ESG regulations: Singapore",
         "summary": "Environmental, social and governance (ESG) standards are rapidly gaining prominence regionally and internationally, as regulators equip...",
         "date": "10 Aug 2023",
@@ -259,8 +252,15 @@
         "link": "https://www.clydeco.com/en/insights/2023/08/a-regional-comparison-of-esg-regulations-singapore"
     },
     {
+        "title": "More Singapore businesses will have to report sustainability information, starting with listed firms in 2025",
+        "summary": "Singapore will require all listed firms to make climate-related disclosures from financial year 2025, followed by large non-listed firms two...",
+        "date": "28 Feb 2024",
+        "source": "CNA",
+        "link": "https://www.channelnewsasia.com/singapore/singapore-mandatory-climate-disclosures-listed-companies-2025-4155586"
+    },
+    {
         "title": "Singapore's pavilion at IMEX America sets new sustainability standards",
-        "summary": "Singapore's pavilion at IMEX America sets new sustainability standards \u00b7 A 75% reduction in carpet usage \u2013 a first for Singapore at any...",
+        "summary": "Singapore's pavilion at IMEX America sets new sustainability standards. SECB sets a new benchmark with initiatives that reduces booth-related...",
         "date": "11 Oct 2024",
         "source": "Meetings & Conventions Asia",
         "link": "https://www.meetings-conventions-asia.com/News/Conferences-and-Exhibitions/Singapores-pavilion-at-IMEX-America-sets-new-sustainability-standards"
@@ -271,6 +271,13 @@
         "date": "20 May 2025",
         "source": "ESG News",
         "link": "https://esgnews.com/singapore-launches-guidebook-for-sustainability-reporting-training-providers/"
+    },
+    {
+        "title": "How law departments can address supply chain ESG risk",
+        "summary": "Focus is expanding on the ESG and sustainability practices of supply chains. Law departments need to be proactive now to mitigate risk. Learn how.",
+        "date": "19 Aug 2024",
+        "source": "EY",
+        "link": "https://www.ey.com/en_sg/insights/law/four-actions-for-law-departments-to-address-supply-chain-esg-risk"
     },
     {
         "title": "Tackling Greenwashing: Singapore\u2019s Approach and APAC\u2019s Evolving Regulatory Landscape",
@@ -322,18 +329,18 @@
         "link": "https://www.esgtoday.com/singapore-to-provide-funding-for-companies-to-meet-new-climate-reporting-requirements/"
     },
     {
-        "title": "Opinion: Sustainability Regulations Should Not Be Optional",
-        "summary": "DKSH's regional (APAC) healthcare sustainability manager, discusses the need for greater sustainability in healthcare.",
-        "date": "29 May 2024",
-        "source": "a+ Singapore",
-        "link": "https://aplussingapore.com/article/simarna-singh-dksh-sustainability-healthcare"
-    },
-    {
         "title": "Navigating the green horizon: The real estate response to ESG in Asia Pacific",
         "summary": "RSM's real estate specialists share their insights on how the global demand for sustainable practices is shaping the sector.",
         "date": "06 Feb 2024",
         "source": "RSM Global",
         "link": "https://www.rsm.global/singapore/insights/navigating-green-horizon-real-estate-response-esg-asia-pacific"
+    },
+    {
+        "title": "Opinion: Sustainability Regulations Should Not Be Optional",
+        "summary": "DKSH's regional (APAC) healthcare sustainability manager, discusses the need for greater sustainability in healthcare.",
+        "date": "29 May 2024",
+        "source": "a+ Singapore",
+        "link": "https://aplussingapore.com/article/simarna-singh-dksh-sustainability-healthcare"
     },
     {
         "title": "In Focus: Singapore Climate-related Disclosures and the ESG Landscape in APAC",
@@ -355,13 +362,6 @@
         "date": "15 Apr 2024",
         "source": "Ropes & Gray LLP",
         "link": "https://www.ropesgray.com/en/insights/viewpoints/102j5cd/singapore-moves-forward-with-mandatory-climate-reporting-implications-for-u-s"
-    },
-    {
-        "title": "Six ways that governments can drive the green transition",
-        "summary": "In brief. Tackling the environmental, economic and social impact of climate change requires a huge transformation across all sectors.",
-        "date": "15 Aug 2024",
-        "source": "EY",
-        "link": "https://www.ey.com/en_sg/insights/government-public-sector/six-ways-that-governments-can-drive-the-green-transition"
     },
     {
         "title": "Commission leads efforts to tackle Baltic Sea challenges",
