@@ -91,13 +91,6 @@
         "link": "https://sdgs.un.org/news/united-nations-secretary-general-appoints-new-members-high-level-group-champion-science"
     },
     {
-        "title": "MAS commits to \u2018stay the course\u2019 on sustainable finance amid global headwinds",
-        "summary": "The Monetary Authority of Singapore (MAS) latest sustainability report has cemented the city-state's reputation as a green finance...",
-        "date": "21 Jul 2025",
-        "source": "Green Central Banking",
-        "link": "https://greencentralbanking.com/2025/07/21/singapore-sustainability-report-2025/"
-    },
-    {
         "title": "Sustainability-linked opportunities: The new frontier for Singapore's legal sector",
         "summary": "The market for sustainability legal work in Singapore is projected to triple in value by 2033, driven by regulatory pressures, financial incentives, and...",
         "date": "26 Mar 2025",
@@ -110,6 +103,13 @@
         "date": "31 Jul 2025",
         "source": "NEA",
         "link": "https://www.nea.gov.sg/our-services/waste-management/3r-programmes-and-resources/food-waste-management"
+    },
+    {
+        "title": "MAS commits to \u2018stay the course\u2019 on sustainable finance amid global headwinds",
+        "summary": "The Monetary Authority of Singapore (MAS) latest sustainability report has cemented the city-state's reputation as a green finance...",
+        "date": "21 Jul 2025",
+        "source": "Green Central Banking",
+        "link": "https://greencentralbanking.com/2025/07/21/singapore-sustainability-report-2025/"
     },
     {
         "title": "SBF seeks more time for smaller listed companies to comply with new climate-related disclosure rules",
@@ -161,18 +161,18 @@
         "link": "http://www.legalbusinessonline.com/features/briefs-singapore-firms-leverage-local-expertise-city%E2%80%99s-sustainability-legal-services-market-gears"
     },
     {
-        "title": "Guidebook launched for sustainability reporting training providers",
-        "summary": "[SINGAPORE] Sustainability-reporting training providers can now refer to a new guidebook to design their programmes and courses in a way...",
-        "date": "19 May 2025",
-        "source": "The Business Times",
-        "link": "https://www.businesstimes.com.sg/esg/guidebook-launched-sustainability-reporting-training-providers"
-    },
-    {
         "title": "SBF proposes 1-2 year extension of compliance deadline for SGX listcos\u2019 climate-related disclosures",
         "summary": "The Singapore Business Federation (SBF) has proposed extending the deadline for small- and mid-sized companies listed on the Singapore Exchange (SGX) to comply...",
         "date": "26 Jun 2025",
         "source": "The Business Times",
         "link": "https://www.businesstimes.com.sg/singapore/economy-policy/sbf-proposes-1-2-year-extension-compliance-deadline-sgx-listcos-climate-related-disclosures"
+    },
+    {
+        "title": "Guidebook launched for sustainability reporting training providers",
+        "summary": "[SINGAPORE] Sustainability-reporting training providers can now refer to a new guidebook to design their programmes and courses in a way...",
+        "date": "19 May 2025",
+        "source": "The Business Times",
+        "link": "https://www.businesstimes.com.sg/esg/guidebook-launched-sustainability-reporting-training-providers"
     },
     {
         "title": "Singapore\u2019s sustainability legal services market to treble to at least S$450 million by 2033: PwC study",
@@ -182,18 +182,18 @@
         "link": "https://www.businesstimes.com.sg/esg/sustainable-finance/singapores-sustainability-legal-services-market-treble-least-s450-million-2033-pwc-study"
     },
     {
+        "title": "S\u2019pore\u2019s open trade system, trusted regulatory framework a draw for chemicals sector: Tan See Leng",
+        "summary": "Singapore's consistency in tackling climate change is attractive to firms serious about reducing emissions. Read more at straitstimes.com.",
+        "date": "09 Jul 2025",
+        "source": "The Straits Times",
+        "link": "https://www.straitstimes.com/singapore/environment/spores-open-trade-system-trusted-regulatory-framework-a-draw-for-chemicals-sector-tan-see-leng"
+    },
+    {
         "title": "SG60: The development of Singapore\u2019s corporate and securities law over the last 6 decades",
         "summary": "It has evolved from a colonial-era system into a globally respected, business-friendly and sophisticated legal regime.",
         "date": "13 Aug 2025",
         "source": "The Straits Times",
         "link": "https://www.straitstimes.com/singapore/sg60-the-development-of-singapores-corporate-and-securities-law-over-the-last-6-decades"
-    },
-    {
-        "title": "S\u2019pore\u2019s open trade system, trusted regulatory framework a draw for chemicals sector: Tan See Leng",
-        "summary": "Singapore's open trade architecture is one draw for speciality chemical firms looking for a springboard into Asia, said Minister-in-charge of Energy, Science...",
-        "date": "09 Jul 2025",
-        "source": "The Straits Times",
-        "link": "https://www.straitstimes.com/singapore/environment/spores-open-trade-system-trusted-regulatory-framework-a-draw-for-chemicals-sector-tan-see-leng"
     },
     {
         "title": "Singapore-listed firms made progress in climate reporting, but there\u2019s room for improvement",
@@ -210,13 +210,6 @@
         "link": "https://www.esgtoday.com/singapore-to-introduce-mandatory-climate-reporting-beginning-2025/"
     },
     {
-        "title": "Decarbonising digital infrastructure and urban sustainability in the case of data centres",
-        "summary": "This paper critically assesses the complex interplay between urban transitions of digitisation and sustainability.",
-        "date": "23 Apr 2025",
-        "source": "Nature",
-        "link": "https://www.nature.com/articles/s42949-025-00203-1"
-    },
-    {
         "title": "New law to bolster S\u2019pore\u2019s food safety, security passed, with powers to increase food stockpiles",
         "summary": "SINGAPORE - A new law that aims to bolster Singapore's food safety regulations and safeguard food security will, among other things,...",
         "date": "09 Jan 2025",
@@ -224,11 +217,11 @@
         "link": "https://www.straitstimes.com/singapore/politics/new-law-to-bolster-spores-food-safety-security-passed-with-powers-to-increase-food-stockpiles"
     },
     {
-        "title": "New Queen Bee Enabled Sustainability Transition (QUEST) programme launched to support SingPost\u2019s suppliers with sustainability efforts",
-        "summary": "Friday, 18 October 2024 [Singapore] \u2013 The Singapore Business Federation (SBF), in partnership with Singapore Post (SingPost), Ernst & Young...",
-        "date": "21 Oct 2024",
-        "source": "Singapore Post",
-        "link": "https://www.singpost.com/about-us/news-releases/new-queen-bee-enabled-sustainability-transition-quest-programme-launched"
+        "title": "Greening intelligence: Why AI infrastructure and governance must evolve together",
+        "summary": "AI infrastructure is evolving faster than the regulation and governance needed to ensure it serves public and planetary interests.",
+        "date": "12 May 2025",
+        "source": "The World Economic Forum",
+        "link": "https://www.weforum.org/stories/2025/05/why-ai-infrastructure-and-governance-must-evolve-together/"
     },
     {
         "title": "Singapore: ESG developments",
@@ -236,6 +229,13 @@
         "date": "25 Apr 2024",
         "source": "Global Compliance News",
         "link": "https://www.globalcompliancenews.com/2024/04/25/https-insightplus-bakermckenzie-com-bm-dispute-resolution-singapore-esg-developments_04172024/"
+    },
+    {
+        "title": "New Queen Bee Enabled Sustainability Transition (QUEST) programme launched to support SingPost\u2019s suppliers with sustainability efforts",
+        "summary": "Friday, 18 October 2024 [Singapore] \u2013 The Singapore Business Federation (SBF), in partnership with Singapore Post (SingPost), Ernst & Young...",
+        "date": "21 Oct 2024",
+        "source": "Singapore Post",
+        "link": "https://www.singpost.com/about-us/news-releases/new-queen-bee-enabled-sustainability-transition-quest-programme-launched"
     },
     {
         "title": "Raising standards for sustainability reporting in Singapore",
@@ -273,6 +273,13 @@
         "link": "https://www.channelnewsasia.com/singapore/singapore-mandatory-climate-disclosures-listed-companies-2025-4155586"
     },
     {
+        "title": "New grant helping companies with climate reporting to launch in November",
+        "summary": "The Sustainability Reporting Grant will help large companies with annual revenues of at least $100 million and above to develop their first International...",
+        "date": "21 Oct 2024",
+        "source": "The Straits Times",
+        "link": "https://www.straitstimes.com/business/new-grant-helping-companies-with-climate-reporting-to-launch-in-nov-2024"
+    },
+    {
         "title": "Legally green: How the courts help protect the environment amid climate change",
         "summary": "Environmental laws could play a critical role in improving conservation efforts and encouraging corporate responsibility. Singapore Courts'...",
         "date": "13 Aug 2024",
@@ -285,6 +292,13 @@
         "date": "06 Feb 2024",
         "source": "Mayer Brown",
         "link": "https://www.mayerbrown.com/en/insights/publications/2024/02/singapores-carbon-regulations-paving-the-way-for-the-green-plan-2030"
+    },
+    {
+        "title": "SME Sustainability Reporting Programme (SME SRP)",
+        "summary": "The SME Sustainability Reporting Programme (SME SRP) assists Singapore SMEs in developing their first sustainability reports.",
+        "date": "21 Oct 2024",
+        "source": "RSM Global",
+        "link": "https://www.rsm.global/singapore/news/sme-sustainability-reporting-programme-sme-srp"
     },
     {
         "title": "Consultation Paper on Sustainability Reporting: Enhancing Consistency and Comparability",
@@ -357,13 +371,6 @@
         "link": "https://www.meetings-conventions-asia.com/News/Conferences-and-Exhibitions/Singapores-pavilion-at-IMEX-America-sets-new-sustainability-standards"
     },
     {
-        "title": "Soilbuild strives towards new sustainability standards with Tampines Connection",
-        "summary": "the eco-friendly development will aim to achieve the highest BCA sustainability rating \u2014 the Green Mark Platinum Super Low Energy (SLE)...",
-        "date": "18 Oct 2024",
-        "source": "EdgeProp.sg",
-        "link": "https://www.edgeprop.sg/property-news/soilbuild-strives-towards-new-sustainability-standards-tampines-connection"
-    },
-    {
         "title": "How ISSB standards redefine sustainability disclosures",
         "summary": "Companies can now integrate sustainability and financial outcomes better with the new IFRS S1 and S2 standards. Learn more.",
         "date": "13 Aug 2024",
@@ -383,12 +390,5 @@
         "date": "07 Jul 2023",
         "source": "Eco-Business",
         "link": "https://www.eco-business.com/news/singapore-among-the-first-in-asia-to-propose-mandatory-climate-reporting-for-non-listed-companies/"
-    },
-    {
-        "title": "The green balancing act: How Singapore SMEs can navigate sustainability and costs",
-        "summary": "SMEs continue to face challenges in becoming more sustainable, such as lack of resources and manpower, reveals survey.",
-        "date": "12 Mar 2024",
-        "source": "The Business Times",
-        "link": "https://www.businesstimes.com.sg/esg/the-green-balancing-act-how-singapore-smes-can-navigate-sustainability-and-costs"
     }
 ]
