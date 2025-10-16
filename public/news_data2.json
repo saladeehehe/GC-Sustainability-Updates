@@ -70,18 +70,18 @@
         "link": "https://sdgs.un.org/news/water-action-agenda-invitation-submit-progress-report-55191"
     },
     {
-        "title": "UN to Convene Global Experts in Tokyo on 4-6 March to Assess Climate Action Targets under Sustainable Development Goals",
-        "summary": "",
-        "date": "1 Mar 2024",
-        "source": "UN SDGs",
-        "link": "https://sdgs.un.org/news/un-convene-global-experts-tokyo-4-6-march-assess-climate-action-targets-under-sustainable"
-    },
-    {
         "title": "UNEA Adopts a Bold Resolution on Promoting Synergies in Environmental Action",
         "summary": "26 February 1 March 2024, Nairobi, Kenya Leading the way in this rapidly expanding field, Japan put forward a resolution...",
         "date": "1 Mar 2024",
         "source": "UN SDGs",
         "link": "https://sdgs.un.org/news/unea-adopts-bold-resolution-promoting-synergies-environmental-action-56082"
+    },
+    {
+        "title": "UN to Convene Global Experts in Tokyo on 4-6 March to Assess Climate Action Targets under Sustainable Development Goals",
+        "summary": "",
+        "date": "1 Mar 2024",
+        "source": "UN SDGs",
+        "link": "https://sdgs.un.org/news/un-convene-global-experts-tokyo-4-6-march-assess-climate-action-targets-under-sustainable-0"
     },
     {
         "title": "United Nations Secretary-General Appoints New Members to the High-level Group to Champion Science, Technology, and Innovation for the Sustainable Development Goals",
@@ -140,13 +140,6 @@
         "link": "https://www.lexology.com/library/detail.aspx?g=7baa75fb-586b-43aa-9d4d-6f84b7bf8432"
     },
     {
-        "title": "PwC Singapore\u2019s report: Singapore\u2019s sustainability legal services market set to triple in value by 2033",
-        "summary": "The sustainability legal services market in Singapore is projected to grow substantially, reaching an estimated value of S$450 million to S$500 million by 2033.",
-        "date": "26 Mar 2025",
-        "source": "Mynewsdesk",
-        "link": "https://www.mynewsdesk.com/sg/pwc-singapore/pressreleases/pwc-singapores-report-singapores-sustainability-legal-services-market-set-to-triple-in-value-by-2033-3376915"
-    },
-    {
         "title": "2025: A new year ahead for shipping \u2013 environmental and regulatory compliance | Singapore | Global law firm",
         "summary": "It was said that the only constant in life is change. For shipping, this 'constant' is proving to be a challenge with 2024 being...",
         "date": "01 Jan 2025",
@@ -159,6 +152,13 @@
         "date": "25 May 2025",
         "source": "| Asian Legal Business",
         "link": "http://www.legalbusinessonline.com/features/briefs-singapore-firms-leverage-local-expertise-city%E2%80%99s-sustainability-legal-services-market-gears"
+    },
+    {
+        "title": "Sustainability reporting will pay off for S\u2019pore companies in the long run: Experts",
+        "summary": "SINGAPORE \u2013 Ramped-up rules on sustainability reporting might be burdensome for companies large and small, but they will pay off in the long...",
+        "date": "01 Jan 2025",
+        "source": "The Straits Times",
+        "link": "https://www.straitstimes.com/business/companies-markets/sustainability-reporting-will-pay-off-for-spore-companies-in-the-long-run-experts"
     },
     {
         "title": "SBF proposes 1-2 year extension of compliance deadline for SGX listcos\u2019 climate-related disclosures",
@@ -182,18 +182,25 @@
         "link": "https://www.businesstimes.com.sg/esg/sustainable-finance/singapores-sustainability-legal-services-market-treble-least-s450-million-2033-pwc-study"
     },
     {
-        "title": "S\u2019pore\u2019s open trade system, trusted regulatory framework a draw for chemicals sector: Tan See Leng",
-        "summary": "Singapore's consistency in tackling climate change is attractive to firms serious about reducing emissions. Read more at straitstimes.com.",
-        "date": "09 Jul 2025",
-        "source": "The Straits Times",
-        "link": "https://www.straitstimes.com/singapore/environment/spores-open-trade-system-trusted-regulatory-framework-a-draw-for-chemicals-sector-tan-see-leng"
-    },
-    {
         "title": "SG60: The development of Singapore\u2019s corporate and securities law over the last 6 decades",
         "summary": "It has evolved from a colonial-era system into a globally respected, business-friendly and sophisticated legal regime.",
         "date": "13 Aug 2025",
         "source": "The Straits Times",
         "link": "https://www.straitstimes.com/singapore/sg60-the-development-of-singapores-corporate-and-securities-law-over-the-last-6-decades"
+    },
+    {
+        "title": "S\u2019pore\u2019s open trade system, trusted regulatory framework a draw for chemicals sector: Tan See Leng",
+        "summary": "Singapore's open trade architecture is one draw for speciality chemical firms looking for a springboard into Asia, said Minister-in-charge of Energy, Science...",
+        "date": "09 Jul 2025",
+        "source": "The Straits Times",
+        "link": "https://www.straitstimes.com/singapore/environment/spores-open-trade-system-trusted-regulatory-framework-a-draw-for-chemicals-sector-tan-see-leng"
+    },
+    {
+        "title": "PwC Singapore\u2019s report: Singapore\u2019s sustainability legal services market set to triple in value by 2033",
+        "summary": "The sustainability legal services market in Singapore is projected to grow substantially, reaching an estimated value of S$450 million to S$500 million by 2033.",
+        "date": "26 Mar 2025",
+        "source": "Mynewsdesk",
+        "link": "https://www.mynewsdesk.com/sg/pwc-singapore/pressreleases/pwc-singapores-report-singapores-sustainability-legal-services-market-set-to-triple-in-value-by-2033-3376915"
     },
     {
         "title": "Singapore-listed firms made progress in climate reporting, but there\u2019s room for improvement",
@@ -217,25 +224,11 @@
         "link": "https://www.straitstimes.com/singapore/politics/new-law-to-bolster-spores-food-safety-security-passed-with-powers-to-increase-food-stockpiles"
     },
     {
-        "title": "Greening intelligence: Why AI infrastructure and governance must evolve together",
-        "summary": "AI infrastructure is evolving faster than the regulation and governance needed to ensure it serves public and planetary interests.",
-        "date": "12 May 2025",
-        "source": "The World Economic Forum",
-        "link": "https://www.weforum.org/stories/2025/05/why-ai-infrastructure-and-governance-must-evolve-together/"
-    },
-    {
         "title": "Singapore: ESG developments",
         "summary": "A spotlight on enforcement and litigation risks. In brief. ESG is increasingly of prioritised concern to companies and organisations due to...",
         "date": "25 Apr 2024",
         "source": "Global Compliance News",
         "link": "https://www.globalcompliancenews.com/2024/04/25/https-insightplus-bakermckenzie-com-bm-dispute-resolution-singapore-esg-developments_04172024/"
-    },
-    {
-        "title": "New Queen Bee Enabled Sustainability Transition (QUEST) programme launched to support SingPost\u2019s suppliers with sustainability efforts",
-        "summary": "Friday, 18 October 2024 [Singapore] \u2013 The Singapore Business Federation (SBF), in partnership with Singapore Post (SingPost), Ernst & Young...",
-        "date": "21 Oct 2024",
-        "source": "Singapore Post",
-        "link": "https://www.singpost.com/about-us/news-releases/new-queen-bee-enabled-sustainability-transition-quest-programme-launched"
     },
     {
         "title": "Raising standards for sustainability reporting in Singapore",
@@ -252,11 +245,11 @@
         "link": "https://greencentralbanking.com/2024/10/01/singapore-moves-forward-with-issb-standards-despite-scope-3-delay/"
     },
     {
-        "title": "Enterprise Singapore and EDB to launch sustainability reporting grant in November",
-        "summary": "The initiative will assist companies in producing their first reports aligned with the ISSB standards.",
+        "title": "New Queen Bee Enabled Sustainability Transition (QUEST) programme launched to support SingPost\u2019s suppliers with sustainability efforts",
+        "summary": "Friday, 18 October 2024 [Singapore] \u2013 The Singapore Business Federation (SBF), in partnership with Singapore Post (SingPost), Ernst & Young...",
         "date": "21 Oct 2024",
-        "source": "The Business Times",
-        "link": "https://www.businesstimes.com.sg/companies-markets/enterprise-singapore-and-edb-launch-sustainability-reporting-grant-november"
+        "source": "Singapore Post",
+        "link": "https://www.singpost.com/about-us/news-releases/new-queen-bee-enabled-sustainability-transition-quest-programme-launched"
     },
     {
         "title": "A regional comparison of ESG regulations: Singapore",
@@ -266,6 +259,13 @@
         "link": "https://www.clydeco.com/en/insights/2023/08/a-regional-comparison-of-esg-regulations-singapore"
     },
     {
+        "title": "Enterprise Singapore and EDB to launch sustainability reporting grant in November",
+        "summary": "The initiative will assist companies in producing their first reports aligned with the ISSB standards.",
+        "date": "21 Oct 2024",
+        "source": "The Business Times",
+        "link": "https://www.businesstimes.com.sg/companies-markets/enterprise-singapore-and-edb-launch-sustainability-reporting-grant-november"
+    },
+    {
         "title": "More Singapore businesses will have to report sustainability information, starting with listed firms in 2025",
         "summary": "Singapore will require all listed firms to make climate-related disclosures from financial year 2025, followed by large non-listed firms two...",
         "date": "28 Feb 2024",
@@ -273,18 +273,18 @@
         "link": "https://www.channelnewsasia.com/singapore/singapore-mandatory-climate-disclosures-listed-companies-2025-4155586"
     },
     {
-        "title": "New grant helping companies with climate reporting to launch in November",
-        "summary": "The Sustainability Reporting Grant will help large companies with annual revenues of at least $100 million and above to develop their first International...",
-        "date": "21 Oct 2024",
-        "source": "The Straits Times",
-        "link": "https://www.straitstimes.com/business/new-grant-helping-companies-with-climate-reporting-to-launch-in-nov-2024"
-    },
-    {
         "title": "Legally green: How the courts help protect the environment amid climate change",
         "summary": "Environmental laws could play a critical role in improving conservation efforts and encouraging corporate responsibility. Singapore Courts'...",
         "date": "13 Aug 2024",
         "source": "The Straits Times",
         "link": "https://www.straitstimes.com/singapore/legally-green-how-the-courts-help-protect-the-environment-amid-climate-change"
+    },
+    {
+        "title": "How law departments can address supply chain ESG risk",
+        "summary": "Focus is expanding on the ESG and sustainability practices of supply chains. Law departments need to be proactive now to mitigate risk. Learn how.",
+        "date": "19 Aug 2024",
+        "source": "EY",
+        "link": "https://www.ey.com/en_sg/insights/law/four-actions-for-law-departments-to-address-supply-chain-esg-risk"
     },
     {
         "title": "Singapore\u2019s Carbon Regulations: Paving the Way for the Green Plan 2030",
@@ -332,8 +332,29 @@
         "title": "Singapore moves forward with mandatory climate reporting \u2013 implications for U.S.-based multinationals",
         "summary": "Singapore will introduce mandatory climate-related disclosures in a phased approach, in line with the final accepted recommendations.",
         "date": "15 Apr 2024",
-        "source": "Ropes & Gray",
+        "source": "Ropes & Gray LLP",
         "link": "https://www.ropesgray.com/en/insights/viewpoints/102j5cd/singapore-moves-forward-with-mandatory-climate-reporting-implications-for-u-s"
+    },
+    {
+        "title": "Opinion: Sustainability Regulations Should Not Be Optional",
+        "summary": "DKSH's regional (APAC) healthcare sustainability manager, discusses the need for greater sustainability in healthcare.",
+        "date": "29 May 2024",
+        "source": "a+ Singapore",
+        "link": "https://aplussingapore.com/article/simarna-singh-dksh-sustainability-healthcare"
+    },
+    {
+        "title": "Breaking New Ground",
+        "summary": "This publication aims to share bite-sized information and updates on trends and issues shaping the environmental, social and governance (ESG), metaverse,...",
+        "date": "20 Jan 2025",
+        "source": "PwC",
+        "link": "https://www.pwc.com/sg/en/newsletters/breaking-new-ground/2024-04.html"
+    },
+    {
+        "title": "Navigating the green horizon: The real estate response to ESG in Asia Pacific",
+        "summary": "RSM's real estate specialists share their insights on how the global demand for sustainable practices is shaping the sector.",
+        "date": "06 Feb 2024",
+        "source": "RSM Global",
+        "link": "https://www.rsm.global/singapore/insights/navigating-green-horizon-real-estate-response-esg-asia-pacific"
     },
     {
         "title": "Keeping up to speed with Singapore ESG regulations",
@@ -357,38 +378,213 @@
         "link": "https://www.esgtoday.com/singapore-exchange-softens-requirement-for-scope-3-reporting-for-smaller-companies/"
     },
     {
-        "title": "Global Greenwashing Regulations: How the World Is Cracking Down on Misleading Sustainability Claims",
-        "summary": "Amid fears of greenwashing claims, sustainable investment assets have dropped as much as 51-percent. This blog outlines how ESG Stewardship...",
-        "date": "14 Nov 2023",
-        "source": "Sustainalytics",
-        "link": "https://www.sustainalytics.com/esg-research/resource/investors-esg-blog/global-greenwashing-regulations--how-the-world-is-cracking-down-on-misleading-sustainability-claims"
+        "title": "Commission leads efforts to tackle Baltic Sea challenges",
+        "summary": "Commissioner Roswall hosted the \u2018Our Baltic Conference\u2019 in Stockholm, aimed at addressing environmental challenges facing the region.",
+        "date": "01 Oct 2025",
+        "source": "European Commission",
+        "link": "https://oceans-and-fisheries.ec.europa.eu/news/commission-leads-efforts-tackle-baltic-sea-fisheries-and-environmental-challenges-2025-10-01_en"
     },
     {
-        "title": "Singapore's pavilion at IMEX America sets new sustainability standards",
-        "summary": "Singapore's pavilion at IMEX America sets new sustainability standards. SECB sets a new benchmark with initiatives that reduces booth-related...",
-        "date": "11 Oct 2024",
-        "source": "Meetings & Conventions Asia",
-        "link": "https://www.meetings-conventions-asia.com/News/Conferences-and-Exhibitions/Singapores-pavilion-at-IMEX-America-sets-new-sustainability-standards"
+        "title": "When pawprint meets footprint",
+        "summary": "The first animal care product has been awarded the EU Ecolabel. Developed by Catalan manufacturer PROQUIMIA, the certified shampoo is a major step toward sustainable pet hygiene. Discover PROQUIMIA\u2019s story and apply for the label to help \u2018paw\u2019 the way in sustainable pet care!",
+        "date": "26 Sep 2025",
+        "source": "European Commission",
+        "link": "https://environment.ec.europa.eu/news/when-pawprint-meets-footprint-2025-09-26_en"
     },
     {
-        "title": "How ISSB standards redefine sustainability disclosures",
-        "summary": "Companies can now integrate sustainability and financial outcomes better with the new IFRS S1 and S2 standards. Learn more.",
-        "date": "13 Aug 2024",
-        "source": "EY",
-        "link": "https://www.ey.com/en_sg/insights/assurance/how-issb-standards-redefine-sustainability-disclosures"
+        "title": "One Label. More than 100,000 greener products. One Catalogue.",
+        "summary": "Explore the revamped online Product Catalogue and discover EU Ecolabel certified goods and services in a few clicks!",
+        "date": "17 Sep 2025",
+        "source": "European Commission",
+        "link": "https://environment.ec.europa.eu/news/one-label-more-100000-greener-products-one-catalogue-2025-09-17_en"
     },
     {
-        "title": "New Technical Reference To Guide Companies On Sustainable Packaging Practices",
-        "summary": "JOINT NEWS RELEASE BETWEEN NEA AND PPP, SDO@SCIC AND SSC. Singapore, 7 October 2022 - To equip producers of packaged products as well as...",
-        "date": "07 Oct 2022",
-        "source": "NEA",
-        "link": "https://www.nea.gov.sg/media/news/news/index/new-technical-reference-to-guide-companies-on-sustainable-packaging-practices"
+        "title": "New EU Ecolabel tender call for stakeholder representation",
+        "summary": "Good news! The EU Ecolabel Stakeholder Representation call for tender has been published on the EU Funding & Tenders Portal! Think that your organisation could make a difference? Submit your bid!",
+        "date": "24 Jul 2025",
+        "source": "European Commission",
+        "link": "https://environment.ec.europa.eu/news/new-eu-ecolabel-tender-call-stakeholder-representation-2025-07-24_en"
     },
     {
-        "title": "Singapore among the first in Asia to propose mandatory climate reporting for non-listed companies",
-        "summary": "Singapore's listed companies could make mandatory climate-related disclosures from FY2025, followed by large non-listed companies from FY2027.",
-        "date": "07 Jul 2023",
-        "source": "Eco-Business",
-        "link": "https://www.eco-business.com/news/singapore-among-the-first-in-asia-to-propose-mandatory-climate-reporting-for-non-listed-companies/"
+        "title": "Celebrate 33 years of protecting the EU\u2019s nature and join a Bioblitz near you",
+        "summary": "European Natura 2000 Day is celebrated every year on 21 May. It marks the inception, 33 years ago, of a revolutionary approach to nature conservation in the EU \u2013 a large network of protected nature that maintains opportunities for economic and recreational development.",
+        "date": "21 May 2025",
+        "source": "European Commission",
+        "link": "https://environment.ec.europa.eu/news/celebrate-33-years-protecting-eus-nature-and-join-bioblitz-near-you-2025-05-21_en"
+    },
+    {
+        "title": "Commission adopts a user-friendly planning tool to support Member States in implementing the Nature Restoration Regulation",
+        "summary": "The European Commission has adopted an Implementing Regulation that establishes a uniform format for national restoration plans under the Nature Restoration Regulation, which entered into force in August 2024.",
+        "date": "20 May 2025",
+        "source": "European Commission",
+        "link": "https://environment.ec.europa.eu/news/commission-adopts-user-friendly-planning-tool-support-member-states-implementing-nature-restoration-2025-05-20_en"
+    },
+    {
+        "title": "Montenegro Joins the EU's LIFE Programme for Environment and Climate Action",
+        "summary": "A cornerstone of the European Union's commitment to environmental protection and climate action, the LIFE programme offers Montenegro support to improve its environmental and climate policies and practices.",
+        "date": "15 May 2025",
+        "source": "European Commission",
+        "link": "https://environment.ec.europa.eu/news/montenegro-joins-eus-life-programme-environment-and-climate-action-2025-05-15_en"
+    },
+    {
+        "title": "EU welcomes outcomes of Basel, Rotterdam and Stockholm Conventions COPs",
+        "summary": "The recent outcomes of Basel, Rotterdam and Stockholm Conventions COPs mark a significant milestone in global efforts to address environmental challenges.",
+        "date": "13 May 2025",
+        "source": "European Commission",
+        "link": "https://environment.ec.europa.eu/news/eu-welcomes-outcomes-basel-rotterdam-and-stockholm-conventions-cops-2025-05-13_en"
+    },
+    {
+        "title": "The EU Ecolabel keeps greening the absorbent hygiene products\u2019 market",
+        "summary": "Trust and transparency were the main keywords arising from the webinar \u201cCaring for you, caring for the environment,\u201d which spotlighted the benefits of the EU Ecolabel - the official EU ecolabel for product environmental excellence - in the absorbent hygiene sector.",
+        "date": "14 Apr 2025",
+        "source": "European Commission",
+        "link": "https://environment.ec.europa.eu/news/eu-ecolabel-keeps-greening-absorbent-hygiene-products-market-2025-04-14_en"
+    },
+    {
+        "title": "Webinar: Caring for you, caring for the environment: the EU Ecolabel for absorbent hygiene products",
+        "summary": "Discover how the EU Ecolabel for absorbent hygiene products boosts competitiveness, ensures environmental excellence, and aligns with EU legislation. Join the European Commission\u2019s webinar on 9 April 2025 to explore business benefits and hear from industry leaders. Register now!",
+        "date": "13 Mar 2025",
+        "source": "European Commission",
+        "link": "https://environment.ec.europa.eu/news/webinar-caring-you-caring-environment-eu-ecolabel-absorbent-hygiene-products-2025-03-13_en"
+    },
+    {
+        "title": "The EU Ecolabel for cosmetic products webinar",
+        "summary": "Trustworthy, informative, enlightening and insightful: these were some of the key takeaways from the webinar \"When Beauty Meets Green\", which aimed to explain the opportunities offered by the EU Ecolabel for cosmetic products.",
+        "date": "16 Dec 2024",
+        "source": "European Commission",
+        "link": "https://environment.ec.europa.eu/news/eu-ecolabel-cosmetic-products-webinar-2024-12-16_en"
+    },
+    {
+        "title": "EU Ecolabel Cosmetics Webinar",
+        "summary": "Join the webinar \u2018 When beauty meets green: the EU Ecolabel for cosmetic products \u2019 on 11 December 2024 to learn all you need to know about the EU Ecolabel, its future perspectives, and the opportunities it offers cosmetics producers to showcase the environmental credentials of their products.",
+        "date": "12 Nov 2024",
+        "source": "European Commission",
+        "link": "https://environment.ec.europa.eu/news/eu-ecolabel-cosmetics-webinar-2024-11-12_en"
+    },
+    {
+        "title": "EU invests over \u20ac380 million in 133 new LIFE projects to support the green transition all around Europe",
+        "summary": "The Commission has granted today more than \u20ac380 million to 133 new projects across Europe under the LIFE Programme for environment and climate action.",
+        "date": "21 Oct 2024",
+        "source": "European Commission",
+        "link": "https://ec.europa.eu/commission/presscorner/detail/en/ip_24_5381"
+    },
+    {
+        "title": "Nature Restoration Law enters into force",
+        "summary": "The regulation sets binding targets to restore degraded ecosystems, particularly those with the most potential to capture and store carbon.",
+        "date": "15 Aug 2024",
+        "source": "European Commission",
+        "link": "https://environment.ec.europa.eu/news/nature-restoration-law-enters-force-2024-08-15_en"
+    },
+    {
+        "title": "New legislation gives EU Ecolabel big thumbs up",
+        "summary": "The EU Ecolabel is preparing for a major boost thanks to the new and upcoming legislation.  Discover how our labelling scheme supports the EU's green transition.",
+        "date": "24 Jun 2024",
+        "source": "European Commission",
+        "link": "https://environment.ec.europa.eu/news/new-legislation-gives-eu-ecolabel-big-thumbs-2024-06-24_en"
+    },
+    {
+        "title": "Monitoring report on progress towards the SDGs in an EU context \u2014 2024",
+        "summary": "Eurostat has published the \u2018Sustainable development in the European Union \u2014 2024 monitoring report on progress towards the SDGs in an EU context'.",
+        "date": "18 Jun 2024",
+        "source": "European Commission",
+        "link": "https://environment.ec.europa.eu/news/monitoring-report-progress-towards-sdgs-eu-context-2024-2024-06-18_en"
+    },
+    {
+        "title": "Bringing sustainable tourism into the spotlight: the EU Ecolabel for tourist accommodation",
+        "summary": "Trustworthy, inspiring, sustainable, creating change: these are the words the audience associated with the EU Ecolabel in the latest webinar, \u2018Bring tourist accommodation into the green spotlight with the EU Ecolabel\u2019.",
+        "date": "12 Jun 2024",
+        "source": "European Commission",
+        "link": "https://environment.ec.europa.eu/news/bringing-sustainable-tourism-spotlight-eu-ecolabel-tourist-accommodation-2024-06-12_en"
+    },
+    {
+        "title": "Europeans continue to feel directly affected by environmental issues and policy",
+        "summary": "A new Eurobarometer survey found that more than three-quarters of citizens believe the environment has a direct impact on their daily life.",
+        "date": "29 May 2024",
+        "source": "European Commission",
+        "link": "https://environment.ec.europa.eu/news/europeans-continue-feel-directly-affected-environmental-issues-and-policy-2024-05-29_en"
+    },
+    {
+        "title": "Europe\u2019s bathing waters remain safe",
+        "summary": "The majority of bathing water sites in 2023 met the EU's most stringent quality standards, according to the latest annual report.",
+        "date": "28 May 2024",
+        "source": "European Commission",
+        "link": "https://ec.europa.eu/commission/presscorner/detail/en/ip_24_2901"
+    },
+    {
+        "title": "EU Ecolabel Webinar: Opportunities for businesses in tourist accommodation",
+        "summary": "Join the webinar \u2018Bring tourist accommodation into the green spotlight with the EU Ecolabel\u2019 on 11 June 2024 to learn all you need to know about the EU Ecolabel, how it works, its future perspectives and discover the opportunities it offers to tourist accommodations.",
+        "date": "21 May 2024",
+        "source": "European Commission",
+        "link": "https://environment.ec.europa.eu/news/eu-ecolabel-webinar-opportunities-businesses-tourist-accommodation-2024-05-21_en"
+    },
+    {
+        "title": "EU continues its engagement in global water cooperation",
+        "summary": "From 18-25 May, EU representatives will be attending the 10th edition of the World Water Forum in Bali, Indonesia.",
+        "date": "17 May 2024",
+        "source": "European Commission",
+        "link": "https://environment.ec.europa.eu/news/eu-continues-its-engagement-global-water-cooperation-2024-05-17_en"
+    },
+    {
+        "title": "How the EU Ecolabel helps reduce water waste and pollution",
+        "summary": "It\u2019s time to be water wise! The EU's new #WaterWiseEU campaign aims to raise awareness about water related issues, showcase solutions and inspire change. Learn how EU Ecolabel products are part of the solution!",
+        "date": "08 May 2024",
+        "source": "European Commission",
+        "link": "https://environment.ec.europa.eu/news/how-eu-ecolabel-helps-reduce-water-waste-and-pollution-2024-05-08_en"
+    },
+    {
+        "title": "How the EU Ecolabel helps us all make informed choices",
+        "summary": "Amidst a sea of green claims and labels, discover how the EU Ecolabel guides people to separate genuine sustainability efforts from marketing hype! Join the movement as the EU Ecolabel Showroom on Wheels tours Europe, empowering consumers to make informed choices.",
+        "date": "23 Apr 2024",
+        "source": "European Commission",
+        "link": "https://environment.ec.europa.eu/news/how-eu-ecolabel-helps-us-all-make-informed-choices-2024-04-23_en"
+    },
+    {
+        "title": "EU Ecolabel Showroom on Wheels gears up for Olympic-inspired adventure!",
+        "summary": "As Olympic fever rises, the EU Ecolabel's sporty Showroom on Wheels takes to the road to champion eco-friendly products and raise awareness across EU Member States.",
+        "date": "16 Apr 2024",
+        "source": "European Commission",
+        "link": "https://environment.ec.europa.eu/news/eu-ecolabel-showroom-wheels-gears-olympic-inspired-adventure-2024-04-16_en"
+    },
+    {
+        "title": "EU Ecolabel - March 2024 Facts and Figures",
+        "summary": "Enthusiasm for the EU Ecolabel is reaching new heights, with growth across the vast majority of the 25 product groups in the past six months. Good news for consumers, businesses, and retailers \u2013 and for the planet!",
+        "date": "09 Apr 2024",
+        "source": "European Commission",
+        "link": "https://environment.ec.europa.eu/news/eu-ecolabel-march-2024-facts-and-figures-2024-04-09_en"
+    },
+    {
+        "title": "World Water Day: Joint Statement by Borrell and Sinkevi\u010dius",
+        "summary": "The health and prosperity of people and the planet rely on the stability of the global water cycle.",
+        "date": "22 Mar 2024",
+        "source": "European Commission",
+        "link": "https://ec.europa.eu/commission/presscorner/detail/en/statement_24_1577"
+    },
+    {
+        "title": "EU 2030 climate and environmental targets within reach",
+        "summary": "The Commission's mid-term review of the 8th Environment Action Programme, released Wednesday, confirms that the goals are achievable.",
+        "date": "13 Mar 2024",
+        "source": "European Commission",
+        "link": "https://environment.ec.europa.eu/news/eu-2030-climate-and-environmental-targets-within-reach-2024-03-13_en"
+    },
+    {
+        "title": "Revision of EU Ecolabel criteria for textile  products",
+        "summary": "The criteria for the Textile product group is under revision. The first multistakeholder working group to revise the criteria is scheduled between the 18th and 19th of March.",
+        "date": "07 Mar 2024",
+        "source": "European Commission",
+        "link": "https://environment.ec.europa.eu/news/revision-eu-ecolabel-criteria-textile-products-2024-03-07_en"
+    },
+    {
+        "title": "Revision of EU Ecolabel criteria for cleaning products",
+        "summary": "The criteria for the Detergents product group is under revision. The first multistakeholder working group to revise the criteria is scheduled between the 12 th and 13 th of March.",
+        "date": "04 Mar 2024",
+        "source": "European Commission",
+        "link": "https://environment.ec.europa.eu/news/revision-eu-ecolabel-criteria-cleaning-products-2024-03-04_en"
+    },
+    {
+        "title": "How do\u00a0EU Ecolabel paper products promote sustainable forestry?",
+        "summary": "Responsible paper companies adopt the EU Ecolabel to empower consumers to choose the most environmentally friendly products. In doing so, they promote sustainable forestry.",
+        "date": "23 Feb 2024",
+        "source": "European Commission",
+        "link": "https://environment.ec.europa.eu/news/how-do-eu-ecolabel-paper-products-promote-sustainable-forestry-2024-02-23_en"
     }
 ]
