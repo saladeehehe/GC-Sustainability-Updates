@@ -112,6 +112,34 @@
         "link": "https://oceans-and-fisheries.ec.europa.eu/news/high-seas-treaty-enters-force-milestone-ocean-conservation-2026-01-16_en"
     },
     {
+        "title": "Paris, Vienna, Zagreb and other European cities will be at more risk of dengue, Zika and chikungunya outbreaks as climate change expands mosquito range",
+        "summary": "A new study suggests that as the Asian tiger mosquito rapidly colonises France and western Europe due to climate change, cities could be at increased risk of vector-borne disease epidemics, triggered by imported cases from endemic areas.",
+        "date": "14 Jan 2026",
+        "source": "European Commission",
+        "link": "https://environment.ec.europa.eu/news/paris-vienna-zagreb-and-other-european-cities-will-be-more-risk-dengue-zika-and-chikungunya-2026-01-14_en"
+    },
+    {
+        "title": "New AI approach maps toxic soil contamination on Czech farms",
+        "summary": "Researchers have developed a machine learning approach to map the areas where 11 potentially toxic chemicals exceed safety guidelines in Czech farmland. The model accurately predicts hazardous areas and identifies important drivers of contamination.",
+        "date": "14 Jan 2026",
+        "source": "European Commission",
+        "link": "https://environment.ec.europa.eu/news/new-ai-approach-maps-toxic-soil-contamination-czech-farms-2026-01-14_en"
+    },
+    {
+        "title": "Restoring wetlands strategically could reduce nitrogen flowing to the sea with minimal impact on agriculture, finds Europe-wide study",
+        "summary": "Nitrogen is a key pollutant in European waters. A study explores whether restoring wetlands could help reduce nitrogen levels and improve water quality across the EU, finding it to be an effective solution if applied strategically.",
+        "date": "14 Jan 2026",
+        "source": "European Commission",
+        "link": "https://environment.ec.europa.eu/news/restoring-wetlands-strategically-could-reduce-nitrogen-flowing-sea-minimal-impact-agriculture-finds-2026-01-14_en"
+    },
+    {
+        "title": "Towards circularity: New database maps hazards and diversity of plastic chemicals to support route to safe, sustainable plastic economy",
+        "summary": "A new global inventory, PlastChem, presents information on more than 16,000 chemicals in plastics \u2013 over a quarter of which are hazardous chemicals of concern. This data can aid plastics regulation, but more transparency is still needed.",
+        "date": "14 Jan 2026",
+        "source": "European Commission",
+        "link": "https://environment.ec.europa.eu/news/towards-circularity-new-database-maps-hazards-and-diversity-plastic-chemicals-support-route-safe-2026-01-14_en"
+    },
+    {
         "title": "New EU rules limit PFAS in drinking water",
         "summary": "Member States must now monitor, in a harmonised way, 'forever chemicals' levels in drinking water to meet new limit values.",
         "date": "12 Jan 2026",
@@ -131,33 +159,5 @@
         "date": "23 Dec 2025",
         "source": "European Commission",
         "link": "https://environment.ec.europa.eu/news/have-your-say-what-impact-single-use-plastics-directive-2025-12-23_en"
-    },
-    {
-        "title": "New package of measures to boost circular economy and strengthen Europe's plastic recycling",
-        "summary": "The European Commission has unveiled a first set of pilot actions to accelerate Europe's transition to a circular economy, with a particular focus on the plastics sector.",
-        "date": "23 Dec 2025",
-        "source": "European Commission",
-        "link": "https://ec.europa.eu/commission/presscorner/detail/en/ip_25_3151"
-    },
-    {
-        "title": "Vilnius showcases creative, green and community-driven projects as the 2025 European Green Capital",
-        "summary": "As the end of 2025 draws closer, discover how Vilnius is advancing its European Green Capital 2025 goals through a series of inspiring new projects, including artistic collaborations, sustainability workshops, youth programmes, community cleanups and more.",
-        "date": "22 Dec 2025",
-        "source": "European Commission",
-        "link": "https://environment.ec.europa.eu/news/vilnius-showcases-creative-green-and-community-driven-projects-2025-european-green-capital-2025-12-22_en"
-    },
-    {
-        "title": "Savour the indoors with EU Ecolabel this winter",
-        "summary": "This winter, let your interior reflect your sustainable choices, with well-crafted pieces chosen with intention. The EU Ecolabel guides you towards choices that resonate.",
-        "date": "22 Dec 2025",
-        "source": "European Commission",
-        "link": "https://environment.ec.europa.eu/news/savour-indoors-eu-ecolabel-winter-2025-12-22_en"
-    },
-    {
-        "title": "Vaasa's achievements as the Nordic Energy Capital and European Green Leaf 2026",
-        "summary": "Vaasa has established itself as the Nordic Energy Capital by building on its industrial roots, strong energy cluster, and close collaboration between businesses, education, and infrastructure to advance sustainable energy solutions worldwide.",
-        "date": "22 Dec 2025",
-        "source": "European Commission",
-        "link": "https://environment.ec.europa.eu/news/vaasas-achievements-nordic-energy-capital-and-european-green-leaf-2026-2025-12-22_en"
     }
 ]
