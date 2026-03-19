@@ -84,13 +84,6 @@
         "link": "https://sdgs.un.org/news/water-action-agenda-invitation-submit-progress-report-55191"
     },
     {
-        "title": "UN to Convene Global Experts in Tokyo on 4-6 March to Assess Climate Action Targets under Sustainable Development Goals",
-        "summary": "",
-        "date": "1 Mar 2024",
-        "source": "UN SDGs",
-        "link": "https://sdgs.un.org/news/un-convene-global-experts-tokyo-4-6-march-assess-climate-action-targets-under-sustainable"
-    },
-    {
         "title": "UNEA Adopts a Bold Resolution on Promoting Synergies in Environmental Action",
         "summary": "26 February 1 March 2024, Nairobi, Kenya Leading the way in this rapidly expanding field, Japan put forward a resolution...",
         "date": "1 Mar 2024",
@@ -98,11 +91,88 @@
         "link": "https://sdgs.un.org/news/unea-adopts-bold-resolution-promoting-synergies-environmental-action-56082"
     },
     {
-        "title": "Commission launches call for evidence on water legislation",
-        "summary": "The aim is to boost circularity and access to critical raw materials in the EU, while protecting the environment and human health.",
-        "date": "17 Mar 2026",
+        "title": "UN to Convene Global Experts in Tokyo on 4-6 March to Assess Climate Action Targets under Sustainable Development Goals",
+        "summary": "",
+        "date": "1 Mar 2024",
+        "source": "UN SDGs",
+        "link": "https://sdgs.un.org/news/un-convene-global-experts-tokyo-4-6-march-assess-climate-action-targets-under-sustainable-0"
+    },
+    {
+        "title": "Webinar - Stay green, shine on the market: How the EU Ecolabel brings environmental excellence to your tourist accommodation",
+        "summary": "Join the webinar on 16 March to learn all you need to know about the EU Ecolabel for tourist accommodation services \u2013 the benefits the label brings to your business, how to apply and more!",
+        "date": "19 Feb 2026",
         "source": "European Commission",
-        "link": "https://environment.ec.europa.eu/news/commission-launches-call-evidence-water-legislation-2026-03-17_en"
+        "link": "https://environment.ec.europa.eu/news/webinar-stay-green-shine-market-how-eu-ecolabel-brings-environmental-excellence-your-tourist-2026-02-19_en"
+    },
+    {
+        "title": "A fresh coat: EU Ecolabel levels up for Paints & Varnishes",
+        "summary": "The EU Ecolabel criteria for paints and varnishes got a fresh coating! Read more about the revised requirements.",
+        "date": "05 Feb 2026",
+        "source": "European Commission",
+        "link": "https://environment.ec.europa.eu/news/fresh-coat-eu-ecolabel-levels-paints-varnishes-2026-02-05_en"
+    },
+    {
+        "title": "New package of measures to boost circular economy and strengthen Europe's plastic recycling",
+        "summary": "The European Commission has unveiled a first set of pilot actions to accelerate Europe's transition to a circular economy, with a particular focus on the plastics sector.",
+        "date": "23 Dec 2025",
+        "source": "European Commission",
+        "link": "https://ec.europa.eu/commission/presscorner/detail/en/ip_25_3151"
+    },
+    {
+        "title": "Savour the indoors with EU Ecolabel this winter",
+        "summary": "This winter, let your interior reflect your sustainable choices, with well-crafted pieces chosen with intention. The EU Ecolabel guides you towards choices that resonate.",
+        "date": "22 Dec 2025",
+        "source": "European Commission",
+        "link": "https://environment.ec.europa.eu/news/savour-indoors-eu-ecolabel-winter-2025-12-22_en"
+    },
+    {
+        "title": "Commission extends nitrates derogation for Ireland",
+        "summary": "The Commission extended Ireland's derogation under the Nitrates Directive for a further three years, starting 1 January 2026. This decision follows the approval of the Commission's proposal by Member States on 9 December.",
+        "date": "22 Dec 2025",
+        "source": "European Commission",
+        "link": "https://ec.europa.eu/commission/presscorner/detail/en/ip_25_3150"
+    },
+    {
+        "title": "Smart and sustainable: the EU Ecolabel as a useful tool in green public procurement",
+        "summary": "Why should public procurers choose EU Ecolabel products? Click to find out!",
+        "date": "27 Oct 2025",
+        "source": "European Commission",
+        "link": "https://environment.ec.europa.eu/news/smart-and-sustainable-eu-ecolabel-useful-tool-green-public-procurement-2025-10-27_en"
+    },
+    {
+        "title": "Commission leads efforts to tackle Baltic Sea challenges",
+        "summary": "Commissioner Roswall hosted the \u2018Our Baltic Conference\u2019 in Stockholm, aimed at addressing environmental challenges facing the region.",
+        "date": "01 Oct 2025",
+        "source": "European Commission",
+        "link": "https://oceans-and-fisheries.ec.europa.eu/news/commission-leads-efforts-tackle-baltic-sea-fisheries-and-environmental-challenges-2025-10-01_en"
+    },
+    {
+        "title": "When pawprint meets footprint",
+        "summary": "The first animal care product has been awarded the EU Ecolabel. Developed by Catalan manufacturer PROQUIMIA, the certified shampoo is a major step toward sustainable pet hygiene. Discover PROQUIMIA\u2019s story and apply for the label to help \u2018paw\u2019 the way in sustainable pet care!",
+        "date": "26 Sep 2025",
+        "source": "European Commission",
+        "link": "https://environment.ec.europa.eu/news/when-pawprint-meets-footprint-2025-09-26_en"
+    },
+    {
+        "title": "One Label. More than 100,000 greener products. One Catalogue.",
+        "summary": "Explore the revamped online Product Catalogue and discover EU Ecolabel certified goods and services in a few clicks!",
+        "date": "17 Sep 2025",
+        "source": "European Commission",
+        "link": "https://environment.ec.europa.eu/news/one-label-more-100000-greener-products-one-catalogue-2025-09-17_en"
+    },
+    {
+        "title": "New EU Ecolabel tender call for stakeholder representation",
+        "summary": "Good news! The EU Ecolabel Stakeholder Representation call for tender has been published on the EU Funding & Tenders Portal! Think that your organisation could make a difference? Submit your bid!",
+        "date": "24 Jul 2025",
+        "source": "European Commission",
+        "link": "https://environment.ec.europa.eu/news/new-eu-ecolabel-tender-call-stakeholder-representation-2025-07-24_en"
+    },
+    {
+        "title": "EEA and Eionet welcome Moldova as a cooperating country",
+        "summary": "The European Environment Agency (EEA) is one of the first EU agencies to integrate Moldova into its regular activities and operational structures.",
+        "date": "19 Mar 2026",
+        "source": "European Commission",
+        "link": "https://www.eea.europa.eu/en/newsroom/news/eea-and-eionet-welcome-moldova-as-a-cooperating-country"
     },
     {
         "title": "\u00c1gueda welcomes Young Reporters for the Environment journalists",
@@ -112,11 +182,11 @@
         "link": "https://environment.ec.europa.eu/news/agueda-welcomes-young-reporters-environment-journalists-2026-03-17_en"
     },
     {
-        "title": "Commission and UNEP recommit to environmental cooperation",
-        "summary": "In the face of political challenges to scientific evidence, both entities emphasised the indispensable role of science for informed policy decisions.",
-        "date": "16 Mar 2026",
+        "title": "Commission launches call for evidence on water legislation",
+        "summary": "The aim is to boost circularity and access to critical raw materials in the EU, while protecting the environment and human health.",
+        "date": "17 Mar 2026",
         "source": "European Commission",
-        "link": "https://environment.ec.europa.eu/news/commission-and-unep-recommit-environmental-cooperation-2026-03-16_en"
+        "link": "https://environment.ec.europa.eu/news/commission-launches-call-evidence-water-legislation-2026-03-17_en"
     },
     {
         "title": "EU keeps momentum for Cali biodiversity fund ahead of COP17",
@@ -124,6 +194,20 @@
         "date": "16 Mar 2026",
         "source": "European Commission",
         "link": "https://environment.ec.europa.eu/news/eu-keeps-momentum-cali-biodiversity-fund-ahead-cop17-2026-03-16_en"
+    },
+    {
+        "title": "Commission and UNEP recommit to environmental cooperation",
+        "summary": "In the face of political challenges to scientific evidence, both entities emphasised the indispensable role of science for informed policy decisions.",
+        "date": "16 Mar 2026",
+        "source": "European Commission",
+        "link": "https://environment.ec.europa.eu/news/commission-and-unep-recommit-environmental-cooperation-2026-03-16_en"
+    },
+    {
+        "title": "ECESP Annual Conference: Registration now open!",
+        "summary": "The European Circular Economy Stakeholder Platform's main event takes place on 22 & 23 April, with two days of plenary sessions and workshops exploring the ambitions, scope and policy direction of the future Circular Economy Act.",
+        "date": "16 Mar 2026",
+        "source": "European Commission",
+        "link": "https://circulareconomy.europa.eu/platform/en/news-and-events/all-news/ecesp-annual-conference-registration-now-open#msdynmkt_trackingcontext=8d893e56-5151-42d9-832c-4af7cc790100"
     },
     {
         "title": "Guimar\u00e3es 2026 European Green Capital Magazine: A Vision for Sustainable Cities",
@@ -152,90 +236,6 @@
         "date": "09 Mar 2026",
         "source": "European Commission",
         "link": "https://environment.ec.europa.eu/news/restoring-nature-rich-landscapes-around-villages-matter-social-and-environmental-justice-researchers-2026-03-09_en"
-    },
-    {
-        "title": "Do nanoplastic particles make up the majority of North Atlantic plastic pollution?",
-        "summary": "Very small pieces of plastic \u2013 known as nanoplastic particles \u2013 are often under-represented in both research and policy contexts. A study estimates that they may be the dominant form of marine plastic pollution in the North Atlantic.",
-        "date": "09 Mar 2026",
-        "source": "European Commission",
-        "link": "https://environment.ec.europa.eu/news/do-nanoplastic-particles-make-majority-north-atlantic-plastic-pollution-2026-03-09_en"
-    },
-    {
-        "title": "Commission invests over \u20ac103 million in infrastructure projects",
-        "summary": "The seven long-term strategic projects will strengthen Europe\u2019s essential nature and climate infrastructure.",
-        "date": "09 Mar 2026",
-        "source": "European Commission",
-        "link": "https://ec.europa.eu/commission/presscorner/detail/en/ip_26_542"
-    },
-    {
-        "title": "Celebrate 33 years of protecting the EU\u2019s nature and join a Bioblitz near you",
-        "summary": "European Natura 2000 Day is celebrated every year on 21 May. It marks the inception, 33 years ago, of a revolutionary approach to nature conservation in the EU \u2013 a large network of protected nature that maintains opportunities for economic and recreational development.",
-        "date": "21 May 2025",
-        "source": "European Commission",
-        "link": "https://environment.ec.europa.eu/news/celebrate-33-years-protecting-eus-nature-and-join-bioblitz-near-you-2025-05-21_en"
-    },
-    {
-        "title": "Commission adopts a user-friendly planning tool to support Member States in implementing the Nature Restoration Regulation",
-        "summary": "The European Commission has adopted an Implementing Regulation that establishes a uniform format for national restoration plans under the Nature Restoration Regulation, which entered into force in August 2024.",
-        "date": "20 May 2025",
-        "source": "European Commission",
-        "link": "https://environment.ec.europa.eu/news/commission-adopts-user-friendly-planning-tool-support-member-states-implementing-nature-restoration-2025-05-20_en"
-    },
-    {
-        "title": "Montenegro Joins the EU's LIFE Programme for Environment and Climate Action",
-        "summary": "A cornerstone of the European Union's commitment to environmental protection and climate action, the LIFE programme offers Montenegro support to improve its environmental and climate policies and practices.",
-        "date": "15 May 2025",
-        "source": "European Commission",
-        "link": "https://environment.ec.europa.eu/news/montenegro-joins-eus-life-programme-environment-and-climate-action-2025-05-15_en"
-    },
-    {
-        "title": "EU welcomes outcomes of Basel, Rotterdam and Stockholm Conventions COPs",
-        "summary": "The recent outcomes of Basel, Rotterdam and Stockholm Conventions COPs mark a significant milestone in global efforts to address environmental challenges.",
-        "date": "13 May 2025",
-        "source": "European Commission",
-        "link": "https://environment.ec.europa.eu/news/eu-welcomes-outcomes-basel-rotterdam-and-stockholm-conventions-cops-2025-05-13_en"
-    },
-    {
-        "title": "The EU Ecolabel keeps greening the absorbent hygiene products\u2019 market",
-        "summary": "Trust and transparency were the main keywords arising from the webinar \u201cCaring for you, caring for the environment,\u201d which spotlighted the benefits of the EU Ecolabel - the official EU ecolabel for product environmental excellence - in the absorbent hygiene sector.",
-        "date": "14 Apr 2025",
-        "source": "European Commission",
-        "link": "https://environment.ec.europa.eu/news/eu-ecolabel-keeps-greening-absorbent-hygiene-products-market-2025-04-14_en"
-    },
-    {
-        "title": "Webinar: Caring for you, caring for the environment: the EU Ecolabel for absorbent hygiene products",
-        "summary": "Discover how the EU Ecolabel for absorbent hygiene products boosts competitiveness, ensures environmental excellence, and aligns with EU legislation. Join the European Commission\u2019s webinar on 9 April 2025 to explore business benefits and hear from industry leaders. Register now!",
-        "date": "13 Mar 2025",
-        "source": "European Commission",
-        "link": "https://environment.ec.europa.eu/news/webinar-caring-you-caring-environment-eu-ecolabel-absorbent-hygiene-products-2025-03-13_en"
-    },
-    {
-        "title": "The EU Ecolabel for cosmetic products webinar",
-        "summary": "Trustworthy, informative, enlightening and insightful: these were some of the key takeaways from the webinar \"When Beauty Meets Green\", which aimed to explain the opportunities offered by the EU Ecolabel for cosmetic products.",
-        "date": "16 Dec 2024",
-        "source": "European Commission",
-        "link": "https://environment.ec.europa.eu/news/eu-ecolabel-cosmetic-products-webinar-2024-12-16_en"
-    },
-    {
-        "title": "EU Ecolabel Cosmetics Webinar",
-        "summary": "Join the webinar \u2018 When beauty meets green: the EU Ecolabel for cosmetic products \u2019 on 11 December 2024 to learn all you need to know about the EU Ecolabel, its future perspectives, and the opportunities it offers cosmetics producers to showcase the environmental credentials of their products.",
-        "date": "12 Nov 2024",
-        "source": "European Commission",
-        "link": "https://environment.ec.europa.eu/news/eu-ecolabel-cosmetics-webinar-2024-11-12_en"
-    },
-    {
-        "title": "EU invests over \u20ac380 million in 133 new LIFE projects to support the green transition all around Europe",
-        "summary": "The Commission has granted today more than \u20ac380 million to 133 new projects across Europe under the LIFE Programme for environment and climate action.",
-        "date": "21 Oct 2024",
-        "source": "European Commission",
-        "link": "https://ec.europa.eu/commission/presscorner/detail/en/ip_24_5381"
-    },
-    {
-        "title": "Nature Restoration Law enters into force",
-        "summary": "The regulation sets binding targets to restore degraded ecosystems, particularly those with the most potential to capture and store carbon.",
-        "date": "15 Aug 2024",
-        "source": "European Commission",
-        "link": "https://environment.ec.europa.eu/news/nature-restoration-law-enters-force-2024-08-15_en"
     },
     {
         "title": "New legislation gives EU Ecolabel big thumbs up",
